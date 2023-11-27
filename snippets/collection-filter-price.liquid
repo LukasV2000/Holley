@@ -1,0 +1,70 @@
+{%- liquid
+    assign NS = 'collection-filter-price'
+    assign cn = '#' | append: NS
+
+    if filter.min_value.value
+        assign min_abs_value = filter.min_value.value
+    else
+        assign min_abs_value = 0
+    endif
+    
+    if filter.max_value.value
+        assign max_abs_value = filter.max_value.value
+    else
+        assign max_abs_value = filter.range_max
+    endif
+    
+    assign max_value = max_abs_value | money_without_currency | replace: ',', ''
+    assign min_value = min_abs_value | money_without_currency | replace: ',', ''
+
+    assign one_percent = filter.range_max | divided_by: 100
+    assign range_min = min_abs_value | divided_by: one_percent
+    assign range_max = max_abs_value | divided_by: one_percent
+
+    assign filter_range_max_float = filter.range_max | money_without_currency | replace: ',', ''
+    assign range_percent_prop  = filter_range_max_float | divided_by: 100
+-%}
+
+{% render 'load-css', file: NS %}
+
+<{{ NS }}
+    class="{{ cn }}"
+    range-percent="{{ range_percent_prop }}"
+    section-id="{{ section.id }}"
+    id="{{ NS }}-{{ section.id }}"
+    style="
+        --range-min: {{ range_min }}%;
+        --range-max: {{ range_max }}%;
+">
+    <div class="{{ cn }}-values">
+        <div class="{{ cn }}-values-min">
+            {{ min_abs_value | money_without_trailing_zeros }}</div>
+        <div class="{{ cn }}-values-max">
+            {{ max_abs_value | money_without_trailing_zeros }}
+        </div>
+    </div>
+    <div class="{{ cn }}-slider">
+        <input
+            class="{{ cn }}-slider-range @value:min"
+            type="range"
+            min="0"
+            max="{{ filter_range_max_float }}"
+            step="0.01"
+            value="{{ min_value | escape }}"
+            name="{{ filter.min_value.param_name }}"
+            form="{{ form }}"
+            data-element="input-min"
+        >
+        <input
+            class="{{ cn }}-slider-range @value:max"
+            type="range"
+            min="0"
+            max="{{ filter_range_max_float }}"
+            step="0.01"
+            value="{{ max_value | escape }}"
+            name="{{ filter.max_value.param_name }}"
+            form="{{ form }}"
+            data-element="input-max"
+        >
+    </div>
+</{{ NS }}>
