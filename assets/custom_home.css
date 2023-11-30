@@ -57,3 +57,6 @@
 .Slideshow_secondary_button:hover{
   transform: scale(0.95);
 }
+.Slideshow_text{
+  margin: 30px 0;
+}
