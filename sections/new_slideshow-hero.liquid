@@ -24,6 +24,7 @@
         </div>
         <div>
           <div class="Slideshow_image_box">
+            <img loading="lazy" src="{{ block.settings.image | img_url: 'master' }}">
             {% if block.settings.image != blank %}
             <img loading="lazy" src="{{ block.settings.image | img_url: 'master' }}">
             {% endif %}

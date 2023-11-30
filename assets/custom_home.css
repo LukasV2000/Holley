@@ -60,3 +60,9 @@
 .Slideshow_text{
   margin: 20px 0;
 }
+.Slideshow_image_box{
+  background: white;
+  width: 100%;
+  padding-bottom: 100%;
+  position: relative;
+}
