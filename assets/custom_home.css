@@ -27,9 +27,10 @@
 }
 .Slideshow_primary_button{
   border-radius: 30px;
-  padding: 16px 24px;
+  padding: 10px 25px;
   color: white;
-  font-size: 22px;
+  text-decoration: none;
+  font-size: 18px;
   font-weight: bold;
   background: purple;
 }
