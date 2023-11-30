@@ -84,3 +84,6 @@ img{
     width: 100%;
   }
 }
+.Slideshow_slide_outer .slick-dots{
+  bottom: 30px;
+}
