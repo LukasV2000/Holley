@@ -1,4 +1,7 @@
 /* Slideshow */
+img{
+  width: 100%;
+}
 .Slideshow_slide_outer{
   min-height: 500px;
   width: 100%;
