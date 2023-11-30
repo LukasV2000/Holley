@@ -1,30 +1,32 @@
 <div class="Slideshow_outer">
   {% for block in section.blocks %}
     <div class="Slideshow_slide_outer">
-      <div>
-        {% if block.settings.headline != blank %}
-          <h1>{{ block.settings.headline }}</h1>
-        {% endif %}
-        {% if block.settings.text != blank %}
-          <div class="Slideshow_text">{{ block.settings.text }}</div>
-        {% endif %}
-        <div class="Slideshow_buttons">
-          {% if block.settings.button_title_1 != blank %}
-            <div>
-              <a class="Slideshow_primary_button" href="{{ block.settings.button_url_1 }}">{{ block.settings.button_title_1 }}</a>
-            </div>
+      <div class="Slideshow_slide_inner">
+        <div>
+          {% if block.settings.headline != blank %}
+            <h1>{{ block.settings.headline }}</h1>
           {% endif %}
-          {% if block.settings.button_title_2 != blank %}
-            <div>
-              <a class="Slideshow_secondary_button" href="{{ block.settings.button_url_2 }}">{{ block.settings.button_title_ }}</a>
-            </div>
+          {% if block.settings.text != blank %}
+            <div class="Slideshow_text">{{ block.settings.text }}</div>
+          {% endif %}
+          <div class="Slideshow_buttons">
+            {% if block.settings.button_title_1 != blank %}
+              <div>
+                <a class="Slideshow_primary_button" href="{{ block.settings.button_url_1 }}">{{ block.settings.button_title_1 }}</a>
+              </div>
+            {% endif %}
+            {% if block.settings.button_title_2 != blank %}
+              <div>
+                <a class="Slideshow_secondary_button" href="{{ block.settings.button_url_2 }}">{{ block.settings.button_title_ }}</a>
+              </div>
+            {% endif %}
+          </div>
+        </div>
+        <div>
+          {% if block.settings.image != blank %}
+          <img loading="lazy" src="{{ block.settings.image | img_url: 'master' }}">
           {% endif %}
         </div>
-      </div>
-      <div>
-        {% if block.settings.image != blank %}
-        <img loading="lazy" src="{{ block.settings.image | img_url: 'master' }}">
-        {% endif %}
       </div>
     </div>
   {% endfor %}
