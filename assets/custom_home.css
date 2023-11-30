@@ -2,6 +2,7 @@
 .Slideshow_slide_outer{
   min-height: 500px;
   width: 100%;
+  padding: 20px;
   background: linear-gradient(90deg, rgba(190,91,255,1) 0%, rgba(76,192,255,1) 65%);
 }
 .Slideshow_slide_inner{
@@ -10,6 +11,8 @@
   align-items: center;
   justify-content: center;
   gap: 100px;
+  max-width: 1300px;
+  margin: auto;
 }
 .Slideshow_slide_inner > div{
   width: 100%;
