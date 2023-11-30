@@ -79,4 +79,7 @@ img{
     flex-wrap: wrap;
     gap: 20px;
   }
+  .Slideshow_slide_inner > div{
+    width: 100%;
+  }
 }
