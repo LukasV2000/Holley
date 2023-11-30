@@ -17,3 +17,11 @@
 .Slideshow_slide_inner > div{
   width: 100%;
 }
+.Slideshow_outer h1, 
+.Slideshow_outer p{
+  color: white;
+}
+.Slideshow_outer h1{
+  font-size: 48px;
+  font-weight: bold;
+}
