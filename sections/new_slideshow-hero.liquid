@@ -23,9 +23,11 @@
           </div>
         </div>
         <div>
-          {% if block.settings.image != blank %}
-          <img loading="lazy" src="{{ block.settings.image | img_url: 'master' }}">
-          {% endif %}
+          <div class="Slideshow_image_box">
+            {% if block.settings.image != blank %}
+            <img loading="lazy" src="{{ block.settings.image | img_url: 'master' }}">
+            {% endif %}
+          </div>
         </div>
       </div>
     </div>
