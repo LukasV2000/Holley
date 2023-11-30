@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $('.Slideshow_outer').slick({
     infinite: true,
-    slidesToShow:13,
+    slidesToShow:1,
     slidesToScroll: 1
   });
   				
