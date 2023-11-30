@@ -25,3 +25,11 @@
   font-size: 48px;
   font-weight: bold;
 }
+.Slideshow_primary_button{
+  border-radius: 30px;
+  padding: 16px 24px;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  background: purple;
+}
