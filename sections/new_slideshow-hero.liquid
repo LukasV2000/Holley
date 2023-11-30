@@ -1,7 +1,80 @@
+<div class="Slideshow_outer">
+  {% for block in section.blocks %}
+    <div class="Slideshow_slide_outer">
+      <div>
+        <h1>{{ block.settings.headline }}</h1>
+        <div class="Slideshow_text">{{ block.settings.text }}</div>
+        <div class="Slideshow_buttons">
+          <div>
+            <a class="Slideshow_primary_button" href="{{ block.settings.button_url_1 }}">{{ block.settings.button_title_1 }}</a>
+          </div>
+          <div>
+            <a class="Slideshow_secondary_button" href="{{ block.settings.button_url_1 }}">{{ block.settings.button_title_1 }}</a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img loading="lazy" src="{{ block.settings.image | img_url: 'master' }}">
+      </div>
+    </div>
+  {% endfor %}
+</div>
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Slideshow Hero",
+    "settings": [
+    ],
+    "blocks": [
+        {
+          "name": "slide",
+          "type": "Slide",
+          "settings": [
+            {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Your Image"
+            },
+            {
+                "type": "text",
+                "id": "headline",
+                "label": "Your Headline",
+                "default":"Superlicious candies"
+            },
+            {
+                "type": "richtext",
+                "id": "info",
+                "label": "Your Text",
+                "default":"<p>Superlicious candies lorem ipsum</p>"
+            },
+            {
+                "type": "header",
+                "content": "Buttons"
+            },
+            {
+                "type": "text",
+                "id": "button_title_1",
+                "label": "Button Title 1",
+                "default":"Shop now"
+            },
+            {
+                "type": "url",
+                "id": "button_url_1",
+                "label": "Button Url 1"
+            },
+            {
+                "type": "text",
+                "id": "button_title_2",
+                "label": "Button Title 2",
+                "default":"Shop now"
+            },
+            {
+                "type": "url",
+                "id": "button_url_2",
+                "label": "Button Url 2"
+            }
+          ]
+        }
+      ]
   }
 {% endschema %}
 
