@@ -43,3 +43,17 @@
 .Slideshow_primary_button:hover{
   transform: scale(0.95);
 }
+.Slideshow_secondary_button{
+  border-radius: 30px;
+  padding: 10px 25px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  background: purple;
+  transition: all .2s;
+  display: block;
+}
+.Slideshow_secondary_button:hover{
+  transform: scale(0.95);
+}
