@@ -34,6 +34,7 @@
   font-weight: bold;
   background: purple;
   transition: all .2s;
+  display: block;
 }
 .Slideshow_primary_button:hover{
   transform: scale(0.95);
