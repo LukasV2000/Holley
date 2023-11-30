@@ -1,11 +1,11 @@
 /* Slideshow */
 .Slideshow_slide_outer{
-  min-height: 80vh;
+  min-height: 500px;
   width: 100%;
   background: linear-gradient(90deg, rgba(190,91,255,1) 0%, rgba(76,192,255,1) 65%);
 }
 .Slideshow_slide_inner{
-  min-height: 80vh;
+  min-height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
