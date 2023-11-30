@@ -33,4 +33,8 @@
   font-size: 18px;
   font-weight: bold;
   background: purple;
+  transition: all .2s;
+}
+.Slideshow_primary_button:hover{
+  transform: scale(0.95);
 }
