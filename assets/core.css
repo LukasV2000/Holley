@@ -608,8 +608,8 @@ html.js .\#media-image-loading {
   color: var(--text-color);
 }
 .\#section-body.\@spaced {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
 }
 .\#section-body.\@inner-spaced {
   padding-block: 4rem;

@@ -161,3 +161,29 @@ img{
 .Featured_logos_outer img{
   max-height: 30px;
 }
+
+/* Featured collection */
+.Collection_list_outer{
+  padding: 8rem 0;
+  position: relative;
+}
+.Collection_list_outer .donut{
+  position: absolute;
+  right: 0;
+  top: 30px;
+  max-width: 120px;
+  width: 100%;
+}
+.Collection_list_outer .\#section-body.\@spaced{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 767px) {
+  .Collection_list_outer .donut{
+    max-width: 50px;
+  }
+  .Collection_list_outer{
+    padding-top: 6rem;
+    padding-bottom: 0;
+  }
+}
