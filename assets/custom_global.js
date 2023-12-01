@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 
   $('.Index_personalization_feature').click(function(){
-    $('.Index_personalization_feature').removeClass('active');
+    $(this).parent('div').find('.Index_personalization_feature').removeClass('active');
     $(this).addClass('active');
     var data = $(this).attr('data');
     $(this).parent('div').parent('div').find('.Index_personalization_image__js').hide();
