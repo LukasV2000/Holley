@@ -162,6 +162,7 @@
         "lights_out": true,
         "header_layout": "default",
         "show_dropdown_carets": true,
+        "logo": "shopify:\/\/shop_images\/Clip_path_group.png",
         "logo_desktop_width": 130,
         "logo_mobile_width": 100,
         "logo_desktop_padding": true,
