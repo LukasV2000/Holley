@@ -92,168 +92,6 @@
       "settings": {
       }
     },
-    "1654692649f313fa17": {
-      "type": "d_slideshow",
-      "blocks": {
-        "ed9dc971-687b-4d63-9a57-dad3fd631954": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_21.37.54.png",
-            "overlay": 0,
-            "icon": "",
-            "heading": "WELCOME TO HOLLY LOLLIES 🍭",
-            "use_header_accent": true,
-            "subheading": "The Ultimate Online Sweets Superstore",
-            "text": "",
-            "text_position": "center-center",
-            "use_box": true,
-            "width": 40,
-            "f_button_label": "SHOP NOW",
-            "f_button_link": "shopify:\/\/collections",
-            "f_button_style": "normal",
-            "f_button_custom_colors": true,
-            "f_button_bg_color": "#000000",
-            "f_button_text_color": "#ffffff",
-            "s_button_label": "",
-            "s_button_link": "",
-            "s_button_style": "normal",
-            "s_button_custom_colors": false,
-            "s_button_bg_color": "#000000",
-            "s_button_text_color": "#ffffff"
-          }
-        },
-        "b3470c4d-3c3f-4464-a382-d2470630ffdb": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_17.22.45.png",
-            "overlay": 0,
-            "icon": "",
-            "heading": "",
-            "use_header_accent": false,
-            "subheading": "",
-            "text": "",
-            "text_position": "center-center",
-            "use_box": false,
-            "width": 40,
-            "f_button_label": "",
-            "f_button_link": "",
-            "f_button_style": "normal",
-            "f_button_custom_colors": false,
-            "f_button_bg_color": "#000000",
-            "f_button_text_color": "#ffffff",
-            "s_button_label": "",
-            "s_button_link": "",
-            "s_button_style": "normal",
-            "s_button_custom_colors": false,
-            "s_button_bg_color": "#000000",
-            "s_button_text_color": "#ffffff"
-          }
-        },
-        "1654692649450607b0-1": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_21.38.20.png",
-            "overlay": 50,
-            "icon": "gift",
-            "heading": "Explore different cultures through tasty candies",
-            "use_header_accent": false,
-            "subheading": "",
-            "text": "",
-            "text_position": "center-center",
-            "use_box": false,
-            "width": 40,
-            "f_button_label": "EXPLORE NOW",
-            "f_button_link": "",
-            "f_button_style": "normal",
-            "f_button_custom_colors": true,
-            "f_button_bg_color": "#ffffff",
-            "f_button_text_color": "#000000",
-            "s_button_label": "",
-            "s_button_link": "",
-            "s_button_style": "normal",
-            "s_button_custom_colors": false,
-            "s_button_bg_color": "#000000",
-            "s_button_text_color": "#ffffff"
-          }
-        },
-        "1654692649450607b0-2": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_17.22.36.png",
-            "overlay": 0,
-            "icon": "",
-            "heading": "",
-            "use_header_accent": false,
-            "subheading": "",
-            "text": "",
-            "text_position": "center-center",
-            "use_box": false,
-            "width": 40,
-            "f_button_label": "",
-            "f_button_link": "",
-            "f_button_style": "normal",
-            "f_button_custom_colors": false,
-            "f_button_bg_color": "#000000",
-            "f_button_text_color": "#ffffff",
-            "s_button_label": "",
-            "s_button_link": "",
-            "s_button_style": "normal",
-            "s_button_custom_colors": false,
-            "s_button_bg_color": "#000000",
-            "s_button_text_color": "#ffffff"
-          }
-        },
-        "1654692649450607b0-0": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_17.19.34.png",
-            "overlay": 0,
-            "icon": "",
-            "heading": "Slider heading",
-            "use_header_accent": true,
-            "subheading": "Subheading",
-            "text": "<p>Give customers details about the banner image(s) or content on the template.<\/p>",
-            "text_position": "center-center",
-            "use_box": true,
-            "width": 40,
-            "f_button_label": "Shop Now",
-            "f_button_link": "",
-            "f_button_style": "normal",
-            "f_button_custom_colors": false,
-            "f_button_bg_color": "#000000",
-            "f_button_text_color": "#ffffff",
-            "s_button_label": "",
-            "s_button_link": "",
-            "s_button_style": "normal",
-            "s_button_custom_colors": false,
-            "s_button_bg_color": "#000000",
-            "s_button_text_color": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "ed9dc971-687b-4d63-9a57-dad3fd631954",
-        "b3470c4d-3c3f-4464-a382-d2470630ffdb",
-        "1654692649450607b0-1",
-        "1654692649450607b0-2",
-        "1654692649450607b0-0"
-      ],
-      "disabled": true,
-      "settings": {
-        "section_layout": "full",
-        "image_size": "21x9",
-        "mobile_image_size": "4x5",
-        "text_size": "md",
-        "subheading_position": "after",
-        "mobile_caption_display": "offset",
-        "navigation": "pagination",
-        "enable_autoplay": false,
-        "autoplay": 5,
-        "mobile_hidden": false
-      }
-    },
     "16546927101b0880bc": {
       "type": "d_icon-features",
       "blocks": {
@@ -290,6 +128,7 @@
         "1654692710a4251b56-1",
         "1654692710a4251b56-2"
       ],
+      "disabled": true,
       "settings": {
         "section_text_align": "left",
         "text_color": "#163340",
@@ -1560,7 +1399,6 @@
   "order": [
     "fb4ffc4b-e1b6-41af-9004-2f6cf9b784ea",
     "0cfef29e-354b-4bd7-b913-b1710a26b5b1",
-    "1654692649f313fa17",
     "16546927101b0880bc",
     "83fb7f52-700d-4bb5-afa0-640e2a53a7cf",
     "a72ea510-a5ac-4b87-8093-e14ded7e95ef",
