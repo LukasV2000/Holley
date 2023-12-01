@@ -197,3 +197,60 @@ img{
 .Featured_collection_outer .\#section-body.\@spaced{
   margin: 0;
 }
+
+/* Multifeatures */
+.Index_personalization_outer{
+    margin: 3rem auto;
+}
+.Index_personalization_flex_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    margin-top: 24px;
+}
+.Index_personalization_flex_container > div{
+    width: 100%;
+}
+@media only screen and (max-width: 767px) {
+    .Index_personalization_flex_container{
+        flex-wrap: wrap;
+    }
+    .Index_personalization_flex_container{
+        gap: 2rem;
+    }
+}
+.Index_personalization_feature.active{
+    border-left: 4px solid #7A5AF8;
+    opacity: 1;
+}
+.Index_personalization_feature{
+    padding: 1.5rem 0;
+    padding-left: 1rem;
+    border-left: 4px solid #E7E7E7;
+    cursor: pointer;
+    transition: all .2s;
+    opacity: 0.5;
+}
+.Index_personalization_image__js{
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    overflow: hidden;
+}
+.Index_personalization_image__js img{
+    position: absolute;
+}
+.Index_multifeature_cell_title{
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+}
+@media only screen and (min-width: 767px) {
+    .Index_personalization_feature:hover{
+        background: rgba(0, 0, 0, 0.03);
+    }
+}
