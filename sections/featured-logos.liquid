@@ -1,0 +1,38 @@
+<div class="Featured_logos_outer">
+    {% for block in section.blocks %}
+        <div>
+            <img loading="lazy" src="{{ block.settings.image | img_url: 'master' }}">
+        </div>
+    {% endfor %}
+</div>
+{% schema %}
+  {
+    "name": "Featured Logos",
+    "settings": [
+    ],
+    "blocks": [
+        {
+          "name": "logo",
+          "type": "Logo",
+          "settings": [
+            {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Your Image"
+            }
+          ]
+        }
+      ],
+      "presets": [
+        {
+          "name": "Featured Logos"
+        }
+      ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -2,11 +2,16 @@
 img{
   width: 100%;
 }
+.Slideshow_outer p{
+  font-size: 18px;
+}
 .Slideshow_slide_outer{
   min-height: 500px;
   width: 100%;
   padding: 20px;
-  background: linear-gradient(90deg, rgba(190,91,255,1) 0%, rgba(76,192,255,1) 65%);
+  background-size: cover;
+  background-position: center;
+  background-image: url('https://cdn.shopify.com/s/files/1/0839/5941/5099/files/Screenshot_2023-11-03_at_10.51_4.jpg?v=1701456643');
 }
 .Slideshow_slide_inner{
   min-height: 500px;
@@ -39,7 +44,7 @@ img{
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
-  background: purple;
+  background: #5720B7;
   transition: all .2s; 
   display: block;
 }
@@ -53,7 +58,7 @@ img{
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
-  background: purple;
+  background: #D9D6FE;
   transition: all .2s;
   display: block;
 }
@@ -64,7 +69,6 @@ img{
   margin: 20px 0;
 }
 .Slideshow_image_box{
-  background: white;
   width: 100%;
   padding-bottom: 100%;
   position: relative;
@@ -87,4 +91,73 @@ img{
 .Slideshow_outer .slick-dots{
   bottom: 30px;
   z-index: 2;
+}
+.Slideshow_reviews{
+  width: 100%;
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+.Slideshow_outer .slick-dots{
+  display: inline-block;
+  width: auto;
+  padding: 0px 35px;
+  border-radius: 20px;
+  background: #D9D6FE;
+  left: calc(100% - 53%);
+}
+.Slideshow_outer .slick-dots li{
+  width: 35px;
+}
+.Slideshow_outer .slick-dots li button{
+  width: 35px;
+  height: 2px;
+  border-radius: 5px;
+  background: white;
+}
+.Slideshow_outer .slick-dots li.slick-active button{
+  background: #5720B7;
+}
+.Slideshow_outer .slick-dots li button:before{
+  display: none;
+}
+.Slideshow_slide_outer{
+  padding-bottom: 100px;
+}
+@media only screen and (max-width: 767px) {
+  .Slideshow_outer .slick-dots{
+    display: inline-block;
+    width: auto;
+    padding: 0px 15px;
+    border-radius: 20px;
+    background: #D9D6FE;
+    left: 34%;
+  }
+  .Slideshow_outer .slick-dots li{
+    width: 25px;
+  }
+  .Slideshow_outer .slick-dots li button{
+    width: 25px;
+    height: 2px;
+    border-radius: 5px;
+    background: white;
+  }
+}
+.Slideshow_outer{
+  margin-bottom: 0 !important;
+}
+/* Featured logos */
+.Featured_logos_outer{
+  padding: 15px;
+  background: #7A5AF8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.Featured_logos_outer > div{
+  padding: 0 20px;
+}
+.Featured_logos_outer img{
+  max-height: 30px;
 }
