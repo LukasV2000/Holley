@@ -6,6 +6,7 @@
         "ca1a8a25-f8cb-4583-81f7-053775d51ac2": {
           "type": "Slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Elements-geometric-shape-square-frame.png",
             "headline": "Superlicious candies",
             "info": "<p>Superlicious candies lorem ipsum<\/p>",
             "button_title_1": "Shop now",
@@ -17,6 +18,7 @@
         "86fd6be7-0f57-4886-9fe8-53a6ce37d83c": {
           "type": "Slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Elements-geometric-shape-square-frame.png",
             "headline": "Superlicious candies",
             "info": "<p>Superlicious candies lorem ipsum<\/p>",
             "button_title_1": "Shop now",
@@ -28,6 +30,7 @@
         "a68b052d-24bf-47b7-b59d-61cdac4617f4": {
           "type": "Slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Elements-geometric-shape-square-frame.png",
             "headline": "Superlicious candies",
             "info": "<p>Superlicious candies lorem ipsum<\/p>",
             "button_title_1": "Shop now",
@@ -41,6 +44,50 @@
         "ca1a8a25-f8cb-4583-81f7-053775d51ac2",
         "86fd6be7-0f57-4886-9fe8-53a6ce37d83c",
         "a68b052d-24bf-47b7-b59d-61cdac4617f4"
+      ],
+      "settings": {
+      }
+    },
+    "0cfef29e-354b-4bd7-b913-b1710a26b5b1": {
+      "type": "featured-logos",
+      "blocks": {
+        "61b3d260-b27b-4815-9a63-7c7e4214eed2": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector_52227e6a-e6a3-4e53-8ff3-c57e5c1e9378.png"
+          }
+        },
+        "567903e5-6ce5-4553-b50f-eadc62035a60": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Press_logo_2_7c69ecd0-5f1c-4799-a460-0f6225d2bb27.png"
+          }
+        },
+        "db06d186-c05c-4100-8dfa-9a3c9f763a4b": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Press_logo_1_47302021-18ef-44f5-8602-1c86d00a509d.png"
+          }
+        },
+        "6b84b0c3-645a-46ef-99b4-861ce87ddd9b": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Press_logo_3_c5dece76-d13c-49bd-800c-41c32afb8cef.png"
+          }
+        },
+        "3c0d5d71-dce7-4bdf-824f-fbcbd3947b44": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Press_logo_fc121407-c0b1-4025-bed4-4168a305720f.png"
+          }
+        }
+      },
+      "block_order": [
+        "61b3d260-b27b-4815-9a63-7c7e4214eed2",
+        "567903e5-6ce5-4553-b50f-eadc62035a60",
+        "db06d186-c05c-4100-8dfa-9a3c9f763a4b",
+        "6b84b0c3-645a-46ef-99b4-861ce87ddd9b",
+        "3c0d5d71-dce7-4bdf-824f-fbcbd3947b44"
       ],
       "settings": {
       }
@@ -1512,6 +1559,7 @@
   },
   "order": [
     "fb4ffc4b-e1b6-41af-9004-2f6cf9b784ea",
+    "0cfef29e-354b-4bd7-b913-b1710a26b5b1",
     "1654692649f313fa17",
     "16546927101b0880bc",
     "83fb7f52-700d-4bb5-afa0-640e2a53a7cf",
