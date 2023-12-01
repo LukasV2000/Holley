@@ -231,7 +231,7 @@
         "template--21462135734587__a72ea510-a5ac-4b87-8093-e14ded7e95ef-banner-1"
       ],
       "custom_css": [
-        ".Featured_collection_outer{background-image: url('https:\/\/cdn.shopify.com\/s\/files\/1\/0839\/5941\/5099\/files\/bg.png?v=1701460245');}"
+        ".Featured_collection_outer {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0839\/5941\/5099\/files\/bg.png?v=1701460245\");}"
       ],
       "settings": {
         "heading": "🎯 TIKTOK HITS ONLY 🎯",
@@ -265,6 +265,9 @@
       "block_order": [
         "template--21462135734587__65dd71fb-25de-49d7-bc75-be80fbb3c24d-products-1",
         "template--21462135734587__65dd71fb-25de-49d7-bc75-be80fbb3c24d-banner-1"
+      ],
+      "custom_css": [
+        ".Featured_collection_outer {background: #E478FA;}"
       ],
       "settings": {
         "heading": "🔥 THIS WEEK'S HOTTEST DEALS",
