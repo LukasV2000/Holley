@@ -311,7 +311,7 @@
       ],
       "custom_css": [
         ".Featured_collection_outer {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0839\/5941\/5099\/files\/bgye.png?v=1701460376\");}",
-        "h2{text-align: left; margin: 1rem 0;}"
+        "h2 {text-align: left; margin: 1rem 0;}"
       ],
       "settings": {
         "heading": "🤩 NEW ARRIVALS",
@@ -320,6 +320,49 @@
         "columns": 3,
         "rows": 2,
         "section_button_label": ""
+      }
+    },
+    "252cadf0-079e-40a2-8914-70d73728cfba": {
+      "type": "Index_multi_features",
+      "blocks": {
+        "f24fcd2a-f4c3-4b70-a85b-f7e16dd41f39": {
+          "type": "feature",
+          "settings": {
+            "heading": "Nullam id dolor id",
+            "text": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+            "image": "shopify:\/\/shop_images\/79.png",
+            "icon": "<svg width=\"41\" height=\"41\" viewbox=\"0 0 41 41\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" fill=\"white\"><\/rect>\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" stroke=\"black\" stroke-width=\"2\"><\/rect>\n                                <path d=\"M13.5 20.7633L16.9168 11.834H25.4927L23.1354 16.7453H29L16.4491 30.334L20.915 20.7633H13.5Z\" fill=\"#7A5AF8\" stroke=\"black\" stroke-width=\"2\"><\/path>\n                            <\/svg>"
+          }
+        },
+        "6fa46c1a-72ce-45fb-b040-fcfdd0d2663b": {
+          "type": "feature",
+          "settings": {
+            "heading": "Nullam id dolor id",
+            "text": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+            "image": "shopify:\/\/shop_images\/77.png",
+            "icon": "<svg width=\"41\" height=\"41\" viewbox=\"0 0 41 41\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" fill=\"white\"><\/rect>\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" stroke=\"black\" stroke-width=\"2\"><\/rect>\n                                <path d=\"M13.5 20.7633L16.9168 11.834H25.4927L23.1354 16.7453H29L16.4491 30.334L20.915 20.7633H13.5Z\" fill=\"#7A5AF8\" stroke=\"black\" stroke-width=\"2\"><\/path>\n                            <\/svg>"
+          }
+        },
+        "c745320a-0684-4250-a2df-daead1a1203b": {
+          "type": "feature",
+          "settings": {
+            "heading": "Nullam id dolor id",
+            "text": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+            "image": "shopify:\/\/shop_images\/Untitleddesign_19.png",
+            "icon": "<svg width=\"41\" height=\"41\" viewbox=\"0 0 41 41\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" fill=\"white\"><\/rect>\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" stroke=\"black\" stroke-width=\"2\"><\/rect>\n                                <path d=\"M13.5 20.7633L16.9168 11.834H25.4927L23.1354 16.7453H29L16.4491 30.334L20.915 20.7633H13.5Z\" fill=\"#7A5AF8\" stroke=\"black\" stroke-width=\"2\"><\/path>\n                            <\/svg>"
+          }
+        }
+      },
+      "block_order": [
+        "f24fcd2a-f4c3-4b70-a85b-f7e16dd41f39",
+        "6fa46c1a-72ce-45fb-b040-fcfdd0d2663b",
+        "c745320a-0684-4250-a2df-daead1a1203b"
+      ],
+      "settings": {
+        "small_text": "",
+        "heading": "",
+        "text": "",
+        "title": ""
       }
     },
     "165469275319e90978": {
@@ -758,6 +801,59 @@
         "text_position": "center",
         "show_frame": true,
         "section_button_label": ""
+      }
+    },
+    "99fc637c-2af8-4a3d-a5c8-83ad7719eab3": {
+      "type": "Index_multi_features",
+      "blocks": {
+        "667c0561-6bc6-4abb-badc-e976b5f1d9ee": {
+          "type": "feature",
+          "settings": {
+            "heading": "Nullam id dolor id",
+            "text": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+            "image": "shopify:\/\/shop_images\/79.png",
+            "icon": "<svg width=\"41\" height=\"41\" viewbox=\"0 0 41 41\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" fill=\"white\"><\/rect>\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" stroke=\"black\" stroke-width=\"2\"><\/rect>\n                                <path d=\"M13.5 20.7633L16.9168 11.834H25.4927L23.1354 16.7453H29L16.4491 30.334L20.915 20.7633H13.5Z\" fill=\"#7A5AF8\" stroke=\"black\" stroke-width=\"2\"><\/path>\n                            <\/svg>"
+          }
+        },
+        "36e972f3-1e03-475a-9175-43060d284f2c": {
+          "type": "feature",
+          "settings": {
+            "heading": "Nullam id dolor id",
+            "text": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+            "image": "shopify:\/\/shop_images\/77.png",
+            "icon": "<svg width=\"41\" height=\"41\" viewbox=\"0 0 41 41\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" fill=\"white\"><\/rect>\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" stroke=\"black\" stroke-width=\"2\"><\/rect>\n                                <path d=\"M13.5 20.7633L16.9168 11.834H25.4927L23.1354 16.7453H29L16.4491 30.334L20.915 20.7633H13.5Z\" fill=\"#7A5AF8\" stroke=\"black\" stroke-width=\"2\"><\/path>\n                            <\/svg>"
+          }
+        },
+        "bc79377c-0211-4e0a-9927-dea31f3aa539": {
+          "type": "feature",
+          "settings": {
+            "heading": "Nullam id dolor id",
+            "text": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+            "image": "shopify:\/\/shop_images\/75.png",
+            "icon": "<svg width=\"41\" height=\"41\" viewbox=\"0 0 41 41\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" fill=\"white\"><\/rect>\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" stroke=\"black\" stroke-width=\"2\"><\/rect>\n                                <path d=\"M13.5 20.7633L16.9168 11.834H25.4927L23.1354 16.7453H29L16.4491 30.334L20.915 20.7633H13.5Z\" fill=\"#7A5AF8\" stroke=\"black\" stroke-width=\"2\"><\/path>\n                            <\/svg>"
+          }
+        },
+        "44e01f90-f445-41e6-b946-eff37a21ba58": {
+          "type": "feature",
+          "settings": {
+            "heading": "Nullam id dolor id",
+            "text": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+            "image": "shopify:\/\/shop_images\/71.png",
+            "icon": "<svg width=\"41\" height=\"41\" viewbox=\"0 0 41 41\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" fill=\"white\"><\/rect>\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" stroke=\"black\" stroke-width=\"2\"><\/rect>\n                                <path d=\"M13.5 20.7633L16.9168 11.834H25.4927L23.1354 16.7453H29L16.4491 30.334L20.915 20.7633H13.5Z\" fill=\"#7A5AF8\" stroke=\"black\" stroke-width=\"2\"><\/path>\n                            <\/svg>"
+          }
+        }
+      },
+      "block_order": [
+        "667c0561-6bc6-4abb-badc-e976b5f1d9ee",
+        "36e972f3-1e03-475a-9175-43060d284f2c",
+        "bc79377c-0211-4e0a-9927-dea31f3aa539",
+        "44e01f90-f445-41e6-b946-eff37a21ba58"
+      ],
+      "settings": {
+        "small_text": "",
+        "heading": "Why us",
+        "text": "",
+        "title": ""
       }
     },
     "39b5950a-383c-43e2-bfb6-1ae39fc33ad6": {
@@ -1421,11 +1517,13 @@
     "a72ea510-a5ac-4b87-8093-e14ded7e95ef",
     "65dd71fb-25de-49d7-bc75-be80fbb3c24d",
     "e4a5db20-e003-4f31-b42c-ca901c57ab45",
+    "252cadf0-079e-40a2-8914-70d73728cfba",
     "165469275319e90978",
     "4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3",
     "570601cb-61e1-4718-99ce-54f8d1b6e4cb",
     "9ddc2578-20cc-464b-8c23-68f8a54579c6",
     "0fbe5f9f-e27e-41f9-80e1-a70f2419a01d",
+    "99fc637c-2af8-4a3d-a5c8-83ad7719eab3",
     "39b5950a-383c-43e2-bfb6-1ae39fc33ad6",
     "ea225172-3820-48ef-8088-f7b186ddbe05",
     "e50dfe07-789d-4624-80c1-563b4f35e18c",
