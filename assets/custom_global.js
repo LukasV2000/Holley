@@ -5,8 +5,8 @@ $(document).ready(function(){
     $('.Index_personalization_feature').removeClass('active');
     $(this).addClass('active');
     var data = $(this).attr('data');
-    $(this).parent('div').find('.Index_personalization_image__js').hide();
-    $(this).parent('div').find('.Index_personalization_image__js').each(function(){
+    $(this).parent('div').parent('div').find('.Index_personalization_image__js').hide();
+    $(this).parent('div').parent('div').find('.Index_personalization_image__js').each(function(){
       if ($(this).attr('data') == data){
         $(this).show();
       }
