@@ -164,7 +164,8 @@ img{
 
 /* Featured collection */
 .Collection_list_outer{
-  padding: 8rem 0;
+  padding-top: 8rem;
+  padding-bottom: 2rem;
   position: relative;
 }
 .Collection_list_outer .donut{
@@ -186,4 +187,13 @@ img{
     padding-top: 6rem;
     padding-bottom: 0;
   }
+}
+/* Collection grids */
+.Featured_collection_outer{
+  padding: 6rem 0;
+  background-position: 0;
+  background-size: cover;
+}
+.Featured_collection_outer .\#section-body.\@spaced{
+  margin: 0;
 }

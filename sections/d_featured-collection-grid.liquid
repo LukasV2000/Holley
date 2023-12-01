@@ -12,53 +12,53 @@
 
 {%- capture product_image_srcsize_desktop -%}min(100vw, {{ settings.container_width }}px)/{{ product_columns }}{%- endcapture -%}
 {%- capture product_image_srcsize_mobile -%}90vw/{{ product_columns_mobile }}{%- endcapture -%}
-
-{%- capture Collection_grid -%}
-    {%- for block in section.blocks -%}
-        {%- case block.type -%}
-            {%- when 'products' -%}
-                {%- if section.settings.collection != blank -%}
-                    {%- assign products_collection = section.settings.collection.products -%}
-                    {%- if block.settings.show_only_products_in_stock -%}
-                        {%- assign products_collection = products_collection | where: 'available' -%}
+<div class="Featured_collection_outer">
+    {%- capture Collection_grid -%}
+        {%- for block in section.blocks -%}
+            {%- case block.type -%}
+                {%- when 'products' -%}
+                    {%- if section.settings.collection != blank -%}
+                        {%- assign products_collection = section.settings.collection.products -%}
+                        {%- if block.settings.show_only_products_in_stock -%}
+                            {%- assign products_collection = products_collection | where: 'available' -%}
+                        {%- endif -%}
+                        {%- for product in products_collection limit: products_limit -%}
+                            {% render 'product-card', 
+                                product: product,
+                                image_srcsize_desktop: product_image_srcsize_desktop,
+                                image_srcsize_mobile: product_image_srcsize_mobile
+                            %}
+                        {%- endfor -%}
+                    {%- else -%}
+                        {%- for product in (1..products_limit) -%}
+                        {%- capture placeholder_index -%}{%- cycle 1, 2, 3, 4, 5, 6 -%}{%- endcapture -%}
+                            {% render 'product-card',
+                                product: false,
+                                placeholder_index: placeholder_index
+                            %}
+                        {%- endfor -%}
                     {%- endif -%}
-                    {%- for product in products_collection limit: products_limit -%}
-                        {% render 'product-card', 
-                            product: product,
+                {%- when 'banner' -%}
+                    {% render 'load-css', file: 'gallery-card' %}
+                    <div>
+                        {% render 'gallery-card',
+                            image: block.settings.image,
+                            overlay: block.settings.image_overlay,
+                            full_height: true,
+                            heading: block.settings.heading,
+                            subheading: block.settings.subheading,
+                            link: section.settings.collection.url,
+                            caption_x: 'center',
+                            caption_y: 'center',
+                            subheading_position: block.settings.subheading_position,
+                            frame: block.settings.show_image_frame,
                             image_srcsize_desktop: product_image_srcsize_desktop,
                             image_srcsize_mobile: product_image_srcsize_mobile
                         %}
-                    {%- endfor -%}
-                {%- else -%}
-                    {%- for product in (1..products_limit) -%}
-                    {%- capture placeholder_index -%}{%- cycle 1, 2, 3, 4, 5, 6 -%}{%- endcapture -%}
-                        {% render 'product-card',
-                            product: false,
-                            placeholder_index: placeholder_index
-                        %}
-                    {%- endfor -%}
-                {%- endif -%}
-            {%- when 'banner' -%}
-                {% render 'load-css', file: 'gallery-card' %}
-                <div>
-                    {% render 'gallery-card',
-                        image: block.settings.image,
-                        overlay: block.settings.image_overlay,
-                        full_height: true,
-                        heading: block.settings.heading,
-                        subheading: block.settings.subheading,
-                        link: section.settings.collection.url,
-                        caption_x: 'center',
-                        caption_y: 'center',
-                        subheading_position: block.settings.subheading_position,
-                        frame: block.settings.show_image_frame,
-                        image_srcsize_desktop: product_image_srcsize_desktop,
-                        image_srcsize_mobile: product_image_srcsize_mobile
-                    %}
-                </div>
-        {%- endcase -%}
-    {%- endfor -%}
-{%- endcapture -%}
+                    </div>
+            {%- endcase -%}
+        {%- endfor -%}
+    {%- endcapture -%}
 
 {%- capture Content -%}
     {%- if section.settings.collection.all_products_count == 0 -%}
@@ -83,7 +83,7 @@
     button_label: section.settings.section_button_label,
     button_link: section.settings.collection.url
 %}
-
+</div>
 {% schema %}
 {
     "name": "Featured collection grid",
