@@ -79,6 +79,10 @@ img{
   top: 0;
 }
 @media only screen and (max-width: 767px) {
+  .shopify-section .\#section-body.\@spaced{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
   .Slideshow_slide_inner{
     flex-wrap: wrap;
     gap: 20px;
@@ -183,6 +187,9 @@ img{
   margin-bottom: 0;
 }
 @media only screen and (max-width: 767px) {
+  .Featured_logos_outer img{
+    max-height: 20px;
+  }
   .Collection_list_outer .donut{
     max-width: 50px;
   }
@@ -297,6 +304,13 @@ img{
   margin-bottom: 0;
 }
 @media only screen and (max-width: 767px) {
+  .Whole_featured_products_section{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  .Whole_featured_products_section .\#product-grid{
+    gap: 0;
+  }
   .Whole_featured_products_section .form{
     display: block;
   }
@@ -422,6 +436,13 @@ product-dynamic-checkout{
     top: -50;
     max-width: 50px;
     width: 100%;
+  }
+  .Footer_outer{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .\#container{
+    overflow-x: hidden;
   }
 }
 
