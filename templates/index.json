@@ -1271,58 +1271,6 @@
         "bg_color": "#000000"
       }
     },
-    "b6bf67d2-e46a-4a2b-8430-1dedcbe27995": {
-      "type": "d_rich-text",
-      "blocks": {
-        "template--21462135734587__b6bf67d2-e46a-4a2b-8430-1dedcbe27995-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "MYSTERY BOX",
-            "heading_accent_enable": true,
-            "heading_accent_use_cutom_color": true,
-            "heading_accent_color": "#d9d6fe"
-          }
-        },
-        "template--21462135734587__b6bf67d2-e46a-4a2b-8430-1dedcbe27995-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers.<br>Describe a product, share announcements or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--21462135734587__b6bf67d2-e46a-4a2b-8430-1dedcbe27995-buttons-1": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "mobile_hidden": false,
-            "f_button_label": "Shop now",
-            "f_button_link": "",
-            "f_button_style": "normal",
-            "f_button_custom_colors": false,
-            "f_button_bg_color": "",
-            "f_button_text_color": "#ffffff",
-            "s_button_label": "",
-            "s_button_link": "",
-            "s_button_style": "normal",
-            "s_button_custom_colors": false,
-            "s_button_bg_color": "",
-            "s_button_text_color": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "template--21462135734587__b6bf67d2-e46a-4a2b-8430-1dedcbe27995-heading-1",
-        "template--21462135734587__b6bf67d2-e46a-4a2b-8430-1dedcbe27995-text-1",
-        "template--21462135734587__b6bf67d2-e46a-4a2b-8430-1dedcbe27995-buttons-1"
-      ],
-      "settings": {
-        "section_layout": "default",
-        "text_align": "center",
-        "size": "md",
-        "use_custom_color": false,
-        "text_color": "#ffffff",
-        "bg_color": "#383838"
-      }
-    },
     "b03fa275-5869-46d4-9b3b-f53193c36f21": {
       "type": "d_featured-product",
       "blocks": {
@@ -1470,7 +1418,6 @@
     "f224bd8e-ad52-401e-9c30-47d2bc870b71",
     "165469329347188646",
     "63d2d2f3-a24e-496d-b88b-abdb397e8767",
-    "b6bf67d2-e46a-4a2b-8430-1dedcbe27995",
     "b03fa275-5869-46d4-9b3b-f53193c36f21"
   ]
 }
