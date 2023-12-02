@@ -12,7 +12,7 @@
             "logo": "shopify:\/\/shop_images\/Holly_molly_-01-03.png",
             "logo_width": 50,
             "text": "<p>Share contact information, store details, and brand content with your customers.<\/p>",
-            "show_social_icons": false
+            "show_social_icons": true
           }
         },
         "936fb0c9-0d6a-4fa1-b802-dfc2a9742869": {
