@@ -122,6 +122,8 @@
                             </a>
                         {% endif %}
 
+                        <img class="Product_section_payments_icons" loading="eager" src="https://cdn.shopify.com/s/files/1/0839/5941/5099/files/Frame_324431.png?v=1701514648">
+
                 {% when 'variant_selector' %}
                     {%- unless product.has_only_default_variant -%}
                         {% render 'product-variant-selector', 
@@ -1191,6 +1193,12 @@
                     "info": "t:g.dynamic_icon.info",
                     "label": "t:g.common.icon.label",
                     "default": "star"
+                },
+                {
+                    "type": "textarea",
+                    "id": "icon_custom",
+                    "info": "Add Svg Code here",
+                    "label": "Your Custom Icon"
                 },
                 {
                     "type": "text",

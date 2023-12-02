@@ -352,3 +352,19 @@ img{
 .Featured_product_quantity_selector .Qty_adjust_plus:hover{
   background: rgba(0, 0, 0, 0.02);
 }
+
+/* Buttons */
+.shopify-section .\@shadow.\@display-style\:normal.\#button, .\@shadow.\@display-style\:gradient.\#button,
+.shopify-section .shopify-payment-button__button{
+  font-size: 16px;
+  padding: 12px;
+}
+.shopify-section .\@shadow.\@display-style\:normal.\#button, .\@shadow.\@display-style\:gradient.\#button,
+.shopify-section .\@display-style\:gradient.\#button:before{
+  background: #5720B7 !important;
+}
+product-to-cart,
+product-dynamic-checkout{
+  display: block;
+  width: 100%;
+}

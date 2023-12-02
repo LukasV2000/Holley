@@ -1,0 +1,27 @@
+.content-for-layout .\#product-meta{
+    gap: 1.5rem;
+}
+.content-for-layout .\#product-price .\#price-item.\@on-sale{
+    color: black;
+    font-size: 32px;
+}
+.content-for-layout  .\#price-item.\@compare .\#price-value,
+.content-for-layout .\#product-price .\#price-item.\@compare .\#price-item-value{
+    opacity: 1;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+.content-for-layout .\#product-price .\#price{
+    align-items: center;
+}
+.content-for-layout .\#product-price-tax-note{
+    display: none;
+}
+.content-for-layout .\#product-price .\#price-item.\@save .\#price-item-heading{
+    font-size: 18px;
+}
+.Product_section_payments_icons{
+    margin-top: 1.5rem;
+    width: 100%;
+}
