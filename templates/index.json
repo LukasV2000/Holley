@@ -580,6 +580,7 @@
 
       ],
       "settings": {
+        "description": "This set of sweets, snacks and drinks is ideal for both a party and a hideaway to munch on all by yourself.",
         "heading": "",
         "subheading": "",
         "product": "mystery-box",
@@ -1249,9 +1250,9 @@
       "type": "d_newsletter",
       "settings": {
         "heading": "GET 10% OFF FOR YOUR FIRST PURCHASE",
-        "subheading": "",
-        "text_color": "#ffffff",
-        "bg_color": "#000000"
+        "subheading": "We promise you no spam, and only the best tik tok deals in the world.",
+        "text_color": "#000000",
+        "bg_color": "#ffffff"
       }
     }
   },
