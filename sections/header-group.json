@@ -160,7 +160,7 @@
         "header_font_size": 160,
         "enable_sticky_header": true,
         "lights_out": true,
-        "header_layout": "default",
+        "header_layout": "wide",
         "show_dropdown_carets": true,
         "logo": "shopify:\/\/shop_images\/Clip_path_group.png",
         "logo_desktop_width": 130,
