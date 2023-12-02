@@ -257,7 +257,7 @@ img{
 
 /* Featured products */
 .Whole_featured_products_section{
-  padding: 4rem 0;
+  padding: 6rem 0;
   background-position: center;
   background-size: cover;
   background-image: url('https://cdn.shopify.com/s/files/1/0839/5941/5099/files/Screenshot_2023-11-03_at_10.51_4.jpg?v=1701456643');
@@ -285,7 +285,7 @@ img{
   padding-top: 0;
 }
 .Whole_featured_products_section .\#product-meta{
-  gap: 1rem;
+  gap: 1.5rem;
 }
 .Whole_featured_products_section p{
   color: white;
