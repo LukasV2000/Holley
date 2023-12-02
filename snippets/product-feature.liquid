@@ -4,7 +4,7 @@
 <div class="{{ cn }}">
     <div class="{{ cn }}-icon">
         {% comment %} {% render 'icon', name: icon, load: true %} {% endcomment %}
-        {{ block.settings.icon_custom }}
+        {{ custom_icon }}
     </div>
     <div class="{{ cn }}-body">
         {%- if heading != blank -%}

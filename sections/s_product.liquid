@@ -181,6 +181,7 @@
                 
                 {% when 'feature' %}
                     {% render 'product-feature',
+                        custom_icon: block.settings.icon_custom
                         icon: block.settings.icon,
                         heading: block.settings.heading,
                         subheading: block.settings.subheading
