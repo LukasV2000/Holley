@@ -975,6 +975,56 @@
         "bg_color": "#ebeff1"
       }
     },
+    "7098ba4b-7068-4e42-af6b-541a4ebf4371": {
+      "type": "Index_reviews_carousel",
+      "blocks": {
+        "96f861f0-4160-44ed-aaf2-44bccc18f076": {
+          "type": "Slide",
+          "settings": {
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a5919574d8ee42dea3da7c4d5c6575ba.mp4",
+            "headline": "“Superlicious candies is what drives me the most in this life. I love eating candies and Holly Lollies helped me to achieve it.”",
+            "name": "— Renee Wells",
+            "info": "Proud Client from Asia"
+          }
+        },
+        "7d67cc3e-416a-4c65-b5b9-a34136638e35": {
+          "type": "Slide",
+          "settings": {
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a5919574d8ee42dea3da7c4d5c6575ba.mp4",
+            "headline": "“Superlicious candies is what drives me the most in this life. I love eating candies and Holly Lollies helped me to achieve it.”",
+            "name": "— Renee Wells",
+            "info": "Proud Client from Asia"
+          }
+        },
+        "aa79dcd2-cd01-4a96-8ee2-fb87b8795e04": {
+          "type": "Slide",
+          "settings": {
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a5919574d8ee42dea3da7c4d5c6575ba.mp4",
+            "headline": "“Superlicious candies is what drives me the most in this life. I love eating candies and Holly Lollies helped me to achieve it.”",
+            "name": "— Renee Wells",
+            "info": "Proud Client from Asia"
+          }
+        },
+        "00a1defd-429c-4b20-824d-9121bacdfdf5": {
+          "type": "Slide",
+          "settings": {
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a5919574d8ee42dea3da7c4d5c6575ba.mp4",
+            "headline": "“Superlicious candies is what drives me the most in this life. I love eating candies and Holly Lollies helped me to achieve it.”",
+            "name": "— Renee Wells",
+            "info": "Proud Client from Asia"
+          }
+        }
+      },
+      "block_order": [
+        "96f861f0-4160-44ed-aaf2-44bccc18f076",
+        "7d67cc3e-416a-4c65-b5b9-a34136638e35",
+        "aa79dcd2-cd01-4a96-8ee2-fb87b8795e04",
+        "00a1defd-429c-4b20-824d-9121bacdfdf5"
+      ],
+      "settings": {
+        "title": "This is what our community says"
+      }
+    },
     "fca67246-1b86-436b-a889-fbec115fd5ee": {
       "type": "d_faq",
       "blocks": {
@@ -1254,56 +1304,6 @@
         "text_color": "#000000",
         "bg_color": "#ffffff"
       }
-    },
-    "7098ba4b-7068-4e42-af6b-541a4ebf4371": {
-      "type": "Index_reviews_carousel",
-      "blocks": {
-        "96f861f0-4160-44ed-aaf2-44bccc18f076": {
-          "type": "Slide",
-          "settings": {
-            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a5919574d8ee42dea3da7c4d5c6575ba.mp4",
-            "headline": "“Superlicious candies is what drives me the most in this life. I love eating candies and Holly Lollies helped me to achieve it.”",
-            "name": "— Renee Wells",
-            "info": "Proud Client from Asia"
-          }
-        },
-        "7d67cc3e-416a-4c65-b5b9-a34136638e35": {
-          "type": "Slide",
-          "settings": {
-            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a5919574d8ee42dea3da7c4d5c6575ba.mp4",
-            "headline": "“Superlicious candies is what drives me the most in this life. I love eating candies and Holly Lollies helped me to achieve it.”",
-            "name": "— Renee Wells",
-            "info": "Proud Client from Asia"
-          }
-        },
-        "aa79dcd2-cd01-4a96-8ee2-fb87b8795e04": {
-          "type": "Slide",
-          "settings": {
-            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a5919574d8ee42dea3da7c4d5c6575ba.mp4",
-            "headline": "“Superlicious candies is what drives me the most in this life. I love eating candies and Holly Lollies helped me to achieve it.”",
-            "name": "— Renee Wells",
-            "info": "Proud Client from Asia"
-          }
-        },
-        "00a1defd-429c-4b20-824d-9121bacdfdf5": {
-          "type": "Slide",
-          "settings": {
-            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a5919574d8ee42dea3da7c4d5c6575ba.mp4",
-            "headline": "“Superlicious candies is what drives me the most in this life. I love eating candies and Holly Lollies helped me to achieve it.”",
-            "name": "— Renee Wells",
-            "info": "Proud Client from Asia"
-          }
-        }
-      },
-      "block_order": [
-        "96f861f0-4160-44ed-aaf2-44bccc18f076",
-        "7d67cc3e-416a-4c65-b5b9-a34136638e35",
-        "aa79dcd2-cd01-4a96-8ee2-fb87b8795e04",
-        "00a1defd-429c-4b20-824d-9121bacdfdf5"
-      ],
-      "settings": {
-        "title": "This is what our community says"
-      }
     }
   },
   "order": [
@@ -1322,12 +1322,12 @@
     "99fc637c-2af8-4a3d-a5c8-83ad7719eab3",
     "39b5950a-383c-43e2-bfb6-1ae39fc33ad6",
     "e50dfe07-789d-4624-80c1-563b4f35e18c",
+    "7098ba4b-7068-4e42-af6b-541a4ebf4371",
     "fca67246-1b86-436b-a889-fbec115fd5ee",
     "da2c0eaa-b023-4f1c-b10d-90cca54bdf88",
     "169752564009ee8951",
     "f224bd8e-ad52-401e-9c30-47d2bc870b71",
     "165469329347188646",
-    "63d2d2f3-a24e-496d-b88b-abdb397e8767",
-    "7098ba4b-7068-4e42-af6b-541a4ebf4371"
+    "63d2d2f3-a24e-496d-b88b-abdb397e8767"
   ]
 }
