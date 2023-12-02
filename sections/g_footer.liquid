@@ -11,142 +11,143 @@
 {% render 'load-css', file: 'footer', lazy: true %}
 {%- assign cn = "#footer" -%}
 
-
-{% capture Content %}
-    <div class="{{ cn }}" style="--border-color: {{ settings.color_footer_border }};">
-        <div class="#container">
-        <div class="#grid @type:columns" style="--columns: {{ section.blocks.size | at_least: 3 }}; --gap: 5rem;">
-            {% for block in section.blocks %}
-                <div {{ block.shopify_attributes }}>
-                    {% if block.settings.heading != blank %}
-                        <h3 class="{{ cn }}-heading heading-font">{{ block.settings.heading }}</h3>
-                    {% endif %}
-                    {% case block.type %}
-                        {% when 'menu' %}
-                            <ul class="{{ cn }}-menu reset-list">
-                                {% for item in block.settings.menu.links %}
-                                    <li>
-                                        <a class="reset-link" href="{{ item.url }}">{{ item.title }}</a>
-                                    </li>
-                                {% endfor %}
-                            </ul>
-                        {% when 'newsletter' %}
-                            {% assign newsletter_form_id = 'NewsletterForm-' | append: section.id | append: block.id %}
-                            {% form 'customer', id: newsletter_form_id %}
-                            {%- if form.posted_successfully? -%}
-                                <div class="{{ cn }}-newsletter-success" id="Newsletter-success--{{ section.id }}" tabindex="-1" autofocus>
-                                    {% render 'icon', name: 'check' %}
-                                    {{ 'newsletter.success' | t }}
-                                </div>
-                            {%- endif -%}    
-                            <div class="{{ cn }}-newsletter">
-                                
-                                    <input type="hidden" name="contact[tags]" value="newsletter"> 
+<div class="Footer_outer">
+    {% capture Content %}
+        <div class="{{ cn }}" style="--border-color: {{ settings.color_footer_border }};">
+            <div class="#container">
+            <div class="#grid @type:columns" style="--columns: {{ section.blocks.size | at_least: 3 }}; --gap: 5rem;">
+                {% for block in section.blocks %}
+                    <div {{ block.shopify_attributes }}>
+                        {% if block.settings.heading != blank %}
+                            <h3 class="{{ cn }}-heading heading-font">{{ block.settings.heading }}</h3>
+                        {% endif %}
+                        {% case block.type %}
+                            {% when 'menu' %}
+                                <ul class="{{ cn }}-menu reset-list">
+                                    {% for item in block.settings.menu.links %}
+                                        <li>
+                                            <a class="reset-link" href="{{ item.url }}">{{ item.title }}</a>
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            {% when 'newsletter' %}
+                                {% assign newsletter_form_id = 'NewsletterForm-' | append: section.id | append: block.id %}
+                                {% form 'customer', id: newsletter_form_id %}
+                                {%- if form.posted_successfully? -%}
+                                    <div class="{{ cn }}-newsletter-success" id="Newsletter-success--{{ section.id }}" tabindex="-1" autofocus>
+                                        {% render 'icon', name: 'check' %}
+                                        {{ 'newsletter.success' | t }}
+                                    </div>
+                                {%- endif -%}    
+                                <div class="{{ cn }}-newsletter">
                                     
-                                    {%- if form.errors -%}
-                                        <div id="Newsletter-error--{{ section.id }}">
-                                            {% render 'icon', name: 'alert' %}
-                                            {{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}
-                                        </div>
-                                    {%- endif -%}
-                                    {%- assign newsletter_input_id = 'NewsletterForm--' | append: section.id -%}
-                                    <label class="visually-hidden" for="{{ newsletter_input_id }}">{{ 'newsletter.long_label' | t }}</label> 
-                                    <input 
-                                        class="{{ cn }}-newsletter-input"
-                                        id="{{ newsletter_input_id }}"
-                                        type="email" 
-                                        name="contact[email]"
-                                        value="{{ form.email | escape }}"
-                                        placeholder="{{ 'newsletter.long_label' | t }}"
-                                        aria-required="true"
-                                        autocorrect="off"
-                                        autocapitalize="off"
-                                        autocomplete="email"
-                                        required
-                                    >
-                                    <button class="{{ cn }}-newsletter-button" type="submit">
-                                        {% render 'icon', name: 'arrow-right' %}
-                                    </button>
-                            </div>
-                            {% endform %}
-                            <div class="{{ cn }}-text">
-                                <div class="#rte-block">
-                                    {{ block.settings.text }}
-                                </div>    
-                            </div>
-                            {%- if block.settings.show_social_icons -%}
-                                <div class="{{ cn }}-social">
-                                    {% render 'social-profiles', new_tab: section.settings.social_new_tab %}
+                                        <input type="hidden" name="contact[tags]" value="newsletter"> 
+                                        
+                                        {%- if form.errors -%}
+                                            <div id="Newsletter-error--{{ section.id }}">
+                                                {% render 'icon', name: 'alert' %}
+                                                {{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}
+                                            </div>
+                                        {%- endif -%}
+                                        {%- assign newsletter_input_id = 'NewsletterForm--' | append: section.id -%}
+                                        <label class="visually-hidden" for="{{ newsletter_input_id }}">{{ 'newsletter.long_label' | t }}</label> 
+                                        <input 
+                                            class="{{ cn }}-newsletter-input"
+                                            id="{{ newsletter_input_id }}"
+                                            type="email" 
+                                            name="contact[email]"
+                                            value="{{ form.email | escape }}"
+                                            placeholder="{{ 'newsletter.long_label' | t }}"
+                                            aria-required="true"
+                                            autocorrect="off"
+                                            autocapitalize="off"
+                                            autocomplete="email"
+                                            required
+                                        >
+                                        <button class="{{ cn }}-newsletter-button" type="submit">
+                                            {% render 'icon', name: 'arrow-right' %}
+                                        </button>
                                 </div>
-                            {%- endif -%}
-                        {% when 'text' %}
-                            {% if block.settings.logo != blank %}
-                                <div class="{{ cn }}-logo" style="--width: {{ block.settings.logo_width }}%;">
-                                    {% render 'media',
-                                        image: block.settings.logo,
-                                        link: routes.root_url
-                                    %}
-                                </div>
-                            {% endif %}
-                            {% if block.settings.text != blank %}
+                                {% endform %}
                                 <div class="{{ cn }}-text">
                                     <div class="#rte-block">
                                         {{ block.settings.text }}
-                                    </div>
-                                </div>   
-                            {% endif %}
-                            {%- if block.settings.show_social_icons -%}
-                                <div class="{{ cn }}-social">
-                                    {% render 'social-profiles', new_tab: section.settings.social_new_tab %}
+                                    </div>    
                                 </div>
-                            {%- endif -%}
-                        {% when 'social_menu' %}
-                            <div class="{{ cn }}-social-nav">
-                                {% render 'social-profiles', new_tab: section.settings.social_new_tab, show_titles: true %}
-                            </div>
-                        {% when 'custom_liquid' %}
-                            <div>
-                                {{ block.settings.liquid_content }}
-                            </div>
-                        {% when 'custom_html' %}
-                            <div>
-                                {{ block.settings.html_text }}
-                            </div>
-                    {% endcase %}
-                </div>
-            {% endfor %}
-        </div>
-        {%- if show_country_selector or show_language_selector -%}
-            {% render 'footer-localization',
-                show_country: show_country_selector,
-                show_language: show_language_selector
-            %}
-        {%- endif -%}
-        {%- if shop.features.follow_on_shop? and section.settings.enable_follow_on_shop -%}
-            <div class="{{ cn }}-follow-on-shop">
-                <div>
-                    {{ shop | login_button: action: 'follow' }}
-                </div>
+                                {%- if block.settings.show_social_icons -%}
+                                    <div class="{{ cn }}-social">
+                                        {% render 'social-profiles', new_tab: section.settings.social_new_tab %}
+                                    </div>
+                                {%- endif -%}
+                            {% when 'text' %}
+                                {% if block.settings.logo != blank %}
+                                    <div class="{{ cn }}-logo" style="--width: {{ block.settings.logo_width }}%;">
+                                        {% render 'media',
+                                            image: block.settings.logo,
+                                            link: routes.root_url
+                                        %}
+                                    </div>
+                                {% endif %}
+                                {% if block.settings.text != blank %}
+                                    <div class="{{ cn }}-text">
+                                        <div class="#rte-block">
+                                            {{ block.settings.text }}
+                                        </div>
+                                    </div>   
+                                {% endif %}
+                                {%- if block.settings.show_social_icons -%}
+                                    <div class="{{ cn }}-social">
+                                        {% render 'social-profiles', new_tab: section.settings.social_new_tab %}
+                                    </div>
+                                {%- endif -%}
+                            {% when 'social_menu' %}
+                                <div class="{{ cn }}-social-nav">
+                                    {% render 'social-profiles', new_tab: section.settings.social_new_tab, show_titles: true %}
+                                </div>
+                            {% when 'custom_liquid' %}
+                                <div>
+                                    {{ block.settings.liquid_content }}
+                                </div>
+                            {% when 'custom_html' %}
+                                <div>
+                                    {{ block.settings.html_text }}
+                                </div>
+                        {% endcase %}
+                    </div>
+                {% endfor %}
             </div>
-        {%- endif -%}
-        <div class="{{ cn }}-copyright">
-            {%- if section.settings.payment_enable -%}
-                <div class="{{ cn }}-copyright-payment">
-                    {%- render 'product-payment-methods', center: true -%}
+            {%- if show_country_selector or show_language_selector -%}
+                {% render 'footer-localization',
+                    show_country: show_country_selector,
+                    show_language: show_language_selector
+                %}
+            {%- endif -%}
+            {%- if shop.features.follow_on_shop? and section.settings.enable_follow_on_shop -%}
+                <div class="{{ cn }}-follow-on-shop">
+                    <div>
+                        {{ shop | login_button: action: 'follow' }}
+                    </div>
                 </div>
             {%- endif -%}
-            <p class="{{ cn }}-copyright-text">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }} {{ powered_by_link }}</p>
+            <div class="{{ cn }}-copyright">
+                {%- if section.settings.payment_enable -%}
+                    <div class="{{ cn }}-copyright-payment">
+                        {%- render 'product-payment-methods', center: true -%}
+                    </div>
+                {%- endif -%}
+                <p class="{{ cn }}-copyright-text">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }} {{ powered_by_link }}</p>
+            </div>
         </div>
-    </div>
-    </div>
-{% endcapture %}
+        </div>
+    {% endcapture %}
 
 
-{% render 'section-body',
-    content: Content,
-    text_color: settings.color_footer_text,
-    bg_color: settings.color_footer_bg
-%}
+    {% render 'section-body',
+        content: Content,
+        text_color: settings.color_footer_text,
+        bg_color: settings.color_footer_bg
+    %}
+</div>
 {% schema %}
 {
     "name": "Footer",

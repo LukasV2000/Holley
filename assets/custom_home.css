@@ -368,3 +368,56 @@ product-dynamic-checkout{
   display: block;
   width: 100%;
 }
+
+/* Footer */
+.Footer_outer{
+  padding: 5rem 0;
+  background-position: center;
+  background-size: cover;
+  background-image: url('https://cdn.shopify.com/s/files/1/0839/5941/5099/files/Screenshot_2023-11-03_at_10.51_4.jpg?v=1701456643');
+}
+.Footer_outer .\#section-body,
+.Footer_outer .\#footer{
+  background: transparent;
+  border-top: none;
+}
+.shopify-section .\#newsletter{
+  justify-content: space-between;
+  max-width: 1250px;
+  padding-left: min(3rem, 5vw);
+  padding-right: min(3rem, 5vw);
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  position: relative;
+}
+.shopify-section .\#newsletter-header p{
+  font-size: 18px;
+  margin-top: 1rem;
+}
+.shopify-section .\#newsletter-header{
+  text-align: left;
+}
+.shopify-section .\#newsletter-input::placeholder{
+  color: black;
+}
+.shopify-section .\#newsletter-submit{
+  background: #5720B7;
+}
+.Nesletter_icons_left{
+  position: absolute;
+  left: -20px;
+  top: 0;
+  max-width: 80px;
+  width: 100%;
+}
+@media only screen and (max-width: 767px) {
+  .Nesletter_icons_left{
+    position: absolute;
+    left: 0px;
+    top: -50;
+    max-width: 50px;
+    width: 100%;
+  }
+}
