@@ -588,221 +588,6 @@
         "thumbnails_layout": "slideshow"
       }
     },
-    "4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3": {
-      "type": "d_hero-background-video",
-      "blocks": {
-        "template--21462135734587__4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3-subheading-1": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "subheading": "Subheading"
-          }
-        },
-        "template--21462135734587__4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "EXPLORE DIFFERENT CULTURES",
-            "heading_accent_enable": true,
-            "heading_accent_use_cutom_color": false,
-            "heading_accent_color": "#e22d00"
-          }
-        },
-        "template--21462135734587__4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>THROUGH LOLLIES FROM ALL OVER THE WORLD<\/p>"
-          }
-        },
-        "template--21462135734587__4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3-buttons-1": {
-          "type": "buttons",
-          "settings": {
-            "mobile_hidden": false,
-            "f_button_label": "EXPLORE NOW",
-            "f_button_link": "",
-            "f_button_style": "normal",
-            "f_button_custom_colors": true,
-            "f_button_bg_color": "#000000",
-            "f_button_text_color": "#ffffff",
-            "s_button_label": "",
-            "s_button_link": "",
-            "s_button_style": "normal",
-            "s_button_custom_colors": false,
-            "s_button_bg_color": "#000000",
-            "s_button_text_color": "#ffffff"
-          }
-        },
-        "d259827d-fb00-49c3-93d9-6ff1ae04aa0d": {
-          "type": "timer",
-          "disabled": true,
-          "settings": {
-            "date": "04-03-2024",
-            "hide_on_complete": false,
-            "display_titles": true
-          }
-        }
-      },
-      "block_order": [
-        "template--21462135734587__4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3-subheading-1",
-        "template--21462135734587__4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3-heading-1",
-        "template--21462135734587__4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3-text-1",
-        "template--21462135734587__4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3-buttons-1",
-        "d259827d-fb00-49c3-93d9-6ff1ae04aa0d"
-      ],
-      "settings": {
-        "section_layout": "container",
-        "embedded_video": "https:\/\/www.youtube.com\/watch?v=01vc70pvGA4",
-        "height": 74,
-        "display_desktop_only": false,
-        "mobile_image_size": "9x16",
-        "overlay": 50,
-        "use_box": true,
-        "width": 40,
-        "size": "sm",
-        "text_position": "center-left",
-        "mobile_caption_display": "offset"
-      }
-    },
-    "570601cb-61e1-4718-99ce-54f8d1b6e4cb": {
-      "type": "d_image-with-text",
-      "blocks": {
-        "template--21462135734587__570601cb-61e1-4718-99ce-54f8d1b6e4cb-subheading-1": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "subheading": "Subheading"
-          }
-        },
-        "template--21462135734587__570601cb-61e1-4718-99ce-54f8d1b6e4cb-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "MYSTERY BOX"
-          }
-        },
-        "template--21462135734587__570601cb-61e1-4718-99ce-54f8d1b6e4cb-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Enjoy Limited Edition & Exclusive Japanese Snack Boxes delivered to your door by HOLLY LOLLIES!<br\/><\/strong><\/p>"
-          }
-        },
-        "template--21462135734587__570601cb-61e1-4718-99ce-54f8d1b6e4cb-buttons-1": {
-          "type": "buttons",
-          "settings": {
-            "f_button_label": "Shop now",
-            "f_button_link": "shopify:\/\/products\/holly-lollies-mystery-box",
-            "f_button_style": "normal",
-            "f_button_custom_colors": true,
-            "f_button_text_color": "#ffffff",
-            "f_button_bg_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "template--21462135734587__570601cb-61e1-4718-99ce-54f8d1b6e4cb-subheading-1",
-        "template--21462135734587__570601cb-61e1-4718-99ce-54f8d1b6e4cb-heading-1",
-        "template--21462135734587__570601cb-61e1-4718-99ce-54f8d1b6e4cb-text-1",
-        "template--21462135734587__570601cb-61e1-4718-99ce-54f8d1b6e4cb-buttons-1"
-      ],
-      "settings": {
-        "section_layout": "container",
-        "image_size": "lg",
-        "image": "shopify:\/\/shop_images\/IMG_6876.jpg",
-        "image_width": 50,
-        "image_position": "left",
-        "text_size": "lg",
-        "text_color": "",
-        "bg_color": ""
-      }
-    },
-    "9ddc2578-20cc-464b-8c23-68f8a54579c6": {
-      "type": "d_featured-product",
-      "blocks": {
-        "template--21462135734587__9ddc2578-20cc-464b-8c23-68f8a54579c6-title-1": {
-          "type": "title",
-          "settings": {
-            "size": "d4",
-            "max_lines": 3,
-            "prev_attach": false
-          }
-        },
-        "template--21462135734587__9ddc2578-20cc-464b-8c23-68f8a54579c6-price-1": {
-          "type": "price",
-          "settings": {
-            "show_savings": true,
-            "show_taxes": true,
-            "prev_attach": false
-          }
-        },
-        "template--21462135734587__9ddc2578-20cc-464b-8c23-68f8a54579c6-variant_selector-1": {
-          "type": "variant_selector",
-          "settings": {
-            "picker_type": "swatch",
-            "color_swatches": false,
-            "align_option_values": true,
-            "prev_attach": false
-          }
-        },
-        "template--21462135734587__9ddc2578-20cc-464b-8c23-68f8a54579c6-buy_with-1": {
-          "type": "buy_with",
-          "disabled": true,
-          "settings": {
-            "meta_heading": "Frequently Bought Together",
-            "use_counter": false,
-            "prev_attach": false
-          }
-        },
-        "template--21462135734587__9ddc2578-20cc-464b-8c23-68f8a54579c6-buy_buttons-1": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false,
-            "enable_stock_notifier": true,
-            "prev_attach": false
-          }
-        },
-        "template--21462135734587__9ddc2578-20cc-464b-8c23-68f8a54579c6-payment_methods-1": {
-          "type": "payment_methods",
-          "settings": {
-            "meta_heading": "We Accept",
-            "center": false,
-            "prev_attach": false
-          }
-        },
-        "61fc0fb2-602d-4617-bc72-1698e148367c": {
-          "type": "text",
-          "settings": {
-            "text": "<h3><strong>Enjoy Limited Edition & Exclusive Japanese Snack Boxes delivered to your door by HOLLY LOLLIES!<br\/><\/strong><\/h3>",
-            "size": "body",
-            "text_uppercase": false,
-            "prev_attach": false
-          }
-        },
-        "e0f8394f-f66b-43a6-bdf7-bfad3d23adab": {
-          "type": "rating",
-          "settings": {
-            "show_count": true,
-            "prev_attach": false
-          }
-        }
-      },
-      "block_order": [
-        "template--21462135734587__9ddc2578-20cc-464b-8c23-68f8a54579c6-title-1",
-        "template--21462135734587__9ddc2578-20cc-464b-8c23-68f8a54579c6-price-1",
-        "template--21462135734587__9ddc2578-20cc-464b-8c23-68f8a54579c6-variant_selector-1",
-        "template--21462135734587__9ddc2578-20cc-464b-8c23-68f8a54579c6-buy_with-1",
-        "template--21462135734587__9ddc2578-20cc-464b-8c23-68f8a54579c6-buy_buttons-1",
-        "template--21462135734587__9ddc2578-20cc-464b-8c23-68f8a54579c6-payment_methods-1",
-        "61fc0fb2-602d-4617-bc72-1698e148367c",
-        "e0f8394f-f66b-43a6-bdf7-bfad3d23adab"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "MYSTERY BOX",
-        "subheading": "",
-        "product": "holly-lollies-mystery-box",
-        "gallery_width": 61,
-        "slideshow_zoom": false,
-        "thumbnails_layout": "grid"
-      }
-    },
     "0fbe5f9f-e27e-41f9-80e1-a70f2419a01d": {
       "type": "d_collection-list",
       "blocks": {
@@ -925,6 +710,80 @@
         "text_position": "center",
         "show_frame": true,
         "section_button_label": ""
+      }
+    },
+    "4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3": {
+      "type": "d_hero-background-video",
+      "blocks": {
+        "template--21462135734587__4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Subheading"
+          }
+        },
+        "template--21462135734587__4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "EXPLORE DIFFERENT CULTURES",
+            "heading_accent_enable": true,
+            "heading_accent_use_cutom_color": false,
+            "heading_accent_color": "#e22d00"
+          }
+        },
+        "template--21462135734587__4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>THROUGH LOLLIES FROM ALL OVER THE WORLD<\/p>"
+          }
+        },
+        "template--21462135734587__4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "mobile_hidden": false,
+            "f_button_label": "EXPLORE NOW",
+            "f_button_link": "",
+            "f_button_style": "normal",
+            "f_button_custom_colors": true,
+            "f_button_bg_color": "#000000",
+            "f_button_text_color": "#ffffff",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_style": "normal",
+            "s_button_custom_colors": false,
+            "s_button_bg_color": "#000000",
+            "s_button_text_color": "#ffffff"
+          }
+        },
+        "d259827d-fb00-49c3-93d9-6ff1ae04aa0d": {
+          "type": "timer",
+          "disabled": true,
+          "settings": {
+            "date": "04-03-2024",
+            "hide_on_complete": false,
+            "display_titles": true
+          }
+        }
+      },
+      "block_order": [
+        "template--21462135734587__4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3-subheading-1",
+        "template--21462135734587__4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3-heading-1",
+        "template--21462135734587__4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3-text-1",
+        "template--21462135734587__4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3-buttons-1",
+        "d259827d-fb00-49c3-93d9-6ff1ae04aa0d"
+      ],
+      "settings": {
+        "section_layout": "container",
+        "embedded_video": "https:\/\/www.youtube.com\/watch?v=01vc70pvGA4",
+        "height": 74,
+        "display_desktop_only": false,
+        "mobile_image_size": "9x16",
+        "overlay": 50,
+        "use_box": true,
+        "width": 40,
+        "size": "sm",
+        "text_position": "center-left",
+        "mobile_caption_display": "offset"
       }
     },
     "99fc637c-2af8-4a3d-a5c8-83ad7719eab3": {
@@ -1407,10 +1266,8 @@
     "252cadf0-079e-40a2-8914-70d73728cfba",
     "165469275319e90978",
     "b03fa275-5869-46d4-9b3b-f53193c36f21",
-    "4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3",
-    "570601cb-61e1-4718-99ce-54f8d1b6e4cb",
-    "9ddc2578-20cc-464b-8c23-68f8a54579c6",
     "0fbe5f9f-e27e-41f9-80e1-a70f2419a01d",
+    "4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3",
     "99fc637c-2af8-4a3d-a5c8-83ad7719eab3",
     "39b5950a-383c-43e2-bfb6-1ae39fc33ad6",
     "e50dfe07-789d-4624-80c1-563b4f35e18c",
