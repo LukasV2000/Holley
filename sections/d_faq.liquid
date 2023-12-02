@@ -5,41 +5,42 @@
 
 {% render 'load-css', file: NS %}
 
-{%- capture Content -%}
-    <div class="{{ cn }}">
-        {% for block in section.blocks %}
-            <details class="{{ cn }}-item" {{ block.shopify_attributes }}>
-                <summary class="{{ cn }}-item-header">
-                    <h5 class="{{ cn }}-item-heading">
-                        {% if block.settings.icon != blank %}
-                            <span class="{{ cn }}-item-icon">
-                                {% render 'icon', name: block.settings.icon, load: true %}
-                            </span>
-                        {% endif %}
-                        {{ block.settings.heading }}
-                    </h5>
-                    <div class="{{ cn }}-item-indicator">
-                        {% render 'icon', name: 'angle-down' %}
+<div class="Faq_outer">
+    {%- capture Content -%}
+        <div class="{{ cn }}">
+            {% for block in section.blocks %}
+                <details class="{{ cn }}-item" {{ block.shopify_attributes }}>
+                    <summary class="{{ cn }}-item-header">
+                        <h5 class="{{ cn }}-item-heading">
+                            {% if block.settings.icon != blank %}
+                                <span class="{{ cn }}-item-icon">
+                                    {% render 'icon', name: block.settings.icon, load: true %}
+                                </span>
+                            {% endif %}
+                            {{ block.settings.heading }}
+                        </h5>
+                        <div class="{{ cn }}-item-indicator">
+                            {% render 'icon', name: 'angle-down' %}
+                        </div>
+                    </summary>
+                    <div class="{{ cn }}-item-body">
+                        <div class="#rte-block">
+                            {{ block.settings.text }}
+                        </div>
                     </div>
-                </summary>
-                <div class="{{ cn }}-item-body">
-                    <div class="#rte-block">
-                        {{ block.settings.text }}
-                    </div>
-                </div>
-            </details>
-        {% endfor %}
-    </div>
-{%- endcapture -%}
+                </details>
+            {% endfor %}
+        </div>
+    {%- endcapture -%}
 
-{% render 'section-body',
-    content: Content,
-    spaced: true,
-    container: section.settings.section_layout,
-    heading: section.settings.heading,
-    subheading: section.settings.subheading
-%}
-
+    {% render 'section-body',
+        content: Content,
+        spaced: true,
+        container: section.settings.section_layout,
+        heading: section.settings.heading,
+        subheading: section.settings.subheading
+    %}
+</div>
 {% schema %}
     {
         "name": "FAQ",

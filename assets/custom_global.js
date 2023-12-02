@@ -40,4 +40,21 @@ $(document).ready(function(){
     dots: true
   });
   				
+  $('.Index_reviews_carousel').slick({
+    infinite: true,
+    slidesToShow:1,
+    slidesToScroll: 1,
+    centerMode: true,
+    centerPadding: '180px',
+    dots: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          centerPadding: '30px',
+        }
+      }
+    ]
+  });
+
 });

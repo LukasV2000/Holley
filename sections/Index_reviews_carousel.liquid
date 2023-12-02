@@ -1,0 +1,88 @@
+
+<div class="#container @width:default">
+    {% if section.settings.title != blank %}
+        <h2 class="#hero-heading fs-d4 heading-font">  
+            <span class="#accent-text" style="--accent: linear-gradient(90deg, transparent 0, rgba(251, 207, 0, 0.5) 15%, rgba(251, 207, 0, 0.5) 85%, transparent 100%)">{{section.settings.title}}</span>  
+        </h2>
+    {% endif %}
+    <img loading="lazy" class="Index_reviews_trust_image" src="https://cdn.shopify.com/s/files/1/0839/5941/5099/files/Trustpilot_Micro_1.png?v=1701536110">
+</div>
+<div class="Index_reviews_carousel">
+    {% for block in section.blocks %}
+        <div class="Index_reviews_cell">
+            <div class="Index_review_cell_inner">
+                <div>  
+                    <img loading="lazy" class="Index_reviews_stars" src="https://cdn.shopify.com/s/files/1/0839/5941/5099/files/Stars.png?v=1701534480">
+                    <p class="Index_reviews_cell_headline">{{block.settings.headline }}</p>
+                    <p class="Index_reviews_name">{{block.settings.name }}</p>
+                    <p class="Index_reviews_info">{{block.settings.info }}</p>
+                </div>
+                <div>
+                    <video autoplay playsinline loop muted>
+                        <source src="{{block.settings.video}}" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+  {% schema %}
+    {
+      "name": "Reviews Carousel",
+      "settings": [
+        {
+            "type":"text",
+            "id": "title",
+            "label":"Your Title",
+            "default":"This is what our community says"
+        }
+      ],
+      "blocks": [
+          {
+            "name": "slide",
+            "type": "Slide",
+            "settings": [
+              {
+                  "type": "image_picker",
+                  "id": "image",
+                  "label": "Your Placholder Image"
+              },
+              {
+                  "type": "textarea",
+                  "id": "video",
+                  "label": "Your VIDEO Url"
+              },
+              {
+                  "type": "text",
+                  "id": "headline",
+                  "label": "Your Headline",
+                  "default":"“Superlicious candies is what drives me the most in this life. I love eating candies and Holly Lollies helped me to achieve it.”"
+              },
+              {
+                  "type": "text",
+                  "id": "name",
+                  "label": "Your Name",
+                  "default":"— Renee Wells"
+              },
+              {
+                "type": "text",
+                "id": "info",
+                "label": "Your Info",
+                "default":"Proud Client from Asia"
+            }
+            ]
+          }
+        ],
+        "presets": [
+          {
+            "name": "Reviews Carousel"
+          }
+        ]
+    }
+  {% endschema %}
+  
+  {% stylesheet %}
+  {% endstylesheet %}
+  
+  {% javascript %}
+  {% endjavascript %}
