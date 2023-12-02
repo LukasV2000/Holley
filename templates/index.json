@@ -921,60 +921,6 @@
         "section_button_url": ""
       }
     },
-    "e50dfe07-789d-4624-80c1-563b4f35e18c": {
-      "type": "d_icon-features",
-      "blocks": {
-        "template--21462135734587__e50dfe07-789d-4624-80c1-563b4f35e18c-feature-1": {
-          "type": "feature",
-          "settings": {
-            "icon": "star",
-            "heading": "Global Candy Adventure",
-            "text": "Feature text",
-            "link": ""
-          }
-        },
-        "template--21462135734587__e50dfe07-789d-4624-80c1-563b4f35e18c-feature-2": {
-          "type": "feature",
-          "settings": {
-            "icon": "star",
-            "heading": "Competitive Pricing",
-            "text": "Feature text",
-            "link": ""
-          }
-        },
-        "template--21462135734587__e50dfe07-789d-4624-80c1-563b4f35e18c-feature-3": {
-          "type": "feature",
-          "settings": {
-            "icon": "star",
-            "heading": "Fast worldwide shipping",
-            "text": "Feature text",
-            "link": ""
-          }
-        },
-        "cc800a32-35af-462b-a260-e03f8aa321c3": {
-          "type": "feature",
-          "settings": {
-            "icon": "star",
-            "heading": "Interactive Candy Adventure",
-            "text": "Feature text",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--21462135734587__e50dfe07-789d-4624-80c1-563b4f35e18c-feature-1",
-        "template--21462135734587__e50dfe07-789d-4624-80c1-563b4f35e18c-feature-2",
-        "template--21462135734587__e50dfe07-789d-4624-80c1-563b4f35e18c-feature-3",
-        "cc800a32-35af-462b-a260-e03f8aa321c3"
-      ],
-      "disabled": true,
-      "settings": {
-        "section_text_align": "left",
-        "text_color": "#000000",
-        "icon_color": "#fbcf00",
-        "bg_color": "#ebeff1"
-      }
-    },
     "7098ba4b-7068-4e42-af6b-541a4ebf4371": {
       "type": "Index_reviews_carousel",
       "blocks": {
@@ -1321,7 +1267,6 @@
     "4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3",
     "99fc637c-2af8-4a3d-a5c8-83ad7719eab3",
     "39b5950a-383c-43e2-bfb6-1ae39fc33ad6",
-    "e50dfe07-789d-4624-80c1-563b4f35e18c",
     "7098ba4b-7068-4e42-af6b-541a4ebf4371",
     "fca67246-1b86-436b-a889-fbec115fd5ee",
     "da2c0eaa-b023-4f1c-b10d-90cca54bdf88",
