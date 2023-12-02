@@ -937,68 +937,6 @@
         "section_button_url": ""
       }
     },
-    "ea225172-3820-48ef-8088-f7b186ddbe05": {
-      "type": "d_image-columns",
-      "blocks": {
-        "template--21462135734587__ea225172-3820-48ef-8088-f7b186ddbe05-column-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_22.43.57.png",
-            "heading": "Global Candy Adventure",
-            "text": "Join Holly Lollies for a global flavor journey with unique snacks and candies from around the world, a taste adventure beyond European borders.",
-            "link": "",
-            "button": "Button"
-          }
-        },
-        "template--21462135734587__ea225172-3820-48ef-8088-f7b186ddbe05-column-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_22.43.34.png",
-            "heading": "Competitive Pricing",
-            "text": "At Holly Lollies, we offer competitive pricing so you can enjoy unforgettable moments filled with joy, laughter, and delightful candies.",
-            "link": "",
-            "button": "Button"
-          }
-        },
-        "template--21462135734587__ea225172-3820-48ef-8088-f7b186ddbe05-column-3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_22.43.49.png",
-            "heading": "Fast worldwide shipping",
-            "text": "Holly Lollies ships worldwide, sharing exceptional candies with a global community of sweet enthusiasts.",
-            "link": "",
-            "button": "Button"
-          }
-        },
-        "9e9d3505-62f9-489b-b414-4fa85eefe0bd": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_22.43.09.png",
-            "heading": "It's not just candies.",
-            "text": "Holly Lollies isn't just about candies; it's about experiencing different cultures. In every box, you'll find tasting cards, fun facts about candies, and a little surprise to make your experience truly captivating.",
-            "link": "",
-            "button": "Button"
-          }
-        }
-      },
-      "block_order": [
-        "template--21462135734587__ea225172-3820-48ef-8088-f7b186ddbe05-column-1",
-        "template--21462135734587__ea225172-3820-48ef-8088-f7b186ddbe05-column-2",
-        "template--21462135734587__ea225172-3820-48ef-8088-f7b186ddbe05-column-3",
-        "9e9d3505-62f9-489b-b414-4fa85eefe0bd"
-      ],
-      "settings": {
-        "title": "WHY US?",
-        "subheading": "",
-        "image_size": "square",
-        "show_frame": true,
-        "columns": 4,
-        "text_align": "center",
-        "size": "md",
-        "show_buttons": false,
-        "buttons_style": "normal"
-      }
-    },
     "e50dfe07-789d-4624-80c1-563b4f35e18c": {
       "type": "d_icon-features",
       "blocks": {
@@ -1525,7 +1463,6 @@
     "0fbe5f9f-e27e-41f9-80e1-a70f2419a01d",
     "99fc637c-2af8-4a3d-a5c8-83ad7719eab3",
     "39b5950a-383c-43e2-bfb6-1ae39fc33ad6",
-    "ea225172-3820-48ef-8088-f7b186ddbe05",
     "e50dfe07-789d-4624-80c1-563b4f35e18c",
     "fca67246-1b86-436b-a889-fbec115fd5ee",
     "da2c0eaa-b023-4f1c-b10d-90cca54bdf88",
