@@ -198,6 +198,53 @@
         "thumbnails_layout": "slideshow"
       }
     },
+    "995d3492-134d-4afd-af8d-95b391f70218": {
+      "type": "Product_whats_inside",
+      "blocks": {
+        "7b819c59-8711-48bc-a41b-d04a91238399": {
+          "type": "Box",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Content_1.jpg",
+            "headline": "Tasting cards",
+            "name": "Pair text with an image to focus on your chosen product, collection, or blog post."
+          }
+        },
+        "b0286e91-053c-4f54-b218-ac5870914f3a": {
+          "type": "Box",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Content_2.jpg",
+            "headline": "Trivia and fun facts",
+            "name": "Pair text with an image to focus on your chosen product, collection, or blog post."
+          }
+        },
+        "9a7ce1cd-b2a0-4457-9bfd-a9c5b102809e": {
+          "type": "Box",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Content_3.jpg",
+            "headline": "Little surprise",
+            "name": "Pair text with an image to focus on your chosen product, collection, or blog post."
+          }
+        },
+        "1b80f1e1-2087-433c-8977-1aa387e486d1": {
+          "type": "Box",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Content_4.jpg",
+            "headline": "Stories about the candies",
+            "name": "Pair text with an image to focus on your chosen product, collection, or blog post."
+          }
+        }
+      },
+      "block_order": [
+        "7b819c59-8711-48bc-a41b-d04a91238399",
+        "b0286e91-053c-4f54-b218-ac5870914f3a",
+        "9a7ce1cd-b2a0-4457-9bfd-a9c5b102809e",
+        "1b80f1e1-2087-433c-8977-1aa387e486d1"
+      ],
+      "settings": {
+        "title1": "What's inside the box?",
+        "text": "Our goal is to create exceptional experience for you and your loved ones"
+      }
+    },
     "16554757745dec0af9": {
       "type": "d_product-recommendations",
       "settings": {
@@ -244,6 +291,7 @@
   "order": [
     "1649081791eb3a0c3d",
     "main",
+    "995d3492-134d-4afd-af8d-95b391f70218",
     "16554757745dec0af9",
     "1697692424f53300c2",
     "a2254d99-9030-4262-b1a1-76541f8923f4"
