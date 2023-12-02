@@ -242,7 +242,7 @@
         "heading": "🎯 TIKTOK HITS ONLY 🎯",
         "subheading": "",
         "collection": "frontpage",
-        "columns": 3,
+        "columns": 4,
         "rows": 2,
         "section_button_label": ""
       }
@@ -280,7 +280,7 @@
         "heading": "🔥 THIS WEEK'S HOTTEST DEALS",
         "subheading": "",
         "collection": "frontpage",
-        "columns": 3,
+        "columns": 4,
         "rows": 2,
         "section_button_label": ""
       }
@@ -317,7 +317,7 @@
         "heading": "🤩 NEW ARRIVALS",
         "subheading": "",
         "collection": "frontpage",
-        "columns": 3,
+        "columns": 4,
         "rows": 2,
         "section_button_label": ""
       }
