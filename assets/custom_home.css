@@ -87,6 +87,9 @@ img{
   .Slideshow_slide_inner > div{
     width: 100%;
   }
+  .shopify-section .fs-d4{
+    font-size: 26px;
+  }
 }
 .Slideshow_outer .slick-dots{
   bottom: 30px;
