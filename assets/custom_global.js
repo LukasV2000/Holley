@@ -32,6 +32,18 @@ $(document).ready(function(){
     console.log($('.Product_quantity_selecotor__js').val()); 
   });
 
+  $('.Product_whats_inside_selector_cell').click(function(){
+    $('.Product_whats_inside_selector_cell').removeClass('active');
+    $(this).addClass('active');
+    var dataId = $(this).attr('data-id');
+    $('.Product_whats_inside_image').hide();
+    $('.Product_whats_inside_image').each(function(){
+      if ($(this).attr('data-id') == dataId){
+        $(this).show();
+      }
+    });
+  });
+
 
   $('.Slideshow_outer').slick({
     infinite: true,

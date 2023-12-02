@@ -1,0 +1,80 @@
+<div class="Product_whats_inside_outer">
+    <div class="#container @width:default">
+        <img loading="lazy" class="Product_whats_inside_donut" src="https://cdn.shopify.com/s/files/1/0839/5941/5099/files/Layer_1_1.png?v=1701546293">
+        {% if section.settings.title1 != blank %}
+            <h2 class="#hero-heading fs-d4 heading-font">  
+                <span class="#accent-text" style="--accent: linear-gradient(90deg, transparent 0, rgba(251, 207, 0, 0.5) 15%, rgba(251, 207, 0, 0.5) 85%, transparent 100%)">{{section.settings.title1 }}</span>  
+            </h2>
+        {% endif %}
+        {% if section.settings.text != blank %}
+            <p>{{section.settings.text }}</p>
+        {% endif %}
+    {% for block in section.blocks %}
+            <img class="Product_whats_inside_image" data-id="{{block.id }}" loading="eager" src="{{ block.settings.image | img_url: 'master' }}" {% if forloop.index > 1 %}style="display:none"{% endif %}>
+    {% endfor %}
+        <div class="Product_whats_inside_selector">
+            {% for block in section.blocks %}
+                <div class="Product_whats_inside_selector_cell {% if forloop.index == 1 %}active{% endif %}" data-id="{{ block.id }}">
+                    <p class="Whats_inside_block_headline">{{ block.settings.headline }}</p>
+                    <p>{{ block.settings.name }}</p>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+{% schema %}
+    {
+      "name": "Whats Inside",
+      "settings": [
+        {
+            "type":"text",
+            "id": "title1",
+            "label":"Your Title",
+            "default":"What's inside the box?"
+        },
+        {
+            "type":"text",
+            "id": "text",
+            "label":"Your Text",
+            "default":"Our goal is to create exceptional experience for you and your loved ones"
+        }
+      ],
+      "blocks": [
+          {
+            "name": "Box",
+            "type": "Box",
+            "settings": [
+              {
+                  "type": "image_picker",
+                  "id": "image",
+                  "label": "Your Image"
+              },
+              {
+                  "type": "text",
+                  "id": "headline",
+                  "label": "Your Headline",
+                  "default":"Tasting cards"
+              },
+              {
+                  "type": "text",
+                  "id": "name",
+                  "label": "Your Name",
+                  "default":"Pair text with an image to focus on your chosen product, collection, or blog post."
+              }
+            ]
+          }
+        ],
+        "presets": [
+          {
+            "name": "Whats Inside"
+          }
+        ]
+    }
+  {% endschema %}
+  
+  {% stylesheet %}
+  {% endstylesheet %}
+  
+  {% javascript %}
+  {% endjavascript %}

@@ -25,3 +25,56 @@
     margin-top: 1.5rem;
     width: 100%;
 }
+/* Whats inside */
+.Product_whats_inside_outer{
+    position: relative;
+    text-align: center;
+    padding: 4rem 1rem;
+}
+.Product_whats_inside_outer p{
+    font-size: 18px;
+    margin: 1rem 0;
+}
+.Product_whats_inside_selector{
+    display: flex;
+}
+.Product_whats_inside_selector > div{
+    width: 100%;
+    padding: 20px;
+    border-top: 4px solid #F2F4F7;
+    cursor: pointer;
+}
+.Product_whats_inside_selector_cell.active{
+    border-top: 4px solid #5720B7;
+}
+.Product_whats_inside_selector .Whats_inside_block_headline{
+    font-weight: bold;
+    font-size: 20px;
+    margin: .5rem 0;
+}
+.Product_whats_inside_selector > div p{
+    font-weight: 400;
+}
+.Product_whats_inside_donut{
+    max-width: 100px;
+    position: absolute;
+    right: -1rem;
+    top: -20px;
+}
+@media only screen and (max-width: 767px) {
+    .Product_whats_inside_selector{
+        display: block;
+    }
+    .Product_whats_inside_donut{
+        right: 0;
+        max-width: 50px;
+    }
+    .Product_whats_inside_selector>div{
+        border-top: none !important;
+        border-left: 4px solid #F2F4F7;
+        text-align: left;
+    }
+    .Product_whats_inside_selector>div.active{
+        border-left: 4px solid #5720B7;
+    }
+}
