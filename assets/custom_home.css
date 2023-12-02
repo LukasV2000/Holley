@@ -382,8 +382,8 @@ img{
 /* Buttons */
 .shopify-section .\@shadow.\@display-style\:normal.\#button, .\@shadow.\@display-style\:gradient.\#button,
 .shopify-section .shopify-payment-button__button{
-  font-size: 16px;
-  padding: 12px;
+  font-size: 18px;
+  padding: 16px 32px;
 }
 .shopify-section .\@shadow.\@display-style\:normal.\#button, .\@shadow.\@display-style\:gradient.\#button,
 .shopify-section .\@display-style\:gradient.\#button:before{
