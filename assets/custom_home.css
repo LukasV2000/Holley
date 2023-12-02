@@ -1,6 +1,12 @@
 html{
   overflow-x: hidden;
 }
+.\#header-primary-nav{
+  display: none !important;
+}
+.\#header-main{
+  padding: 5px 0;
+}
 /* Slideshow */
 img{
   width: 100%;
