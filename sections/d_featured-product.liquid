@@ -13,326 +13,327 @@
 {%- capture gallery_image_srcsize_mobile -%}90vw{%- endcapture -%}
 
 
+<div class="Whole_featured_products_section">
+    {%- capture Gallery -%}
+        {%- if featured_product == blank -%}
+            {% render 'media',
+                placeholder: 'product',
+                aspect_ratio: '1x1'
+            %}
+        {%- else -%}
+            <div class="{{ cn }}-media">
+                {% render 'product-gallery',
+                    product: featured_product,
+                    use_zoom: section.settings.slideshow_zoom, 
+                    quick_view: quick_view,
+                    image_srcsize_desktop: gallery_image_srcsize_desktop,
+                    image_srcsize_mobile: gallery_image_srcsize_mobile,
+                    thumbnails_layout: section.settings.thumbnails_layout
+                %}     
+            </div>    
+        {%- endif -%}
+    {%- endcapture -%}
 
-{%- capture Gallery -%}
-    {%- if featured_product == blank -%}
-        {% render 'media',
-            placeholder: 'product',
-            aspect_ratio: '1x1'
-        %}
-    {%- else -%}
-        <div class="{{ cn }}-media">
-            {% render 'product-gallery',
-                product: featured_product,
-                use_zoom: section.settings.slideshow_zoom, 
-                quick_view: quick_view,
-                image_srcsize_desktop: gallery_image_srcsize_desktop,
-                image_srcsize_mobile: gallery_image_srcsize_mobile,
-                thumbnails_layout: section.settings.thumbnails_layout
-            %}     
-        </div>    
-    {%- endif -%}
-{%- endcapture -%}
-
-{%- capture Meta -%}
-    <div class="{{ cn }}-meta">
-        {% render 'product-info-loading' %}
-        {% for block in section.blocks %}
-            {%- capture Block_content -%}
-            {% case block.type %}
-                {% when 'buy_with' %}
-                    {%- if featured_product != blank -%}
-                        {% render 'load-css', file: 'product-buy-with' %}
-                        <product-variant-listener emptyable section-id="{{ section.id }}" id="b-{{ block. id }}">
-                            {% render 'product-buy-with', product: featured_product, variant: variant, product_form_id: product_form_id %}
-                        </product-variant-listener>
-                    {%- endif -%}
-
-                {% when 'title' %}
-                    <h1 class="{{ cn }}-title {% if block.settings.max_lines > 0 %}@line-clamp{% endif %} fs-{{ block.settings.size }} heading-font" style="--line-clamp: {{ block.settings.max_lines }};">
+    {%- capture Meta -%}
+        <div class="{{ cn }}-meta">
+            {% render 'product-info-loading' %}
+            {% for block in section.blocks %}
+                {%- capture Block_content -%}
+                {% case block.type %}
+                    {% when 'buy_with' %}
                         {%- if featured_product != blank -%}
-                            {{ featured_product.title }}
-                        {%- else -%}
-                            {{ onboarding_title }}
+                            {% render 'load-css', file: 'product-buy-with' %}
+                            <product-variant-listener emptyable section-id="{{ section.id }}" id="b-{{ block. id }}">
+                                {% render 'product-buy-with', product: featured_product, variant: variant, product_form_id: product_form_id %}
+                            </product-variant-listener>
                         {%- endif -%}
-                    </h1>
 
-                {% when 'price' %}
-                    <product-variant-listener section-id="{{ section.id }}" id="b-{{ block.id }}">
-                        <div class="{{ cn }}-price">
-                            {% render 'price',
-                                variant: variant,
-                                show_save_price: block.settings.show_savings,
-                                show_titles: block.settings.show_savings
-                            %}
-                        </div>
-                        {%- if block.settings.show_taxes -%}
-                            {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
-                                <div class="{{ cn }}-price-tax-note">
-                                    {%- if shop.taxes_included -%}
-                                        {{ 'products.product.include_taxes' | t }}
-                                    {%- endif -%}
-                                    {%- if shop.shipping_policy.body != blank -%}
-                                        {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
-                                    {%- endif -%}
+                    {% when 'title' %}
+                        <h1 class="{{ cn }}-title {% if block.settings.max_lines > 0 %}@line-clamp{% endif %} fs-{{ block.settings.size }} heading-font" style="--line-clamp: {{ block.settings.max_lines }};">
+                            {%- if featured_product != blank -%}
+                                {{ featured_product.title }}
+                            {%- else -%}
+                                {{ onboarding_title }}
+                            {%- endif -%}
+                        </h1>
+
+                    {% when 'price' %}
+                        <product-variant-listener section-id="{{ section.id }}" id="b-{{ block.id }}">
+                            <div class="{{ cn }}-price">
+                                {% render 'price',
+                                    variant: variant,
+                                    show_save_price: block.settings.show_savings,
+                                    show_titles: block.settings.show_savings
+                                %}
+                            </div>
+                            {%- if block.settings.show_taxes -%}
+                                {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
+                                    <div class="{{ cn }}-price-tax-note">
+                                        {%- if shop.taxes_included -%}
+                                            {{ 'products.product.include_taxes' | t }}
+                                        {%- endif -%}
+                                        {%- if shop.shipping_policy.body != blank -%}
+                                            {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
+                                        {%- endif -%}
+                                    </div>
+                                {%- endif -%}
+                            {%- endif -%}
+                            {%- if featured_product != blank -%}
+                                <div {{ block.shopify_attributes }}>
+                                    {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
+                                    {%- form 'product', featured_product, id: product_form_installment_id -%}
+                                        <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+                                        {{ form | payment_terms }}
+                                    {%- endform -%}
                                 </div>
                             {%- endif -%}
+                        </product-variant-listener>
+
+                    {% when 'buy_buttons' %}
+                        {%- if featured_product != blank -%}
+                            {%- render 'product-form',
+                                product: featured_product, 
+                                variant: variant, 
+                                product_form_id: product_form_id,
+                                id: block.id,
+                                use_stock_notifier: block.settings.enable_stock_notifier,
+                                show_dynamic_checkout: block.settings.show_dynamic_checkout
+                            -%}
+                        {%- endif -%}
+
+                    {% when 'variant_selector' %}
+                        {%- if featured_product != blank -%}
+                            {%- unless featured_product.has_only_default_variant -%}
+                                {% render 'product-variant-selector',
+                                    product: featured_product,
+                                    picker_type: block.settings.picker_type,
+                                    color_swatches: block.settings.color_swatches,
+                                    align_options: block.settings.align_option_values,
+                                    product_form_id: product_form_id 
+                                %}
+                            {%- endunless -%}   
+                        {%- endif -%}
+                        
+
+                    {% when 'quantity_selector' %}
+                        {%- if featured_product != blank -%}
+                            {%- render 'product-qty-selector', 
+                                id: block.id, 
+                                product_form_id: product_form_id,
+                                type: block.settings.input_type,
+                                variant: variant 
+                            -%}
+                        {%- endif -%}
+
+                    {% when 'payment_methods' %}
+                        {%- if shop.enabled_payment_types != blank -%}
+                            {% render 'product-payment-methods', center: block.settings.center %}
+                        {%- endif -%}
+
+                    {% when 'sku' %}
+                        {%- if featured_product != blank -%}
+                            <product-variant-listener section-id="{{ section.id }}" id="b-{{ block.id }}">
+                                {{ 'customer.order.sku' | t }}: {{ variant.sku }}
+                            </product-variant-listener>
+                        {%- endif -%}
+
+                    {% when 'stock_alert' %}
+                        {%- if block.settings.show_stock_alert -%}
+                            {%- assign stock_threshold = settings.stock_threshold -%}
                         {%- endif -%}
                         {%- if featured_product != blank -%}
-                            <div {{ block.shopify_attributes }}>
-                                {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
-                                {%- form 'product', featured_product, id: product_form_installment_id -%}
-                                    <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
-                                    {{ form | payment_terms }}
-                                {%- endform -%}
-                            </div>
+                            <product-variant-listener section-id="{{ section.id }}" id="b-{{ block.id }}">
+                                {%- render 'product-stock-alert',
+                                    id: block.id,
+                                    product: featured_product,
+                                    stock_threshold: stock_threshold,
+                                -%}
+                            </product-variant-listener>
                         {%- endif -%}
-                    </product-variant-listener>
 
-                {% when 'buy_buttons' %}
-                    {%- if featured_product != blank -%}
-                        {%- render 'product-form',
-                            product: featured_product, 
-                            variant: variant, 
-                            product_form_id: product_form_id,
-                            id: block.id,
-                            use_stock_notifier: block.settings.enable_stock_notifier,
-                            show_dynamic_checkout: block.settings.show_dynamic_checkout
-                        -%}
-                    {%- endif -%}
-
-                {% when 'variant_selector' %}
-                    {%- if featured_product != blank -%}
-                        {%- unless featured_product.has_only_default_variant -%}
-                            {% render 'product-variant-selector',
-                                product: featured_product,
-                                picker_type: block.settings.picker_type,
-                                color_swatches: block.settings.color_swatches,
-                                align_options: block.settings.align_option_values,
-                                product_form_id: product_form_id 
-                            %}
-                        {%- endunless -%}   
-                    {%- endif -%}
-                    
-
-                {% when 'quantity_selector' %}
-                    {%- if featured_product != blank -%}
-                        {%- render 'product-qty-selector', 
-                            id: block.id, 
-                            product_form_id: product_form_id,
-                            type: block.settings.input_type,
-                            variant: variant 
-                        -%}
-                    {%- endif -%}
-
-                {% when 'payment_methods' %}
-                    {%- if shop.enabled_payment_types != blank -%}
-                        {% render 'product-payment-methods', center: block.settings.center %}
-                    {%- endif -%}
-
-                {% when 'sku' %}
-                    {%- if featured_product != blank -%}
-                        <product-variant-listener section-id="{{ section.id }}" id="b-{{ block.id }}">
-                            {{ 'customer.order.sku' | t }}: {{ variant.sku }}
-                        </product-variant-listener>
-                    {%- endif -%}
-
-                {% when 'stock_alert' %}
-                    {%- if block.settings.show_stock_alert -%}
-                        {%- assign stock_threshold = settings.stock_threshold -%}
-                    {%- endif -%}
-                    {%- if featured_product != blank -%}
-                        <product-variant-listener section-id="{{ section.id }}" id="b-{{ block.id }}">
-                            {%- render 'product-stock-alert',
-                                id: block.id,
-                                product: featured_product,
-                                stock_threshold: stock_threshold,
-                            -%}
-                        </product-variant-listener>
-                    {%- endif -%}
-
-                {% when 'pickup_availability' %}
-                    {%- if featured_product != blank -%}
-                        <product-variant-listener section-id="{{ section.id }}" emptyable id="b-{{ block.id }}">
-                            {%- render 'product-pickup-availability'
-                                product: featured_product,
-                                id: block.id,
-                                variant: variant
-                            -%}    
-                        </product-variant-listener>
-                    {%- endif -%}
-                
-                {% when 'feature' %}
-                    {%- render 'product-feature',
-                        icon: block.settings.icon,
-                        heading: block.settings.heading,
-                        subheading: block.settings.subheading
-                    -%}
-
-                {% when 'description' %}
-                    {% if featured_product != blank and featured_product.description != blank %}
-                        {%- capture description -%}
-                            <div class="{{ cn }}-description">
-                                {{ featured_product.description }}
-                            </div>
-                        {%- endcapture -%}
-                        {%- if block.settings.use_expand -%}
-                            {% render 'product-description-expand', description: description %}
-                        {%- else -%}
-                            {{ description }}
+                    {% when 'pickup_availability' %}
+                        {%- if featured_product != blank -%}
+                            <product-variant-listener section-id="{{ section.id }}" emptyable id="b-{{ block.id }}">
+                                {%- render 'product-pickup-availability'
+                                    product: featured_product,
+                                    id: block.id,
+                                    variant: variant
+                                -%}    
+                            </product-variant-listener>
                         {%- endif -%}
-                    {% endif %}
-
-                {% when 'rating' %}
-                    {%- if featured_product != blank -%}
-                        {%- render 'product-reviews',
-                            product: featured_product,
-                            show_count: block.settings.show_count
-                        -%}
-                    {%- endif -%}
                     
-                {% when 'separator' %}
-                    <hr {{ block.shopify_attributes }}>
-                
-                {% when 'text' %}
-                    {% if block.settings.text != blank %}
-                        <div class="#rte-block {% if block.settings.text_uppercase %}@upcase{% endif %} fs-{{ block.settings.size }}">
-                            {{ block.settings.text }}
-                        </div>
-                    {% endif %}
+                    {% when 'feature' %}
+                        {%- render 'product-feature',
+                            icon: block.settings.icon,
+                            heading: block.settings.heading,
+                            subheading: block.settings.subheading
+                        -%}
 
-                {% when 'popup' %}
-                    {% if block.settings.text != blank and featured_product != blank %}
-                        {%- assign font_size = block.settings.font_size_scale | times: 0.01 -%}
-                        {%- assign popup_id = 'productPopup' | append: section.id | append: block.id -%}
-                        <template id="{{ popup_id }}">
-                            <div class="#container @width:{{ block.settings.popup_width }}">
-                                <div class="{{ cn }}-popup">
-                                    {%- if block.settings.page != blank -%}
-                                        <div class="#rte" style="--font-size: {{ font_size }}rem;">
-                                            {% if block.settings.show_page_title %}
-                                                <h1>{{ block.settings.page.title }}</h1>
-                                            {% endif %}
-                                            {{ block.settings.page.content }}
-                                        </div>
-                                    {%- else -%}
-                                        <h1>{{ 'products.product.popup.no_page' | t }}</h1>    
-                                    {%- endif -%}
+                    {% when 'description' %}
+                        {% if featured_product != blank and featured_product.description != blank %}
+                            {%- capture description -%}
+                                <div class="{{ cn }}-description">
+                                    {{ featured_product.description }}
                                 </div>
-                            </div>
-                        </template>
-                        {%- capture Link -%}
-                            <modal-trigger class="styled-link" target="#{{ popup_id }}">{{ block.settings.text }}</modal-trigger>
-                        {%- endcapture -%}
-                        {%- if block.settings.icon != blank -%}
-                            <div class="{{ cn }}-popup-link">
-                                {% render 'icon', name: block.settings.icon, load: true %}
-                                {{ Link }}
-                            </div>
-                        {%- else -%}
-                            {{ Link }}
-                        {%- endif -%}    
-                    {% endif %}
+                            {%- endcapture -%}
+                            {%- if block.settings.use_expand -%}
+                                {% render 'product-description-expand', description: description %}
+                            {%- else -%}
+                                {{ description }}
+                            {%- endif -%}
+                        {% endif %}
 
-                {% when 'share' %}
-                    {%- if featured_product != blank -%}
-                        {% render 'share',
-                            share_permalink: featured_product.url,
-                            share_title: featured_product.title,
-                            share_image: featured_product.featured_image,
-                            use_brand_colors: block.settings.use_colors
-                        %}        
-                    {%- endif -%}
+                    {% when 'rating' %}
+                        {%- if featured_product != blank -%}
+                            {%- render 'product-reviews',
+                                product: featured_product,
+                                show_count: block.settings.show_count
+                            -%}
+                        {%- endif -%}
+                        
+                    {% when 'separator' %}
+                        <hr {{ block.shopify_attributes }}>
                     
-                {% when 'custom_html' %}
-                    {% if block.settings.html != blank %}
+                    {% when 'text' %}
+                        {% if block.settings.text != blank %}
+                            <div class="#rte-block {% if block.settings.text_uppercase %}@upcase{% endif %} fs-{{ block.settings.size }}">
+                                {{ block.settings.text }}
+                            </div>
+                        {% endif %}
+
+                    {% when 'popup' %}
+                        {% if block.settings.text != blank and featured_product != blank %}
+                            {%- assign font_size = block.settings.font_size_scale | times: 0.01 -%}
+                            {%- assign popup_id = 'productPopup' | append: section.id | append: block.id -%}
+                            <template id="{{ popup_id }}">
+                                <div class="#container @width:{{ block.settings.popup_width }}">
+                                    <div class="{{ cn }}-popup">
+                                        {%- if block.settings.page != blank -%}
+                                            <div class="#rte" style="--font-size: {{ font_size }}rem;">
+                                                {% if block.settings.show_page_title %}
+                                                    <h1>{{ block.settings.page.title }}</h1>
+                                                {% endif %}
+                                                {{ block.settings.page.content }}
+                                            </div>
+                                        {%- else -%}
+                                            <h1>{{ 'products.product.popup.no_page' | t }}</h1>    
+                                        {%- endif -%}
+                                    </div>
+                                </div>
+                            </template>
+                            {%- capture Link -%}
+                                <modal-trigger class="styled-link" target="#{{ popup_id }}">{{ block.settings.text }}</modal-trigger>
+                            {%- endcapture -%}
+                            {%- if block.settings.icon != blank -%}
+                                <div class="{{ cn }}-popup-link">
+                                    {% render 'icon', name: block.settings.icon, load: true %}
+                                    {{ Link }}
+                                </div>
+                            {%- else -%}
+                                {{ Link }}
+                            {%- endif -%}    
+                        {% endif %}
+
+                    {% when 'share' %}
+                        {%- if featured_product != blank -%}
+                            {% render 'share',
+                                share_permalink: featured_product.url,
+                                share_title: featured_product.title,
+                                share_image: featured_product.featured_image,
+                                use_brand_colors: block.settings.use_colors
+                            %}        
+                        {%- endif -%}
+                        
+                    {% when 'custom_html' %}
+                        {% if block.settings.html != blank %}
+                            {% if block.settings.heading != blank %}
+                                <h5>{{ block.settings.heading }}</h5>
+                            {% endif %}
+                            <div>{{ block.settings.html }}</div>
+                        {% endif %}
+
+                    {% when 'product_options_list' %}
+                        {%- if featured_product != blank -%}
+                            {%- unless featured_product.has_only_default_variant -%}
+                                {%- render 'product-options-list',
+                                    show_sku: block.settings.show_sku,
+                                    id: block.id,
+                                    product: featured_product,
+                                    enable_sorting: block.settings.enable_sorting,
+                                    enable_stock_sort: block.settings.enable_stock_sort
+                                -%}
+                            {% endunless %}
+                        {%- endif -%}
+
+                    {% when 'custom_image' %}
                         {% if block.settings.heading != blank %}
                             <h5>{{ block.settings.heading }}</h5>
                         {% endif %}
-                        <div>{{ block.settings.html }}</div>
-                    {% endif %}
-
-                {% when 'product_options_list' %}
-                    {%- if featured_product != blank -%}
-                        {%- unless featured_product.has_only_default_variant -%}
-                            {%- render 'product-options-list',
-                                show_sku: block.settings.show_sku,
-                                id: block.id,
-                                product: featured_product,
-                                enable_sorting: block.settings.enable_sorting,
-                                enable_stock_sort: block.settings.enable_stock_sort
-                            -%}
-                        {% endunless %}
-                    {%- endif -%}
-
-                {% when 'custom_image' %}
-                    {% if block.settings.heading != blank %}
-                        <h5>{{ block.settings.heading }}</h5>
-                    {% endif %}
-                    <div>
-                        {% render 'media',
-                            image: block.settings.image,
-                            link: block.settings.link
-                        %}
-                    </div>
-
-                {% when '@app' %}
-                    {% render block %}
-
-                {% when 'specs' %}
-                    {%- if featured_product != blank -%}
-                        <product-variant-listener section-id="{{ section.id }}" id="b-{{ block.id }}" emptyable>
-                            {% render 'product-specs', product: featured_product %}
-                        </product-variant-listener>
-                    {%- endif -%}
-                {% else %}
-                    {%- if featured_product != blank -%}
-                        {% if block.type contains 'collapsible_tab' %}
-                            {% render 'product-collapse',
-                                block: block,
-                                product: featured_product
+                        <div>
+                            {% render 'media',
+                                image: block.settings.image,
+                                link: block.settings.link
                             %}
-                        {% endif %}     
-                    {%- endif -%}
-            {% endcase %}
-            {%- endcapture -%}
-            {% if Block_content != blank %}
-                <div class="{{ cn }}-meta-block {% if block.settings.prev_attach %}@attach{% endif %} {% if block.type contains 'collapsible_tab' %}@collapse{% endif %}" data-meta-block {{ block.shopify_attributes }}>
-                    {% if block.settings.meta_heading != blank %}
-                        <h4 class="{{ cn }}-meta-heading">{{ block.settings.meta_heading }}</h4>
-                    {% endif %}
-                    {{ Block_content }}
+                        </div>
+
+                    {% when '@app' %}
+                        {% render block %}
+
+                    {% when 'specs' %}
+                        {%- if featured_product != blank -%}
+                            <product-variant-listener section-id="{{ section.id }}" id="b-{{ block.id }}" emptyable>
+                                {% render 'product-specs', product: featured_product %}
+                            </product-variant-listener>
+                        {%- endif -%}
+                    {% else %}
+                        {%- if featured_product != blank -%}
+                            {% if block.type contains 'collapsible_tab' %}
+                                {% render 'product-collapse',
+                                    block: block,
+                                    product: featured_product
+                                %}
+                            {% endif %}     
+                        {%- endif -%}
+                {% endcase %}
+                {%- endcapture -%}
+                {% if Block_content != blank %}
+                    <div class="{{ cn }}-meta-block {% if block.settings.prev_attach %}@attach{% endif %} {% if block.type contains 'collapsible_tab' %}@collapse{% endif %}" data-meta-block {{ block.shopify_attributes }}>
+                        {% if block.settings.meta_heading != blank %}
+                            <h4 class="{{ cn }}-meta-heading">{{ block.settings.meta_heading }}</h4>
+                        {% endif %}
+                        {{ Block_content }}
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    {%- endcapture -%}
+
+
+    {%- capture Content -%}
+        <div class="{{ cn }}">
+            {% render 'load-css', file: 'product' %}    
+            <div class="#grid @type:template {{ cn }}-grid" style="--template: {{ gallery_width }}% 1fr; --template-mobile: none; --gap: {{ gap }};">
+                <div>
+                    {{ Gallery }}            
                 </div>
-            {% endif %}
-        {% endfor %}
-    </div>
-{%- endcapture -%}
-
-
-{%- capture Content -%}
-    <div class="{{ cn }}">
-        {% render 'load-css', file: 'product' %}    
-        <div class="#grid @type:template {{ cn }}-grid" style="--template: {{ gallery_width }}% 1fr; --template-mobile: none; --gap: {{ gap }};">
-            <div>
-                {{ Gallery }}            
-            </div>
-            <div>            
-                {{ Meta }}
+                <div>            
+                    {{ Meta }}
+                </div>
             </div>
         </div>
-    </div>
-    <script type="module" src="{{ 'product-variant-listener.js' | asset_url }}"></script>
-    <script type="module" src="{{ 'product-form.js' | asset_url }}"></script>
+        <script type="module" src="{{ 'product-variant-listener.js' | asset_url }}"></script>
+        <script type="module" src="{{ 'product-form.js' | asset_url }}"></script>
 
-{%- endcapture -%}
+    {%- endcapture -%}
 
-{% render 'section-body',
-    content: Content,
-    heading: section.settings.heading,
-    subheading: section.settings.subheading,
-    container: 'container',
-    spaced: true
-%}
+    {% render 'section-body',
+        content: Content,
+        heading: section.settings.heading,
+        subheading: section.settings.subheading,
+        container: 'container',
+        spaced: true
+    %}
+</div>
 
 <script type="module" src="{{ 'custom-select.js' | asset_url }}"></script>
 
