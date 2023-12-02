@@ -464,6 +464,130 @@
         "use_box": true
       }
     },
+    "b03fa275-5869-46d4-9b3b-f53193c36f21": {
+      "type": "d_featured-product",
+      "blocks": {
+        "template--21462135734587__b03fa275-5869-46d4-9b3b-f53193c36f21-title-1": {
+          "type": "title",
+          "settings": {
+            "size": "h1",
+            "max_lines": 3,
+            "prev_attach": false
+          }
+        },
+        "4523012e-a548-4920-a924-6054b0dc25e8": {
+          "type": "rating",
+          "disabled": true,
+          "settings": {
+            "show_count": true,
+            "prev_attach": false
+          }
+        },
+        "template--21462135734587__b03fa275-5869-46d4-9b3b-f53193c36f21-price-1": {
+          "type": "price",
+          "settings": {
+            "show_savings": true,
+            "show_taxes": true,
+            "prev_attach": false
+          }
+        },
+        "template--21462135734587__b03fa275-5869-46d4-9b3b-f53193c36f21-variant_selector-1": {
+          "type": "variant_selector",
+          "settings": {
+            "picker_type": "dropdown",
+            "color_swatches": true,
+            "align_option_values": true,
+            "prev_attach": false
+          }
+        },
+        "23ecb900-d4bc-40c7-8cdb-f299c4562fe1": {
+          "type": "quantity_selector",
+          "settings": {
+            "input_type": "dropdown",
+            "prev_attach": false
+          }
+        },
+        "template--21462135734587__b03fa275-5869-46d4-9b3b-f53193c36f21-buy_with-1": {
+          "type": "buy_with",
+          "disabled": true,
+          "settings": {
+            "meta_heading": "Frequently Bought Together",
+            "use_counter": true,
+            "prev_attach": false
+          }
+        },
+        "template--21462135734587__b03fa275-5869-46d4-9b3b-f53193c36f21-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "enable_stock_notifier": true,
+            "prev_attach": false
+          }
+        },
+        "template--21462135734587__b03fa275-5869-46d4-9b3b-f53193c36f21-payment_methods-1": {
+          "type": "payment_methods",
+          "disabled": true,
+          "settings": {
+            "meta_heading": "We Accept",
+            "center": false,
+            "prev_attach": false
+          }
+        },
+        "d30f279b-ee32-464b-b310-1d16b9ad5bba": {
+          "type": "product_options_list",
+          "disabled": true,
+          "settings": {
+            "show_sku": false,
+            "enable_sorting": true,
+            "enable_stock_sort": true,
+            "prev_attach": false
+          }
+        },
+        "4e121416-d7cd-4ca9-8052-6752e929e13b": {
+          "type": "collapsible_tab_desc",
+          "disabled": true,
+          "settings": {
+            "heading": "Description",
+            "icon": "star",
+            "prev_attach": false
+          }
+        },
+        "d0af04ea-b22f-4b3c-bfa0-329faa114c53": {
+          "type": "collapsible_tab_text",
+          "disabled": true,
+          "settings": {
+            "heading": "What's inside the box?",
+            "icon": "star",
+            "content": "",
+            "prev_attach": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21462135734587__b03fa275-5869-46d4-9b3b-f53193c36f21-title-1",
+        "4523012e-a548-4920-a924-6054b0dc25e8",
+        "template--21462135734587__b03fa275-5869-46d4-9b3b-f53193c36f21-price-1",
+        "template--21462135734587__b03fa275-5869-46d4-9b3b-f53193c36f21-variant_selector-1",
+        "23ecb900-d4bc-40c7-8cdb-f299c4562fe1",
+        "template--21462135734587__b03fa275-5869-46d4-9b3b-f53193c36f21-buy_with-1",
+        "template--21462135734587__b03fa275-5869-46d4-9b3b-f53193c36f21-buy_buttons-1",
+        "template--21462135734587__b03fa275-5869-46d4-9b3b-f53193c36f21-payment_methods-1",
+        "d30f279b-ee32-464b-b310-1d16b9ad5bba",
+        "4e121416-d7cd-4ca9-8052-6752e929e13b",
+        "d0af04ea-b22f-4b3c-bfa0-329faa114c53"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "product": "mystery-box",
+        "gallery_width": 50,
+        "slideshow_zoom": false,
+        "thumbnails_layout": "slideshow"
+      }
+    },
     "4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3": {
       "type": "d_hero-background-video",
       "blocks": {
@@ -1270,130 +1394,6 @@
         "text_color": "#ffffff",
         "bg_color": "#000000"
       }
-    },
-    "b03fa275-5869-46d4-9b3b-f53193c36f21": {
-      "type": "d_featured-product",
-      "blocks": {
-        "template--21462135734587__b03fa275-5869-46d4-9b3b-f53193c36f21-title-1": {
-          "type": "title",
-          "settings": {
-            "size": "h1",
-            "max_lines": 3,
-            "prev_attach": false
-          }
-        },
-        "4523012e-a548-4920-a924-6054b0dc25e8": {
-          "type": "rating",
-          "disabled": true,
-          "settings": {
-            "show_count": true,
-            "prev_attach": false
-          }
-        },
-        "template--21462135734587__b03fa275-5869-46d4-9b3b-f53193c36f21-price-1": {
-          "type": "price",
-          "settings": {
-            "show_savings": true,
-            "show_taxes": true,
-            "prev_attach": false
-          }
-        },
-        "template--21462135734587__b03fa275-5869-46d4-9b3b-f53193c36f21-variant_selector-1": {
-          "type": "variant_selector",
-          "settings": {
-            "picker_type": "dropdown",
-            "color_swatches": true,
-            "align_option_values": true,
-            "prev_attach": false
-          }
-        },
-        "23ecb900-d4bc-40c7-8cdb-f299c4562fe1": {
-          "type": "quantity_selector",
-          "settings": {
-            "input_type": "dropdown",
-            "prev_attach": false
-          }
-        },
-        "template--21462135734587__b03fa275-5869-46d4-9b3b-f53193c36f21-buy_with-1": {
-          "type": "buy_with",
-          "disabled": true,
-          "settings": {
-            "meta_heading": "Frequently Bought Together",
-            "use_counter": true,
-            "prev_attach": false
-          }
-        },
-        "template--21462135734587__b03fa275-5869-46d4-9b3b-f53193c36f21-buy_buttons-1": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "enable_stock_notifier": true,
-            "prev_attach": false
-          }
-        },
-        "template--21462135734587__b03fa275-5869-46d4-9b3b-f53193c36f21-payment_methods-1": {
-          "type": "payment_methods",
-          "disabled": true,
-          "settings": {
-            "meta_heading": "We Accept",
-            "center": false,
-            "prev_attach": false
-          }
-        },
-        "d30f279b-ee32-464b-b310-1d16b9ad5bba": {
-          "type": "product_options_list",
-          "disabled": true,
-          "settings": {
-            "show_sku": false,
-            "enable_sorting": true,
-            "enable_stock_sort": true,
-            "prev_attach": false
-          }
-        },
-        "4e121416-d7cd-4ca9-8052-6752e929e13b": {
-          "type": "collapsible_tab_desc",
-          "disabled": true,
-          "settings": {
-            "heading": "Description",
-            "icon": "star",
-            "prev_attach": false
-          }
-        },
-        "d0af04ea-b22f-4b3c-bfa0-329faa114c53": {
-          "type": "collapsible_tab_text",
-          "disabled": true,
-          "settings": {
-            "heading": "What's inside the box?",
-            "icon": "star",
-            "content": "",
-            "prev_attach": false
-          }
-        }
-      },
-      "block_order": [
-        "template--21462135734587__b03fa275-5869-46d4-9b3b-f53193c36f21-title-1",
-        "4523012e-a548-4920-a924-6054b0dc25e8",
-        "template--21462135734587__b03fa275-5869-46d4-9b3b-f53193c36f21-price-1",
-        "template--21462135734587__b03fa275-5869-46d4-9b3b-f53193c36f21-variant_selector-1",
-        "23ecb900-d4bc-40c7-8cdb-f299c4562fe1",
-        "template--21462135734587__b03fa275-5869-46d4-9b3b-f53193c36f21-buy_with-1",
-        "template--21462135734587__b03fa275-5869-46d4-9b3b-f53193c36f21-buy_buttons-1",
-        "template--21462135734587__b03fa275-5869-46d4-9b3b-f53193c36f21-payment_methods-1",
-        "d30f279b-ee32-464b-b310-1d16b9ad5bba",
-        "4e121416-d7cd-4ca9-8052-6752e929e13b",
-        "d0af04ea-b22f-4b3c-bfa0-329faa114c53"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "heading": "",
-        "subheading": "",
-        "product": "mystery-box",
-        "gallery_width": 50,
-        "slideshow_zoom": false,
-        "thumbnails_layout": "slideshow"
-      }
     }
   },
   "order": [
@@ -1406,6 +1406,7 @@
     "e4a5db20-e003-4f31-b42c-ca901c57ab45",
     "252cadf0-079e-40a2-8914-70d73728cfba",
     "165469275319e90978",
+    "b03fa275-5869-46d4-9b3b-f53193c36f21",
     "4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3",
     "570601cb-61e1-4718-99ce-54f8d1b6e4cb",
     "9ddc2578-20cc-464b-8c23-68f8a54579c6",
@@ -1418,7 +1419,6 @@
     "169752564009ee8951",
     "f224bd8e-ad52-401e-9c30-47d2bc870b71",
     "165469329347188646",
-    "63d2d2f3-a24e-496d-b88b-abdb397e8767",
-    "b03fa275-5869-46d4-9b3b-f53193c36f21"
+    "63d2d2f3-a24e-496d-b88b-abdb397e8767"
   ]
 }
