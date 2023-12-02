@@ -56,6 +56,7 @@
                                 {{ onboarding_title }}
                             {%- endif -%}
                         </h1>
+                        <p>{{ section.settings.description }}</p>
 
                     {% when 'price' %}
                         <product-variant-listener section-id="{{ section.id }}" id="b-{{ block.id }}">
@@ -123,6 +124,11 @@
                                 type: block.settings.input_type,
                                 variant: variant 
                             -%}
+                            <div class="Featured_product_quantity_selector">
+                                <div class="Qty_adjust_minus"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg></div>
+                                <div class="Qty_adjust_value">1</div>
+                                <div class="Qty_adjust_plus"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg></div>
+                            </div>
                         {%- endif -%}
 
                     {% when 'payment_methods' %}
@@ -313,11 +319,11 @@
         <div class="{{ cn }}">
             {% render 'load-css', file: 'product' %}    
             <div class="#grid @type:template {{ cn }}-grid" style="--template: {{ gallery_width }}% 1fr; --template-mobile: none; --gap: {{ gap }};">
-                <div>
-                    {{ Gallery }}            
-                </div>
                 <div>            
                     {{ Meta }}
+                </div>
+                <div>
+                    {{ Gallery }}            
                 </div>
             </div>
         </div>
@@ -387,6 +393,12 @@
     "name": "Featured product",
     "tag": "section",
     "settings": [
+        {
+            "type":"text",
+            "id":"description",
+            "label":"Your Description",
+            "default":"This set of sweets, snacks and drinks is ideal for both a party and a hideaway to munch on all by yourself."
+        },
         {
             "type": "text",
             "id": "heading",

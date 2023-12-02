@@ -42,7 +42,7 @@
                 <{{ NS }}>
                     <template data-input-template>{{ QtyInput }}</template>
                     <div class="{{ cn }}-inner" data-selector-wrapper>
-                        <select class="{{ cn }}-select" name="quantity" id="{{ input_id }}" form="{{ product_form_id }}">
+                        <select class="Product_quantity_selecotor__js {{ cn }}-select" name="quantity" id="{{ input_id }}" form="{{ product_form_id }}">
                             {%- for i in (1..limit) -%}
                                 {%- if variant.inventory_quantity > 10 and i == 10 -%}
                                     {%- capture LimitIndicator -%}+{%- endcapture -%}

@@ -13,6 +13,25 @@ $(document).ready(function(){
     });
   });
 
+  // Quantity selector
+  $('.Qty_adjust_plus').click(function(){
+    var currentValue = parseFloat($(this).parent('div').find('.Qty_adjust_value').html());
+    currentValue++;
+    $(this).parent('div').find('.Qty_adjust_value').html(currentValue);
+    $('.Product_quantity_selecotor__js').val(currentValue);
+    console.log($('.Product_quantity_selecotor__js').val());
+  });
+
+  $('.Qty_adjust_minus').click(function(){
+    var currentValue = parseFloat($(this).parent('div').find('.Qty_adjust_value').html());
+    if (currentValue > 1){
+      currentValue--;
+    }
+    $(this).parent('div').find('.Qty_adjust_value').html(currentValue);
+    $('.Product_quantity_selecotor__js').val(currentValue);
+    console.log($('.Product_quantity_selecotor__js').val()); 
+  });
+
 
   $('.Slideshow_outer').slick({
     infinite: true,
