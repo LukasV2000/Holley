@@ -121,7 +121,7 @@
         "b9bf1013-77e0-4c0a-8b8b-312cdeea7707": {
           "type": "feature",
           "settings": {
-            "icon": "star",
+            "icon": "custom",
             "heading": "Feature heading",
             "subheading": "Feature subheading",
             "prev_attach": false
@@ -130,7 +130,7 @@
         "b0416caf-dd40-451c-8cf1-ff7919ccc749": {
           "type": "feature",
           "settings": {
-            "icon": "star",
+            "icon": "custom",
             "heading": "Feature heading",
             "subheading": "Feature subheading",
             "prev_attach": false
@@ -139,7 +139,7 @@
         "1da3b2f9-9da3-4014-b3d3-3b21a9f2fa53": {
           "type": "feature",
           "settings": {
-            "icon": "star",
+            "icon": "custom",
             "heading": "Feature heading",
             "subheading": "Feature subheading",
             "prev_attach": false
