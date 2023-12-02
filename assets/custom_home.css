@@ -558,3 +558,51 @@ product-dynamic-checkout{
 .Index_reviews_carousel .slick-dots li button:before{
   display: none;
 }
+
+/* Product card */
+.shopify-section .\#product-card.\@image-padding .\#product-card-media{
+  margin: 0;
+}
+.shopify-section .\#product-card-badges{
+  padding: .5rem;
+}
+.shopify-section .\#product-card-badges .\#product-card-badge.\@type\:sale{
+  padding: .5rem;
+  background: #5720B7;
+  font-size: 16px;
+  font-weight: 400;
+}
+.shopify-section .\#product-card .\@display-style\:normal.\#button{
+  background: #D9D6FE !important;
+  color: #5720B7;
+  box-shadow: none;
+}
+.shopify-section .\#product-card  .\#product-card-caption.\@offset-top{
+  text-align: left;
+}
+.\#product-card.\@align\:center .\#product-card-price, .\#product-card.\@align\:center .\#product-card-rating{
+  margin-left: 0 !important;
+}
+.shopify-section .\#product-card-price .\#price-item.\@on-sale{
+  color: black;
+}
+.shopify-section .\#product-card-title{
+  font-weight: bold;
+}
+.shopify-section .\#product-card-rating-stars{
+  color: #5720B7;
+}
+.Product_card_outer{
+  position: relative;
+  overflow: initial !important;
+}
+.New_badge{
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  z-index: 9;
+}
+.New_badge img{
+  width: 100%;
+  max-width: 50px;
+}

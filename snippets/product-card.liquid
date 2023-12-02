@@ -143,8 +143,8 @@
         {%- if product.has_only_default_variant or available_variants.size == 1 -%}
             {%- capture Button_text -%}
                 <span class="{{ cn }}-express-button-text">
-                    {%- render 'icon', name: 'plus' -%}
-                    <span>{{ 'products.product.express_add_to_cart' | t }}</span>
+                    {% comment %} {%- render 'icon', name: 'plus' -%} {% endcomment %}
+                    <span>Buy now</span>
                 </span>
             {%- endcapture -%}
             {%- assign atts = 'data-to-cart' -%}
@@ -185,7 +185,19 @@
 {%- endif -%}
 
 
-<{{ wrapper }} class="{{ cn }} {% if dim_product %}@dim{% endif %} @align:{{ settings.product_card_align }} {% if horizontal == true %}@horizontal{% endif %} {% if settings.product_card_image_padding %}@image-padding{% endif %} {{ cn_shadow }}" style="--max-lines: {{ settings.product_card_title_max_lines }};">
+<{{ wrapper }} class="Product_card_outer {{ cn }} {% if dim_product %}@dim{% endif %} @align:{{ settings.product_card_align }} {% if horizontal == true %}@horizontal{% endif %} {% if settings.product_card_image_padding %}@image-padding{% endif %} {{ cn_shadow }}" style="--max-lines: {{ settings.product_card_title_max_lines }};">
+    {% for tag in product.tags %}
+        {% if tag contains 'new_badge' %}
+            {% assign new_badge = true %}
+        {% else %}
+            {% assign new_badge = false %}
+        {% endif %}
+    {% endfor %}
+    {% if new_badge %}
+        <div class="New_badge">
+            <img loading="lazy" src="https://cdn.shopify.com/s/files/1/0839/5941/5099/files/Group_324350_ea333fe4-2157-4d0e-b610-e207b156b8a5.png?v=1701544107">
+        </div>
+    {% endif %}
     {%- if product.url != blank -%}
         <a href="{{ product.url }}" class="stretched-link">{{ product.title }}</a>
     {%- endif -%}
@@ -266,6 +278,9 @@
         {%- if settings.product_card_price_position == 'before' -%}
             {{ Price }}
         {%- endif -%}
+        {% if product.type != blank %}
+            <p class="{{ cn }}-vendor">{{ product.type}}</p>
+        {% endif %}
         <h3 class="{{ cn }}-title">{{ product.title | default: onboarding_title }}</h3>
         {%- if settings.product_card_price_position == 'after' -%}
             {{ Price }}
