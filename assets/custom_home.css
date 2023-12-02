@@ -606,3 +606,9 @@ product-dynamic-checkout{
   width: 100%;
   max-width: 50px;
 }
+.Whole_featured_products_section .\#slideshow-thumbnails.\@layout-type\:slideshow .\#slideshow-thumbnails-inner{
+  display:none;
+}
+.Whole_featured_products_section product-dynamic-checkout .wallet-button-fade-in{
+  display: none;
+}
