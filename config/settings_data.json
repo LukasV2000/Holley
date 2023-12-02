@@ -31,7 +31,7 @@
     "product_card_show_vendor": false,
     "product_card_show_color_swatches": false,
     "product_card_enable_quick_view": false,
-    "product_card_show_express_button": false,
+    "product_card_show_express_button": true,
     "product_card_align": "center",
     "product_card_image_padding": true,
     "product_card_display_alt_image": true,
