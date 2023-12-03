@@ -1244,15 +1244,6 @@
         "columns": 5,
         "mobile_columns": 2
       }
-    },
-    "63d2d2f3-a24e-496d-b88b-abdb397e8767": {
-      "type": "d_newsletter",
-      "settings": {
-        "heading": "GET 10% OFF FOR YOUR FIRST PURCHASE",
-        "subheading": "We promise you no spam, and only the best tik tok deals in the world.",
-        "text_color": "#000000",
-        "bg_color": "#ffffff"
-      }
     }
   },
   "order": [
@@ -1275,7 +1266,6 @@
     "da2c0eaa-b023-4f1c-b10d-90cca54bdf88",
     "169752564009ee8951",
     "f224bd8e-ad52-401e-9c30-47d2bc870b71",
-    "165469329347188646",
-    "63d2d2f3-a24e-496d-b88b-abdb397e8767"
+    "165469329347188646"
   ]
 }
