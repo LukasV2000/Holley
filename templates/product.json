@@ -245,6 +245,16 @@
         "text": "Our goal is to create exceptional experience for you and your loved ones"
       }
     },
+    "5f8de7e3-b9e9-48eb-a2e8-1b5276e250aa": {
+      "type": "Text_image",
+      "settings": {
+        "title": "Want the whole experience?",
+        "text": "Our staff picked the most trending and popular candies and put everything in one box. Experience different cultures through their favourite candies.",
+        "btn_title": "Shop Now",
+        "btn_url": "",
+        "image": "shopify:\/\/shop_images\/Frame_324433.png"
+      }
+    },
     "16554757745dec0af9": {
       "type": "d_product-recommendations",
       "settings": {
@@ -292,6 +302,7 @@
     "1649081791eb3a0c3d",
     "main",
     "995d3492-134d-4afd-af8d-95b391f70218",
+    "5f8de7e3-b9e9-48eb-a2e8-1b5276e250aa",
     "16554757745dec0af9",
     "1697692424f53300c2",
     "a2254d99-9030-4262-b1a1-76541f8923f4"
