@@ -176,6 +176,7 @@ img{
 }
 .Featured_logos_outer img{
   max-height: 30px;
+  width: auto;
 }
 
 /* Featured collection */
@@ -562,6 +563,9 @@ product-dynamic-checkout{
   .Index_reviews_trust_image{
     max-width: 250px;
     width: 100%;
+  }
+  .shopify-section .\#product-card-express-button{
+    display: none;
   }
 }
 
