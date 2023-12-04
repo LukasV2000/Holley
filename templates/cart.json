@@ -1,1 +1,172 @@
-{"sections":{"main":{"type":"s_cart","blocks":{"5c7e55ff-1da3-4815-97fb-edf0f474fdf3":{"type":"subtotal","settings":{}},"37a05ef7-5d88-4b25-8014-bb7828173e7c":{"type":"tax_note","settings":{}},"29673dda-2b86-4bd0-8dea-fd65dda561be":{"type":"order_notes","disabled":true,"settings":{"default_state":"closed"}},"7daae28e-954a-4d5d-bdac-d5e8b1527aa3":{"type":"checkout","settings":{"show_payment_methods":true}},"b385a1a1-ec30-4920-8d99-3b6ca012a27e":{"type":"accelerated_checkout","settings":{}},"de0734b4-901f-4016-bf67-c4a31cc136ca":{"type":"free_shipping","settings":{}}},"block_order":["5c7e55ff-1da3-4815-97fb-edf0f474fdf3","37a05ef7-5d88-4b25-8014-bb7828173e7c","29673dda-2b86-4bd0-8dea-fd65dda561be","7daae28e-954a-4d5d-bdac-d5e8b1527aa3","b385a1a1-ec30-4920-8d99-3b6ca012a27e","de0734b4-901f-4016-bf67-c4a31cc136ca"],"settings":{"heading":"Your cart","show_stock_alert":true}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "s_cart",
+      "blocks": {
+        "5c7e55ff-1da3-4815-97fb-edf0f474fdf3": {
+          "type": "subtotal",
+          "settings": {
+          }
+        },
+        "37a05ef7-5d88-4b25-8014-bb7828173e7c": {
+          "type": "tax_note",
+          "settings": {
+          }
+        },
+        "29673dda-2b86-4bd0-8dea-fd65dda561be": {
+          "type": "order_notes",
+          "disabled": true,
+          "settings": {
+            "default_state": "closed"
+          }
+        },
+        "7daae28e-954a-4d5d-bdac-d5e8b1527aa3": {
+          "type": "checkout",
+          "settings": {
+            "show_payment_methods": true
+          }
+        },
+        "b385a1a1-ec30-4920-8d99-3b6ca012a27e": {
+          "type": "accelerated_checkout",
+          "settings": {
+          }
+        },
+        "de0734b4-901f-4016-bf67-c4a31cc136ca": {
+          "type": "free_shipping",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "5c7e55ff-1da3-4815-97fb-edf0f474fdf3",
+        "37a05ef7-5d88-4b25-8014-bb7828173e7c",
+        "29673dda-2b86-4bd0-8dea-fd65dda561be",
+        "7daae28e-954a-4d5d-bdac-d5e8b1527aa3",
+        "b385a1a1-ec30-4920-8d99-3b6ca012a27e",
+        "de0734b4-901f-4016-bf67-c4a31cc136ca"
+      ],
+      "settings": {
+        "heading": "Your cart",
+        "show_stock_alert": true
+      }
+    },
+    "63551180-b9d9-44f6-9f4f-1c36c0f98c4e": {
+      "type": "d_browsing-history",
+      "settings": {
+        "heading": "Browsing history",
+        "subheading": "",
+        "section_layout": "container",
+        "items_per_view": 4,
+        "enable_loop": true,
+        "enable_pagination": false
+      }
+    },
+    "1c236c23-4bbf-49fa-a6bc-3f71a7cc101f": {
+      "type": "d_faq",
+      "blocks": {
+        "template--21716628144443__1c236c23-4bbf-49fa-a6bc-3f71a7cc101f-question-1": {
+          "type": "question",
+          "settings": {
+            "heading": "Frequently asked question",
+            "icon": "",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "template--21716628144443__1c236c23-4bbf-49fa-a6bc-3f71a7cc101f-question-2": {
+          "type": "question",
+          "settings": {
+            "heading": "Frequently asked question",
+            "icon": "",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "template--21716628144443__1c236c23-4bbf-49fa-a6bc-3f71a7cc101f-question-3": {
+          "type": "question",
+          "settings": {
+            "heading": "Frequently asked question",
+            "icon": "",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21716628144443__1c236c23-4bbf-49fa-a6bc-3f71a7cc101f-question-1",
+        "template--21716628144443__1c236c23-4bbf-49fa-a6bc-3f71a7cc101f-question-2",
+        "template--21716628144443__1c236c23-4bbf-49fa-a6bc-3f71a7cc101f-question-3"
+      ],
+      "settings": {
+        "heading": "FAQ",
+        "subheading": "",
+        "section_layout": "narrow"
+      }
+    },
+    "8a0143e0-1727-4a54-9279-dbd416722358": {
+      "type": "d_popup-gallery",
+      "blocks": {
+        "template--21716628144443__8a0143e0-1727-4a54-9279-dbd416722358-image-1": {
+          "type": "image",
+          "settings": {
+            "product": "",
+            "product_subtitle": ""
+          }
+        },
+        "template--21716628144443__8a0143e0-1727-4a54-9279-dbd416722358-image-2": {
+          "type": "image",
+          "settings": {
+            "product": "",
+            "product_subtitle": ""
+          }
+        },
+        "template--21716628144443__8a0143e0-1727-4a54-9279-dbd416722358-image-3": {
+          "type": "image",
+          "settings": {
+            "product": "",
+            "product_subtitle": ""
+          }
+        },
+        "template--21716628144443__8a0143e0-1727-4a54-9279-dbd416722358-image-4": {
+          "type": "image",
+          "settings": {
+            "product": "",
+            "product_subtitle": ""
+          }
+        },
+        "template--21716628144443__8a0143e0-1727-4a54-9279-dbd416722358-image-5": {
+          "type": "image",
+          "settings": {
+            "product": "",
+            "product_subtitle": ""
+          }
+        },
+        "template--21716628144443__8a0143e0-1727-4a54-9279-dbd416722358-image-6": {
+          "type": "image",
+          "settings": {
+            "product": "",
+            "product_subtitle": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21716628144443__8a0143e0-1727-4a54-9279-dbd416722358-image-1",
+        "template--21716628144443__8a0143e0-1727-4a54-9279-dbd416722358-image-2",
+        "template--21716628144443__8a0143e0-1727-4a54-9279-dbd416722358-image-3",
+        "template--21716628144443__8a0143e0-1727-4a54-9279-dbd416722358-image-4",
+        "template--21716628144443__8a0143e0-1727-4a54-9279-dbd416722358-image-5",
+        "template--21716628144443__8a0143e0-1727-4a54-9279-dbd416722358-image-6"
+      ],
+      "settings": {
+        "heading": "Popup gallery",
+        "subheading": "",
+        "stacked_columns": true,
+        "columns": 6,
+        "mobile_columns": 3
+      }
+    }
+  },
+  "order": [
+    "main",
+    "63551180-b9d9-44f6-9f4f-1c36c0f98c4e",
+    "1c236c23-4bbf-49fa-a6bc-3f71a7cc101f",
+    "8a0143e0-1727-4a54-9279-dbd416722358"
+  ]
+}
