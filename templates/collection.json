@@ -1,1 +1,94 @@
-{"sections":{"header":{"type":"s_collection-header","settings":{"bg_image":"shopify:\/\/shop_images\/IMG_6876_228fc7dd-ad5c-42e1-9fc9-20b8c47b2157.jpg","show_collection_description":true}},"1731e527-d5a3-4669-8310-5ca852ba4abc":{"type":"d_rich-text","blocks":{"template--21462135669051__1731e527-d5a3-4669-8310-5ca852ba4abc-heading-1":{"type":"heading","settings":{"heading":"Rich text","heading_accent_enable":true,"heading_accent_use_cutom_color":false,"heading_accent_color":"#e22d00"}},"template--21462135669051__1731e527-d5a3-4669-8310-5ca852ba4abc-text-1":{"type":"text","settings":{"text":"<p>Use this text to share information about your brand with your customers.<br\/><\/p>"}},"template--21462135669051__1731e527-d5a3-4669-8310-5ca852ba4abc-buttons-1":{"type":"buttons","disabled":true,"settings":{"mobile_hidden":false,"f_button_label":"Shop now","f_button_link":"","f_button_style":"normal","f_button_custom_colors":false,"f_button_bg_color":"","f_button_text_color":"#ffffff","s_button_label":"","s_button_link":"","s_button_style":"normal","s_button_custom_colors":false,"s_button_bg_color":"","s_button_text_color":"#ffffff"}}},"block_order":["template--21462135669051__1731e527-d5a3-4669-8310-5ca852ba4abc-heading-1","template--21462135669051__1731e527-d5a3-4669-8310-5ca852ba4abc-text-1","template--21462135669051__1731e527-d5a3-4669-8310-5ca852ba4abc-buttons-1"],"disabled":true,"settings":{"section_layout":"default","text_align":"center","size":"md","use_custom_color":false,"text_color":"#ffffff","bg_color":"#383838"}},"main":{"type":"s_collection","settings":{"columns":4,"rows":3,"filters_type":"sidebar","hide_out_of_stock_filter":false,"show_active_filters":true,"color_swatches":true,"sidebar_width":20,"collapse_filters":false}},"777b9d1b-9921-4062-bbd5-a3e5e4ef9376":{"type":"d_browsing-history","settings":{"heading":"Browsing history","subheading":"","section_layout":"full","items_per_view":4,"enable_loop":true,"enable_pagination":false}}},"order":["header","1731e527-d5a3-4669-8310-5ca852ba4abc","main","777b9d1b-9921-4062-bbd5-a3e5e4ef9376"]}
+{
+  "sections": {
+    "header": {
+      "type": "s_collection-header",
+      "settings": {
+        "bg_image": "shopify:\/\/shop_images\/bg_91589380-129e-49dc-9df1-9ad934882d5e.png",
+        "show_collection_description": true
+      }
+    },
+    "1731e527-d5a3-4669-8310-5ca852ba4abc": {
+      "type": "d_rich-text",
+      "blocks": {
+        "template--21462135669051__1731e527-d5a3-4669-8310-5ca852ba4abc-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rich text",
+            "heading_accent_enable": true,
+            "heading_accent_use_cutom_color": false,
+            "heading_accent_color": "#e22d00"
+          }
+        },
+        "template--21462135669051__1731e527-d5a3-4669-8310-5ca852ba4abc-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers.<br\/><\/p>"
+          }
+        },
+        "template--21462135669051__1731e527-d5a3-4669-8310-5ca852ba4abc-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "mobile_hidden": false,
+            "f_button_label": "Shop now",
+            "f_button_link": "",
+            "f_button_style": "normal",
+            "f_button_custom_colors": false,
+            "f_button_bg_color": "",
+            "f_button_text_color": "#ffffff",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_style": "normal",
+            "s_button_custom_colors": false,
+            "s_button_bg_color": "",
+            "s_button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--21462135669051__1731e527-d5a3-4669-8310-5ca852ba4abc-heading-1",
+        "template--21462135669051__1731e527-d5a3-4669-8310-5ca852ba4abc-text-1",
+        "template--21462135669051__1731e527-d5a3-4669-8310-5ca852ba4abc-buttons-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_layout": "default",
+        "text_align": "center",
+        "size": "md",
+        "use_custom_color": false,
+        "text_color": "#ffffff",
+        "bg_color": "#383838"
+      }
+    },
+    "main": {
+      "type": "s_collection",
+      "settings": {
+        "columns": 4,
+        "rows": 3,
+        "filters_type": "sidebar",
+        "hide_out_of_stock_filter": false,
+        "show_active_filters": true,
+        "color_swatches": true,
+        "sidebar_width": 20,
+        "collapse_filters": false
+      }
+    },
+    "777b9d1b-9921-4062-bbd5-a3e5e4ef9376": {
+      "type": "d_browsing-history",
+      "settings": {
+        "heading": "Browsing history",
+        "subheading": "",
+        "section_layout": "container",
+        "items_per_view": 4,
+        "enable_loop": true,
+        "enable_pagination": false
+      }
+    }
+  },
+  "order": [
+    "header",
+    "1731e527-d5a3-4669-8310-5ca852ba4abc",
+    "main",
+    "777b9d1b-9921-4062-bbd5-a3e5e4ef9376"
+  ]
+}
