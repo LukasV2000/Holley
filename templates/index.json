@@ -502,7 +502,7 @@
             "heading": "WANT THE WHOLE EXPERIENCE? 🤔👇",
             "heading_accent_enable": true,
             "heading_accent_use_cutom_color": true,
-            "heading_accent_color": "#FFFFFF"
+            "heading_accent_color": "#ffffff"
           }
         },
         "template--21716628046139__a946dcee-0472-448c-8c6e-68c392804ec7-text-1": {
@@ -545,7 +545,7 @@
         "text_align": "center",
         "size": "md",
         "use_custom_color": true,
-        "text_color": "#FFFFFF",
+        "text_color": "#ffffff",
         "bg_color": "#7066e8"
       }
     },
@@ -682,7 +682,9 @@
         "product": "mystery-box",
         "gallery_width": 50,
         "slideshow_zoom": false,
-        "thumbnails_layout": "slideshow"
+        "thumbnails_layout": "slideshow",
+        "learn_more_title": "Learn more",
+        "learn_more_url": ""
       }
     },
     "0fbe5f9f-e27e-41f9-80e1-a70f2419a01d": {
@@ -1177,7 +1179,7 @@
         "29422e84-b1e4-42cf-bbac-f423f8e7ccc9": {
           "type": "question",
           "settings": {
-            "heading": "Social Media Star? 🌟",
+            "heading": "🌟 Social Media Star?",
             "icon": "",
             "text": "<p>Join the Holly Lollies Family - Influencers & Creators Welcome! 🎉📸 Whether you're a budding micro-influencer or a seasoned content creator, we're excited to team up with you! At Holly Lollies, we believe in the power of collaboration, no matter the size of your audience. Reach out to us at <a href=\"mailto:info@hollylollies.com\">info@hollylollies.com<\/a> and let's chat about spreading the sweet joy of our candy boxes. Don't hesitate – we're eager to work with creators of all kinds and spread the Holly Lollies happiness as far as we can. Your voice matters, and together, we can make the world a little sweeter, one box at a time!<\/p>"
           }
