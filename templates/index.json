@@ -85,16 +85,16 @@
             "image": "shopify:\/\/shop_images\/Press_logo_2_7c69ecd0-5f1c-4799-a460-0f6225d2bb27.png"
           }
         },
-        "35b1e678-7b7e-43fa-9001-fb0eb45d788c": {
-          "type": "Logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-12-05_at_18.36.01-removebg-preview.png"
-          }
-        },
         "db06d186-c05c-4100-8dfa-9a3c9f763a4b": {
           "type": "Logo",
           "settings": {
             "image": "shopify:\/\/shop_images\/Screenshot_2023-12-05_at_18.34.20-removebg-preview_1.png"
+          }
+        },
+        "35b1e678-7b7e-43fa-9001-fb0eb45d788c": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-12-05_at_18.36.01-removebg-preview.png"
           }
         },
         "61b3d260-b27b-4815-9a63-7c7e4214eed2": {
@@ -108,8 +108,8 @@
         "3c0d5d71-dce7-4bdf-824f-fbcbd3947b44",
         "6b84b0c3-645a-46ef-99b4-861ce87ddd9b",
         "567903e5-6ce5-4553-b50f-eadc62035a60",
-        "35b1e678-7b7e-43fa-9001-fb0eb45d788c",
         "db06d186-c05c-4100-8dfa-9a3c9f763a4b",
+        "35b1e678-7b7e-43fa-9001-fb0eb45d788c",
         "61b3d260-b27b-4815-9a63-7c7e4214eed2"
       ],
       "settings": {
