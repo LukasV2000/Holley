@@ -213,9 +213,10 @@ img{
 
 /* Featured collection */
 .Collection_list_outer{
-  padding-top: 8rem;
-  padding-bottom: 2rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   position: relative;
+  margin: 5rem 0;
 }
 .Collection_list_outer .donut{
   position: absolute;
@@ -229,6 +230,9 @@ img{
   margin-bottom: 0;
 }
 @media only screen and (max-width: 767px) {
+  .Collection_list_outer{
+    margin: 3rem 0;
+  }
   .Featured_logos_outer img{
     max-height: 20px;
   }
@@ -242,7 +246,7 @@ img{
 }
 /* Collection grids */
 .Featured_collection_outer{
-  padding: 6rem 0;
+  padding: 5rem 0;
   background-position: 0;
   background-size: cover;
 }
@@ -252,7 +256,7 @@ img{
 
 /* Multifeatures */
 .Index_personalization_outer{
-    margin: 3rem auto;
+    margin: 5rem auto;
 }
 .Index_personalization_flex_container{
     display: flex;
@@ -265,6 +269,9 @@ img{
     width: 100%;
 }
 @media only screen and (max-width: 767px) {
+    .Index_personalization_outer{
+      margin: 3rem auto;
+    }
     .Featured_collection_outer{
       padding: 3rem 0;
     }
@@ -315,6 +322,7 @@ img{
 
 /* Featured products */
 .Whole_featured_products_section{
+  margin: 5rem 0;
   padding: 6rem 0;
   background-position: center;
   background-size: cover;
@@ -497,6 +505,7 @@ product-dynamic-checkout{
 /* Faq outer */
 .Faq_outer{
   padding: 6rem 0;
+  margin: 5rem 0;
 }
 .Faq_outer{
   background: #FEF0C7;
@@ -560,6 +569,9 @@ product-dynamic-checkout{
   padding-top: 3rem;
 }
 @media only screen and (max-width: 1400px) {
+  .Faq_outer{
+    margin: 3rem 0;
+  }
   .Index_reviews_cell_headline{
     font-size: 26px;
   }
@@ -842,4 +854,34 @@ product-to-cart:hover{
   font-size: 14px;
   font-weight: bold;
   opacity: 1;
+}
+
+.Hero_background_video{
+  padding: 3rem 0;
+  margin-top: 0rem;
+  background: #FEF0C7;
+}
+.Hero_background_video .\#section-body.\@spaced{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.Richtext_outer{
+  padding: 3rem 0;
+}
+.shopify-section .\#section-body.\@spaced{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 767px) {
+  .Hero_background_video{
+    margin-top: -3rem;
+    margin-top: -3rem;
+    padding: 3rem 0;
+  }
+  .Richtext_outer{
+    padding: 3rem 0;
+  }
+  .Hero_background_video .\#floating-content-wrapper.\@mobile-position\:offset .\#floating-content{
+    display: none;
+  }
 }

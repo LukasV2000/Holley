@@ -17,16 +17,16 @@
         size: section.settings.size
     %}
 {%- endcapture -%}
-
-{% render 'section-body',
-    content: Content,
-    container: section.settings.section_layout,
-    inner_spaced: inner_spaced,
-    spaced: spaced,
-    text_color: text_color,
-    bg_color: bg_color
-%}
-
+<div class="Richtext_outer">
+    {% render 'section-body',
+        content: Content,
+        container: section.settings.section_layout,
+        inner_spaced: inner_spaced,
+        spaced: spaced,
+        text_color: text_color,
+        bg_color: bg_color
+    %}
+</div>
 {% schema %}
 {
     "name": "Rich text",

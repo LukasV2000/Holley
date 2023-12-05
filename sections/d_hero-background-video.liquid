@@ -23,70 +23,70 @@
 {%- if mobile_position == 'offset' and use_box == false -%}
     {%- assign mobile_box = true -%}
 {%- endif -%}
-
-{%- capture Hero_text -%}
-    {% render 'hero', 
-        blocks: section.blocks,
-        width: section.settings.width,
-        align: text_x,
-        size: section.settings.size,
-        auto_colors: true,
-        box: use_box,
-        mobile_box: mobile_box,
-        hide_mobile_buttons: hide_mobile_buttons
-    %}
-{%- endcapture -%}
-
-{%- capture Background_video -%}
-    {%- render 'background-video',
-        video: video,
-        height: video_height,
-        display_desktop_only: section.settings.display_desktop_only
-    -%}
-{%- endcapture -%}
-
-{%- capture Caption -%}
-    {% render 'floating-content',
-        content: Hero_text,
-        absolute: true,
-        x: text_x,
-        y: text_y,
-        mobile_position: mobile_position,
-        container: true,
-        padded: true
-    %}
-    
-    {%- if f_button_link -%}
-        {%- if stretched_link -%}
-            <a class="stretched-link" href="{{ f_button_link }}"></a>
-        {%- elsif hide_mobile_buttons -%}
-            <a class="stretched-link desktop-hidden" href="{{ f_button_link }}"></a>
-        {%- endif -%}
-    {%- endif -%}
-{%- endcapture -%}
-
-{%- capture Content -%}
-    <div class="rel">
-        {% render 'media',
-            image: section.settings.image,
-            image_mobile: section.settings.mobile_image,
-            placeholder: 'lifestyle',
-            overlay: section.settings.overlay,
-            content: Background_video,
-            type: 'height',
-            height: '100%'
+<div class="Hero_background_video">
+    {%- capture Hero_text -%}
+        {% render 'hero', 
+            blocks: section.blocks,
+            width: section.settings.width,
+            align: text_x,
+            size: section.settings.size,
+            auto_colors: true,
+            box: use_box,
+            mobile_box: mobile_box,
+            hide_mobile_buttons: hide_mobile_buttons
         %}
-        {{ Caption }}
-    </div>
-{%- endcapture -%}
+    {%- endcapture -%}
 
-{% render 'section-body',
-    content: Content,
-    container: section.settings.section_layout,
-    spaced: section_spaced,
-    curved: section_curved
-%}
+    {%- capture Background_video -%}
+        {%- render 'background-video',
+            video: video,
+            height: video_height,
+            display_desktop_only: section.settings.display_desktop_only
+        -%}
+    {%- endcapture -%}
 
+    {%- capture Caption -%}
+        {% render 'floating-content',
+            content: Hero_text,
+            absolute: true,
+            x: text_x,
+            y: text_y,
+            mobile_position: mobile_position,
+            container: true,
+            padded: true
+        %}
+        
+        {%- if f_button_link -%}
+            {%- if stretched_link -%}
+                <a class="stretched-link" href="{{ f_button_link }}"></a>
+            {%- elsif hide_mobile_buttons -%}
+                <a class="stretched-link desktop-hidden" href="{{ f_button_link }}"></a>
+            {%- endif -%}
+        {%- endif -%}
+    {%- endcapture -%}
+
+    {%- capture Content -%}
+        <div class="rel">
+            {% render 'media',
+                image: section.settings.image,
+                image_mobile: section.settings.mobile_image,
+                placeholder: 'lifestyle',
+                overlay: section.settings.overlay,
+                content: Background_video,
+                type: 'height',
+                height: '100%'
+            %}
+            {{ Caption }}
+        </div>
+    {%- endcapture -%}
+
+    {% render 'section-body',
+        content: Content,
+        container: section.settings.section_layout,
+        spaced: section_spaced,
+        curved: section_curved
+    %}
+</div>
 {% schema %}
 {
     "name": "Hero background video",
