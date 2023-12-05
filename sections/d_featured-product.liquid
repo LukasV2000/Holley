@@ -14,6 +14,11 @@
 
 
 <div class="Whole_featured_products_section">
+    <div class="Top_line_headline #container @width:default">
+        <h2 class="#hero-heading fs-d4 heading-font">                 
+            <span class="#accent-text" style="--accent: linear-gradient(90deg, transparent 0, rgba(255, 255, 255, 0.5) 15%, rgba(255, 255, 255, 0.5) 85%, transparent 100%)">{{section.settings.headline_main}}</span>
+        </h2>
+    </div>
     {%- capture Gallery -%}
         {%- if featured_product == blank -%}
             {% render 'media',
@@ -395,6 +400,12 @@
     "name": "Featured product",
     "tag": "section",
     "settings": [
+        {
+            "type":"text",
+            "id":"headline_main",
+            "label":"Your Headline",
+            "default":"WANT THE WHOLE EXPERIENCE? 🤔👇"
+        },
         {
             "type":"text",
             "id":"description",

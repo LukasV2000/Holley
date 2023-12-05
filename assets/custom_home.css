@@ -7,6 +7,16 @@ html{
 .\#header-main{
   padding: 5px 0;
 }
+@media only screen and (max-width: 767px) {
+  .Desktop_only{
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 767px) {
+  .Mobile_only{
+    display: none !important;
+  }
+}
 /* Slideshow */
 img{
   width: 100%;
@@ -798,4 +808,16 @@ product-to-cart:hover{
 .Collection_Card_image_outer img{
   position: absolute;
   top: 0;
+}
+
+/* Featured products section headline */
+.Top_line_headline{
+  text-align: center;
+  margin-bottom: 5rem;
+  color: white;
+}
+@media only screen and (max-width: 767px) {
+  .Top_line_headline{
+    margin-bottom: 30px;
+  }
 }

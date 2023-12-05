@@ -26,7 +26,7 @@
                 </div>
             {% endfor %}
         </div>
-        <div>
+        <div class="Desktop_only">
             {% for block in section.blocks %}
                 <div data="{{block.id}}" class="Index_personalization_image__js" {% if forloop.index > 1 %}style="display:none"{% endif %}>
                     <img  loading="eager" src="{{block.settings.image | img_url: 'master'}}" >
