@@ -68,6 +68,7 @@
       "blocks": {
         "3c0d5d71-dce7-4bdf-824f-fbcbd3947b44": {
           "type": "Logo",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Screenshot_2023-12-05_at_18.24.34-removebg-preview.png"
           }
