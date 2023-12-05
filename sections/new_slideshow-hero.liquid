@@ -1,6 +1,20 @@
 <div class="Slideshow_outer">
   {% for block in section.blocks %}
-    <div class="Slideshow_slide_outer">
+    <div class="Slideshow_slide_outer Slideshow_slide_block_{{block.id }}">
+      <style>
+        {% if block.settings.image_bg != blank %}
+          .Slideshow_slide_block_{{block.id }}{
+            background-image: url({{block.settings.image_bg | img_url: 'master' }});
+          }
+        {% endif %}
+        {% if block.settings.image_bg_mob != blank %}
+        @media only screen and (max-width: 767px) {
+          .Slideshow_slide_block_{{block.id }}{
+            background-image: url({{block.settings.image_bg_mob | img_url: 'master' }});
+          }
+        }
+        {% endif %}
+      </style>
       <div class="Slideshow_slide_inner">
         <div>
           {% if block.settings.headline != blank %}
@@ -9,7 +23,9 @@
           {% if block.settings.info != blank %}
             <div class="Slideshow_text">{{ block.settings.info }}</div>
           {% endif %}
-          <img loading="lazy" class="Slideshow_reviews" src="https://cdn.shopify.com/s/files/1/0839/5941/5099/files/Trustpilot_Micro.png?v=1701456473">
+          {% if block.settings.trust_image != blank  %}
+            <img loading="lazy" class="Slideshow_reviews" src="{{block.settings.trust_image | img_url: 'master'}}">
+          {% endif %}
           <div class="Slideshow_buttons">
             {% if block.settings.button_title_1 != blank %}
               <div>
@@ -25,9 +41,8 @@
         </div>
         <div>
           <div class="Slideshow_image_box">
-            <img loading="lazy" src="{{ block.settings.image | img_url: 'master' }}">
             {% if block.settings.image != blank %}
-            <img loading="lazy" src="{{ block.settings.image | img_url: 'master' }}">
+              <img loading="lazy" src="{{ block.settings.image | img_url: 'master' }}">
             {% endif %}
           </div>
         </div>
@@ -49,6 +64,21 @@
                 "type": "image_picker",
                 "id": "image",
                 "label": "Your Image"
+            },
+            {
+              "type": "image_picker",
+              "id": "trust_image",
+              "label": "Your Image (Trust reviews)"
+            },
+            {
+              "type": "image_picker",
+              "id": "image_bg",
+              "label": "Your Image (Background Desktop)"
+            },
+            {
+              "type": "image_picker",
+              "id": "image_bg_mob",
+              "label": "Your Image (Background Mobile)"
             },
             {
                 "type": "text",

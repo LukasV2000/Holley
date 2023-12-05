@@ -49,7 +49,10 @@ $(document).ready(function(){
     infinite: true,
     slidesToShow:1,
     slidesToScroll: 1,
-    dots: true
+    dots: true,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    pauseOnHover: false
   });
   				
   $('.Index_reviews_carousel').slick({
