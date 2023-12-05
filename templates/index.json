@@ -1171,7 +1171,15 @@
           "settings": {
             "heading": "Got a Question or Just Want to Chat?",
             "icon": "",
-            "text": "<p>We're all ears at Holly Lollies! If you've got any questions, concerns, or just some sweet feedback, we're here for you. Feel free to drop us an email at <a href=\"mailto:info@hollylollies.com\">info@hollylollies.com<\/a>. Our team is on standby from 9am to 5pm (GMT+2), Monday through Friday, and we aim to get back to you within 24 hours. Let's talk candy!<\/p>"
+            "text": "<p>We're all ears at Holly Lollies! If you've got any questions, concerns, or just some sweet feedback, we're here for you.<strong> Feel free to drop us an email at <\/strong><a href=\"mailto:info@hollylollies.com\"><strong>info@hollylollies.com<\/strong><\/a><strong>.<\/strong> Our team is on standby from 9am to 5pm (GMT+2), Monday through Friday, and we aim to get back to you within 24 hours. Let's talk candy!<\/p>"
+          }
+        },
+        "29422e84-b1e4-42cf-bbac-f423f8e7ccc9": {
+          "type": "question",
+          "settings": {
+            "heading": "Social Media Star? 🌟",
+            "icon": "",
+            "text": "<p>Join the Holly Lollies Family - Influencers & Creators Welcome! 🎉📸 Whether you're a budding micro-influencer or a seasoned content creator, we're excited to team up with you! At Holly Lollies, we believe in the power of collaboration, no matter the size of your audience. Reach out to us at <a href=\"mailto:info@hollylollies.com\">info@hollylollies.com<\/a> and let's chat about spreading the sweet joy of our candy boxes. Don't hesitate – we're eager to work with creators of all kinds and spread the Holly Lollies happiness as far as we can. Your voice matters, and together, we can make the world a little sweeter, one box at a time!<\/p>"
           }
         }
       },
@@ -1182,7 +1190,8 @@
         "4b916747-582a-4eca-97bb-19e02857ffdf",
         "67241725-818e-483e-8e6f-05b2aee5f7ed",
         "9f1d21df-769d-408e-824d-3debf3ecc0bc",
-        "34aa93b8-76b9-44c8-b98a-ec2293b43ed6"
+        "34aa93b8-76b9-44c8-b98a-ec2293b43ed6",
+        "29422e84-b1e4-42cf-bbac-f423f8e7ccc9"
       ],
       "settings": {
         "heading": "FAQ",
