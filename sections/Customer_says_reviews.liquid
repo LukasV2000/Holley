@@ -1,0 +1,89 @@
+<div class="Customer_says_outer #container @width:default">
+    {% if section.settings.title != blank %}
+        <h2 class="#hero-heading fs-d4 heading-font">  
+            <span class="#accent-text" style="--accent: linear-gradient(90deg, transparent 0, rgba(251, 207, 0, 0.5) 15%, rgba(251, 207, 0, 0.5) 85%, transparent 100%)">{{section.settings.title}}</span>  
+        </h2>
+    {% endif %}
+    {% if section.settings.reviews_img != blank %}
+        <img loading="lazy" class="Index_reviews_trust_image" src="{{section.settings.reviews_img | img_url: 'master' }}">
+    {% endif %}
+</div>
+<div class="Customer_says_outer_cells #container @width:default">
+    <div class="Customer_says_reviews_outer">
+        {% for block in section.blocks %}
+            <div class="Customer_says_reviews_cell">
+                <div class="Customer_says_reviews_cell_note">
+                    <div>
+                        <img loading="lazy src="{{ block.settings.avatar | img_url: 'master' }}">
+                    </div>
+                    <div>
+                        <p class="Customer_says_name">{{ block.settings.name }}</p>
+                        <p class="Customer_says_info">{{ block.settings.info }}</p>
+                    </div>
+                </div>
+                <img class="Customer_reviews_stars" loading="lazy" src="https://cdn.shopify.com/s/files/1/0839/5941/5099/files/Stars_1.png?v=1701788012">
+                <div class="Customer_says_review_content">{{ block.settings.content }}</div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{% schema %}
+    {
+      "name": "Reviews Carousel",
+      "settings": [
+        {
+            "type":"text",
+            "id": "title",
+            "label":"Your Title",
+            "default":"This is what our community says"
+        },
+        {
+            "type":"image_picker",
+            "id":"reviews_img",
+            "label":"Your Reviews Image"
+        }
+      ],
+      "blocks": [
+          {
+            "name": "review",
+            "type": "Review",
+            "settings": [
+              {
+                  "type": "image_picker",
+                  "id": "avatar",
+                  "label": "Your Avatar"
+              },
+              {
+                  "type": "text",
+                  "id": "name",
+                  "label": "Your Name",
+                  "default":"John Smith"
+              },
+              {
+                  "type": "text",
+                  "id": "info",
+                  "label": "Your Info",
+                  "default":"Designer"
+              },
+              {
+                  "type": "richtext",
+                  "id": "content",
+                  "label": "Your content",
+                  "default":"<p>LOVE their sweaters! Exactly what I was looking for. Ordered couple of them and all are perfect. For the price, the material is better than expected! The inside is incredibly soft. No downsides, perfect sweaters!</p>"
+              }
+            ]
+          }
+        ],
+        "presets": [
+          {
+            "name": "Customer Says Reviews"
+          }
+        ]
+    }
+  {% endschema %}
+  
+  {% stylesheet %}
+  {% endstylesheet %}
+  
+  {% javascript %}
+  {% endjavascript %}

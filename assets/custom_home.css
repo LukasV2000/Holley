@@ -881,3 +881,108 @@ product-to-cart:hover{
     display: none;
   }
 }
+
+
+/* Reviews section */
+.Customer_says_reviews_outer{
+  margin-top: 3rem;
+  padding: 1rem;
+}
+.Customer_says_reviews_outer .Customer_says_reviews_cell{
+  width: 100%;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+}
+.Customer_says_reviews_cell_note .Customer_says_name{
+  font-weight: bold;
+  margin:  0;
+  font-size: 18px;
+}
+.Customer_says_reviews_cell_note .Customer_says_info{
+  font-weight: 200;
+  margin:  0;
+  font-size: 16px; 
+}
+.Customer_says_reviews_cell_note{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.Customer_says_reviews_cell_note > div:nth-child(1){
+  width: 30%;
+}
+.Customer_says_reviews_cell_note > div:nth-child(2){
+  width: 100%;
+}
+.Customer_reviews_stars{
+  width: 100%;
+  max-width: 120px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.Customer_says_review_content p{
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0;
+}
+.Customer_says_reviews_outer{
+  padding-bottom: 70px;
+}
+@media only screen and (max-width: 767px) {
+  .Customer_says_outer_cells{
+    padding: 0;
+    margin-top: 0;
+  }
+  .shopify-section .Customer_says_reviews_outer{
+    margin-top: 0;
+  }
+}
+
+
+
+.Customer_says_reviews_outer .slick-dots{
+  display: inline-block;
+  width: auto;
+  padding: 0px 35px;
+  border-radius: 20px;
+  background: #D9D6FE;
+  left: calc(100% - 53%);
+  bottom: 0;
+}
+.Customer_says_reviews_outer .slick-dots li{
+  width: 35px;
+}
+.Customer_says_reviews_outer .slick-dots li button{
+  width: 35px;
+  height: 2px;
+  border-radius: 5px;
+  background: white;
+}
+.Customer_says_reviews_outer .slick-dots li.slick-active button{
+  background: #5720B7;
+}
+.Customer_says_reviews_outer .slick-dots li button:before{
+  display: none;
+}
+@media only screen and (max-width: 767px) {
+  .Customer_says_reviews_outer .slick-dots{
+    display: inline-block;
+    width: auto;
+    padding: 0px 15px;
+    border-radius: 20px;
+    background: #D9D6FE;
+    left: 30%;
+  }
+  .Customer_says_reviews_outer .slick-dots li{
+    width: 25px;
+  }
+  .Customer_says_reviews_outer .slick-dots li button{
+    width: 25px;
+    height: 2px;
+    border-radius: 5px;
+    background: white;
+  }
+}
