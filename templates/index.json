@@ -159,7 +159,7 @@
           "settings": {
             "collection": "frontpage",
             "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_17.39.39.png",
-            "custom_title": "LOLLIES FROM USA"
+            "custom_title": "HOTTEST DEALS"
           }
         },
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-2": {
@@ -167,7 +167,7 @@
           "settings": {
             "collection": "",
             "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_17.39.43.png",
-            "custom_title": "DRINKS"
+            "custom_title": "BEST-SELLERS"
           }
         },
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-3": {
@@ -183,7 +183,7 @@
           "settings": {
             "collection": "",
             "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_17.39.53.png",
-            "custom_title": "FOOD"
+            "custom_title": "SOFT DRINKS"
           }
         },
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-5": {
@@ -191,7 +191,7 @@
           "settings": {
             "collection": "",
             "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_17.29.52.png",
-            "custom_title": "LOLLIES FROM JAPAN"
+            "custom_title": "CANDIES & POPCORN"
           }
         },
         "cc48d79d-b305-47b0-b5e3-ecc98d523344": {
@@ -199,7 +199,7 @@
           "settings": {
             "collection": "",
             "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_17.19.34.png",
-            "custom_title": "BEST-SELLERS"
+            "custom_title": "CEREALS & INSTANT SOUPS"
           }
         }
       },
