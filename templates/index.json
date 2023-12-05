@@ -8,7 +8,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Elements-geometric-shape-square-frame.png",
             "headline": "Your Passport to Global Flavors",
-            "info": "<p>Taste the World, One Lolly at a Time!<\/p>",
+            "info": "<p>Uncover the Secrets of International Sweets! 🍭🍫<\/p>",
             "button_title_1": "Shop now",
             "button_url_1": "",
             "button_title_2": "",
@@ -17,6 +17,7 @@
         },
         "86fd6be7-0f57-4886-9fe8-53a6ce37d83c": {
           "type": "Slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_324433.png",
             "headline": "Superlicious candies",
@@ -29,6 +30,7 @@
         },
         "a68b052d-24bf-47b7-b59d-61cdac4617f4": {
           "type": "Slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/93.png",
             "headline": "Superlicious candies",
