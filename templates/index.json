@@ -731,6 +731,58 @@
         "section_button_label": ""
       }
     },
+    "da2c0eaa-b023-4f1c-b10d-90cca54bdf88": {
+      "type": "d_rich-text",
+      "blocks": {
+        "template--21462135734587__da2c0eaa-b023-4f1c-b10d-90cca54bdf88-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "EXPLORE DIFFERENT CULTURES",
+            "heading_accent_enable": true,
+            "heading_accent_use_cutom_color": false,
+            "heading_accent_color": "#e22d00"
+          }
+        },
+        "template--21462135734587__da2c0eaa-b023-4f1c-b10d-90cca54bdf88-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>⭐⭐⭐⭐⭐ <\/p>"
+          }
+        },
+        "template--21462135734587__da2c0eaa-b023-4f1c-b10d-90cca54bdf88-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "mobile_hidden": false,
+            "f_button_label": "EXPLORE NOW",
+            "f_button_link": "",
+            "f_button_style": "normal",
+            "f_button_custom_colors": false,
+            "f_button_bg_color": "",
+            "f_button_text_color": "#ffffff",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_style": "normal",
+            "s_button_custom_colors": false,
+            "s_button_bg_color": "",
+            "s_button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--21462135734587__da2c0eaa-b023-4f1c-b10d-90cca54bdf88-heading-1",
+        "template--21462135734587__da2c0eaa-b023-4f1c-b10d-90cca54bdf88-text-1",
+        "template--21462135734587__da2c0eaa-b023-4f1c-b10d-90cca54bdf88-buttons-1"
+      ],
+      "settings": {
+        "section_layout": "default",
+        "text_align": "center",
+        "size": "md",
+        "use_custom_color": false,
+        "text_color": "#ffffff",
+        "bg_color": "#383838"
+      }
+    },
     "4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3": {
       "type": "d_hero-background-video",
       "blocks": {
@@ -1070,60 +1122,6 @@
         "section_layout": "narrow"
       }
     },
-    "da2c0eaa-b023-4f1c-b10d-90cca54bdf88": {
-      "type": "d_rich-text",
-      "blocks": {
-        "template--21462135734587__da2c0eaa-b023-4f1c-b10d-90cca54bdf88-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Hear It Directly from Our Satisfied Patrons",
-            "heading_accent_enable": true,
-            "heading_accent_use_cutom_color": false,
-            "heading_accent_color": "#e22d00"
-          }
-        },
-        "template--21462135734587__da2c0eaa-b023-4f1c-b10d-90cca54bdf88-text-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>⭐⭐⭐⭐⭐ <\/p>"
-          }
-        },
-        "template--21462135734587__da2c0eaa-b023-4f1c-b10d-90cca54bdf88-buttons-1": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "mobile_hidden": false,
-            "f_button_label": "Shop now",
-            "f_button_link": "",
-            "f_button_style": "normal",
-            "f_button_custom_colors": false,
-            "f_button_bg_color": "",
-            "f_button_text_color": "#ffffff",
-            "s_button_label": "",
-            "s_button_link": "",
-            "s_button_style": "normal",
-            "s_button_custom_colors": false,
-            "s_button_bg_color": "",
-            "s_button_text_color": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "template--21462135734587__da2c0eaa-b023-4f1c-b10d-90cca54bdf88-heading-1",
-        "template--21462135734587__da2c0eaa-b023-4f1c-b10d-90cca54bdf88-text-1",
-        "template--21462135734587__da2c0eaa-b023-4f1c-b10d-90cca54bdf88-buttons-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "section_layout": "default",
-        "text_align": "center",
-        "size": "md",
-        "use_custom_color": false,
-        "text_color": "#ffffff",
-        "bg_color": "#383838"
-      }
-    },
     "169752564009ee8951": {
       "type": "apps",
       "blocks": {
@@ -1281,12 +1279,12 @@
     "165469275319e90978",
     "b03fa275-5869-46d4-9b3b-f53193c36f21",
     "0fbe5f9f-e27e-41f9-80e1-a70f2419a01d",
+    "da2c0eaa-b023-4f1c-b10d-90cca54bdf88",
     "4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3",
     "99fc637c-2af8-4a3d-a5c8-83ad7719eab3",
     "39b5950a-383c-43e2-bfb6-1ae39fc33ad6",
     "7098ba4b-7068-4e42-af6b-541a4ebf4371",
     "fca67246-1b86-436b-a889-fbec115fd5ee",
-    "da2c0eaa-b023-4f1c-b10d-90cca54bdf88",
     "169752564009ee8951",
     "f224bd8e-ad52-401e-9c30-47d2bc870b71",
     "165469329347188646"
