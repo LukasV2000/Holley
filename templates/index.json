@@ -69,31 +69,37 @@
         "61b3d260-b27b-4815-9a63-7c7e4214eed2": {
           "type": "Logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Vector_52227e6a-e6a3-4e53-8ff3-c57e5c1e9378.png"
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-12-05_at_18.15.44-removebg-preview.png"
           }
         },
         "567903e5-6ce5-4553-b50f-eadc62035a60": {
           "type": "Logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Press_logo_2_7c69ecd0-5f1c-4799-a460-0f6225d2bb27.png"
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-12-05_at_18.14.05-removebg-preview_1.png"
           }
         },
         "db06d186-c05c-4100-8dfa-9a3c9f763a4b": {
           "type": "Logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Press_logo_1_47302021-18ef-44f5-8602-1c86d00a509d.png"
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-12-05_at_18.08.37-removebg-preview.png"
           }
         },
         "6b84b0c3-645a-46ef-99b4-861ce87ddd9b": {
           "type": "Logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Press_logo_3_c5dece76-d13c-49bd-800c-41c32afb8cef.png"
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-12-05_at_18.11.45-removebg-preview.png"
           }
         },
         "3c0d5d71-dce7-4bdf-824f-fbcbd3947b44": {
           "type": "Logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Press_logo_fc121407-c0b1-4025-bed4-4168a305720f.png"
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-12-05_at_18.13.06-removebg-preview.png"
+          }
+        },
+        "97faead2-583b-470e-a9e9-67d1d7ca778b": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-12-05_at_18.15.55-removebg-preview.png"
           }
         }
       },
@@ -102,7 +108,8 @@
         "567903e5-6ce5-4553-b50f-eadc62035a60",
         "db06d186-c05c-4100-8dfa-9a3c9f763a4b",
         "6b84b0c3-645a-46ef-99b4-861ce87ddd9b",
-        "3c0d5d71-dce7-4bdf-824f-fbcbd3947b44"
+        "3c0d5d71-dce7-4bdf-824f-fbcbd3947b44",
+        "97faead2-583b-470e-a9e9-67d1d7ca778b"
       ],
       "settings": {
       }
