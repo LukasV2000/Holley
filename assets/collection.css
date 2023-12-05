@@ -67,8 +67,7 @@
 }
 .\#collection-mobile-filters-button {
   display: block;
-  margin-top: 1rem;
-  position: sticky;
-  bottom: 1rem;
+  margin-bottom: 1.5rem;
+  /* position: sticky; */
   z-index: 9;
 }

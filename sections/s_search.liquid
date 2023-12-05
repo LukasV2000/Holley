@@ -148,12 +148,12 @@
     <div class="{{ cn }}-grid" section-id="{{ section.id }}">
         {% render 'collection-loader' %}
         {%- paginate search.results by product_per_page -%}
+             {{ Mobile_filters_button }}
             <div class="#grid @type:columns" style="--columns: 4; --columns-mobile: 2; --gap: 1rem; --gap-mobile: 1rem;">
                 {% for product in search.results %}
                     {% render 'product-card', product: product %}
                 {% endfor %}
             </div>
-            {{ Mobile_filters_button }}
             {%- if paginate.pages > 1 -%}
                 {% render 'collection-pagination', paginate: paginate, anchor: '' %}
             {%- endif -%}    

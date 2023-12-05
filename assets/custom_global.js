@@ -44,6 +44,13 @@ $(document).ready(function(){
     });
   });
 
+  // $('.Product_text_image_button_scroll').click(function(evt){
+  //   evt.preventDefault();
+  //   $('html, body').animate({
+  //       scrollTop: $(".Product_section_top__js").offset().top
+  //   }, 500);
+  // });
+
 
   $('.Slideshow_outer').slick({
     infinite: true,

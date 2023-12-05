@@ -98,7 +98,9 @@
                                 product_form_id: product_form_id,
                                 id: block.id,
                                 use_stock_notifier: block.settings.enable_stock_notifier,
-                                show_dynamic_checkout: block.settings.show_dynamic_checkout
+                                show_dynamic_checkout: block.settings.show_dynamic_checkout,
+                                title: section.settings.learn_more_title
+                                url: section.settings.learn_more_url
                             -%}
                         {%- endif -%}
 
@@ -451,6 +453,17 @@
                 }
             ],
             "default": "slideshow"
+        },
+        {
+            "type":"text",
+            "id":"learn_more_title",
+            "label":"Learn More Title",
+            "default":"Learn more"
+        },
+        {
+            "type":"url",
+            "id":"learn_more_url",
+            "label":"Learn More Url"
         }
     ],
     "blocks": [

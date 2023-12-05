@@ -10,7 +10,7 @@
     opacity: 1;
     color: black;
     font-size: 18px;
-    text-decoration: none;
+    text-decoration: line-through;
 }
 .content-for-layout .\#product-price .\#price{
     align-items: center;
@@ -89,59 +89,10 @@
     }
 }
 
-/* text with image */
-.Product_text_image{
-  padding: 5rem 0;
-  background-position: center;
-  background-size: cover;
-  background-image: url('https://cdn.shopify.com/s/files/1/0839/5941/5099/files/Screenshot_2023-11-03_at_10.51_4.jpg?v=1701456643');
+
+.shopify-section .\#product-collapse{
+    border-bottom: none !important;
 }
-.Product_text_image_flex{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 3rem;
-}
-.Product_text_image_flex > div{
-    width: 100%;
-}
-.Product_text_image_flex h2{
-    color: white;
-    font-size: 40px;
-    font-weight: bold;
-    margin: 1rem 0;
-    line-height: 1.3em;
-}
-.Product_text_image_flex p{
-    color: white;
-    font-size: 18px;
-    line-height: 1.3em;
-    margin: 1rem 0;
-}
-.Product_text_image_flex a{
-    display: inline-block;
-    padding: 16px 38px;
-    font-size: 18px;
-    color: white;
-    font-weight: bold;
-    background: #5720B7;
-    border-radius: 30px;
-    text-decoration: none;
-    margin-top: 1rem;
-    transition: all .2s;
-}
-.Product_text_image_flex a:hover{
-    transform: scale(0.97);
-}
-@media only screen and (max-width: 767px) {
-    .Product_text_image_flex{
-        flex-wrap: wrap;
-        gap: 2rem;
-    }
-    .Product_text_image_flex h2{
-        font-size: 32px;
-    }
-    .Product_text_image{
-        padding: 3rem 0;
-    }
+.shopify-section .\#product-meta-block:last-child .\#product-collapse{
+    border-bottom: 1px solid #d9d9d9 !important;
 }

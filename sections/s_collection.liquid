@@ -156,6 +156,7 @@
             {%- if collection.products.size == 0 -%}
                 {{ No_products }}
             {%- else -%}
+            {{ Mobile_filters_button }}
                 <div class="#grid @type:columns" style="--columns: {{ product_columns }}; --columns-mobile: {{ product_columns_mobile }}; --gap: {{ product_gap }}; --gap-mobile: {{ product_gap }};">
                     {% for product in collection.products %}
                         {% render 'product-card', 
@@ -165,7 +166,6 @@
                          %}
                     {% endfor %}
                 </div>
-                {{ Mobile_filters_button }}
                 {%- if paginate.pages > 1 -%}
                     {% render 'collection-pagination', paginate: paginate, anchor: '' %}
                 {%- endif -%}

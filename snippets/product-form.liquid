@@ -100,6 +100,9 @@
                                 variant: variant,
                                 form_child: true
                             %}
+                            {% if title != blank %}
+                                <a class="Featured_product_learn_more_button" href="{{ url }}">{{title }}</a>
+                            {% endif %}
                         {%- endcapture -%}
 
                         {%- if use_product_counter -%}
@@ -148,4 +151,3 @@
 {% if show_dynamic_checkout %}
     <script type="module" src="{{ 'product-dynamic-checkout.js' | asset_url }}"></script>
 {% endif %}
-
