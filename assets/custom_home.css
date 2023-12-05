@@ -162,21 +162,40 @@ img{
   margin-bottom: 0 !important;
 }
 /* Featured logos */
-.Featured_logos_outer{
+.Featured_logos_outer_bg{
   padding: 15px;
   background: #7A5AF8;
+}
+.Featured_logos_outer{
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   gap: 10px;
+  animation: slide 120s infinite linear;
 }
 .Featured_logos_outer > div{
-  padding: 0 20px;
+  padding: 0 50px;
 }
 .Featured_logos_outer img{
   max-height: 30px;
   width: auto;
+}
+@keyframes slide {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+@media only screen and (max-width: 767px) {
+  .Featured_logos_outer{
+    animation: slide 30s infinite linear;
+  }
+  .Featured_logos_outer > div{
+    padding: 0 30px;
+  }
 }
 
 /* Featured collection */

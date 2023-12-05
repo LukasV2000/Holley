@@ -1,9 +1,21 @@
-<div class="Featured_logos_outer">
-    {% for block in section.blocks %}
-        <div>
-            <img loading="lazy" src="{{ block.settings.image | img_url: 'master' }}">
-        </div>
-    {% endfor %}
+<div class="Featured_logos_outer_bg">
+  <div class="Featured_logos_outer">
+      {% for block in section.blocks %}
+          <div>
+              <img loading="lazy" src="{{ block.settings.image | img_url: 'master' }}">
+          </div>
+      {% endfor %}
+      {% for block in section.blocks %}
+          <div>
+              <img loading="lazy" src="{{ block.settings.image | img_url: 'master' }}">
+          </div>
+      {% endfor %}
+      {% for block in section.blocks %}
+          <div>
+              <img loading="lazy" src="{{ block.settings.image | img_url: 'master' }}">
+          </div>
+      {% endfor %}
+  </div>
 </div>
 {% schema %}
   {
