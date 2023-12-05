@@ -216,7 +216,6 @@ img{
   padding-top: 6rem;
   padding-bottom: 6rem;
   position: relative;
-  margin: 5rem 0;
 }
 .Collection_list_outer .donut{
   position: absolute;
@@ -230,9 +229,6 @@ img{
   margin-bottom: 0;
 }
 @media only screen and (max-width: 767px) {
-  .Collection_list_outer{
-    margin: 3rem 0;
-  }
   .Featured_logos_outer img{
     max-height: 20px;
   }
