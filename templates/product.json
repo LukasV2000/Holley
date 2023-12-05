@@ -198,52 +198,6 @@
         "thumbnails_layout": "slideshow"
       }
     },
-    "939fe1cf-87b0-4404-b1ef-5be59fbcf5d4": {
-      "type": "Customer_says_reviews",
-      "blocks": {
-        "6ec83660-8eae-4718-a2d9-460ca0f35c91": {
-          "type": "Review",
-          "settings": {
-            "name": "John Smith",
-            "info": "Designer",
-            "content": "<p>LOVE their sweaters! Exactly what I was looking for. Ordered couple of them and all are perfect. For the price, the material is better than expected! The inside is incredibly soft. No downsides, perfect sweaters!<\/p>"
-          }
-        },
-        "253488bc-81ef-488a-ab1a-0d3bdc35f9c7": {
-          "type": "Review",
-          "settings": {
-            "name": "John Smith",
-            "info": "Designer",
-            "content": "<p>LOVE their sweaters! Exactly what I was looking for. Ordered couple of them and all are perfect. For the price, the material is better than expected! The inside is incredibly soft. No downsides, perfect sweaters!<\/p>"
-          }
-        },
-        "1d026fc1-9182-4a4d-a23e-f00c81313ee5": {
-          "type": "Review",
-          "settings": {
-            "name": "John Smith",
-            "info": "Designer",
-            "content": "<p>LOVE their sweaters! Exactly what I was looking for. Ordered couple of them and all are perfect. For the price, the material is better than expected! The inside is incredibly soft. No downsides, perfect sweaters!<\/p>"
-          }
-        },
-        "60d8d18e-74e9-4c51-b13f-345b620b4aa8": {
-          "type": "Review",
-          "settings": {
-            "name": "John Smith",
-            "info": "Designer",
-            "content": "<p>LOVE their sweaters! Exactly what I was looking for. Ordered couple of them and all are perfect. For the price, the material is better than expected! The inside is incredibly soft. No downsides, perfect sweaters!<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "6ec83660-8eae-4718-a2d9-460ca0f35c91",
-        "253488bc-81ef-488a-ab1a-0d3bdc35f9c7",
-        "1d026fc1-9182-4a4d-a23e-f00c81313ee5",
-        "60d8d18e-74e9-4c51-b13f-345b620b4aa8"
-      ],
-      "settings": {
-        "title": "This is what our community says"
-      }
-    },
     "995d3492-134d-4afd-af8d-95b391f70218": {
       "type": "Product_whats_inside",
       "blocks": {
@@ -301,6 +255,52 @@
         "image": "shopify:\/\/shop_images\/Frame_324433.png"
       }
     },
+    "939fe1cf-87b0-4404-b1ef-5be59fbcf5d4": {
+      "type": "Customer_says_reviews",
+      "blocks": {
+        "6ec83660-8eae-4718-a2d9-460ca0f35c91": {
+          "type": "Review",
+          "settings": {
+            "name": "John Smith",
+            "info": "Designer",
+            "content": "<p>LOVE their sweaters! Exactly what I was looking for. Ordered couple of them and all are perfect. For the price, the material is better than expected! The inside is incredibly soft. No downsides, perfect sweaters!<\/p>"
+          }
+        },
+        "253488bc-81ef-488a-ab1a-0d3bdc35f9c7": {
+          "type": "Review",
+          "settings": {
+            "name": "John Smith",
+            "info": "Designer",
+            "content": "<p>LOVE their sweaters! Exactly what I was looking for. Ordered couple of them and all are perfect. For the price, the material is better than expected! The inside is incredibly soft. No downsides, perfect sweaters!<\/p>"
+          }
+        },
+        "1d026fc1-9182-4a4d-a23e-f00c81313ee5": {
+          "type": "Review",
+          "settings": {
+            "name": "John Smith",
+            "info": "Designer",
+            "content": "<p>LOVE their sweaters! Exactly what I was looking for. Ordered couple of them and all are perfect. For the price, the material is better than expected! The inside is incredibly soft. No downsides, perfect sweaters!<\/p>"
+          }
+        },
+        "60d8d18e-74e9-4c51-b13f-345b620b4aa8": {
+          "type": "Review",
+          "settings": {
+            "name": "John Smith",
+            "info": "Designer",
+            "content": "<p>LOVE their sweaters! Exactly what I was looking for. Ordered couple of them and all are perfect. For the price, the material is better than expected! The inside is incredibly soft. No downsides, perfect sweaters!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "6ec83660-8eae-4718-a2d9-460ca0f35c91",
+        "253488bc-81ef-488a-ab1a-0d3bdc35f9c7",
+        "1d026fc1-9182-4a4d-a23e-f00c81313ee5",
+        "60d8d18e-74e9-4c51-b13f-345b620b4aa8"
+      ],
+      "settings": {
+        "title": "This is what our community says"
+      }
+    },
     "16554757745dec0af9": {
       "type": "d_product-recommendations",
       "settings": {
@@ -347,9 +347,9 @@
   "order": [
     "1649081791eb3a0c3d",
     "main",
-    "939fe1cf-87b0-4404-b1ef-5be59fbcf5d4",
     "995d3492-134d-4afd-af8d-95b391f70218",
     "5f8de7e3-b9e9-48eb-a2e8-1b5276e250aa",
+    "939fe1cf-87b0-4404-b1ef-5be59fbcf5d4",
     "16554757745dec0af9",
     "1697692424f53300c2",
     "a2254d99-9030-4262-b1a1-76541f8923f4"
