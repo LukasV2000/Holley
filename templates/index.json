@@ -493,6 +493,58 @@
         "use_box": true
       }
     },
+    "a946dcee-0472-448c-8c6e-68c392804ec7": {
+      "type": "d_rich-text",
+      "blocks": {
+        "template--21716628046139__a946dcee-0472-448c-8c6e-68c392804ec7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "WANT THE WHOLE EXPERIENCE? 🤔👇",
+            "heading_accent_enable": true,
+            "heading_accent_use_cutom_color": false,
+            "heading_accent_color": "#e22d00"
+          }
+        },
+        "template--21716628046139__a946dcee-0472-448c-8c6e-68c392804ec7-text-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--21716628046139__a946dcee-0472-448c-8c6e-68c392804ec7-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "mobile_hidden": false,
+            "f_button_label": "Shop now",
+            "f_button_link": "",
+            "f_button_style": "normal",
+            "f_button_custom_colors": false,
+            "f_button_bg_color": "",
+            "f_button_text_color": "#ffffff",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_style": "normal",
+            "s_button_custom_colors": false,
+            "s_button_bg_color": "",
+            "s_button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--21716628046139__a946dcee-0472-448c-8c6e-68c392804ec7-heading-1",
+        "template--21716628046139__a946dcee-0472-448c-8c6e-68c392804ec7-text-1",
+        "template--21716628046139__a946dcee-0472-448c-8c6e-68c392804ec7-buttons-1"
+      ],
+      "settings": {
+        "section_layout": "default",
+        "text_align": "center",
+        "size": "md",
+        "use_custom_color": false,
+        "text_color": "#FFFFFF",
+        "bg_color": "#383838"
+      }
+    },
     "b03fa275-5869-46d4-9b3b-f53193c36f21": {
       "type": "d_featured-product",
       "blocks": {
@@ -1278,6 +1330,7 @@
     "e4a5db20-e003-4f31-b42c-ca901c57ab45",
     "99fc637c-2af8-4a3d-a5c8-83ad7719eab3",
     "165469275319e90978",
+    "a946dcee-0472-448c-8c6e-68c392804ec7",
     "b03fa275-5869-46d4-9b3b-f53193c36f21",
     "0fbe5f9f-e27e-41f9-80e1-a70f2419a01d",
     "da2c0eaa-b023-4f1c-b10d-90cca54bdf88",
