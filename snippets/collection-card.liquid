@@ -50,7 +50,7 @@
         <a class="stretched-link" href="{{ collection.url }}">{{ collection.title }}</a>
     {% endif %}
     <div class="{{ cn }}-image {{ cn_media_shadow }}">
-        {% render 'media',
+        {% comment %} {% render 'media',
             image: image,
             size: size,
             border_radius: 'inner',
@@ -59,7 +59,8 @@
             srcsize_desktop: image_srcsize_desktop,
             srcsize_mobile: image_srcsize_mobile,
             image_res: image_res 
-        %}
+        %} {% endcomment %}
+        <img loading="eager" src="{{ image | img_url: 'master' }}">
     </div>
     <p class="Collection_card_label">{{ title | default: onboard_title  }}</p>
     {% comment %} <div class="{{ cn }}-caption @position:{{ text_position }}">

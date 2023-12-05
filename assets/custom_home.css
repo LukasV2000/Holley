@@ -768,7 +768,7 @@ product-to-cart:hover{
 
 /* Collection card */
 .shopify-section .\#collection-card-image{
-  padding: 30px;
+  padding: 5px 0;
 }
 .Collection_card_label{
   text-align: center;
