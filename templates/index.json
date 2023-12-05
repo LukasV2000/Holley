@@ -7,6 +7,7 @@
           "type": "Slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Elements-geometric-shape-square-frame.png",
+            "trust_image": "shopify:\/\/shop_images\/Trustpilot_Micro.png",
             "headline": "Your Passport to Global Flavors",
             "info": "<p>Uncover the Secrets of International Sweets! 🍭🍫<\/p>",
             "button_title_1": "Shop now",
@@ -66,10 +67,11 @@
     "0cfef29e-354b-4bd7-b913-b1710a26b5b1": {
       "type": "featured-logos",
       "blocks": {
-        "61b3d260-b27b-4815-9a63-7c7e4214eed2": {
+        "3c0d5d71-dce7-4bdf-824f-fbcbd3947b44": {
           "type": "Logo",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Vector_52227e6a-e6a3-4e53-8ff3-c57e5c1e9378.png"
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-12-05_at_18.24.34-removebg-preview.png"
           }
         },
         "567903e5-6ce5-4553-b50f-eadc62035a60": {
@@ -78,31 +80,38 @@
             "image": "shopify:\/\/shop_images\/Press_logo_2_7c69ecd0-5f1c-4799-a460-0f6225d2bb27.png"
           }
         },
-        "db06d186-c05c-4100-8dfa-9a3c9f763a4b": {
-          "type": "Logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Press_logo_1_47302021-18ef-44f5-8602-1c86d00a509d.png"
-          }
-        },
         "6b84b0c3-645a-46ef-99b4-861ce87ddd9b": {
           "type": "Logo",
           "settings": {
             "image": "shopify:\/\/shop_images\/Press_logo_3_c5dece76-d13c-49bd-800c-41c32afb8cef.png"
           }
         },
-        "3c0d5d71-dce7-4bdf-824f-fbcbd3947b44": {
+        "db06d186-c05c-4100-8dfa-9a3c9f763a4b": {
           "type": "Logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Press_logo_fc121407-c0b1-4025-bed4-4168a305720f.png"
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-12-05_at_18.34.20-removebg-preview_1.png"
+          }
+        },
+        "35b1e678-7b7e-43fa-9001-fb0eb45d788c": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-12-05_at_18.36.01-removebg-preview.png"
+          }
+        },
+        "61b3d260-b27b-4815-9a63-7c7e4214eed2": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector_52227e6a-e6a3-4e53-8ff3-c57e5c1e9378.png"
           }
         }
       },
       "block_order": [
-        "61b3d260-b27b-4815-9a63-7c7e4214eed2",
+        "3c0d5d71-dce7-4bdf-824f-fbcbd3947b44",
         "567903e5-6ce5-4553-b50f-eadc62035a60",
-        "db06d186-c05c-4100-8dfa-9a3c9f763a4b",
         "6b84b0c3-645a-46ef-99b4-861ce87ddd9b",
-        "3c0d5d71-dce7-4bdf-824f-fbcbd3947b44"
+        "db06d186-c05c-4100-8dfa-9a3c9f763a4b",
+        "35b1e678-7b7e-43fa-9001-fb0eb45d788c",
+        "61b3d260-b27b-4815-9a63-7c7e4214eed2"
       ],
       "settings": {
       }
@@ -465,12 +474,12 @@
           "type": "gallery_item",
           "settings": {
             "span": "4",
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_17.29.52.png",
+            "image": "shopify:\/\/shop_images\/pexels-karley-saagi-2156656.jpg",
             "image_size": "md",
             "mobile_image_size": "9x16",
             "link": "",
             "image_overlay": 0,
-            "heading": "EXPLORE HOTTEST DEALS",
+            "heading": "🔥 EXPLORE HOTTEST DEALS 🔥",
             "subheading": "",
             "text": "",
             "size": "sm",
@@ -502,7 +511,7 @@
             "heading": "WANT THE WHOLE EXPERIENCE? 🤔👇",
             "heading_accent_enable": true,
             "heading_accent_use_cutom_color": true,
-            "heading_accent_color": "#FFFFFF"
+            "heading_accent_color": "#ffffff"
           }
         },
         "template--21716628046139__a946dcee-0472-448c-8c6e-68c392804ec7-text-1": {
@@ -545,7 +554,7 @@
         "text_align": "center",
         "size": "md",
         "use_custom_color": true,
-        "text_color": "#FFFFFF",
+        "text_color": "#ffffff",
         "bg_color": "#7066e8"
       }
     },
@@ -682,7 +691,9 @@
         "product": "mystery-box",
         "gallery_width": 50,
         "slideshow_zoom": false,
-        "thumbnails_layout": "slideshow"
+        "thumbnails_layout": "slideshow",
+        "learn_more_title": "Learn more",
+        "learn_more_url": ""
       }
     },
     "0fbe5f9f-e27e-41f9-80e1-a70f2419a01d": {
@@ -1177,7 +1188,7 @@
         "29422e84-b1e4-42cf-bbac-f423f8e7ccc9": {
           "type": "question",
           "settings": {
-            "heading": "Social Media Star? 🌟",
+            "heading": "🌟 Social Media Star?",
             "icon": "",
             "text": "<p>Join the Holly Lollies Family - Influencers & Creators Welcome! 🎉📸 Whether you're a budding micro-influencer or a seasoned content creator, we're excited to team up with you! At Holly Lollies, we believe in the power of collaboration, no matter the size of your audience. Reach out to us at <a href=\"mailto:info@hollylollies.com\">info@hollylollies.com<\/a> and let's chat about spreading the sweet joy of our candy boxes. Don't hesitate – we're eager to work with creators of all kinds and spread the Holly Lollies happiness as far as we can. Your voice matters, and together, we can make the world a little sweeter, one box at a time!<\/p>"
           }
@@ -1246,7 +1257,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_6910.jpg",
-            "product": "",
+            "product": "fruit-roll-ups-72pcs",
             "product_subtitle": ""
           }
         },
@@ -1254,7 +1265,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_6907.jpg",
-            "product": "",
+            "product": "warheads-sour-jelly-beans-113g",
             "product_subtitle": ""
           }
         },
@@ -1262,7 +1273,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_6903.jpg",
-            "product": "",
+            "product": "chupa-chups-345-ml-orange-flavour",
             "product_subtitle": ""
           }
         },
@@ -1270,7 +1281,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_6909.jpg",
-            "product": "",
+            "product": "general-mills-reese-puffs-326gr",
             "product_subtitle": ""
           }
         },
@@ -1278,7 +1289,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_6908.jpg",
-            "product": "",
+            "product": "general-mills-lucky-charms-300g",
             "product_subtitle": ""
           }
         },
@@ -1286,7 +1297,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_6902.jpg",
-            "product": "",
+            "product": "general-mills-reese-puffs-326gr",
             "product_subtitle": ""
           }
         },
@@ -1294,7 +1305,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_6904.jpg",
-            "product": "",
+            "product": "fruit-by-the-foot-variety",
             "product_subtitle": ""
           }
         },
@@ -1302,7 +1313,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_6905.jpg",
-            "product": "",
+            "product": "takis-intense-nacho-92-3g-usa",
             "product_subtitle": ""
           }
         },
@@ -1310,7 +1321,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_6906.jpg",
-            "product": "",
+            "product": "nerds-grape-strawberry-box-141g",
             "product_subtitle": ""
           }
         },
@@ -1318,7 +1329,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_6907.jpg",
-            "product": "",
+            "product": "warheads-galactic-cubes-127g",
             "product_subtitle": ""
           }
         }
