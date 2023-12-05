@@ -654,7 +654,7 @@ html.js .\#media-image-loading {
 .\#section-body-button {
   z-index: 10;
   position: relative;
-  margin: 1.5rem 0;
+  margin: 2.5rem 0;
 }
 .\#section-body-button.\@align\:center {
   display: flex;
