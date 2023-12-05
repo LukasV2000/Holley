@@ -894,6 +894,7 @@ product-to-cart:hover{
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin: 1rem;
+  margin-left: 5px;
 }
 .Customer_says_reviews_cell_note .Customer_says_name{
   font-weight: bold;
@@ -967,6 +968,14 @@ product-to-cart:hover{
 .Customer_says_reviews_outer .slick-dots li button:before{
   display: none;
 }
+.Customer_says_reviews_outer{
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 0;
+}
+.Customer_says_outer{
+  padding-top: 5rem;
+}
 @media only screen and (max-width: 767px) {
   .Customer_says_reviews_outer .slick-dots{
     display: inline-block;
@@ -974,7 +983,10 @@ product-to-cart:hover{
     padding: 0px 15px;
     border-radius: 20px;
     background: #D9D6FE;
-    left: 30%;
+    left: 28%;
+  }
+  .Customer_says_outer{
+    padding-top: 3rem;
   }
   .Customer_says_reviews_outer .slick-dots li{
     width: 25px;
