@@ -106,6 +106,9 @@
         "template--21462135800123__ded88cbd-4989-4f35-8b66-0e700296ebfc-text-1",
         "template--21462135800123__ded88cbd-4989-4f35-8b66-0e700296ebfc-buttons-1"
       ],
+      "custom_css": [
+        ".Richtext_outer{padding-bottom: 0;}"
+      ],
       "settings": {
         "section_layout": "default",
         "text_align": "center",
