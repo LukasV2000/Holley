@@ -507,6 +507,7 @@
         },
         "template--21716628046139__a946dcee-0472-448c-8c6e-68c392804ec7-text-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": ""
           }
