@@ -765,10 +765,10 @@ product-to-cart:hover{
         padding: 3rem 0;
     }
 }
-
+ 
 /* Collection card */
 .shopify-section .\#collection-card-image{
-  padding: 5px 0;
+  /* padding: 5px 0; */
 }
 .Collection_card_label{
   text-align: center;
@@ -778,6 +778,8 @@ product-to-cart:hover{
   font-weight: bold;
   background: #5720B7;
   border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom:10px;
 }
 .shopify-section .\#collection-card.\@inner-caption{
   padding: 20px;
@@ -787,4 +789,13 @@ product-to-cart:hover{
 }
 .shopify-section .\#collection-card-image{
   background: transparent;
+}
+.Collection_Card_image_outer{
+  position: relative;
+  padding-top: 100%;
+  overflow: hidden;
+}
+.Collection_Card_image_outer img{
+  position: absolute;
+  top: 0;
 }

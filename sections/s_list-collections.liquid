@@ -35,14 +35,25 @@
             <div class="#grid @type:columns" style="--columns: {{ section.settings.columns }}; --columns-mobile: 2; --gap: 2rem; --gap-mobile: 1rem;">
                 {% for collection in collections %}
                     <div>
-                        {% render 'collection-card',
-                            size: section.settings.image_size,
-                            collection: collection,
-                            text_position: section.settings.text_position,
-                            text_bg: true,
-                            show_frame: section.settings.show_frame,
-                            text_size: 'h4'
-                        %}
+                        {% if template contains 'list-collection' %}
+                            {% render 'collection-card-new',
+                                size: section.settings.image_size,
+                                collection: collection,
+                                text_position: section.settings.text_position,
+                                text_bg: true,
+                                show_frame: section.settings.show_frame,
+                                text_size: 'h4'
+                            %}
+                        {% else  %}
+                            {% render 'collection-card',
+                                size: section.settings.image_size,
+                                collection: collection,
+                                text_position: section.settings.text_position,
+                                text_bg: true,
+                                show_frame: section.settings.show_frame,
+                                text_size: 'h4'
+                            %}
+                        {% endif %}
                     </div>            
                 {% endfor %}
                 </div>
@@ -54,15 +65,25 @@
         <div class="#grid @type:columns" style="--columns: {{ section.settings.columns }}; --columns-mobile: 2; --gap: 2rem; --gap-mobile: 1rem;">
             {% for block in section.blocks %}
                 <div {{ block.shopify_attributes }}>
-                    {% render 'collection-card',
-                        image: block.settings.image,
-                        size: section.settings.image_size,
-                        collection: block.settings.collection,
-                        text_position: section.settings.text_position,
-                        text_bg: true,
-                        show_frame: section.settings.show_frame,
-                        text_size: 'h4'
-                    %}
+                    {% if template contains 'list-collection' %}
+                        {% render 'collection-card-new',
+                            size: section.settings.image_size,
+                            collection: collection,
+                            text_position: section.settings.text_position,
+                            text_bg: true,
+                            show_frame: section.settings.show_frame,
+                            text_size: 'h4'
+                        %}
+                    {% else  %}
+                        {% render 'collection-card',
+                            size: section.settings.image_size,
+                            collection: collection,
+                            text_position: section.settings.text_position,
+                            text_bg: true,
+                            show_frame: section.settings.show_frame,
+                            text_size: 'h4'
+                        %}
+                    {% endif %}
                 </div>            
             {% endfor %}
         </div>

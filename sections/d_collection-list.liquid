@@ -7,6 +7,8 @@
 
 {% render 'load-css', file: 'collection-card' %}
 
+{% render 'load-css', file: 'collection-card-new' %}
+
 <div class="Collection_list_outer">
     <img class="donut" loading="eager" src="https://cdn.shopify.com/s/files/1/0839/5941/5099/files/Layer_1.png?v=1701459224">
     {%- capture Content -%}
@@ -14,19 +16,35 @@
             {% for block in section.blocks %}
                 {%- capture placeholder_index -%}{%- cycle 1, 2, 3, 4, 5, 6 -%}{%- endcapture -%}
                 <div {{ block.shopify_attributes }}>
-                    {% render 'collection-card',
-                        image: block.settings.image,
-                        custom_title: block.settings.custom_title,
-                        size: section.settings.image_size,
-                        collection: block.settings.collection,
-                        text_position: section.settings.text_position,
-                        text_bg: true,
-                        show_frame: section.settings.show_frame,
-                        text_size: 'h4',
-                        placeholder_index: placeholder_index,
-                        image_srcsize_desktop: image_srcsize_desktop,
-                        image_srcsize_mobile: image_srcsize_mobile
-                    %}
+                    {% if template contains 'list-collection' %}
+                        {% render 'collection-card-new',
+                            image: block.settings.image,
+                            custom_title: block.settings.custom_title,
+                            size: section.settings.image_size,
+                            collection: block.settings.collection,
+                            text_position: section.settings.text_position,
+                            text_bg: true,
+                            show_frame: section.settings.show_frame,
+                            text_size: 'h4',
+                            placeholder_index: placeholder_index,
+                            image_srcsize_desktop: image_srcsize_desktop,
+                            image_srcsize_mobile: image_srcsize_mobile
+                        %}
+                    {% else %}
+                        {% render 'collection-card',
+                            image: block.settings.image,
+                            custom_title: block.settings.custom_title,
+                            size: section.settings.image_size,
+                            collection: block.settings.collection,
+                            text_position: section.settings.text_position,
+                            text_bg: true,
+                            show_frame: section.settings.show_frame,
+                            text_size: 'h4',
+                            placeholder_index: placeholder_index,
+                            image_srcsize_desktop: image_srcsize_desktop,
+                            image_srcsize_mobile: image_srcsize_mobile
+                        %}
+                    {% endif %}
                 </div>            
             {% endfor %}
         </div>
