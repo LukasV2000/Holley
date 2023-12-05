@@ -159,7 +159,7 @@ img{
     padding: 0px 15px;
     border-radius: 20px;
     background: #D9D6FE;
-    left: 34%;
+    left: 41%;
   }
   .Slideshow_outer .slick-dots li{
     width: 25px;
@@ -820,4 +820,20 @@ product-to-cart:hover{
   .Top_line_headline{
     margin-bottom: 30px;
   }
+}
+
+/* Navigation */
+.shopify-section .\#main-navigation-product-card-media{
+  width: 120px;
+  height: 120px;
+}
+.shopify-section .\#main-navigation-product-card-title{
+  font-size: 14px;
+  font-weight: bold;
+  opacity: 1;
+}
+.shopify-section .\#predictive-search-results-item-title{
+  font-size: 14px;
+  font-weight: bold;
+  opacity: 1;
 }
