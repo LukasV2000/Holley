@@ -53,7 +53,7 @@
       "settings": {
         "section_layout": "full",
         "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_17.39.43.png",
-        "image_size": "21x9",
+        "image_size": "sm",
         "mobile_image_size": "4x5",
         "overlay": 50,
         "use_box": false,
