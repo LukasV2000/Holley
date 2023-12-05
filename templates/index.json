@@ -743,6 +743,7 @@
         },
         "template--21462135734587__4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3-heading-1": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "EXPLORE DIFFERENT CULTURES",
             "heading_accent_enable": true,
@@ -752,12 +753,14 @@
         },
         "template--21462135734587__4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3-text-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>THROUGH LOLLIES FROM ALL OVER THE WORLD<\/p>"
           }
         },
         "template--21462135734587__4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3-buttons-1": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "mobile_hidden": false,
             "f_button_label": "EXPLORE NOW",
@@ -801,7 +804,7 @@
         "display_desktop_only": false,
         "mobile_image_size": "9x16",
         "overlay": 50,
-        "use_box": true,
+        "use_box": false,
         "width": 40,
         "size": "sm",
         "text_position": "center-left",
