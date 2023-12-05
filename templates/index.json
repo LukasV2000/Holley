@@ -1068,22 +1068,22 @@
     "7098ba4b-7068-4e42-af6b-541a4ebf4371": {
       "type": "Index_reviews_carousel",
       "blocks": {
-        "00a1defd-429c-4b20-824d-9121bacdfdf5": {
-          "type": "Slide",
-          "settings": {
-            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/76e7a4069814434bb84456ef4676e70e.mp4",
-            "headline": "“Everything is sent right to my door. It's all delicious and let's you try different flavor combinations you never would have thought of or had the chance to experience. Lots of interesting facts and info on the locations and the candies. Well worth the price. 100% Recommend for anyone who has been curious about foods and snacks from exotic countries.”",
-            "name": "— Diana Mateos",
-            "info": "Proud Client from Germany 🇩🇪"
-          }
-        },
         "96f861f0-4160-44ed-aaf2-44bccc18f076": {
           "type": "Slide",
           "settings": {
             "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/76e7a4069814434bb84456ef4676e70e.mp4",
             "headline": "“We used to live in Japan and it's really fun to get treats we used to enjoy. Our kids love trying them out and the surprise inside the box. I would definitely recommend getting.”",
             "name": "— Elfriede Küster",
-            "info": "Proud Client from Spain 🇪🇸"
+            "info": "Proud Client from Germany 🇩🇪"
+          }
+        },
+        "00a1defd-429c-4b20-824d-9121bacdfdf5": {
+          "type": "Slide",
+          "settings": {
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/76e7a4069814434bb84456ef4676e70e.mp4",
+            "headline": "“Everything is sent right to my door. It's all delicious and let's you try different flavor combinations you never would have thought of or had the chance to experience. Lots of interesting facts and info on the locations and the candies. Well worth the price. 100% Recommend for anyone who has been curious about foods and snacks from exotic countries.”",
+            "name": "— Kimberly de Koning",
+            "info": "Proud Client from Netherlands 🇳🇱"
           }
         },
         "7d67cc3e-416a-4c65-b5b9-a34136638e35": {
@@ -1106,8 +1106,8 @@
         }
       },
       "block_order": [
-        "00a1defd-429c-4b20-824d-9121bacdfdf5",
         "96f861f0-4160-44ed-aaf2-44bccc18f076",
+        "00a1defd-429c-4b20-824d-9121bacdfdf5",
         "7d67cc3e-416a-4c65-b5b9-a34136638e35",
         "aa79dcd2-cd01-4a96-8ee2-fb87b8795e04"
       ],
