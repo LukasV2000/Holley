@@ -565,7 +565,7 @@
         "template--21462135734587__b03fa275-5869-46d4-9b3b-f53193c36f21-title-1": {
           "type": "title",
           "settings": {
-            "size": "h1",
+            "size": "h3",
             "max_lines": 3,
             "prev_attach": false
           }
