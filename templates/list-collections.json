@@ -119,7 +119,7 @@
       "type": "s_list-collections",
       "settings": {
         "collections_display": "all",
-        "columns": 5,
+        "columns": 4,
         "image_size": "portrait",
         "text_position": "inner-bottom-center",
         "show_frame": false,
