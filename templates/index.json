@@ -808,6 +808,9 @@
         "template--21462135734587__da2c0eaa-b023-4f1c-b10d-90cca54bdf88-text-1",
         "template--21462135734587__da2c0eaa-b023-4f1c-b10d-90cca54bdf88-buttons-1"
       ],
+      "custom_css": [
+        ".Richtext_outer {background: #fef0c7;}"
+      ],
       "settings": {
         "section_layout": "default",
         "text_align": "center",
