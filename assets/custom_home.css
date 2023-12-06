@@ -278,6 +278,8 @@ img{
     }
     .Featured_collection_outer{
       padding: 3rem 0;
+      background-size: 300%;
+      background-repeat: no-repeat;
     }
     .\#section-body-button{
       margin-bottom: 0;
