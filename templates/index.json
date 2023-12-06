@@ -1237,6 +1237,7 @@
         },
         "1654693292a215d319-4": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_6908.jpg",
             "product": "general-mills-lucky-charms-300g",
@@ -1253,6 +1254,7 @@
         },
         "6d278eeb-1c65-40e5-90cc-f98b772bd1a1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_6904.jpg",
             "product": "fruit-by-the-foot-variety",
@@ -1261,6 +1263,7 @@
         },
         "0992f6d1-bc3c-4c6a-acfc-d3d58286cf6d": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_6905.jpg",
             "product": "takis-intense-nacho-92-3g-usa",
@@ -1277,6 +1280,7 @@
         },
         "d5d70cc8-bdb1-43ef-9bca-93650c88893a": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_6907.jpg",
             "product": "warheads-galactic-cubes-127g",
@@ -1300,7 +1304,7 @@
         "heading": "TAG US ON INSTAGRAM #HOLLYLOLLIES",
         "subheading": "",
         "stacked_columns": false,
-        "columns": 5,
+        "columns": 3,
         "mobile_columns": 2
       }
     }
