@@ -191,6 +191,90 @@
         "section_button_label": ""
       }
     },
+    "4f015acc-ac49-4ea9-8889-641fc9752d7e": {
+      "type": "d_featured-product",
+      "blocks": {
+        "template--21716628570427__4f015acc-ac49-4ea9-8889-641fc9752d7e-title-1": {
+          "type": "title",
+          "settings": {
+            "size": "h1",
+            "max_lines": 3,
+            "prev_attach": false
+          }
+        },
+        "template--21716628570427__4f015acc-ac49-4ea9-8889-641fc9752d7e-price-1": {
+          "type": "price",
+          "settings": {
+            "show_savings": true,
+            "show_taxes": true,
+            "prev_attach": false
+          }
+        },
+        "template--21716628570427__4f015acc-ac49-4ea9-8889-641fc9752d7e-variant_selector-1": {
+          "type": "variant_selector",
+          "settings": {
+            "picker_type": "dropdown",
+            "color_swatches": false,
+            "align_option_values": true,
+            "prev_attach": false
+          }
+        },
+        "8c85a0b4-fc3a-4e4d-9e6c-c2260ce64399": {
+          "type": "quantity_selector",
+          "settings": {
+            "input_type": "dropdown",
+            "prev_attach": false
+          }
+        },
+        "template--21716628570427__4f015acc-ac49-4ea9-8889-641fc9752d7e-buy_with-1": {
+          "type": "buy_with",
+          "disabled": true,
+          "settings": {
+            "meta_heading": "Frequently Bought Together",
+            "use_counter": true,
+            "prev_attach": false
+          }
+        },
+        "template--21716628570427__4f015acc-ac49-4ea9-8889-641fc9752d7e-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "enable_stock_notifier": true,
+            "prev_attach": false
+          }
+        },
+        "template--21716628570427__4f015acc-ac49-4ea9-8889-641fc9752d7e-payment_methods-1": {
+          "type": "payment_methods",
+          "disabled": true,
+          "settings": {
+            "meta_heading": "We Accept",
+            "center": false,
+            "prev_attach": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21716628570427__4f015acc-ac49-4ea9-8889-641fc9752d7e-title-1",
+        "template--21716628570427__4f015acc-ac49-4ea9-8889-641fc9752d7e-price-1",
+        "template--21716628570427__4f015acc-ac49-4ea9-8889-641fc9752d7e-variant_selector-1",
+        "8c85a0b4-fc3a-4e4d-9e6c-c2260ce64399",
+        "template--21716628570427__4f015acc-ac49-4ea9-8889-641fc9752d7e-buy_with-1",
+        "template--21716628570427__4f015acc-ac49-4ea9-8889-641fc9752d7e-buy_buttons-1",
+        "template--21716628570427__4f015acc-ac49-4ea9-8889-641fc9752d7e-payment_methods-1"
+      ],
+      "settings": {
+        "headline_main": "WANT THE WHOLE EXPERIENCE? 🤔👇",
+        "description": "Each Mystery Box is a journey of sweet discoveries, offering a mix of exotic and beloved flavors. Perfect for adventurous taste buds or as a special gift, it's your chance to experience the finest selections from Holly Lollies and beyond. Unwrap surprise, taste delight!",
+        "heading": "",
+        "subheading": "",
+        "product": "mystery-box",
+        "gallery_width": 55,
+        "slideshow_zoom": false,
+        "thumbnails_layout": "slideshow",
+        "learn_more_title": "Learn more",
+        "learn_more_url": "shopify:\/\/products\/mystery-box"
+      }
+    },
     "main": {
       "type": "s_list-collections",
       "blocks": {
@@ -237,6 +321,7 @@
     },
     "5f8de7e3-b9e9-48eb-a2e8-1b5276e250aa": {
       "type": "Text_image",
+      "disabled": true,
       "settings": {
         "title": "Want the whole experience?",
         "text": "Our staff picked the most trending and popular candies and put everything in one box. Experience different cultures through their favourite candies.",
@@ -476,6 +561,7 @@
     "8c27920e-2776-445d-b3ae-019a70c740eb",
     "ded88cbd-4989-4f35-8b66-0e700296ebfc",
     "e3072ddc-be59-4c07-ba88-884d5f1497a9",
+    "4f015acc-ac49-4ea9-8889-641fc9752d7e",
     "main",
     "5f8de7e3-b9e9-48eb-a2e8-1b5276e250aa",
     "71d9eabb-c28e-4b21-953a-e665e72297e4",
