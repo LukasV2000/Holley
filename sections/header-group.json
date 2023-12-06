@@ -92,7 +92,7 @@
           "settings": {
             "position": "secondary",
             "link_name": "Mystery box",
-            "url": "shopify:\/\/collections",
+            "url": "shopify:\/\/products\/mystery-box",
             "icon": "star"
           }
         },
