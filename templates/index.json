@@ -1202,7 +1202,7 @@
         "section_layout": "full",
         "image_size": "square",
         "enable_loop": true,
-        "enable_pagination": false,
+        "enable_pagination": true,
         "items_per_view": 4,
         "articles_limit": 4,
         "section_button_label": "View all"
