@@ -1201,7 +1201,7 @@
         "tags_display": "all",
         "section_layout": "full",
         "image_size": "square",
-        "enable_loop": false,
+        "enable_loop": true,
         "enable_pagination": false,
         "items_per_view": 4,
         "articles_limit": 4,
