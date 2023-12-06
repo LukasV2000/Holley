@@ -18,7 +18,6 @@
         },
         "86fd6be7-0f57-4886-9fe8-53a6ce37d83c": {
           "type": "Slide",
-          "disabled": true,
           "settings": {
             "image_bg": "shopify:\/\/shop_images\/XMAS.png",
             "headline": "",
@@ -31,7 +30,6 @@
         },
         "a68b052d-24bf-47b7-b59d-61cdac4617f4": {
           "type": "Slide",
-          "disabled": true,
           "settings": {
             "image_bg": "shopify:\/\/shop_images\/This_week_s_hottest_deals..png",
             "headline": "",
@@ -44,7 +42,6 @@
         },
         "b44d3a2a-8573-4d5a-930d-197d202390ce": {
           "type": "Slide",
-          "disabled": true,
           "settings": {
             "image_bg": "shopify:\/\/shop_images\/Mystery_box..png",
             "headline": "",
@@ -761,7 +758,7 @@
         "ea100259-4431-4eb0-b3ca-3c2475720c43"
       ],
       "settings": {
-        "show_card_title": true,
+        "show_card_title": false,
         "heading": "OUR BRANDS",
         "subheading": "",
         "columns": 6,
