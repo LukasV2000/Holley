@@ -417,8 +417,9 @@
           "type": "gallery_item",
           "settings": {
             "span": "6",
-            "image": "shopify:\/\/shop_images\/Untitled_design_37.png",
+            "image": "shopify:\/\/shop_images\/Untitled_design_40.png",
             "image_size": "md",
+            "mobile_image": "shopify:\/\/shop_images\/Untitled_design_40.png",
             "mobile_image_size": "4x5",
             "link": "shopify:\/\/collections\/soft-drinks",
             "image_overlay": 0,
@@ -449,8 +450,9 @@
           "type": "gallery_item",
           "settings": {
             "span": "4",
-            "image": "shopify:\/\/shop_images\/5_166daeab-1fe1-4d04-a486-b7f46528c8b9.png",
+            "image": "shopify:\/\/shop_images\/Untitled_design_39.png",
             "image_size": "md",
+            "mobile_image": "shopify:\/\/shop_images\/Untitled_design_39.png",
             "mobile_image_size": "4x5",
             "link": "shopify:\/\/collections\/snacks",
             "image_overlay": 0,
