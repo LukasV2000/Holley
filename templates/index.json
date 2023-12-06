@@ -1194,7 +1194,7 @@
         "enable_loop": false,
         "enable_pagination": true,
         "items_per_view": 4,
-        "articles_limit": 6,
+        "articles_limit": 4,
         "section_button_label": "View all"
       }
     },
