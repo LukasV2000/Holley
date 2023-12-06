@@ -123,7 +123,7 @@
           "settings": {
             "icon": "custom",
             "icon_custom": "<svg width=\"41\" height=\"41\" viewbox=\"0 0 41 41\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" fill=\"white\"><\/rect>\n<rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" stroke=\"black\" stroke-width=\"2\"><\/rect>\n<path d=\"M13.5 20.7633L16.9168 11.834H25.4927L23.1354 16.7453H29L16.4491 30.334L20.915 20.7633H13.5Z\" fill=\"#7A5AF8\" stroke=\"black\" stroke-width=\"2\"><\/path>\n<\/svg>",
-            "heading": "FAST WORDWIDE SHIPPING",
+            "heading": "Free shipping from €50",
             "subheading": "Feature subheading",
             "prev_attach": false
           }
@@ -133,7 +133,7 @@
           "settings": {
             "icon": "custom",
             "icon_custom": "<svg width=\"40\" height=\"41\" viewbox=\"0 0 40 41\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect x=\"1\" y=\"1.89136\" width=\"38\" height=\"38\" rx=\"7\" fill=\"white\"><\/rect>\n<rect x=\"1\" y=\"1.89136\" width=\"38\" height=\"38\" rx=\"7\" stroke=\"black\" stroke-width=\"2\"><\/rect>\n<path d=\"M10.8427 22.3609L10 18.9263L18.8746 16.5566C15.9252 17.3442 12.2194 14.262 14.3715 12.27C16.2412 10.5394 18.3742 13.7344 18.8746 16.5566C18.3648 13.6811 19.7331 10.0346 21.8767 11.0719C24.3525 12.27 21.6792 15.8078 18.8746 16.5566L27.4332 14.2935L28.3022 18.5003L26.3756 18.9263L28.5185 28.4951L21.5795 29.6932L14.6405 30.8914L13.2128 21.8368L10.8427 22.3609Z\" fill=\"#E478FA\"><\/path>\n<path d=\"M13.2128 21.8368L10.8427 22.3609L10 18.9263L18.8746 16.5566M13.2128 21.8368L14.6405 30.8914L21.5795 29.6932M13.2128 21.8368L19.7942 20.3815M26.3756 18.9263L28.3022 18.5003L27.4332 14.2935L18.8746 16.5566M26.3756 18.9263L28.5185 28.4951L21.5795 29.6932M26.3756 18.9263L19.7942 20.3815M18.8746 16.5566L19.7942 20.3815M18.8746 16.5566C18.3742 13.7344 16.2412 10.5394 14.3715 12.27C12.2194 14.262 15.9252 17.3442 18.8746 16.5566ZM18.8746 16.5566C18.3648 13.6811 19.7331 10.0346 21.8767 11.0719C24.3525 12.27 21.6792 15.8078 18.8746 16.5566ZM19.7942 20.3815L21.5795 29.6932\" stroke=\"black\" stroke-width=\"2\"><\/path>\n<\/svg>",
-            "heading": "Feature heading",
+            "heading": "COMPETITIVE PRICING",
             "subheading": "Feature subheading",
             "prev_attach": false
           }
