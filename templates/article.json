@@ -179,10 +179,10 @@
         "template--21716628341051__71081ec5-3f47-4ab8-83e5-e2c64caa0968-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "🇯🇵🌎🇺🇸",
+            "heading": "🇺🇸🌎🇯🇵",
             "heading_accent_enable": true,
-            "heading_accent_use_cutom_color": false,
-            "heading_accent_color": "#e22d00"
+            "heading_accent_use_cutom_color": true,
+            "heading_accent_color": "#000000"
           }
         },
         "template--21716628341051__71081ec5-3f47-4ab8-83e5-e2c64caa0968-text-1": {
