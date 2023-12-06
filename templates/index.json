@@ -170,7 +170,7 @@
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "frontpage",
+            "collection": "hot-deals",
             "image": "shopify:\/\/shop_images\/01_Image_6.png",
             "custom_title": "HOTTEST DEALS"
           }
@@ -178,7 +178,7 @@
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-2": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "best-sellers",
             "image": "shopify:\/\/shop_images\/01_Image_8.png",
             "custom_title": "BEST-SELLERS"
           }
@@ -186,7 +186,7 @@
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-3": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "snacks",
             "image": "shopify:\/\/shop_images\/01_Image_9.png",
             "custom_title": "SNACKS"
           }
@@ -194,7 +194,7 @@
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-4": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "soft-drinks",
             "image": "shopify:\/\/shop_images\/01_Image_10.png",
             "custom_title": "SOFT DRINKS"
           }
@@ -202,7 +202,7 @@
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-5": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "candies-popcorn",
             "image": "shopify:\/\/shop_images\/01_Image_11.png",
             "custom_title": "CANDIES & POPCORN"
           }
@@ -210,7 +210,7 @@
         "cc48d79d-b305-47b0-b5e3-ecc98d523344": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "tiktok-hits",
             "image": "shopify:\/\/shop_images\/01_Image_7.png",
             "custom_title": "TIKTOK HITS"
           }
