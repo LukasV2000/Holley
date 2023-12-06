@@ -153,6 +153,7 @@
         },
         "19641f5c-99b5-40e2-8e18-b78f90f7b843": {
           "type": "collection_list",
+          "disabled": true,
           "settings": {
             "position": "primary",
             "title": "HOT DEALS",
