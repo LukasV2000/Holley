@@ -26,6 +26,10 @@
             </div>
         {% endfor %}
     </div>
+    <div class="Customer_says_reviews_button_outer">
+        <a class="Customer_says_reviews_button" href="{{ section.settings.btn_link }}">{{ section.settings.btn_title }}</a>
+    </div>
+    
 </div>
 {% schema %}
     {
@@ -41,6 +45,21 @@
             "type":"image_picker",
             "id":"reviews_img",
             "label":"Your Reviews Image"
+        },
+        {
+            "type":"header",
+            "content":"Buttons"
+        },
+        {
+            "type":"text",
+            "id": "btn_title",
+            "label":"Button Title",
+            "default":"Read more"
+        },
+        {
+            "type":"url",
+            "id": "btn_link",
+            "label":"Button Link"
         }
       ],
       "blocks": [
