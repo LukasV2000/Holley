@@ -761,7 +761,7 @@
         "ea100259-4431-4eb0-b3ca-3c2475720c43"
       ],
       "settings": {
-        "show_card_title": true,
+        "show_card_title": false,
         "heading": "OUR BRANDS",
         "subheading": "",
         "columns": 6,
