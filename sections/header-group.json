@@ -80,7 +80,7 @@
             "position": "secondary",
             "title": "On Sale",
             "icon": "bolt",
-            "collection": "",
+            "collection": "hot-deals",
             "products_limit": 7,
             "show_view_all": true,
             "show_product_title": true,
