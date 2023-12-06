@@ -178,9 +178,8 @@
       "blocks": {
         "template--21716628341051__71081ec5-3f47-4ab8-83e5-e2c64caa0968-heading-1": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "Rich text",
+            "heading": "🇯🇵🌎🇺🇸",
             "heading_accent_enable": true,
             "heading_accent_use_cutom_color": false,
             "heading_accent_color": "#e22d00"
@@ -190,7 +189,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers.<br>Describe a product, share announcements or welcome customers to your store.<\/p>"
+            "text": "<p>Use this text to share information about your brand with your customers.<br\/>Describe a product, share announcements or welcome customers to your store.<\/p>"
           }
         },
         "template--21716628341051__71081ec5-3f47-4ab8-83e5-e2c64caa0968-buttons-1": {
