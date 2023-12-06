@@ -127,8 +127,92 @@
         "text_align": "center",
         "size": "md",
         "use_custom_color": false,
-        "text_color": "#FFFFFF",
+        "text_color": "#ffffff",
         "bg_color": "#383838"
+      }
+    },
+    "6b50a49e-fc35-44d2-b1ef-89826a70a929": {
+      "type": "d_featured-product",
+      "blocks": {
+        "template--21716628504891__6b50a49e-fc35-44d2-b1ef-89826a70a929-title-1": {
+          "type": "title",
+          "settings": {
+            "size": "h1",
+            "max_lines": 3,
+            "prev_attach": false
+          }
+        },
+        "template--21716628504891__6b50a49e-fc35-44d2-b1ef-89826a70a929-price-1": {
+          "type": "price",
+          "settings": {
+            "show_savings": true,
+            "show_taxes": true,
+            "prev_attach": false
+          }
+        },
+        "template--21716628504891__6b50a49e-fc35-44d2-b1ef-89826a70a929-variant_selector-1": {
+          "type": "variant_selector",
+          "settings": {
+            "picker_type": "dropdown",
+            "color_swatches": false,
+            "align_option_values": true,
+            "prev_attach": false
+          }
+        },
+        "54ce7fca-f820-4636-8259-a4250c3dbcab": {
+          "type": "quantity_selector",
+          "settings": {
+            "input_type": "dropdown",
+            "prev_attach": false
+          }
+        },
+        "template--21716628504891__6b50a49e-fc35-44d2-b1ef-89826a70a929-buy_with-1": {
+          "type": "buy_with",
+          "disabled": true,
+          "settings": {
+            "meta_heading": "Frequently Bought Together",
+            "use_counter": true,
+            "prev_attach": false
+          }
+        },
+        "template--21716628504891__6b50a49e-fc35-44d2-b1ef-89826a70a929-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "enable_stock_notifier": true,
+            "prev_attach": false
+          }
+        },
+        "template--21716628504891__6b50a49e-fc35-44d2-b1ef-89826a70a929-payment_methods-1": {
+          "type": "payment_methods",
+          "disabled": true,
+          "settings": {
+            "meta_heading": "We Accept",
+            "center": false,
+            "prev_attach": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21716628504891__6b50a49e-fc35-44d2-b1ef-89826a70a929-title-1",
+        "template--21716628504891__6b50a49e-fc35-44d2-b1ef-89826a70a929-price-1",
+        "template--21716628504891__6b50a49e-fc35-44d2-b1ef-89826a70a929-variant_selector-1",
+        "54ce7fca-f820-4636-8259-a4250c3dbcab",
+        "template--21716628504891__6b50a49e-fc35-44d2-b1ef-89826a70a929-buy_with-1",
+        "template--21716628504891__6b50a49e-fc35-44d2-b1ef-89826a70a929-buy_buttons-1",
+        "template--21716628504891__6b50a49e-fc35-44d2-b1ef-89826a70a929-payment_methods-1"
+      ],
+      "settings": {
+        "headline_main": "WANT THE WHOLE EXPERIENCE? 🤔👇",
+        "description": "Each Mystery Box is a journey of sweet discoveries, offering a mix of exotic and beloved flavors. Perfect for adventurous taste buds or as a special gift, it's your chance to experience the finest selections from Holly Lollies and beyond. Unwrap surprise, taste delight!",
+        "heading": "",
+        "subheading": "",
+        "product": "mystery-box",
+        "gallery_width": 50,
+        "slideshow_zoom": false,
+        "thumbnails_layout": "slideshow",
+        "learn_more_title": "Learn more",
+        "learn_more_url": ""
       }
     }
   },
@@ -137,6 +221,7 @@
     "main",
     "4392da1e-acb7-4b41-ac44-68d99f836f2d",
     "d14fafd6-ea3e-4c9c-93c6-818d797a5ec7",
-    "64d01dee-48ce-4c61-bd1c-305f32bfc6f3"
+    "64d01dee-48ce-4c61-bd1c-305f32bfc6f3",
+    "6b50a49e-fc35-44d2-b1ef-89826a70a929"
   ]
 }
