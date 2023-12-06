@@ -196,10 +196,10 @@ img{
 }
 @keyframes slide {
   from {
-    transform: translateX(300%);
+    transform: translateX(250%);
   }
   to {
-    transform: translateX(-300%);
+    transform: translateX(-250%);
   }
 }
 @media only screen and (max-width: 767px) {
