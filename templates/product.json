@@ -240,6 +240,7 @@
         "9a7ce1cd-b2a0-4457-9bfd-a9c5b102809e",
         "1b80f1e1-2087-433c-8977-1aa387e486d1"
       ],
+      "disabled": true,
       "settings": {
         "title1": "What's inside the box?",
         "text": "Our goal is to create exceptional experience for you and your loved ones"
@@ -250,8 +251,8 @@
       "settings": {
         "title": "Want the whole experience?",
         "text": "Our staff picked the most trending and popular candies and put everything in one box. Experience different cultures through their favourite candies.",
-        "btn_title": "Shop Now",
-        "btn_url": "",
+        "btn_title": "Learn more",
+        "btn_url": "shopify:\/\/products\/mystery-box",
         "image": "shopify:\/\/shop_images\/Frame_324433.png"
       }
     },
@@ -303,7 +304,9 @@
       ],
       "settings": {
         "title": "This is what our community says",
-        "reviews_img": "shopify:\/\/shop_images\/Trustpilot_Micro_1.png"
+        "reviews_img": "shopify:\/\/shop_images\/Trustpilot_Micro_1.png",
+        "btn_title": "Read more",
+        "btn_link": ""
       }
     },
     "16554757745dec0af9": {
