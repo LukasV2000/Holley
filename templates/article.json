@@ -100,6 +100,16 @@
         "section_button_label": ""
       }
     },
+    "9c70f5db-7bb1-4054-87c5-30c51179dce6": {
+      "type": "Text_image",
+      "settings": {
+        "title": "Want the whole experience?",
+        "text": "Our staff picked the most trending and popular candies and put everything in one box. Experience different cultures through their favourite candies.",
+        "btn_title": "Shop Now",
+        "btn_url": "",
+        "image": "shopify:\/\/shop_images\/Frame_324433_0a15f530-833e-4943-b6b1-d39a7b034de2.png"
+      }
+    },
     "cbb4dcd2-884c-4632-b38d-b94c9c97b97b": {
       "type": "Index_reviews_carousel",
       "blocks": {
@@ -165,6 +175,7 @@
   "order": [
     "main",
     "8b53f535-680e-4d55-a30e-7ad2db2326c7",
+    "9c70f5db-7bb1-4054-87c5-30c51179dce6",
     "cbb4dcd2-884c-4632-b38d-b94c9c97b97b",
     "f20f5105-a391-4eda-8d42-038ab0c60e01"
   ]
