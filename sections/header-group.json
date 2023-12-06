@@ -8,14 +8,32 @@
         "5d86f9c7-6db2-439f-ba5a-8f69a9aa3fa2": {
           "type": "announcement",
           "settings": {
-            "text": "Free shipping over $50",
-            "link": "",
+            "text": "FREE SHIPPING OVER $50",
+            "link": "shopify:\/\/collections",
+            "icon": "star"
+          }
+        },
+        "c4b59b37-19bd-476f-bb55-1efe555f93d0": {
+          "type": "announcement",
+          "settings": {
+            "text": "CHRISTMAS SEASON SALE - SITEWIDE 25% OFF",
+            "link": "shopify:\/\/collections",
+            "icon": "gift"
+          }
+        },
+        "ccb463a8-7c50-4635-99eb-d5f8e52c2c84": {
+          "type": "announcement",
+          "settings": {
+            "text": "EXPLORE HOT DEALS - DISCOUNTS UP TO 70%",
+            "link": "shopify:\/\/collections\/hot-deals",
             "icon": "star"
           }
         }
       },
       "block_order": [
-        "5d86f9c7-6db2-439f-ba5a-8f69a9aa3fa2"
+        "5d86f9c7-6db2-439f-ba5a-8f69a9aa3fa2",
+        "c4b59b37-19bd-476f-bb55-1efe555f93d0",
+        "ccb463a8-7c50-4635-99eb-d5f8e52c2c84"
       ],
       "settings": {
         "home_page_only": false,
