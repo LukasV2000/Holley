@@ -408,8 +408,8 @@
       "d_newsletter": {
         "type": "d_newsletter",
         "settings": {
-          "heading": "Get 10% off your first purchase",
-          "subheading": "We promise you no spam, and only the best tik tok deals in the world.",
+          "heading": "Get Mystery Discount for your first purchase",
+          "subheading": "We promise you no spam, and only the best Tik Tok deals in the world.",
           "text_color": "#000000",
           "bg_color": "#ffffff"
         }
@@ -417,7 +417,15 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "1513253815146976218": {
+        "type": "shopify:\/\/apps\/omnisend-email-marketing-sms\/blocks\/app-embed\/44704aa2-794f-4c5d-8c8e-039c841158e9",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   },
   "presets": {
     "CookTime": {

@@ -1219,19 +1219,19 @@
             "product_subtitle": ""
           }
         },
-        "1654693292a215d319-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_20231206_135317.jpg",
-            "product": "hata-kosen-bottle-ramune-blueberry",
-            "product_subtitle": ""
-          }
-        },
         "1654693292a215d319-2": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Screenshot_2023-12-06-13-16-21-83_1c337646f29875672b5a61192b9010f9_1.jpg",
             "product": "nerds-rope-very-berry-26g",
+            "product_subtitle": ""
+          }
+        },
+        "1654693292a215d319-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_20231206_135317.jpg",
+            "product": "hata-kosen-bottle-ramune-blueberry",
             "product_subtitle": ""
           }
         },
@@ -1298,8 +1298,8 @@
       },
       "block_order": [
         "1654693292a215d319-0",
-        "1654693292a215d319-1",
         "1654693292a215d319-2",
+        "1654693292a215d319-1",
         "1654693292a215d319-3",
         "1654693292a215d319-4",
         "1654693292a215d319-5",
