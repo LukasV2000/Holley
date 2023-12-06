@@ -78,12 +78,65 @@
         "title": "This is what our community says",
         "reviews_img": "shopify:\/\/shop_images\/Trustpilot_Micro_1.png"
       }
+    },
+    "64d01dee-48ce-4c61-bd1c-305f32bfc6f3": {
+      "type": "d_rich-text",
+      "blocks": {
+        "template--21716628504891__64d01dee-48ce-4c61-bd1c-305f32bfc6f3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "🇺🇸🌎🇯🇵",
+            "heading_accent_enable": true,
+            "heading_accent_use_cutom_color": true,
+            "heading_accent_color": "#000000"
+          }
+        },
+        "template--21716628504891__64d01dee-48ce-4c61-bd1c-305f32bfc6f3-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers.<br>Describe a product, share announcements or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--21716628504891__64d01dee-48ce-4c61-bd1c-305f32bfc6f3-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "mobile_hidden": false,
+            "f_button_label": "EXPLORE COLLECTIONS",
+            "f_button_link": "shopify:\/\/collections",
+            "f_button_style": "normal",
+            "f_button_custom_colors": false,
+            "f_button_bg_color": "",
+            "f_button_text_color": "#ffffff",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_style": "normal",
+            "s_button_custom_colors": false,
+            "s_button_bg_color": "",
+            "s_button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--21716628504891__64d01dee-48ce-4c61-bd1c-305f32bfc6f3-heading-1",
+        "template--21716628504891__64d01dee-48ce-4c61-bd1c-305f32bfc6f3-text-1",
+        "template--21716628504891__64d01dee-48ce-4c61-bd1c-305f32bfc6f3-buttons-1"
+      ],
+      "settings": {
+        "section_layout": "default",
+        "text_align": "center",
+        "size": "md",
+        "use_custom_color": false,
+        "text_color": "#FFFFFF",
+        "bg_color": "#383838"
+      }
     }
   },
   "order": [
     "header",
     "main",
     "4392da1e-acb7-4b41-ac44-68d99f836f2d",
-    "d14fafd6-ea3e-4c9c-93c6-818d797a5ec7"
+    "d14fafd6-ea3e-4c9c-93c6-818d797a5ec7",
+    "64d01dee-48ce-4c61-bd1c-305f32bfc6f3"
   ]
 }
