@@ -272,7 +272,7 @@
       "settings": {
         "heading": "🎯 TIKTOK HITS ONLY 🎯",
         "subheading": "",
-        "collection": "frontpage",
+        "collection": "tiktok-hits",
         "columns": 4,
         "rows": 2,
         "section_button_label": "Shop all"
@@ -311,7 +311,7 @@
       "settings": {
         "heading": "🔥 THIS WEEK'S HOTTEST DEALS",
         "subheading": "",
-        "collection": "frontpage",
+        "collection": "hot-deals",
         "columns": 4,
         "rows": 2,
         "section_button_label": "Shop all"
@@ -348,9 +348,9 @@
         "@media only screen and (max-width: 767px) {.Featured_collection_outer {background-position: 0 100%; background-color: #fef0c7; }}"
       ],
       "settings": {
-        "heading": "🤩 NEW ARRIVALS",
+        "heading": "🤩 BEST-SELLERS",
         "subheading": "",
-        "collection": "frontpage",
+        "collection": "best-sellers",
         "columns": 4,
         "rows": 2,
         "section_button_label": "Shop all"
