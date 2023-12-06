@@ -481,8 +481,9 @@
           "type": "gallery_item",
           "settings": {
             "span": "4",
-            "image": "shopify:\/\/shop_images\/vilcabamba_95957_image_that_shows_most_popular_deals_candy_stor_732cac8d-db95-4ebc-b2fc-0af567c25dc0.png",
+            "image": "shopify:\/\/shop_images\/Untitled_design_36.png",
             "image_size": "md",
+            "mobile_image": "shopify:\/\/shop_images\/Untitled_design_36.png",
             "mobile_image_size": "4x5",
             "link": "shopify:\/\/collections\/hot-deals",
             "image_overlay": 0,
