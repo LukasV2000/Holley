@@ -264,9 +264,10 @@
         "template--21462135734587__a72ea510-a5ac-4b87-8093-e14ded7e95ef-banner-1"
       ],
       "custom_css": [
-        ".Featured_collection_outer {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0839\/5941\/5099\/files\/bg.png?v=1701460245\");}",
+        ".Featured_collection_outer {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0839\/5941\/5099\/files\/Group_324366_1.jpg?v=1701857302\");}",
         "h2 {color: white;}",
-        "h2 {text-align: left; margin: 1rem 0;}"
+        "h2 {text-align: left; margin: 1rem 0;}",
+        "@media only screen and (max-width: 767px) {.Featured_collection_outer {background-position: 0 0%; background-color: #9a81ff; }}"
       ],
       "settings": {
         "heading": "🎯 TIKTOK HITS ONLY 🎯",
