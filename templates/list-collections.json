@@ -54,7 +54,7 @@
         "section_layout": "full",
         "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_17.39.43.png",
         "image_size": "sm",
-        "mobile_image_size": "4x5",
+        "mobile_image_size": "sm",
         "overlay": 50,
         "use_box": false,
         "width": 50,
@@ -107,7 +107,7 @@
         "template--21462135800123__ded88cbd-4989-4f35-8b66-0e700296ebfc-buttons-1"
       ],
       "custom_css": [
-        ".Richtext_outer{padding-bottom: 0;}"
+        ".Richtext_outer {padding-bottom: 0;}"
       ],
       "settings": {
         "section_layout": "default",
