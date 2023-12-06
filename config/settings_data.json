@@ -17,6 +17,7 @@
     "section_text_align": "center",
     "section_text_size": "md",
     "section_subheading_position": "after",
+    "section_button_style": "normal",
     "section_button_position": "after",
     "page_header_text_size": "md",
     "page_header_image_overlay": 40,
