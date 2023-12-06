@@ -167,7 +167,7 @@
           "type": "collection",
           "settings": {
             "collection": "frontpage",
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_17.39.39.png",
+            "image": "shopify:\/\/shop_images\/01_Image.png",
             "custom_title": "HOTTEST DEALS"
           }
         },
@@ -175,7 +175,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_17.39.43.png",
+            "image": "shopify:\/\/shop_images\/01_Image_2.png",
             "custom_title": "BEST-SELLERS"
           }
         },
@@ -183,7 +183,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_17.39.49.png",
+            "image": "shopify:\/\/shop_images\/01_Image_3.png",
             "custom_title": "SNACKS"
           }
         },
@@ -191,7 +191,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_17.39.53.png",
+            "image": "shopify:\/\/shop_images\/01_Image_4.png",
             "custom_title": "SOFT DRINKS"
           }
         },
@@ -199,7 +199,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_17.29.52.png",
+            "image": "shopify:\/\/shop_images\/01_Image_5.png",
             "custom_title": "CANDIES & POPCORN"
           }
         },
@@ -207,8 +207,8 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_17.19.34.png",
-            "custom_title": "CEREALS & INSTANT SOUPS"
+            "image": "shopify:\/\/shop_images\/01_Image_1.png",
+            "custom_title": "TIKTOK HITS"
           }
         }
       },
