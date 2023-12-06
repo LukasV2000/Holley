@@ -167,7 +167,7 @@
           "type": "collection",
           "settings": {
             "collection": "frontpage",
-            "image": "shopify:\/\/shop_images\/01_Image.png",
+            "image": "shopify:\/\/shop_images\/01_Image_6.png",
             "custom_title": "HOTTEST DEALS"
           }
         },
@@ -175,7 +175,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/01_Image_2.png",
+            "image": "shopify:\/\/shop_images\/01_Image_8.png",
             "custom_title": "BEST-SELLERS"
           }
         },
@@ -183,7 +183,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/01_Image_3.png",
+            "image": "shopify:\/\/shop_images\/01_Image_9.png",
             "custom_title": "SNACKS"
           }
         },
@@ -191,7 +191,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/01_Image_4.png",
+            "image": "shopify:\/\/shop_images\/01_Image_10.png",
             "custom_title": "SOFT DRINKS"
           }
         },
@@ -199,7 +199,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/01_Image_5.png",
+            "image": "shopify:\/\/shop_images\/01_Image_11.png",
             "custom_title": "CANDIES & POPCORN"
           }
         },
@@ -207,7 +207,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/01_Image_1.png",
+            "image": "shopify:\/\/shop_images\/01_Image_7.png",
             "custom_title": "TIKTOK HITS"
           }
         }
