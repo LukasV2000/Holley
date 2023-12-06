@@ -489,6 +489,7 @@
       "block_order": [
         "79074c40-eb9e-4d8b-8ef6-6fcce868455d"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "subheading": ""
@@ -555,6 +556,59 @@
         "subheading": "",
         "section_layout": "narrow"
       }
+    },
+    "c06d13bf-3439-4011-a790-65545216934b": {
+      "type": "Customer_says_reviews",
+      "blocks": {
+        "ae25d7ef-e98f-4954-b539-529c10426449": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/Ellipse_7.png",
+            "name": "John Smith",
+            "info": "Designer",
+            "content": "<p>LOVE their sweaters! Exactly what I was looking for. Ordered couple of them and all are perfect. For the price, the material is better than expected! The inside is incredibly soft. No downsides, perfect sweaters!<\/p>"
+          }
+        },
+        "8c7a59a2-922e-44c2-a6a8-74645a20a8a8": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/Ellipse_7.png",
+            "name": "John Smith",
+            "info": "Designer",
+            "content": "<p>LOVE their sweaters! Exactly what I was looking for. Ordered couple of them and all are perfect. For the price, the material is better than expected! The inside is incredibly soft. No downsides, perfect sweaters!<\/p>"
+          }
+        },
+        "4939426f-87a0-4e9e-b9bf-fe0d277fd57c": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/Ellipse_7.png",
+            "name": "John Smith",
+            "info": "Designer",
+            "content": "<p>LOVE their sweaters! Exactly what I was looking for. Ordered couple of them and all are perfect. For the price, the material is better than expected! The inside is incredibly soft. No downsides, perfect sweaters!<\/p>"
+          }
+        },
+        "c3dc6050-8269-4043-a5ef-511b3a09422b": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/Ellipse_7.png",
+            "name": "John Smith",
+            "info": "Designer",
+            "content": "<p>LOVE their sweaters! Exactly what I was looking for. Ordered couple of them and all are perfect. For the price, the material is better than expected! The inside is incredibly soft. No downsides, perfect sweaters!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "ae25d7ef-e98f-4954-b539-529c10426449",
+        "8c7a59a2-922e-44c2-a6a8-74645a20a8a8",
+        "4939426f-87a0-4e9e-b9bf-fe0d277fd57c",
+        "c3dc6050-8269-4043-a5ef-511b3a09422b"
+      ],
+      "settings": {
+        "title": "This is what our community says",
+        "reviews_img": "shopify:\/\/shop_images\/Trustpilot_Micro_1.png",
+        "btn_title": "Read more",
+        "btn_link": ""
+      }
     }
   },
   "order": [
@@ -570,6 +624,7 @@
     "16975599647a695716",
     "458e48be-888e-4255-a5e1-5d254011f588",
     "64dbe55b-1680-43aa-997f-2048d1510a92",
-    "2b2aca62-cb13-49de-ac87-379696acfe1f"
+    "2b2aca62-cb13-49de-ac87-379696acfe1f",
+    "c06d13bf-3439-4011-a790-65545216934b"
   ]
 }
