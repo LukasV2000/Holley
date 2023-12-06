@@ -172,6 +172,59 @@
       "settings": {
         "title": "This is what our community says"
       }
+    },
+    "71081ec5-3f47-4ab8-83e5-e2c64caa0968": {
+      "type": "d_rich-text",
+      "blocks": {
+        "template--21716628341051__71081ec5-3f47-4ab8-83e5-e2c64caa0968-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Rich text",
+            "heading_accent_enable": true,
+            "heading_accent_use_cutom_color": false,
+            "heading_accent_color": "#e22d00"
+          }
+        },
+        "template--21716628341051__71081ec5-3f47-4ab8-83e5-e2c64caa0968-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers.<br>Describe a product, share announcements or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--21716628341051__71081ec5-3f47-4ab8-83e5-e2c64caa0968-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "mobile_hidden": false,
+            "f_button_label": "EXPLORE COLLECTIONS",
+            "f_button_link": "",
+            "f_button_style": "normal",
+            "f_button_custom_colors": false,
+            "f_button_bg_color": "",
+            "f_button_text_color": "#ffffff",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_style": "normal",
+            "s_button_custom_colors": false,
+            "s_button_bg_color": "",
+            "s_button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--21716628341051__71081ec5-3f47-4ab8-83e5-e2c64caa0968-heading-1",
+        "template--21716628341051__71081ec5-3f47-4ab8-83e5-e2c64caa0968-text-1",
+        "template--21716628341051__71081ec5-3f47-4ab8-83e5-e2c64caa0968-buttons-1"
+      ],
+      "settings": {
+        "section_layout": "default",
+        "text_align": "center",
+        "size": "md",
+        "use_custom_color": false,
+        "text_color": "#FFFFFF",
+        "bg_color": "#383838"
+      }
     }
   },
   "order": [
@@ -179,6 +232,7 @@
     "8b53f535-680e-4d55-a30e-7ad2db2326c7",
     "f20f5105-a391-4eda-8d42-038ab0c60e01",
     "9c70f5db-7bb1-4054-87c5-30c51179dce6",
-    "cbb4dcd2-884c-4632-b38d-b94c9c97b97b"
+    "cbb4dcd2-884c-4632-b38d-b94c9c97b97b",
+    "71081ec5-3f47-4ab8-83e5-e2c64caa0968"
   ]
 }
