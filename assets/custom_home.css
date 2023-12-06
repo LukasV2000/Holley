@@ -185,7 +185,7 @@ img{
   justify-content: center;
   /* flex-wrap: wrap; */
   gap: 10px;
-  animation: slide 120s infinite linear;
+  animation: slide 70s infinite linear;
 }
 .Featured_logos_outer > div{
   padding: 0 50px;
@@ -196,18 +196,26 @@ img{
 }
 @keyframes slide {
   from {
-    transform: translateX(0%);
+    transform: translateX(300%);
   }
   to {
-    transform: translateX(-50%);
+    transform: translateX(-300%);
   }
 }
 @media only screen and (max-width: 767px) {
   .Featured_logos_outer{
-    animation: slide 30s infinite linear;
+    animation: slide 80s infinite linear;
   }
   .Featured_logos_outer > div{
     padding: 0 30px;
+  }
+  @keyframes slide {
+    from {
+      transform: translateX(500%);
+    }
+    to {
+      transform: translateX(-500%);
+    }
   }
 }
 
@@ -853,7 +861,7 @@ product-to-cart:hover{
 }
 
 .Hero_background_video{
-  padding: 3rem 0;
+  padding: 5rem 0;
   margin-top: 0rem;
   background: #FEF0C7;
 }
@@ -862,7 +870,7 @@ product-to-cart:hover{
   margin-bottom: 0;
 }
 .Richtext_outer{
-  padding: 3rem 0;
+  padding: 5rem 0;
 }
 .Richtext_outer .\#section-body.\@spaced{
   margin-top: 0;
@@ -997,4 +1005,11 @@ product-to-cart:hover{
     border-radius: 5px;
     background: white;
   }
+  .shopify-section .\#newsletter form{
+    width: 100%;
+  }
+  .shopify-section .\#newsletter-input {
+    width: 100%;
+  }
 }
+

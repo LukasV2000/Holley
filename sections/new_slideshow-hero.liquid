@@ -54,6 +54,15 @@
   {
     "name": "Slideshow Hero",
     "settings": [
+      {
+        "type":"range",
+        "id":"autoplay_speed",
+        "label":"Autoplay Speed",
+        "min":1000,
+        "step":500,
+        "max":8000,
+        "default":4000
+      }
     ],
     "blocks": [
         {
@@ -134,3 +143,16 @@
 
 {% javascript %}
 {% endjavascript %}
+
+
+<script>
+  $('.Slideshow_outer').slick({
+    infinite: true,
+    slidesToShow:1,
+    slidesToScroll: 1,
+    dots: true,
+    autoplay: true,
+    autoplaySpeed: {{section.settings.autoplay_speed }},
+    pauseOnHover: false
+  });
+</script>

@@ -63,7 +63,9 @@
         {% comment %} <img loading="eager" src="{{ image | img_url: 'master' }}"> {% endcomment %}
     </div>
     {% comment %} <p class="Collection_card_label">{{ title | default: onboard_title  }}</p> {% endcomment %}
-    <div class="{{ cn }}-caption @position:{{ text_position }}">
-        <h4 class="{{ cn }}-title heading-font {% if use_text_bg %}@text-bg{% endif %} {% unless text_size == 'h4' %}fs-{{ text_size }}{% endunless %}">{{ title | default: onboard_title  }}</h4>
-    </div>
+    {% if show_label %}
+        <div class="{{ cn }}-caption @position:{{ text_position }}">
+            <h4 class="{{ cn }}-title heading-font {% if use_text_bg %}@text-bg{% endif %} {% unless text_size == 'h4' %}fs-{{ text_size }}{% endunless %}">{{ title | default: onboard_title  }}</h4>
+        </div>
+    {% endif %}
 </div>

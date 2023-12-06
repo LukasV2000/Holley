@@ -51,17 +51,6 @@ $(document).ready(function(){
   //   }, 500);
   // });
 
-
-  $('.Slideshow_outer').slick({
-    infinite: true,
-    slidesToShow:1,
-    slidesToScroll: 1,
-    dots: true,
-    autoplay: true,
-    autoplaySpeed: 4000,
-    pauseOnHover: false
-  });
-
   $('.Customer_says_reviews_outer').slick({
     infinite: true,
     slidesToShow:3,
