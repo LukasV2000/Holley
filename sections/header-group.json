@@ -108,6 +108,7 @@
         },
         "3da5dd28-9d71-4b64-8ed9-1ae8812371fe": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "position": "secondary",
             "link_name": "Gift cards",
@@ -117,6 +118,7 @@
         },
         "40b81852-f6cc-4c90-bbd5-3aede38492e0": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "position": "secondary",
             "link_name": "Shipping & Returns",
@@ -129,7 +131,7 @@
           "settings": {
             "position": "secondary",
             "link_name": "Candy Tales",
-            "url": "",
+            "url": "shopify:\/\/blogs\/news",
             "icon": "mug-hot"
           }
         },
