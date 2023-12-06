@@ -63,6 +63,7 @@
         "b44d3a2a-8573-4d5a-930d-197d202390ce"
       ],
       "settings": {
+        "autoplay_speed": 4000
       }
     },
     "0cfef29e-354b-4bd7-b913-b1710a26b5b1": {
@@ -115,6 +116,8 @@
         "61b3d260-b27b-4815-9a63-7c7e4214eed2"
       ],
       "settings": {
+        "speed_desktop": 170,
+        "speed_mobile": 80
       }
     },
     "16546927101b0880bc": {
@@ -225,6 +228,7 @@
         "h2 {text-align: left; margin: 1rem 0;}"
       ],
       "settings": {
+        "show_card_title": true,
         "heading": "EXPLORE COLLECTIONS",
         "subheading": "",
         "columns": 6,
@@ -757,6 +761,7 @@
         "ea100259-4431-4eb0-b3ca-3c2475720c43"
       ],
       "settings": {
+        "show_card_title": true,
         "heading": "OUR BRANDS",
         "subheading": "",
         "columns": 6,
