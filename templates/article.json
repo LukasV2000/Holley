@@ -1,1 +1,70 @@
-{"sections":{"main":{"type":"s_article","blocks":{"featured_image":{"type":"featured_image","settings":{}},"title":{"type":"title","settings":{}},"content":{"type":"content","settings":{}},"comments":{"type":"comments","settings":{}}},"block_order":["featured_image","title","content","comments"],"settings":{}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "s_article",
+      "blocks": {
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "block_full_width": true,
+            "image_size": "ultrawide"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "d4",
+            "show_author": false,
+            "show_date": true,
+            "show_icons": true,
+            "show_share": true,
+            "show_border": false,
+            "show_tags": true
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+            "font_scale": 100
+          }
+        },
+        "comments": {
+          "type": "comments",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "featured_image",
+        "title",
+        "content",
+        "comments"
+      ],
+      "settings": {
+        "container_width": "narrow"
+      }
+    },
+    "cbb4dcd2-884c-4632-b38d-b94c9c97b97b": {
+      "type": "Index_reviews_carousel",
+      "settings": {
+        "title": "This is what our community says"
+      }
+    },
+    "f20f5105-a391-4eda-8d42-038ab0c60e01": {
+      "type": "d_browsing-history",
+      "settings": {
+        "heading": "Browsing history",
+        "subheading": "",
+        "section_layout": "full",
+        "items_per_view": 4,
+        "enable_loop": true,
+        "enable_pagination": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "cbb4dcd2-884c-4632-b38d-b94c9c97b97b",
+    "f20f5105-a391-4eda-8d42-038ab0c60e01"
+  ]
+}
