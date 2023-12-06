@@ -124,7 +124,7 @@
             "icon": "custom",
             "icon_custom": "<svg width=\"41\" height=\"41\" viewbox=\"0 0 41 41\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" fill=\"white\"><\/rect>\n<rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" stroke=\"black\" stroke-width=\"2\"><\/rect>\n<path d=\"M13.5 20.7633L16.9168 11.834H25.4927L23.1354 16.7453H29L16.4491 30.334L20.915 20.7633H13.5Z\" fill=\"#7A5AF8\" stroke=\"black\" stroke-width=\"2\"><\/path>\n<\/svg>",
             "heading": "Free shipping from €50",
-            "subheading": "Feature subheading",
+            "subheading": "",
             "prev_attach": false
           }
         },
@@ -134,7 +134,7 @@
             "icon": "custom",
             "icon_custom": "<svg width=\"40\" height=\"41\" viewbox=\"0 0 40 41\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect x=\"1\" y=\"1.89136\" width=\"38\" height=\"38\" rx=\"7\" fill=\"white\"><\/rect>\n<rect x=\"1\" y=\"1.89136\" width=\"38\" height=\"38\" rx=\"7\" stroke=\"black\" stroke-width=\"2\"><\/rect>\n<path d=\"M10.8427 22.3609L10 18.9263L18.8746 16.5566C15.9252 17.3442 12.2194 14.262 14.3715 12.27C16.2412 10.5394 18.3742 13.7344 18.8746 16.5566C18.3648 13.6811 19.7331 10.0346 21.8767 11.0719C24.3525 12.27 21.6792 15.8078 18.8746 16.5566L27.4332 14.2935L28.3022 18.5003L26.3756 18.9263L28.5185 28.4951L21.5795 29.6932L14.6405 30.8914L13.2128 21.8368L10.8427 22.3609Z\" fill=\"#E478FA\"><\/path>\n<path d=\"M13.2128 21.8368L10.8427 22.3609L10 18.9263L18.8746 16.5566M13.2128 21.8368L14.6405 30.8914L21.5795 29.6932M13.2128 21.8368L19.7942 20.3815M26.3756 18.9263L28.3022 18.5003L27.4332 14.2935L18.8746 16.5566M26.3756 18.9263L28.5185 28.4951L21.5795 29.6932M26.3756 18.9263L19.7942 20.3815M18.8746 16.5566L19.7942 20.3815M18.8746 16.5566C18.3742 13.7344 16.2412 10.5394 14.3715 12.27C12.2194 14.262 15.9252 17.3442 18.8746 16.5566ZM18.8746 16.5566C18.3648 13.6811 19.7331 10.0346 21.8767 11.0719C24.3525 12.27 21.6792 15.8078 18.8746 16.5566ZM19.7942 20.3815L21.5795 29.6932\" stroke=\"black\" stroke-width=\"2\"><\/path>\n<\/svg>",
             "heading": "Unique gift idea",
-            "subheading": "Feature subheading",
+            "subheading": "",
             "prev_attach": false
           }
         },
@@ -144,7 +144,7 @@
             "icon": "custom",
             "icon_custom": "<svg width=\"40\" height=\"41\" viewbox=\"0 0 40 41\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect x=\"1\" y=\"1.89136\" width=\"38\" height=\"38\" rx=\"7\" fill=\"white\"><\/rect>\n<rect x=\"1\" y=\"1.89136\" width=\"38\" height=\"38\" rx=\"7\" stroke=\"black\" stroke-width=\"2\"><\/rect>\n<path d=\"M17.7697 18.1812C16.7086 14.6242 9.83357 13.9626 9.83357 17.6747C9.83357 21.1352 17.7697 20.671 17.7697 25.1623C17.7697 29.6535 7.58502 28.0555 8.01313 22.303M15.0808 13.3914L11.7642 30.2717\" stroke=\"#7A5AF8\" stroke-width=\"2\"><\/path>\n<path d=\"M32.0041 16.4916C29.755 13.2993 25.7603 15.3234 24.907 20.3486C24.1534 24.7867 26.4678 29.7326 31.1949 27.4029M23.6562 20.1859H29.9382M23.6562 22.8712H28.7858\" stroke=\"#7A5AF8\" stroke-width=\"2\"><\/path>\n<\/svg>",
             "heading": "Competitive pricing",
-            "subheading": "Feature subheading",
+            "subheading": "",
             "prev_attach": false
           }
         },
@@ -158,6 +158,7 @@
         },
         "ddad1229-69cf-452f-85c1-8764ca5221a2": {
           "type": "collapsible_tab_text",
+          "disabled": true,
           "settings": {
             "heading": "Collapsible tab",
             "icon": "",
@@ -167,6 +168,7 @@
         },
         "bfcb7fcd-1b6c-41fe-a682-a28f97cb89a5": {
           "type": "collapsible_tab_text",
+          "disabled": true,
           "settings": {
             "heading": "Collapsible tab",
             "icon": "",
@@ -335,6 +337,7 @@
       "block_order": [
         "c2ce07dc-4b42-4544-b8de-e7a27bad0be7"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "subheading": ""
@@ -350,6 +353,57 @@
         "enable_loop": true,
         "enable_pagination": false
       }
+    },
+    "c03a4576-b76e-4a7e-b6ed-89e6421aa132": {
+      "type": "Index_reviews_carousel",
+      "blocks": {
+        "6e8599fa-7c68-4bac-ad28-57cf7eaa9011": {
+          "type": "Slide",
+          "settings": {
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/898390aedeb84b5d9973ec3442fde82f.mp4",
+            "headline": "“I've had other snack boxes but, Holly Lollies is definitely my favorite. Great variety of tasty snacks, both sweet and savory. My box even included some ramen! I would definitely recommend this for anyone that wants to try exotic snacks.”",
+            "name": "— Janneke Lemmens",
+            "info": "Proud Client from Netherlands 🇳🇱"
+          }
+        },
+        "2c215d2b-bde2-4695-8a45-86edb60d5c32": {
+          "type": "Slide",
+          "settings": {
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2248ffeeb076473a97af3f0dc82f1e28.mp4",
+            "headline": "“It's all delicious and let's you try different flavor combinations you never would have thought of or had the chance to experience.\"",
+            "name": "— Kimberly de Koning",
+            "info": "Proud Client from Netherlands 🇳🇱"
+          }
+        },
+        "818d02f9-85ba-4332-a43a-47e56fff2718": {
+          "type": "Slide",
+          "settings": {
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/89fe88f2f04d4918b55b0c3c5db95e3a.mp4",
+            "headline": "“I’d been introduced to them through a friend, though I’d heard about them before. I’ve been impressed with the range of snacks and drinks, and the effort put into each box. Even with the occasional repeat snack, it’s still always delicious. It’s worth the price, and worth the time to enjoy a big bite of exotic candies.”",
+            "name": "— Alexana Weinberger",
+            "info": "Happy Client from Austria 🇦🇹"
+          }
+        },
+        "0b69fa11-51bd-4e48-968a-ec117b9d9f92": {
+          "type": "Slide",
+          "settings": {
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f72a031350b64ae79eca0a4710d7d5f2.mp4",
+            "headline": "“Tasting the Japanese KitKat Matcha was like a quick trip back to Japan. The variety in this box is incredible – each candy is a new discovery. For anyone thinking about trying Holly Lollies, I say go for it. It's a world tour for your taste buds and every bite is top quality. Holly Lollies, you've got yourself a fan – this is easily a 10\/10 from me!\"”",
+            "name": "— Kurt Hansjörg",
+            "info": "Proud Client from Germany 🇩🇪"
+          }
+        }
+      },
+      "block_order": [
+        "6e8599fa-7c68-4bac-ad28-57cf7eaa9011",
+        "2c215d2b-bde2-4695-8a45-86edb60d5c32",
+        "818d02f9-85ba-4332-a43a-47e56fff2718",
+        "0b69fa11-51bd-4e48-968a-ec117b9d9f92"
+      ],
+      "settings": {
+        "title": "This is what our community says",
+        "reviews_img": "shopify:\/\/shop_images\/Trustpilot_Micro_1.png"
+      }
     }
   },
   "order": [
@@ -360,6 +414,7 @@
     "939fe1cf-87b0-4404-b1ef-5be59fbcf5d4",
     "16554757745dec0af9",
     "1697692424f53300c2",
-    "a2254d99-9030-4262-b1a1-76541f8923f4"
+    "a2254d99-9030-4262-b1a1-76541f8923f4",
+    "c03a4576-b76e-4a7e-b6ed-89e6421aa132"
   ]
 }
