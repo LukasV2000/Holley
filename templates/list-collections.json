@@ -120,10 +120,99 @@
         "bg_color": "#383838"
       }
     },
+    "e3072ddc-be59-4c07-ba88-884d5f1497a9": {
+      "type": "d_collection-list",
+      "blocks": {
+        "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-sellers",
+            "image": "shopify:\/\/shop_images\/01_Image_8.png",
+            "custom_title": ""
+          }
+        },
+        "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "hot-deals",
+            "image": "shopify:\/\/shop_images\/01_Image_6.png",
+            "custom_title": ""
+          }
+        },
+        "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "candies-popcorn",
+            "image": "shopify:\/\/shop_images\/01_Image_11.png",
+            "custom_title": ""
+          }
+        },
+        "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "cereals-instant-soups",
+            "image": "shopify:\/\/shop_images\/01_Image_7.png",
+            "custom_title": ""
+          }
+        },
+        "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "snacks",
+            "image": "shopify:\/\/shop_images\/01_Image_3.png",
+            "custom_title": ""
+          }
+        },
+        "1b08b405-7d5b-4bac-b4ad-683d260ebac3": {
+          "type": "collection",
+          "settings": {
+            "collection": "soft-drinks",
+            "image": "shopify:\/\/shop_images\/01_Image_10.png",
+            "custom_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-1",
+        "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-2",
+        "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-3",
+        "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-4",
+        "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-5",
+        "1b08b405-7d5b-4bac-b4ad-683d260ebac3"
+      ],
+      "settings": {
+        "show_card_title": true,
+        "heading": "Collection list",
+        "subheading": "",
+        "columns": 6,
+        "image_size": "square",
+        "text_position": "center",
+        "show_frame": false,
+        "section_button_label": ""
+      }
+    },
     "main": {
       "type": "s_list-collections",
       "blocks": {
         "a25eb855-707e-41ca-861d-1f942d8394bb": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-sellers"
+          }
+        },
+        "29940a28-ea6c-4a20-8866-9f22a3cb34ee": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "44732169-d656-43eb-8907-402b8593687e": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "1c1c3886-fad5-453b-8310-8a2ccfb3edc5": {
           "type": "collection",
           "settings": {
             "collection": ""
@@ -131,8 +220,12 @@
         }
       },
       "block_order": [
-        "a25eb855-707e-41ca-861d-1f942d8394bb"
+        "a25eb855-707e-41ca-861d-1f942d8394bb",
+        "29940a28-ea6c-4a20-8866-9f22a3cb34ee",
+        "44732169-d656-43eb-8907-402b8593687e",
+        "1c1c3886-fad5-453b-8310-8a2ccfb3edc5"
       ],
+      "disabled": true,
       "settings": {
         "collections_display": "all",
         "columns": 4,
@@ -382,6 +475,7 @@
   "order": [
     "8c27920e-2776-445d-b3ae-019a70c740eb",
     "ded88cbd-4989-4f35-8b66-0e700296ebfc",
+    "e3072ddc-be59-4c07-ba88-884d5f1497a9",
     "main",
     "5f8de7e3-b9e9-48eb-a2e8-1b5276e250aa",
     "71d9eabb-c28e-4b21-953a-e665e72297e4",
