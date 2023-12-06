@@ -18,27 +18,25 @@
         },
         "86fd6be7-0f57-4886-9fe8-53a6ce37d83c": {
           "type": "Slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_324433.png",
-            "headline": "Superlicious candies",
-            "info": "<p>Superlicious candies lorem ipsum<\/p>",
-            "button_title_1": "Shop now",
+            "image_bg": "shopify:\/\/shop_images\/XMAS.png",
+            "headline": "",
+            "info": "",
+            "button_title_1": "",
             "button_url_1": "",
-            "button_title_2": "Shop now",
+            "button_title_2": "",
             "button_url_2": ""
           }
         },
         "a68b052d-24bf-47b7-b59d-61cdac4617f4": {
           "type": "Slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/93.png",
-            "headline": "Superlicious candies",
-            "info": "<p>Superlicious candies lorem ipsum<\/p>",
-            "button_title_1": "Shop now",
+            "image_bg": "shopify:\/\/shop_images\/This_week_s_hottest_deals..png",
+            "headline": "",
+            "info": "",
+            "button_title_1": "",
             "button_url_1": "",
-            "button_title_2": "Shop now",
+            "button_title_2": "",
             "button_url_2": ""
           }
         },
@@ -46,11 +44,12 @@
           "type": "Slide",
           "disabled": true,
           "settings": {
-            "headline": "Superlicious candies",
-            "info": "<p>Superlicious candies lorem ipsum<\/p>",
-            "button_title_1": "Shop now",
+            "image_bg": "shopify:\/\/shop_images\/Mystery_box..png",
+            "headline": "",
+            "info": "",
+            "button_title_1": "",
             "button_url_1": "",
-            "button_title_2": "Shop now",
+            "button_title_2": "",
             "button_url_2": ""
           }
         }
