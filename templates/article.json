@@ -44,6 +44,62 @@
         "container_width": "narrow"
       }
     },
+    "8b53f535-680e-4d55-a30e-7ad2db2326c7": {
+      "type": "d_collection-list",
+      "blocks": {
+        "template--21716628341051__8b53f535-680e-4d55-a30e-7ad2db2326c7-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "custom_title": ""
+          }
+        },
+        "template--21716628341051__8b53f535-680e-4d55-a30e-7ad2db2326c7-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "custom_title": ""
+          }
+        },
+        "template--21716628341051__8b53f535-680e-4d55-a30e-7ad2db2326c7-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "custom_title": ""
+          }
+        },
+        "template--21716628341051__8b53f535-680e-4d55-a30e-7ad2db2326c7-collection-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "custom_title": ""
+          }
+        },
+        "template--21716628341051__8b53f535-680e-4d55-a30e-7ad2db2326c7-collection-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "custom_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21716628341051__8b53f535-680e-4d55-a30e-7ad2db2326c7-collection-1",
+        "template--21716628341051__8b53f535-680e-4d55-a30e-7ad2db2326c7-collection-2",
+        "template--21716628341051__8b53f535-680e-4d55-a30e-7ad2db2326c7-collection-3",
+        "template--21716628341051__8b53f535-680e-4d55-a30e-7ad2db2326c7-collection-4",
+        "template--21716628341051__8b53f535-680e-4d55-a30e-7ad2db2326c7-collection-5"
+      ],
+      "settings": {
+        "heading": "Collection list",
+        "subheading": "",
+        "columns": 5,
+        "image_size": "square",
+        "text_position": "inner-bottom-center",
+        "show_frame": false,
+        "section_button_label": ""
+      }
+    },
     "cbb4dcd2-884c-4632-b38d-b94c9c97b97b": {
       "type": "Index_reviews_carousel",
       "blocks": {
@@ -108,6 +164,7 @@
   },
   "order": [
     "main",
+    "8b53f535-680e-4d55-a30e-7ad2db2326c7",
     "cbb4dcd2-884c-4632-b38d-b94c9c97b97b",
     "f20f5105-a391-4eda-8d42-038ab0c60e01"
   ]
