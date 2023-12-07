@@ -108,6 +108,7 @@
         },
         "3da5dd28-9d71-4b64-8ed9-1ae8812371fe": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "position": "secondary",
             "link_name": "Reviews",
