@@ -118,6 +118,7 @@
         },
         "f1fc54bb-bcf3-4359-98c1-c6983bf4615d": {
           "type": "payment_methods",
+          "disabled": true,
           "settings": {
             "meta_heading": "We Accept",
             "center": true,
