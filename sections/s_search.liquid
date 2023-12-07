@@ -300,7 +300,7 @@
     <script type="module" src="{{ 'collection-provider.js' | asset_url }}"></script>
     {%- if with_filters -%}
         <script type="module" src="{{ 'collection-filter.js' | asset_url }}"></script>
-        <script type="module" src="{{ 'collection-filter-price.js' | asset_url }}"></script>
+        {% comment %} <script type="module" src="{{ 'collection-filter-price.js' | asset_url }}"></script> {% endcomment %}
         {%- if section.settings.show_active_filters -%}
             <script type="module" src="{{ 'collection-active-filter.js' | asset_url }}"></script>
         {%- endif -%}

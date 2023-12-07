@@ -211,10 +211,10 @@ img{
   }
   @keyframes slide {
     from {
-      transform: translateX(500%);
+      transform: translateX(550%);
     }
     to {
-      transform: translateX(-500%);
+      transform: translateX(-550%);
     }
   }
 }
