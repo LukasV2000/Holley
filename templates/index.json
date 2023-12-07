@@ -6,14 +6,14 @@
         "ca1a8a25-f8cb-4583-81f7-053775d51ac2": {
           "type": "Slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pekas1_girl_covering_her_eyes_with_two_lollipops_45a6fbc6-e417-4b92-b7c1-1c4218a2d37b_1_2.png",
+            "image": "shopify:\/\/shop_images\/Frame_324433_0a15f530-833e-4943-b6b1-d39a7b034de2.png",
             "trust_image": "shopify:\/\/shop_images\/Trustpilot_Micro.png",
             "headline": "Your Passport to Global Flavors",
             "info": "<p>Uncover the Secrets of International Sweets! 🍭🍫<\/p>",
-            "button_title_1": "Shop now",
-            "button_url_1": "",
-            "button_title_2": "",
-            "button_url_2": ""
+            "button_title_1": "SHOP NOW",
+            "button_url_1": "shopify:\/\/collections",
+            "button_title_2": "HOT DEALS 🔥",
+            "button_url_2": "shopify:\/\/collections\/hot-deals"
           }
         },
         "86fd6be7-0f57-4886-9fe8-53a6ce37d83c": {
@@ -105,6 +105,66 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Vector_52227e6a-e6a3-4e53-8ff3-c57e5c1e9378.png"
           }
+        },
+        "5d825b2d-8022-4a90-8a89-8a9dec96bed2": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Press_logo_2.png"
+          }
+        },
+        "922d9aa6-7ac0-4438-9a0a-09b66cd2f430": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Press_logo_3.png"
+          }
+        },
+        "c657beae-8190-4c0b-a4b7-a9dd791da4a3": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-12-05_at_18.34.20-removebg-preview_1.png"
+          }
+        },
+        "65900420-a474-43fc-8aab-17912471d5fc": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-12-05_at_18.36.01-removebg-preview.png"
+          }
+        },
+        "5376110a-cea3-4a56-a941-da0404ca4a5d": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector.png"
+          }
+        },
+        "637403ec-0e8a-4ab9-aa22-1c54a1311a98": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Press_logo_2.png"
+          }
+        },
+        "e0998e43-7ff5-465a-aaae-e480ba970045": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Press_logo_3.png"
+          }
+        },
+        "6e57aef7-3089-4102-9aae-c275cf2167c1": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-12-05_at_18.34.20-removebg-preview_1.png"
+          }
+        },
+        "923a67eb-f63d-4742-a0b9-bcc91c408424": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-12-05_at_18.36.01-removebg-preview.png"
+          }
+        },
+        "0a756e4d-7f97-4f10-abf3-7024c0ffa3d3": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector.png"
+          }
         }
       },
       "block_order": [
@@ -113,11 +173,21 @@
         "6b84b0c3-645a-46ef-99b4-861ce87ddd9b",
         "db06d186-c05c-4100-8dfa-9a3c9f763a4b",
         "35b1e678-7b7e-43fa-9001-fb0eb45d788c",
-        "61b3d260-b27b-4815-9a63-7c7e4214eed2"
+        "61b3d260-b27b-4815-9a63-7c7e4214eed2",
+        "5d825b2d-8022-4a90-8a89-8a9dec96bed2",
+        "922d9aa6-7ac0-4438-9a0a-09b66cd2f430",
+        "c657beae-8190-4c0b-a4b7-a9dd791da4a3",
+        "65900420-a474-43fc-8aab-17912471d5fc",
+        "5376110a-cea3-4a56-a941-da0404ca4a5d",
+        "637403ec-0e8a-4ab9-aa22-1c54a1311a98",
+        "e0998e43-7ff5-465a-aaae-e480ba970045",
+        "6e57aef7-3089-4102-9aae-c275cf2167c1",
+        "923a67eb-f63d-4742-a0b9-bcc91c408424",
+        "0a756e4d-7f97-4f10-abf3-7024c0ffa3d3"
       ],
       "settings": {
         "speed_desktop": 170,
-        "speed_mobile": 80
+        "speed_mobile": 100
       }
     },
     "16546927101b0880bc": {
@@ -170,7 +240,7 @@
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "frontpage",
+            "collection": "hot-deals",
             "image": "shopify:\/\/shop_images\/01_Image_6.png",
             "custom_title": "HOTTEST DEALS"
           }
@@ -178,7 +248,7 @@
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-2": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "best-sellers",
             "image": "shopify:\/\/shop_images\/01_Image_8.png",
             "custom_title": "BEST-SELLERS"
           }
@@ -186,7 +256,7 @@
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-3": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "snacks",
             "image": "shopify:\/\/shop_images\/01_Image_9.png",
             "custom_title": "SNACKS"
           }
@@ -194,7 +264,7 @@
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-4": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "soft-drinks",
             "image": "shopify:\/\/shop_images\/01_Image_10.png",
             "custom_title": "SOFT DRINKS"
           }
@@ -202,7 +272,7 @@
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-5": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "candies-popcorn",
             "image": "shopify:\/\/shop_images\/01_Image_11.png",
             "custom_title": "CANDIES & POPCORN"
           }
@@ -210,7 +280,7 @@
         "cc48d79d-b305-47b0-b5e3-ecc98d523344": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "tiktok-hits",
             "image": "shopify:\/\/shop_images\/01_Image_7.png",
             "custom_title": "TIKTOK HITS"
           }
@@ -272,7 +342,7 @@
       "settings": {
         "heading": "🎯 TIKTOK HITS ONLY 🎯",
         "subheading": "",
-        "collection": "frontpage",
+        "collection": "tiktok-hits",
         "columns": 4,
         "rows": 2,
         "section_button_label": "Shop all"
@@ -311,7 +381,7 @@
       "settings": {
         "heading": "🔥 THIS WEEK'S HOTTEST DEALS",
         "subheading": "",
-        "collection": "frontpage",
+        "collection": "hot-deals",
         "columns": 4,
         "rows": 2,
         "section_button_label": "Shop all"
@@ -348,9 +418,9 @@
         "@media only screen and (max-width: 767px) {.Featured_collection_outer {background-position: 0 100%; background-color: #fef0c7; }}"
       ],
       "settings": {
-        "heading": "🤩 NEW ARRIVALS",
+        "heading": "🤩 BEST-SELLERS",
         "subheading": "",
-        "collection": "frontpage",
+        "collection": "best-sellers",
         "columns": 4,
         "rows": 2,
         "section_button_label": "Shop all"
@@ -364,7 +434,7 @@
           "settings": {
             "heading": "WEEKLY CANDY SURPRISES",
             "text": "Holly Lollies, a leading candy seller in the EU, constantly refreshes its selection with thousands of new candies each week, guaranteeing a continuously exciting and varied snacking experience.",
-            "image": "shopify:\/\/shop_images\/Content_1.png",
+            "image": "shopify:\/\/shop_images\/Untitled_1080_x_1450_px.png",
             "icon": "<svg width=\"41\" height=\"41\" viewbox=\"0 0 41 41\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" fill=\"white\"><\/rect>\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" stroke=\"black\" stroke-width=\"2\"><\/rect>\n                                <path d=\"M13.5 20.7633L16.9168 11.834H25.4927L23.1354 16.7453H29L16.4491 30.334L20.915 20.7633H13.5Z\" fill=\"#7A5AF8\" stroke=\"black\" stroke-width=\"2\"><\/path>\n                            <\/svg>"
           }
         },
@@ -373,7 +443,7 @@
           "settings": {
             "heading": "BE THE FIRST TO TASTE THE TREND",
             "text": "At Holly Lollies, we have a dedicated people who scours the globe for the latest candy crazes. From the bustling streets of Tokyo to the vibrant markets of Vietnam, if it's trending, it's coming to you first – get ready for an exciting world of flavors!",
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-12-06_at_15.46.36.png",
+            "image": "shopify:\/\/shop_images\/Untitled_1080_x_1450_px_3.png",
             "icon": "<svg width=\"41\" height=\"41\" viewbox=\"0 0 41 41\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" fill=\"white\"><\/rect>\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" stroke=\"black\" stroke-width=\"2\"><\/rect>\n                                <path d=\"M13.5 20.7633L16.9168 11.834H25.4927L23.1354 16.7453H29L16.4491 30.334L20.915 20.7633H13.5Z\" fill=\"#7A5AF8\" stroke=\"black\" stroke-width=\"2\"><\/path>\n                            <\/svg>"
           }
         },
@@ -382,7 +452,7 @@
           "settings": {
             "heading": "ENJOY BIG DISCOUNTS FOR A SWEET CAUSE",
             "text": "We regularly clear our shelves to make way for new and exciting flavors from around the world. This means you get to enjoy the most unique and trending candies at up to 70% off, ensuring nothing goes to waste while you get to explore a world of flavors at unbeatable prices.",
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-12-06_at_15.43.19.png",
+            "image": "shopify:\/\/shop_images\/Untitled_1080_x_1450_px_4.png",
             "icon": "<svg width=\"41\" height=\"41\" viewbox=\"0 0 41 41\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" fill=\"white\"><\/rect>\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" stroke=\"black\" stroke-width=\"2\"><\/rect>\n                                <path d=\"M13.5 20.7633L16.9168 11.834H25.4927L23.1354 16.7453H29L16.4491 30.334L20.915 20.7633H13.5Z\" fill=\"#7A5AF8\" stroke=\"black\" stroke-width=\"2\"><\/path>\n                            <\/svg>"
           }
         },
@@ -417,10 +487,11 @@
           "type": "gallery_item",
           "settings": {
             "span": "6",
-            "image": "shopify:\/\/shop_images\/4_483f43ca-9692-492d-b336-75722cdf5600.png",
+            "image": "shopify:\/\/shop_images\/Untitled_design_40.png",
             "image_size": "md",
+            "mobile_image": "shopify:\/\/shop_images\/Untitled_design_40.png",
             "mobile_image_size": "4x5",
-            "link": "shopify:\/\/collections\/frontpage",
+            "link": "shopify:\/\/collections\/soft-drinks",
             "image_overlay": 0,
             "heading": "EXPLORE SOFT DRINKS",
             "subheading": "",
@@ -433,10 +504,11 @@
           "type": "gallery_item",
           "settings": {
             "span": "6",
-            "image": "shopify:\/\/shop_images\/EXPLORE_SNACKS_2.png",
+            "image": "shopify:\/\/shop_images\/Untitled_design_44.png",
             "image_size": "md",
+            "mobile_image": "shopify:\/\/shop_images\/Untitled_design_44.png",
             "mobile_image_size": "4x5",
-            "link": "",
+            "link": "shopify:\/\/collections\/candies-popcorn",
             "image_overlay": 0,
             "heading": "EXPLORE CANDIES & POPCORN",
             "subheading": "",
@@ -449,10 +521,11 @@
           "type": "gallery_item",
           "settings": {
             "span": "4",
-            "image": "shopify:\/\/shop_images\/5_166daeab-1fe1-4d04-a486-b7f46528c8b9.png",
+            "image": "shopify:\/\/shop_images\/Untitled_design_39.png",
             "image_size": "md",
+            "mobile_image": "shopify:\/\/shop_images\/Untitled_design_39.png",
             "mobile_image_size": "4x5",
-            "link": "",
+            "link": "shopify:\/\/collections\/snacks",
             "image_overlay": 0,
             "heading": "EXPLORE SNACKS",
             "subheading": "",
@@ -465,10 +538,11 @@
           "type": "gallery_item",
           "settings": {
             "span": "4",
-            "image": "shopify:\/\/shop_images\/7_e7c05f4b-1815-4745-aa4d-c93a0e4a31c7.png",
+            "image": "shopify:\/\/shop_images\/Untitled_design_42.png",
             "image_size": "md",
+            "mobile_image": "shopify:\/\/shop_images\/Untitled_design_42.png",
             "mobile_image_size": "4x5",
-            "link": "",
+            "link": "shopify:\/\/collections\/cereals-instant-soups",
             "image_overlay": 0,
             "heading": "EXPLORE CEREALS & INSTANT SOUPS",
             "subheading": "",
@@ -481,10 +555,11 @@
           "type": "gallery_item",
           "settings": {
             "span": "4",
-            "image": "shopify:\/\/shop_images\/vilcabamba_95957_image_that_shows_most_popular_deals_candy_stor_732cac8d-db95-4ebc-b2fc-0af567c25dc0.png",
+            "image": "shopify:\/\/shop_images\/Untitled_design_43.png",
             "image_size": "md",
+            "mobile_image": "shopify:\/\/shop_images\/Untitled_design_43.png",
             "mobile_image_size": "4x5",
-            "link": "",
+            "link": "shopify:\/\/collections\/hot-deals",
             "image_overlay": 0,
             "heading": "🔥 EXPLORE HOTTEST DEALS 🔥",
             "subheading": "",
@@ -761,6 +836,9 @@
         "71a65882-1f1a-4dfa-840d-c3d964080958",
         "741d927d-941a-4644-84e1-1c961b773306",
         "ea100259-4431-4eb0-b3ca-3c2475720c43"
+      ],
+      "custom_css": [
+        ".\\#hero-heading {position: relative; bottom: 40px;}"
       ],
       "settings": {
         "show_card_title": false,
@@ -1040,8 +1118,8 @@
           "type": "Slide",
           "settings": {
             "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f72a031350b64ae79eca0a4710d7d5f2.mp4",
-            "headline": "“We used to live in Japan and it's really fun to get treats we used to enjoy. Our kids love trying them out and the surprise inside the box. I would definitely recommend getting.”",
-            "name": "— Elfriede Küster",
+            "headline": "“Tasting the Japanese KitKat Matcha was like a quick trip back to Japan. The variety in this box is incredible – each candy is a new discovery. For anyone thinking about trying Holly Lollies, I say go for it. It's a world tour for your taste buds and every bite is top quality. Holly Lollies, you've got yourself a fan – this is easily a 10\/10 from me!\"”",
+            "name": "— Kurt Hansjörg",
             "info": "Proud Client from Germany 🇩🇪"
           }
         },
@@ -1059,7 +1137,7 @@
           "settings": {
             "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/898390aedeb84b5d9973ec3442fde82f.mp4",
             "headline": "“I've had other snack boxes but, Holly Lollies is definitely my favorite. Great variety of tasty snacks, both sweet and savory. My box even included some ramen! I would definitely recommend this for anyone that wants to try exotic snacks.”",
-            "name": "— Janneke Lemmens",
+            "name": "— Ruud de Nijs",
             "info": "Proud Client from Netherlands 🇳🇱"
           }
         },
@@ -1067,8 +1145,8 @@
           "type": "Slide",
           "settings": {
             "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2248ffeeb076473a97af3f0dc82f1e28.mp4",
-            "headline": "“It's all delicious and let's you try different flavor combinations you never would have thought of or had the chance to experience. Lots of interesting facts and info on the locations and the candies.",
-            "name": "— Kimberly de Koning",
+            "headline": "“It's all delicious and let's you try different flavor combinations you never would have thought of or had the chance to experience.\"",
+            "name": "— Arjen Wesseling",
             "info": "Proud Client from Netherlands 🇳🇱"
           }
         }
@@ -1100,7 +1178,7 @@
           "settings": {
             "heading": "How can I track my order?",
             "icon": "",
-            "text": "<p>Sweet News on the Way! 🍬 As soon as your Holly Lollies order sets off from our candy haven, <strong>we'll pop an email your way.<\/strong> This isn't just any email – it's your golden ticket to track your treasure trove of treats! 💌 You'll find a tracking number inside, your key to unlock live updates on your candy's journey, all the way to your doorstep. And hey, if you need a hand or have a question, we're just a message away. Let's make this a smooth, sweet ride together! 🍬💫<\/p>"
+            "text": "<p>As soon as your Holly Lollies order sets off from our candy haven, <strong>we'll pop an email your way.<\/strong> This isn't just any email – it's your golden ticket to track your treasure trove of treats! 💌 You'll find a tracking number inside, your key to unlock live updates on your candy's journey, all the way to your doorstep. And hey, if you need a hand or have a question, we're just a message away. Let's make this a smooth, sweet ride together! 🍬💫<\/p>"
           }
         },
         "template--21462135734587__fca67246-1b86-436b-a889-fbec115fd5ee-question-3": {
@@ -1116,7 +1194,7 @@
           "settings": {
             "heading": "How long will it take to receive my order?",
             "icon": "",
-            "text": "<p>Countdown to Candy Time! 🕒🍬 With our standard shipping, your delightful Holly Lollies treats will typically arrive in <strong>3-5 working days. <\/strong>And guess what? We're stirring up something even sweeter – working hard to bring you next-day delivery soon! So, keep an eye out and get ready for a lightning-fast candy drop right at your doorstep!<\/p>"
+            "text": "<p>With our standard shipping, your delightful Holly Lollies treats will typically arrive in <strong>3-5 working days. <\/strong>🕒🍬 And guess what? We're stirring up something even sweeter – working hard to bring you next-day delivery soon! So, keep an eye out and get ready for a lightning-fast candy drop right at your doorstep!<\/p>"
           }
         },
         "67241725-818e-483e-8e6f-05b2aee5f7ed": {
@@ -1124,7 +1202,7 @@
           "settings": {
             "heading": "Can I return my order?",
             "icon": "",
-            "text": "<p>Sweet Returns? Here's the Scoop! 🍦 At Holly Lollies, we pour our heart into every package, but due to the nature of our yummy goods, <strong>we can't accept returns.<\/strong> If your candies aren't just right or there's a mix-up, don't fret! Just shoot us an email at <a href=\"mailto:hello@sosweetshop.co.uk\">hello@sosweetshop.co.uk<\/a>. We're all ears and ready to chat about any concerns or mishaps to ensure your Holly Lollies experience stays as delightful as our treats!\"<\/p>"
+            "text": "<p>At Holly Lollies, we pour our heart into every package, but due to the nature of our yummy goods, <strong>we can't accept returns.<\/strong> If your candies aren't just right or there's a mix-up, don't fret! Just shoot us an email at <a href=\"mailto:hello@sosweetshop.co.uk\">hello@sosweetshop.co.uk<\/a>. We're all ears and ready to chat about any concerns or mishaps to ensure your Holly Lollies experience stays as delightful as our treats!\"<\/p>"
           }
         },
         "9f1d21df-769d-408e-824d-3debf3ecc0bc": {
@@ -1132,7 +1210,7 @@
           "settings": {
             "heading": "What payment options do you offer?",
             "icon": "",
-            "text": "<p>Sweet and Secure Payment Options! 🛍️💳 At Holly Lollies, we make checking out as easy as picking your favorite candy. Choose from a variety of payment options at checkout: <strong>Debit\/Credit Card, PayPal, Apple Pay, or Google Pay. <\/strong>And don't you worry – all your payment details are wrapped up safe and secure, just like our candies. So, go ahead and shop with complete peace of mind!<\/p>"
+            "text": "<p>At Holly Lollies, we make checking out as easy as picking your favorite candy. Choose from a variety of payment options at checkout: <strong>Debit\/Credit Card, PayPal, Apple Pay, or Google Pay. <\/strong>🛍️💳 And don't you worry – all your payment details are wrapped up safe and secure, just like our candies. So, go ahead and shop with complete peace of mind!<\/p>"
           }
         },
         "34aa93b8-76b9-44c8-b98a-ec2293b43ed6": {
@@ -1201,7 +1279,7 @@
         "tags_display": "all",
         "section_layout": "full",
         "image_size": "square",
-        "enable_loop": false,
+        "enable_loop": true,
         "enable_pagination": true,
         "items_per_view": 4,
         "articles_limit": 4,
@@ -1211,35 +1289,27 @@
     "165469329347188646": {
       "type": "d_popup-gallery",
       "blocks": {
+        "1654693292a215d319-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Pocky.webp",
+            "product": "chinese-fanta-jasmine-peach-flavor-500ml",
+            "product_subtitle": ""
+          }
+        },
         "1654693292a215d319-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_6910.jpg",
-            "product": "fruit-roll-ups-72pcs",
+            "image": "shopify:\/\/shop_images\/20-Best-Favorite-Japanese-Snacks-You-Must-Try_1024x1024_1c629895-cf46-4fa7-b3f0-b7b351a6b3f5.webp",
+            "product": "hata-kosen-bottle-ramune-blueberry",
             "product_subtitle": ""
           }
         },
         "1654693292a215d319-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_6907.jpg",
-            "product": "warheads-sour-jelly-beans-113g",
-            "product_subtitle": ""
-          }
-        },
-        "1654693292a215d319-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_6903.jpg",
-            "product": "chupa-chups-345-ml-orange-flavour",
-            "product_subtitle": ""
-          }
-        },
-        "1654693292a215d319-3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_6909.jpg",
-            "product": "general-mills-reese-puffs-326gr",
+            "image": "shopify:\/\/shop_images\/SnackPot_AuthenticFoodQuest_jpg.webp",
+            "product": "chinese-fanta-grape-flavor-500ml",
             "product_subtitle": ""
           }
         },
@@ -1255,7 +1325,15 @@
         "1654693292a215d319-5": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_6902.jpg",
+            "image": "shopify:\/\/shop_images\/chips-2.webp",
+            "product": "takis-fuego-90gr",
+            "product_subtitle": ""
+          }
+        },
+        "1654693292a215d319-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/d1ea4c47ba48571d6311ce650124e73f54f74a3b573b4793f695c1282de0554c.jpg",
             "product": "general-mills-reese-puffs-326gr",
             "product_subtitle": ""
           }
@@ -1281,8 +1359,8 @@
         "f06c7a6a-1d58-4c92-9294-44b80f4fb2a2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_6906.jpg",
-            "product": "nerds-grape-strawberry-box-141g",
+            "image": "shopify:\/\/shop_images\/snacks-in-america.webp",
+            "product": "japan-fritolay-cheetos-flamin-hot-crunchy-75g",
             "product_subtitle": ""
           }
         },
@@ -1297,12 +1375,12 @@
         }
       },
       "block_order": [
+        "1654693292a215d319-2",
         "1654693292a215d319-0",
         "1654693292a215d319-1",
-        "1654693292a215d319-2",
-        "1654693292a215d319-3",
         "1654693292a215d319-4",
         "1654693292a215d319-5",
+        "1654693292a215d319-3",
         "6d278eeb-1c65-40e5-90cc-f98b772bd1a1",
         "0992f6d1-bc3c-4c6a-acfc-d3d58286cf6d",
         "f06c7a6a-1d58-4c92-9294-44b80f4fb2a2",

@@ -73,7 +73,7 @@ img{
 .Slideshow_secondary_button{
   border-radius: 30px;
   padding: 10px 25px;
-  color: white;
+  color: #5720B7;
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
@@ -116,6 +116,28 @@ img{
   .shopify-section .fs-d4{
     font-size: 26px;
   }
+  .Slideshow_primary_button{
+  border-radius: 30px;
+  padding: 10px 25px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  background: #5720B7;
+  transition: all .2s; 
+  display: block;
+}
+.Slideshow_secondary_button{
+  border-radius: 30px;
+  padding: 10px 25px;
+  color: #5720B7;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  background: #D9D6FE;
+  transition: all .2s;
+  display: block;
+}
 }
 .Slideshow_outer .slick-dots{
   bottom: 30px;
@@ -328,7 +350,7 @@ img{
 
 /* Featured products */
 .Whole_featured_products_section{
-  margin: 5rem 0;
+  margin: 2rem 0;
   padding: 6rem 0;
   background-position: center;
   background-size: cover;
@@ -707,6 +729,11 @@ product-dynamic-checkout{
 .Whole_featured_products_section product-dynamic-checkout .wallet-button-fade-in{
   display: none;
 }
+.Whole_featured_products_section .\#product-variant-selector-item-heading{
+  color: white;
+  font-weight: bold;
+  opacity: 1;
+}
 .Featured_product_learn_more_button{
   font-size: 18px;
   color: #5925DC;
@@ -960,7 +987,7 @@ product-to-cart:hover{
   padding: 0px 35px;
   border-radius: 20px;
   background: #D9D6FE;
-  left: calc(100% - 53%);
+  left: 38%;
   bottom: 0;
 }
 .Customer_says_reviews_outer .slick-dots li{
@@ -993,16 +1020,16 @@ product-to-cart:hover{
     padding: 0px 15px;
     border-radius: 20px;
     background: #D9D6FE;
-    left: 28%;
+    left: 15%;
   }
   .Customer_says_outer{
     padding-top: 3rem;
   }
   .Customer_says_reviews_outer .slick-dots li{
-    width: 25px;
+    width: 10px;
   }
   .Customer_says_reviews_outer .slick-dots li button{
-    width: 25px;
+    width: 10px;
     height: 2px;
     border-radius: 5px;
     background: white;

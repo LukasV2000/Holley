@@ -1,0 +1,57 @@
+{
+  "sections": {
+    "1701949045686c5c63": {
+      "type": "apps",
+      "blocks": {
+        "296bcee6-350d-4db7-88c0-b5dc56f8fb96": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget_homepage\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "product": "prime-hydration-orange"
+          }
+        }
+      },
+      "block_order": [
+        "296bcee6-350d-4db7-88c0-b5dc56f8fb96"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": ""
+      }
+    },
+    "header": {
+      "type": "s_page-header",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "main": {
+      "type": "s_page",
+      "disabled": true,
+      "settings": {
+        "container_width": "default",
+        "font_scale": 100
+      }
+    },
+    "1701950315d6d40cf0": {
+      "type": "apps",
+      "settings": {
+        "heading": "",
+        "subheading": ""
+      }
+    },
+    "1701950330f320cdbe": {
+      "type": "apps",
+      "settings": {
+        "heading": "",
+        "subheading": ""
+      }
+    }
+  },
+  "order": [
+    "1701949045686c5c63",
+    "header",
+    "main",
+    "1701950315d6d40cf0",
+    "1701950330f320cdbe"
+  ]
+}

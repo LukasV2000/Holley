@@ -8,14 +8,32 @@
         "5d86f9c7-6db2-439f-ba5a-8f69a9aa3fa2": {
           "type": "announcement",
           "settings": {
-            "text": "Free shipping over $50",
-            "link": "",
+            "text": "FREE SHIPPING OVER €50",
+            "link": "shopify:\/\/collections",
+            "icon": "star"
+          }
+        },
+        "c4b59b37-19bd-476f-bb55-1efe555f93d0": {
+          "type": "announcement",
+          "settings": {
+            "text": "CHRISTMAS SEASON SALE - SITEWIDE 25% OFF",
+            "link": "shopify:\/\/collections",
+            "icon": "gift"
+          }
+        },
+        "ccb463a8-7c50-4635-99eb-d5f8e52c2c84": {
+          "type": "announcement",
+          "settings": {
+            "text": "EXPLORE HOT DEALS - DISCOUNTS UP TO 70%",
+            "link": "shopify:\/\/collections\/hot-deals",
             "icon": "star"
           }
         }
       },
       "block_order": [
-        "5d86f9c7-6db2-439f-ba5a-8f69a9aa3fa2"
+        "5d86f9c7-6db2-439f-ba5a-8f69a9aa3fa2",
+        "c4b59b37-19bd-476f-bb55-1efe555f93d0",
+        "ccb463a8-7c50-4635-99eb-d5f8e52c2c84"
       ],
       "settings": {
         "home_page_only": false,
@@ -37,15 +55,16 @@
             "url": "shopify:\/\/collections",
             "icon": "",
             "menu": "navigation-menu",
-            "columns": 5,
+            "columns": 3,
             "images_size": "square",
             "image_width": 20,
             "images_align": "vertical",
             "images_subheading_position": "after",
             "first_image_enable": true,
-            "first_image_heading": "Image heading",
-            "first_image_subheading": "Image subheading",
-            "first_image_link": "",
+            "first_image": "shopify:\/\/shop_images\/01_Image_6.png",
+            "first_image_heading": "🔥 HOTTEST DEALS 🔥",
+            "first_image_subheading": "DISCOUNTS UP TO 70%",
+            "first_image_link": "shopify:\/\/collections\/hot-deals",
             "second_image_enable": false,
             "second_image_heading": "",
             "second_image_subheading": "",
@@ -61,7 +80,7 @@
             "position": "secondary",
             "title": "On Sale",
             "icon": "bolt",
-            "collection": "",
+            "collection": "hot-deals",
             "products_limit": 7,
             "show_view_all": true,
             "show_product_title": true,
@@ -73,8 +92,8 @@
           "settings": {
             "position": "secondary",
             "link_name": "Mystery box",
-            "url": "shopify:\/\/collections",
-            "icon": "star"
+            "url": "shopify:\/\/products\/mystery-box",
+            "icon": "gift"
           }
         },
         "a0e5e96a-cb06-403c-b463-af2abc48fa2e": {
@@ -91,13 +110,14 @@
           "type": "link",
           "settings": {
             "position": "secondary",
-            "link_name": "Gift cards",
-            "url": "",
-            "icon": "gift"
+            "link_name": "Reviews",
+            "url": "shopify:\/\/pages\/reviews",
+            "icon": "star"
           }
         },
         "40b81852-f6cc-4c90-bbd5-3aede38492e0": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "position": "secondary",
             "link_name": "Shipping & Returns",
@@ -110,7 +130,7 @@
           "settings": {
             "position": "secondary",
             "link_name": "Candy Tales",
-            "url": "",
+            "url": "shopify:\/\/blogs\/news",
             "icon": "mug-hot"
           }
         },
@@ -119,7 +139,7 @@
           "settings": {
             "position": "secondary",
             "link_name": "Customer support",
-            "url": "",
+            "url": "shopify:\/\/pages\/contact",
             "icon": "comments"
           }
         },
@@ -132,6 +152,7 @@
         },
         "19641f5c-99b5-40e2-8e18-b78f90f7b843": {
           "type": "collection_list",
+          "disabled": true,
           "settings": {
             "position": "primary",
             "title": "HOT DEALS",

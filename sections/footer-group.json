@@ -10,30 +10,37 @@
           "settings": {
             "heading": "",
             "logo": "shopify:\/\/shop_images\/Holly_molly_-01-03_1.png",
-            "logo_width": 50,
-            "text": "<p>Share contact information, store details, and brand content with your customers.<\/p>",
+            "logo_width": 55,
+            "text": "<p>Dive into the Holly Lollies universe – where every sweet treat is a ticket to fun!🤩🍭<\/p>",
             "show_social_icons": true
           }
         },
         "936fb0c9-0d6a-4fa1-b802-dfc2a9742869": {
           "type": "menu",
           "settings": {
-            "heading": "Quick links",
+            "heading": "More information",
             "menu": "footer"
           }
         },
         "a3306e81-1a29-4ef6-9b74-e1d0c0c7071b": {
           "type": "menu",
           "settings": {
-            "heading": "Info",
-            "menu": "footer"
+            "heading": "Useful Links",
+            "menu": "useful-links"
+          }
+        },
+        "9f43cc40-6b00-4def-9bf6-7f1e1b1a8350": {
+          "type": "social_menu",
+          "settings": {
+            "heading": "Let's Get Social!"
           }
         }
       },
       "block_order": [
         "d59c2c60-291c-4855-abb3-5b303d4c802c",
         "936fb0c9-0d6a-4fa1-b802-dfc2a9742869",
-        "a3306e81-1a29-4ef6-9b74-e1d0c0c7071b"
+        "a3306e81-1a29-4ef6-9b74-e1d0c0c7071b",
+        "9f43cc40-6b00-4def-9bf6-7f1e1b1a8350"
       ],
       "settings": {
         "show_country_selector": true,

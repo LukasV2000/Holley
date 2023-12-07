@@ -1,1 +1,41 @@
-{"sections":{"header":{"type":"s_page-header","settings":{}},"main":{"type":"s_page","settings":{}},"contact":{"type":"s_contact-form","settings":{}}},"order":["header","main","contact"]}
+{
+  "sections": {
+    "header": {
+      "type": "s_page-header",
+      "settings": {
+      }
+    },
+    "main": {
+      "type": "s_page",
+      "settings": {
+        "container_width": "default",
+        "font_scale": 100
+      }
+    },
+    "contact": {
+      "type": "s_contact-form",
+      "settings": {
+        "heading": "",
+        "subheading": "Write us at info@hollylollies.com or fill the form below 👇",
+        "section_layout": "default"
+      }
+    },
+    "a073047f-9d01-4eb6-abe9-12930d5b807c": {
+      "type": "d_browsing-history",
+      "settings": {
+        "heading": "Browsing history",
+        "subheading": "",
+        "section_layout": "container",
+        "items_per_view": 4,
+        "enable_loop": true,
+        "enable_pagination": false
+      }
+    }
+  },
+  "order": [
+    "header",
+    "main",
+    "contact",
+    "a073047f-9d01-4eb6-abe9-12930d5b807c"
+  ]
+}

@@ -5,6 +5,7 @@
       "blocks": {
         "template--21462135800123__8c27920e-2776-445d-b3ae-019a70c740eb-subheading-1": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "subheading": "Subheading"
           }
@@ -12,14 +13,15 @@
         "template--21462135800123__8c27920e-2776-445d-b3ae-019a70c740eb-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Hero Image Heading",
+            "heading": "EXPLORE THE WORLD WITH HOLLY LOLLIES",
             "heading_accent_enable": true,
             "heading_accent_use_cutom_color": true,
-            "heading_accent_color": "#e22d00"
+            "heading_accent_color": "#000000"
           }
         },
         "template--21462135800123__8c27920e-2776-445d-b3ae-019a70c740eb-text-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Give customers details about the hero image or content on the template.<\/p>"
           }
@@ -52,9 +54,9 @@
       ],
       "settings": {
         "section_layout": "full",
-        "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_17.39.43.png",
+        "image": "shopify:\/\/shop_images\/Screenshot_2023-12-06_at_15.43.19.png",
         "image_size": "sm",
-        "mobile_image_size": "4x5",
+        "mobile_image_size": "sm",
         "overlay": 50,
         "use_box": false,
         "width": 50,
@@ -69,7 +71,7 @@
         "template--21462135800123__ded88cbd-4989-4f35-8b66-0e700296ebfc-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "It's not just candies",
+            "heading": "It's more than just candies",
             "heading_accent_enable": true,
             "heading_accent_use_cutom_color": false,
             "heading_accent_color": "#e22d00"
@@ -78,7 +80,7 @@
         "template--21462135800123__ded88cbd-4989-4f35-8b66-0e700296ebfc-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>It's whole experience. Experience different cultures through their favourite candies.<\/p>"
+            "text": "<p>Embark on a sweet journey with Holly Lollies! Our collections invites you to a world of unique tastes and treats. From exotic snacks to classic favorites, discover a delightful mix that caters to every craving and curiosity.<\/p>"
           }
         },
         "template--21462135800123__ded88cbd-4989-4f35-8b66-0e700296ebfc-buttons-1": {
@@ -107,7 +109,7 @@
         "template--21462135800123__ded88cbd-4989-4f35-8b66-0e700296ebfc-buttons-1"
       ],
       "custom_css": [
-        ".Richtext_outer{padding-bottom: 0;}"
+        ".Richtext_outer {padding-bottom: 0;}"
       ],
       "settings": {
         "section_layout": "default",
@@ -118,8 +120,205 @@
         "bg_color": "#383838"
       }
     },
+    "e3072ddc-be59-4c07-ba88-884d5f1497a9": {
+      "type": "d_collection-list",
+      "blocks": {
+        "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-sellers",
+            "image": "shopify:\/\/shop_images\/01_Image_8.png",
+            "custom_title": ""
+          }
+        },
+        "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "hot-deals",
+            "image": "shopify:\/\/shop_images\/01_Image_6.png",
+            "custom_title": ""
+          }
+        },
+        "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "candies-popcorn",
+            "image": "shopify:\/\/shop_images\/01_Image_11.png",
+            "custom_title": ""
+          }
+        },
+        "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "cereals-instant-soups",
+            "image": "shopify:\/\/shop_images\/01_Image_7.png",
+            "custom_title": ""
+          }
+        },
+        "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "snacks",
+            "image": "shopify:\/\/shop_images\/01_Image_3.png",
+            "custom_title": ""
+          }
+        },
+        "c76b45ef-09d3-4ae5-870f-23685fdbbfcf": {
+          "type": "collection",
+          "settings": {
+            "collection": "frontpage",
+            "image": "shopify:\/\/shop_images\/Untitled_design_43.png",
+            "custom_title": ""
+          }
+        },
+        "1b08b405-7d5b-4bac-b4ad-683d260ebac3": {
+          "type": "collection",
+          "settings": {
+            "collection": "soft-drinks",
+            "image": "shopify:\/\/shop_images\/01_Image_10.png",
+            "custom_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-1",
+        "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-2",
+        "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-3",
+        "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-4",
+        "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-5",
+        "c76b45ef-09d3-4ae5-870f-23685fdbbfcf",
+        "1b08b405-7d5b-4bac-b4ad-683d260ebac3"
+      ],
+      "settings": {
+        "show_card_title": true,
+        "heading": "Collection list",
+        "subheading": "",
+        "columns": 4,
+        "image_size": "square",
+        "text_position": "center",
+        "show_frame": false,
+        "section_button_label": ""
+      }
+    },
+    "4f015acc-ac49-4ea9-8889-641fc9752d7e": {
+      "type": "d_featured-product",
+      "blocks": {
+        "template--21716628570427__4f015acc-ac49-4ea9-8889-641fc9752d7e-title-1": {
+          "type": "title",
+          "settings": {
+            "size": "h1",
+            "max_lines": 3,
+            "prev_attach": false
+          }
+        },
+        "template--21716628570427__4f015acc-ac49-4ea9-8889-641fc9752d7e-price-1": {
+          "type": "price",
+          "settings": {
+            "show_savings": true,
+            "show_taxes": true,
+            "prev_attach": false
+          }
+        },
+        "template--21716628570427__4f015acc-ac49-4ea9-8889-641fc9752d7e-variant_selector-1": {
+          "type": "variant_selector",
+          "settings": {
+            "picker_type": "dropdown",
+            "color_swatches": false,
+            "align_option_values": true,
+            "prev_attach": false
+          }
+        },
+        "8c85a0b4-fc3a-4e4d-9e6c-c2260ce64399": {
+          "type": "quantity_selector",
+          "settings": {
+            "input_type": "dropdown",
+            "prev_attach": false
+          }
+        },
+        "template--21716628570427__4f015acc-ac49-4ea9-8889-641fc9752d7e-buy_with-1": {
+          "type": "buy_with",
+          "disabled": true,
+          "settings": {
+            "meta_heading": "Frequently Bought Together",
+            "use_counter": true,
+            "prev_attach": false
+          }
+        },
+        "template--21716628570427__4f015acc-ac49-4ea9-8889-641fc9752d7e-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "enable_stock_notifier": true,
+            "prev_attach": false
+          }
+        },
+        "template--21716628570427__4f015acc-ac49-4ea9-8889-641fc9752d7e-payment_methods-1": {
+          "type": "payment_methods",
+          "disabled": true,
+          "settings": {
+            "meta_heading": "We Accept",
+            "center": false,
+            "prev_attach": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21716628570427__4f015acc-ac49-4ea9-8889-641fc9752d7e-title-1",
+        "template--21716628570427__4f015acc-ac49-4ea9-8889-641fc9752d7e-price-1",
+        "template--21716628570427__4f015acc-ac49-4ea9-8889-641fc9752d7e-variant_selector-1",
+        "8c85a0b4-fc3a-4e4d-9e6c-c2260ce64399",
+        "template--21716628570427__4f015acc-ac49-4ea9-8889-641fc9752d7e-buy_with-1",
+        "template--21716628570427__4f015acc-ac49-4ea9-8889-641fc9752d7e-buy_buttons-1",
+        "template--21716628570427__4f015acc-ac49-4ea9-8889-641fc9752d7e-payment_methods-1"
+      ],
+      "settings": {
+        "headline_main": "WANT THE WHOLE EXPERIENCE? 🤔👇",
+        "description": "Each Mystery Box is a journey of sweet discoveries, offering a mix of exotic and beloved flavors. Perfect for adventurous taste buds or as a special gift, it's your chance to experience the finest selections from Holly Lollies and beyond. Unwrap surprise, taste delight!",
+        "heading": "",
+        "subheading": "",
+        "product": "mystery-box",
+        "gallery_width": 55,
+        "slideshow_zoom": false,
+        "thumbnails_layout": "slideshow",
+        "learn_more_title": "Learn more",
+        "learn_more_url": "shopify:\/\/products\/mystery-box"
+      }
+    },
     "main": {
       "type": "s_list-collections",
+      "blocks": {
+        "a25eb855-707e-41ca-861d-1f942d8394bb": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-sellers"
+          }
+        },
+        "29940a28-ea6c-4a20-8866-9f22a3cb34ee": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "44732169-d656-43eb-8907-402b8593687e": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "1c1c3886-fad5-453b-8310-8a2ccfb3edc5": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "a25eb855-707e-41ca-861d-1f942d8394bb",
+        "29940a28-ea6c-4a20-8866-9f22a3cb34ee",
+        "44732169-d656-43eb-8907-402b8593687e",
+        "1c1c3886-fad5-453b-8310-8a2ccfb3edc5"
+      ],
+      "disabled": true,
       "settings": {
         "collections_display": "all",
         "columns": 4,
@@ -131,6 +330,7 @@
     },
     "5f8de7e3-b9e9-48eb-a2e8-1b5276e250aa": {
       "type": "Text_image",
+      "disabled": true,
       "settings": {
         "title": "Want the whole experience?",
         "text": "Our staff picked the most trending and popular candies and put everything in one box. Experience different cultures through their favourite candies.",
@@ -282,6 +482,140 @@
         "buttons_style": "normal"
       }
     },
+    "c06d13bf-3439-4011-a790-65545216934b": {
+      "type": "Customer_says_reviews",
+      "blocks": {
+        "ae25d7ef-e98f-4954-b539-529c10426449": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/2_07967477-4bff-47c9-a6be-71d016e041be.png",
+            "name": "Jonas R.",
+            "info": "Happy customer from 🇱🇹",
+            "content": "<p>I’ve had two boxes so far and both have been amazing! The selection is wide from sweet to salty. I have already recommended hollylollies to others, and plan to re-up mine again soon!<\/p>"
+          }
+        },
+        "0b497c91-b5f0-4e9d-b4de-319648d7f87a": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/6_1fa22cf3-bf3a-4875-b674-11c24450180e.png",
+            "name": "Ina Scheffler",
+            "info": "Proud customer from 🇩🇪",
+            "content": "<p>I was very pleasantly surprised with how much was in the box, and how tasty everything has been! So far I have tried a half dozen or so items. These are all things I would buy again if I saw them!<\/p>"
+          }
+        },
+        "8c7a59a2-922e-44c2-a6a8-74645a20a8a8": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/4_eabeeca5-ab45-41ea-8c38-9366a6ab9322.png",
+            "name": "Giuseppe Heinen",
+            "info": "Happy Customer from 🇩🇪",
+            "content": "<p>Loved every single piece from the box, cant wait to get the next one. All snacks were in perfect conditions and delicious.<\/p>"
+          }
+        },
+        "4939426f-87a0-4e9e-b9bf-fe0d277fd57c": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/3_2db29d62-7616-43e1-bd1d-a4d7beb3a9a5.png",
+            "name": "Judit Steinkellner",
+            "info": "Proud customer from 🇦🇹",
+            "content": "<p>Nostalgia. Plain and simple. I had been stationed in Japan for four years and had a great time trying new food and snacks when I was there. Wanting to share that with my kids now, we got this and now I’m sharing memories with them and explaining where I had certain ones before. Love it!<\/p>"
+          }
+        },
+        "c3dc6050-8269-4043-a5ef-511b3a09422b": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/5_9e31cf33-3b62-4dc5-8f18-a31525cabf4e.png",
+            "name": "Hilde Marsman",
+            "info": "Happy Customer from 🇳🇱",
+            "content": "<p>Got my first Box as a Birthdaypresent and I was absolutly delighted. The treats taste great and there are everything from sweet to salty. I love testing Snacks from different countrys and this is something I had really fun with.<br\/>My boyfriend who bought this for me said the shipping was without problems.<\/p>"
+          }
+        },
+        "938882b3-5f09-4af6-bbe2-9ceb30c036e9": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/4_fd994df5-84e5-40bd-bace-b82be928e32e.png",
+            "name": "Nils de Heer",
+            "info": "Proud customer from 🇳🇱",
+            "content": "<p>All of the snacks were really good I definitely recommend Holly Lollies and I will most certainly get another box.<\/p>"
+          }
+        },
+        "25d4cc54-868e-43a9-86e7-21aab82e0155": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/3_2d6e6a51-f9d2-428b-8dd9-a6a9c1058b29.png",
+            "name": "Ugnius L.",
+            "info": "Happy customer from 🇱🇹",
+            "content": "<p>Amazing service much better than a large competitor who can’t actually deliver. Holly Lollies box arrived with in 3 business days . The treats were tasty and well explained. Highly recommend.<\/p>"
+          }
+        },
+        "57cc3448-37d1-4732-8233-4b22a7ab672c": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/2_b99b379b-0535-4eec-b291-47fca148424c.png",
+            "name": "Cordula Schuster",
+            "info": "Proud customer from 🇦🇹",
+            "content": "<p>For the price it's an exceptional value and I like that it has a balanced selection of sweet and savory snacks and that they are full sized. I also noticed that all the snacks in this box were fresh. No stale crackers or chips like I've experienced in other similar boxes. Very pleased with this purchase and would highly recommend to friends, family, and as a gift.<\/p>"
+          }
+        },
+        "d2fcdee0-0ab8-4b0f-9318-808cdb4f50d1": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/1_302b8794-6d78-48d6-86e3-72d7d945d30a.png",
+            "name": "Leo Schirmer",
+            "info": "Happy customer from 🇩🇪",
+            "content": "<p>Great experience!! Wide variety of snacks ranging from sweet to savory. Well thought out and everything was super tasty!<\/p>"
+          }
+        },
+        "da866f60-051d-4ae1-a4e3-e842c2d3d63e": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/Ellipse_7.png",
+            "name": "Theo Hochreiter",
+            "info": "Proud customer from 🇦🇹",
+            "content": "<p>Amazing lots of food to try definitely worth the price compared to other boxes.<\/p>"
+          }
+        },
+        "c0c90489-595b-486b-b13d-c08c02f600ab": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/5_7219f865-d6db-4f99-96b8-5bb5d377994b.png",
+            "name": "Casper van Oort",
+            "info": "Happy customer from 🇳🇱",
+            "content": "<p>My partner was so happy! I got this as an impromptu gift because I know she likes Japanese themed things and longs to visit Japan and it did not disappoint. Everything arrived perfectly and it was received faster than I thought it would. Highly recommend!<\/p>"
+          }
+        },
+        "84505222-f7b6-46a1-a560-9a8d7f36ccab": {
+          "type": "Review",
+          "disabled": true,
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/1.png",
+            "name": "Jeannette Ellis",
+            "info": "Proud customer from 🇬🇧",
+            "content": "<p>So short story I love the box.<br\/><br\/>Yes, it is a bit expensive, but only because my stupid country thinks that you need to pay extra tax. But not only that my stupid country think it need to hold my box for 10 days before releasing it.<br\/><br\/>But I have already tried a lot of the snacks, and they were great... most of them. My only problem is how do i buy the stuff i really loved again!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "ae25d7ef-e98f-4954-b539-529c10426449",
+        "0b497c91-b5f0-4e9d-b4de-319648d7f87a",
+        "8c7a59a2-922e-44c2-a6a8-74645a20a8a8",
+        "4939426f-87a0-4e9e-b9bf-fe0d277fd57c",
+        "c3dc6050-8269-4043-a5ef-511b3a09422b",
+        "938882b3-5f09-4af6-bbe2-9ceb30c036e9",
+        "25d4cc54-868e-43a9-86e7-21aab82e0155",
+        "57cc3448-37d1-4732-8233-4b22a7ab672c",
+        "d2fcdee0-0ab8-4b0f-9318-808cdb4f50d1",
+        "da866f60-051d-4ae1-a4e3-e842c2d3d63e",
+        "c0c90489-595b-486b-b13d-c08c02f600ab",
+        "84505222-f7b6-46a1-a560-9a8d7f36ccab"
+      ],
+      "settings": {
+        "title": "This is what our community says",
+        "reviews_img": "shopify:\/\/shop_images\/Trustpilot_Micro_1.png",
+        "btn_title": "Read more",
+        "btn_link": "shopify:\/\/pages\/reviews"
+      }
+    },
     "16975599647a695716": {
       "type": "apps",
       "blocks": {
@@ -298,6 +632,7 @@
       "block_order": [
         "79074c40-eb9e-4d8b-8ef6-6fcce868455d"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "subheading": ""
@@ -332,32 +667,77 @@
         "template--21462135800123__2b2aca62-cb13-49de-ac87-379696acfe1f-question-1": {
           "type": "question",
           "settings": {
-            "heading": "Frequently asked question",
+            "heading": "Do you ship internationally?",
             "icon": "",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p><strong>Absolutely! <\/strong>Our sweets know no borders. 🌍✈️ At Holly Lollies, we're thrilled to bring a dash of joy right to your doorstep, no matter where you are on the globe. So, gear up for a flavor-filled journey, because our candies are ready to travel far and wide just for you! 🍬🌏<\/p>"
           }
         },
         "template--21462135800123__2b2aca62-cb13-49de-ac87-379696acfe1f-question-2": {
           "type": "question",
           "settings": {
-            "heading": "Frequently asked question",
+            "heading": "How can I track my order?",
             "icon": "",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>As soon as your Holly Lollies order sets off from our candy haven, <strong>we'll pop an email your way.<\/strong> This isn't just any email – it's your golden ticket to track your treasure trove of treats! 💌 You'll find a tracking number inside, your key to unlock live updates on your candy's journey, all the way to your doorstep. And hey, if you need a hand or have a question, we're just a message away. Let's make this a smooth, sweet ride together! 🍬💫<\/p>"
           }
         },
         "template--21462135800123__2b2aca62-cb13-49de-ac87-379696acfe1f-question-3": {
           "type": "question",
           "settings": {
-            "heading": "Frequently asked question",
+            "heading": "There's a problem with my order, what do I do?",
             "icon": "",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>Oh no, a bump in the candy road! 🙁 We're so sorry to hear that there's an issue with your order. But don't worry, our Holly Lollies team is here to turn that frown upside down! 🌟<\/p><p><strong>Please drop us a line at <\/strong><a href=\"mailto:info@hollylollies.com\" title=\"mailto:info@hollylollies.com\"><strong>info@hollylollies.com<\/strong><\/a><strong> <\/strong>with all the sweet details – like your order number, what's up with the order, and any photos if you've got 'em. We're on the case to make things right and ensure your candy journey is nothing but delightful! 🍭💌<\/p>"
+          }
+        },
+        "17db13f1-ff6e-43d7-b4b9-23c3acfea031": {
+          "type": "question",
+          "settings": {
+            "heading": "How long will it take to receive my order?",
+            "icon": "",
+            "text": "<p>With our standard shipping, your delightful Holly Lollies treats will typically arrive in <strong>3-5 working days. <\/strong>🕒🍬 And guess what? We're stirring up something even sweeter – working hard to bring you next-day delivery soon! So, keep an eye out and get ready for a lightning-fast candy drop right at your doorstep!<\/p>"
+          }
+        },
+        "c9a1dccd-4247-4f6d-9650-e6453eabc14e": {
+          "type": "question",
+          "settings": {
+            "heading": "Can I return my order?",
+            "icon": "",
+            "text": "<p>At Holly Lollies, we pour our heart into every package, but due to the nature of our yummy goods, <strong>we can't accept returns.<\/strong> If your candies aren't just right or there's a mix-up, don't fret! Just shoot us an email at <a href=\"mailto:hello@sosweetshop.co.uk\">hello@sosweetshop.co.uk<\/a>. We're all ears and ready to chat about any concerns or mishaps to ensure your Holly Lollies experience stays as delightful as our treats!\"<\/p>"
+          }
+        },
+        "06c97d4d-978b-48f0-9e25-e4c285f75f8c": {
+          "type": "question",
+          "settings": {
+            "heading": "What payment options do you offer?",
+            "icon": "",
+            "text": "<p>At Holly Lollies, we make checking out as easy as picking your favorite candy. Choose from a variety of payment options at checkout: <strong>Debit\/Credit Card, PayPal, Apple Pay, or Google Pay. <\/strong>🛍️💳 And don't you worry – all your payment details are wrapped up safe and secure, just like our candies. So, go ahead and shop with complete peace of mind!<\/p>"
+          }
+        },
+        "038a2623-3f77-49c8-b10c-7b50544fc661": {
+          "type": "question",
+          "settings": {
+            "heading": "Got a Question or Just Want to Chat?",
+            "icon": "",
+            "text": "<p>We're all ears at Holly Lollies! If you've got any questions, concerns, or just some sweet feedback, we're here for you.<strong> Feel free to drop us an email at <\/strong><a href=\"mailto:info@hollylollies.com\"><strong>info@hollylollies.com<\/strong><\/a><strong>.<\/strong> Our team is on standby from 9am to 5pm (GMT+2), Monday through Friday, and we aim to get back to you within 24 hours. Let's talk candy!<\/p>"
+          }
+        },
+        "04e0ac0c-afb6-40d5-9851-da4160bf998e": {
+          "type": "question",
+          "settings": {
+            "heading": "🌟 Social Media Star?",
+            "icon": "",
+            "text": "<p>Join the Holly Lollies Family - Influencers & Creators Welcome! 🎉📸 Whether you're a budding micro-influencer or a seasoned content creator, we're excited to team up with you! At Holly Lollies, we believe in the power of collaboration, no matter the size of your audience. Reach out to us at <a href=\"mailto:info@hollylollies.com\">info@hollylollies.com<\/a> and let's chat about spreading the sweet joy of our candy boxes. Don't hesitate – we're eager to work with creators of all kinds and spread the Holly Lollies happiness as far as we can. Your voice matters, and together, we can make the world a little sweeter, one box at a time!<\/p>"
           }
         }
       },
       "block_order": [
         "template--21462135800123__2b2aca62-cb13-49de-ac87-379696acfe1f-question-1",
         "template--21462135800123__2b2aca62-cb13-49de-ac87-379696acfe1f-question-2",
-        "template--21462135800123__2b2aca62-cb13-49de-ac87-379696acfe1f-question-3"
+        "template--21462135800123__2b2aca62-cb13-49de-ac87-379696acfe1f-question-3",
+        "17db13f1-ff6e-43d7-b4b9-23c3acfea031",
+        "c9a1dccd-4247-4f6d-9650-e6453eabc14e",
+        "06c97d4d-978b-48f0-9e25-e4c285f75f8c",
+        "038a2623-3f77-49c8-b10c-7b50544fc661",
+        "04e0ac0c-afb6-40d5-9851-da4160bf998e"
       ],
       "settings": {
         "heading": "FAQ",
@@ -369,11 +749,14 @@
   "order": [
     "8c27920e-2776-445d-b3ae-019a70c740eb",
     "ded88cbd-4989-4f35-8b66-0e700296ebfc",
+    "e3072ddc-be59-4c07-ba88-884d5f1497a9",
+    "4f015acc-ac49-4ea9-8889-641fc9752d7e",
     "main",
     "5f8de7e3-b9e9-48eb-a2e8-1b5276e250aa",
     "71d9eabb-c28e-4b21-953a-e665e72297e4",
     "36108dac-ec76-4ce7-98c4-57277f5ddceb",
     "ae7fd308-7371-41f4-98ec-c84cfc64a018",
+    "c06d13bf-3439-4011-a790-65545216934b",
     "16975599647a695716",
     "458e48be-888e-4255-a5e1-5d254011f588",
     "64dbe55b-1680-43aa-997f-2048d1510a92",
