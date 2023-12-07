@@ -187,7 +187,7 @@
       ],
       "settings": {
         "speed_desktop": 170,
-        "speed_mobile": 80
+        "speed_mobile": 100
       }
     },
     "16546927101b0880bc": {
@@ -838,7 +838,7 @@
         "ea100259-4431-4eb0-b3ca-3c2475720c43"
       ],
       "custom_css": [
-        ".\\#hero-heading {position: relative; bottom: 40px; }"
+        ".\\#hero-heading {position: relative; bottom: 40px;}"
       ],
       "settings": {
         "show_card_title": false,
