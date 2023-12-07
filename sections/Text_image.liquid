@@ -12,9 +12,11 @@
                 <img loading="lazy" src="{{ section.settings.image | img_url: 'master' }}">
             </div>
         </div>
+      <div class="Product_text_image_flex">
       {% if section.settings.btn_title != blank %}
          <a class="Mobile_only Product_text_image_button_scroll" href="{{ section.settings.btn_url }}">{{ section.settings.btn_title }}</a>
       {% endif %}
+      </div>
     </div>
 </div>
 
