@@ -837,6 +837,9 @@
         "741d927d-941a-4644-84e1-1c961b773306",
         "ea100259-4431-4eb0-b3ca-3c2475720c43"
       ],
+      "custom_css": [
+        ".\\#hero-heading {position: relative; bottom: 40px; }"
+      ],
       "settings": {
         "show_card_title": false,
         "heading": "OUR BRANDS",
