@@ -269,15 +269,6 @@
     "939fe1cf-87b0-4404-b1ef-5be59fbcf5d4": {
       "type": "Customer_says_reviews",
       "blocks": {
-        "3e43814c-aff7-46e4-8bcd-8eefc907db47": {
-          "type": "Review",
-          "settings": {
-            "avatar": "shopify:\/\/shop_images\/2_07967477-4bff-47c9-a6be-71d016e041be.png",
-            "name": "Jonas R.",
-            "info": "Happy customer from 🇱🇹",
-            "content": "<p>I’ve had two boxes so far and both have been amazing! The selection is wide from sweet to salty. I have already recommended hollylollies to others, and plan to re-up mine again soon!<\/p>"
-          }
-        },
         "6ec83660-8eae-4718-a2d9-460ca0f35c91": {
           "type": "Review",
           "settings": {
@@ -303,6 +294,15 @@
             "name": "Judit Steinkellner",
             "info": "Proud customer from 🇦🇹",
             "content": "<p>Nostalgia. Plain and simple. I had been stationed in Japan for four years and had a great time trying new food and snacks when I was there. Wanting to share that with my kids now, we got this and now I’m sharing memories with them and explaining where I had certain ones before. Love it!<\/p>"
+          }
+        },
+        "3e43814c-aff7-46e4-8bcd-8eefc907db47": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/2_07967477-4bff-47c9-a6be-71d016e041be.png",
+            "name": "Jonas R.",
+            "info": "Happy customer from 🇱🇹",
+            "content": "<p>I’ve had two boxes so far and both have been amazing! The selection is wide from sweet to salty. I have already recommended hollylollies to others, and plan to re-up mine again soon!<\/p>"
           }
         },
         "284d89ef-da6e-436b-81aa-5dc026b5cf3d": {
@@ -380,10 +380,10 @@
         }
       },
       "block_order": [
-        "3e43814c-aff7-46e4-8bcd-8eefc907db47",
         "6ec83660-8eae-4718-a2d9-460ca0f35c91",
         "85f99483-9520-4b2d-ba93-f2f09355f6d7",
         "f50736a8-0ae1-41fc-9ed9-b29e478584a5",
+        "3e43814c-aff7-46e4-8bcd-8eefc907db47",
         "284d89ef-da6e-436b-81aa-5dc026b5cf3d",
         "253488bc-81ef-488a-ab1a-0d3bdc35f9c7",
         "d3f034f8-f8bb-41e1-8310-a94812245c4a",
