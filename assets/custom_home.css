@@ -729,6 +729,11 @@ product-dynamic-checkout{
 .Whole_featured_products_section product-dynamic-checkout .wallet-button-fade-in{
   display: none;
 }
+.Whole_featured_products_section .\#product-variant-selector-item-heading{
+  color: white;
+  font-weight: bold;
+  opacity: 1;
+}
 .Featured_product_learn_more_button{
   font-size: 18px;
   color: #5925DC;
