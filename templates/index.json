@@ -434,7 +434,7 @@
           "settings": {
             "heading": "WEEKLY CANDY SURPRISES",
             "text": "Holly Lollies, a leading candy seller in the EU, constantly refreshes its selection with thousands of new candies each week, guaranteeing a continuously exciting and varied snacking experience.",
-            "image": "shopify:\/\/shop_images\/Untitled_1080_x_1450_px.png",
+            "image": "shopify:\/\/shop_images\/Content_1.png",
             "icon": "<svg width=\"41\" height=\"41\" viewbox=\"0 0 41 41\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" fill=\"white\"><\/rect>\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" stroke=\"black\" stroke-width=\"2\"><\/rect>\n                                <path d=\"M13.5 20.7633L16.9168 11.834H25.4927L23.1354 16.7453H29L16.4491 30.334L20.915 20.7633H13.5Z\" fill=\"#7A5AF8\" stroke=\"black\" stroke-width=\"2\"><\/path>\n                            <\/svg>"
           }
         },
@@ -443,7 +443,7 @@
           "settings": {
             "heading": "BE THE FIRST TO TASTE THE TREND",
             "text": "At Holly Lollies, we have a dedicated people who scours the globe for the latest candy crazes. From the bustling streets of Tokyo to the vibrant markets of Vietnam, if it's trending, it's coming to you first – get ready for an exciting world of flavors!",
-            "image": "shopify:\/\/shop_images\/Untitled_1080_x_1450_px_3.png",
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-12-06_at_15.46.36.png",
             "icon": "<svg width=\"41\" height=\"41\" viewbox=\"0 0 41 41\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" fill=\"white\"><\/rect>\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" stroke=\"black\" stroke-width=\"2\"><\/rect>\n                                <path d=\"M13.5 20.7633L16.9168 11.834H25.4927L23.1354 16.7453H29L16.4491 30.334L20.915 20.7633H13.5Z\" fill=\"#7A5AF8\" stroke=\"black\" stroke-width=\"2\"><\/path>\n                            <\/svg>"
           }
         },
@@ -452,7 +452,7 @@
           "settings": {
             "heading": "ENJOY BIG DISCOUNTS FOR A SWEET CAUSE",
             "text": "We regularly clear our shelves to make way for new and exciting flavors from around the world. This means you get to enjoy the most unique and trending candies at up to 70% off, ensuring nothing goes to waste while you get to explore a world of flavors at unbeatable prices.",
-            "image": "shopify:\/\/shop_images\/Untitled_1080_x_1450_px_4.png",
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-12-06_at_15.43.19.png",
             "icon": "<svg width=\"41\" height=\"41\" viewbox=\"0 0 41 41\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" fill=\"white\"><\/rect>\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" stroke=\"black\" stroke-width=\"2\"><\/rect>\n                                <path d=\"M13.5 20.7633L16.9168 11.834H25.4927L23.1354 16.7453H29L16.4491 30.334L20.915 20.7633H13.5Z\" fill=\"#7A5AF8\" stroke=\"black\" stroke-width=\"2\"><\/path>\n                            <\/svg>"
           }
         },
@@ -1178,7 +1178,7 @@
           "settings": {
             "heading": "How can I track my order?",
             "icon": "",
-            "text": "<p>Sweet News on the Way! 🍬 As soon as your Holly Lollies order sets off from our candy haven, <strong>we'll pop an email your way.<\/strong> This isn't just any email – it's your golden ticket to track your treasure trove of treats! 💌 You'll find a tracking number inside, your key to unlock live updates on your candy's journey, all the way to your doorstep. And hey, if you need a hand or have a question, we're just a message away. Let's make this a smooth, sweet ride together! 🍬💫<\/p>"
+            "text": "<p>As soon as your Holly Lollies order sets off from our candy haven, <strong>we'll pop an email your way.<\/strong> This isn't just any email – it's your golden ticket to track your treasure trove of treats! 💌 You'll find a tracking number inside, your key to unlock live updates on your candy's journey, all the way to your doorstep. And hey, if you need a hand or have a question, we're just a message away. Let's make this a smooth, sweet ride together! 🍬💫<\/p>"
           }
         },
         "template--21462135734587__fca67246-1b86-436b-a889-fbec115fd5ee-question-3": {
@@ -1194,7 +1194,7 @@
           "settings": {
             "heading": "How long will it take to receive my order?",
             "icon": "",
-            "text": "<p>Countdown to Candy Time! 🕒🍬 With our standard shipping, your delightful Holly Lollies treats will typically arrive in <strong>3-5 working days. <\/strong>And guess what? We're stirring up something even sweeter – working hard to bring you next-day delivery soon! So, keep an eye out and get ready for a lightning-fast candy drop right at your doorstep!<\/p>"
+            "text": "<p>With our standard shipping, your delightful Holly Lollies treats will typically arrive in <strong>3-5 working days. <\/strong>🕒🍬 And guess what? We're stirring up something even sweeter – working hard to bring you next-day delivery soon! So, keep an eye out and get ready for a lightning-fast candy drop right at your doorstep!<\/p>"
           }
         },
         "67241725-818e-483e-8e6f-05b2aee5f7ed": {
@@ -1202,7 +1202,7 @@
           "settings": {
             "heading": "Can I return my order?",
             "icon": "",
-            "text": "<p>Sweet Returns? Here's the Scoop! 🍦 At Holly Lollies, we pour our heart into every package, but due to the nature of our yummy goods, <strong>we can't accept returns.<\/strong> If your candies aren't just right or there's a mix-up, don't fret! Just shoot us an email at <a href=\"mailto:hello@sosweetshop.co.uk\">hello@sosweetshop.co.uk<\/a>. We're all ears and ready to chat about any concerns or mishaps to ensure your Holly Lollies experience stays as delightful as our treats!\"<\/p>"
+            "text": "<p>At Holly Lollies, we pour our heart into every package, but due to the nature of our yummy goods, <strong>we can't accept returns.<\/strong> If your candies aren't just right or there's a mix-up, don't fret! Just shoot us an email at <a href=\"mailto:hello@sosweetshop.co.uk\">hello@sosweetshop.co.uk<\/a>. We're all ears and ready to chat about any concerns or mishaps to ensure your Holly Lollies experience stays as delightful as our treats!\"<\/p>"
           }
         },
         "9f1d21df-769d-408e-824d-3debf3ecc0bc": {
@@ -1210,7 +1210,7 @@
           "settings": {
             "heading": "What payment options do you offer?",
             "icon": "",
-            "text": "<p>Sweet and Secure Payment Options! 🛍️💳 At Holly Lollies, we make checking out as easy as picking your favorite candy. Choose from a variety of payment options at checkout: <strong>Debit\/Credit Card, PayPal, Apple Pay, or Google Pay. <\/strong>And don't you worry – all your payment details are wrapped up safe and secure, just like our candies. So, go ahead and shop with complete peace of mind!<\/p>"
+            "text": "<p>At Holly Lollies, we make checking out as easy as picking your favorite candy. Choose from a variety of payment options at checkout: <strong>Debit\/Credit Card, PayPal, Apple Pay, or Google Pay. <\/strong>🛍️💳 And don't you worry – all your payment details are wrapped up safe and secure, just like our candies. So, go ahead and shop with complete peace of mind!<\/p>"
           }
         },
         "34aa93b8-76b9-44c8-b98a-ec2293b43ed6": {
@@ -1292,7 +1292,7 @@
         "1654693292a215d319-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Pocky.webp",
+            "image": "shopify:\/\/shop_images\/337402999_1858177994555630_6855436838429113745_n.jpg",
             "product": "sour-patch-blue-raspberry-peg-bag-141g",
             "product_subtitle": ""
           }
@@ -1300,32 +1300,24 @@
         "1654693292a215d319-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/20-Best-Favorite-Japanese-Snacks-You-Must-Try_1024x1024_1c629895-cf46-4fa7-b3f0-b7b351a6b3f5.webp",
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-12-06-13-16-21-83_1c337646f29875672b5a61192b9010f9_1.jpg",
             "product": "nerds-rope-very-berry-26g",
-            "product_subtitle": ""
-          }
-        },
-        "1654693292a215d319-3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/SnackPot_AuthenticFoodQuest_jpg.webp",
-            "product": "general-mills-reese-puffs-326gr",
-            "product_subtitle": ""
-          }
-        },
-        "f06c7a6a-1d58-4c92-9294-44b80f4fb2a2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/d1ea4c47ba48571d6311ce650124e73f54f74a3b573b4793f695c1282de0554c.jpg",
-            "product": "nerds-grape-strawberry-box-141g",
             "product_subtitle": ""
           }
         },
         "1654693292a215d319-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/chips-2.webp",
+            "image": "shopify:\/\/shop_images\/IMG_20231206_135317.jpg",
             "product": "hata-kosen-bottle-ramune-blueberry",
+            "product_subtitle": ""
+          }
+        },
+        "1654693292a215d319-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BEST-POCKY-RANKING_DANNY-PALUMBO_SPORKED_HEADER.webp",
+            "product": "general-mills-reese-puffs-326gr",
             "product_subtitle": ""
           }
         },
@@ -1335,6 +1327,14 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_6908.jpg",
             "product": "general-mills-lucky-charms-300g",
+            "product_subtitle": ""
+          }
+        },
+        "1654693292a215d319-5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BEST_BULDAK_NOODLES_HEADER.webp",
+            "product": "general-mills-reese-puffs-326gr",
             "product_subtitle": ""
           }
         },
@@ -1356,11 +1356,11 @@
             "product_subtitle": ""
           }
         },
-        "1654693292a215d319-5": {
+        "f06c7a6a-1d58-4c92-9294-44b80f4fb2a2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/snacks-in-america.webp",
-            "product": "general-mills-reese-puffs-326gr",
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-12-06-13-44-50-33_1c337646f29875672b5a61192b9010f9.jpg",
+            "product": "nerds-grape-strawberry-box-141g",
             "product_subtitle": ""
           }
         },
@@ -1377,13 +1377,13 @@
       "block_order": [
         "1654693292a215d319-0",
         "1654693292a215d319-2",
-        "1654693292a215d319-3",
-        "f06c7a6a-1d58-4c92-9294-44b80f4fb2a2",
         "1654693292a215d319-1",
+        "1654693292a215d319-3",
         "1654693292a215d319-4",
+        "1654693292a215d319-5",
         "6d278eeb-1c65-40e5-90cc-f98b772bd1a1",
         "0992f6d1-bc3c-4c6a-acfc-d3d58286cf6d",
-        "1654693292a215d319-5",
+        "f06c7a6a-1d58-4c92-9294-44b80f4fb2a2",
         "d5d70cc8-bdb1-43ef-9bca-93650c88893a"
       ],
       "settings": {
