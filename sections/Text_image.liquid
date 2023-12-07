@@ -5,13 +5,16 @@
                 <h2>{{ section.settings.title }}</h2>
                 <p>{{ section.settings.text }}</p>
                 {% if section.settings.btn_title != blank %}
-                    <a class="Product_text_image_button_scroll" href="{{ section.settings.btn_url }}">{{ section.settings.btn_title }}</a>
+                    <a class="Desktop_only Product_text_image_button_scroll" href="{{ section.settings.btn_url }}">{{ section.settings.btn_title }}</a>
                 {% endif %}
             </div>
             <div>
                 <img loading="lazy" src="{{ section.settings.image | img_url: 'master' }}">
             </div>
         </div>
+      {% if section.settings.btn_title != blank %}
+         <a class="Mobile_only Product_text_image_button_scroll" href="{{ section.settings.btn_url }}">{{ section.settings.btn_title }}</a>
+      {% endif %}
     </div>
 </div>
 
