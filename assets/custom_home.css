@@ -1026,10 +1026,10 @@ product-to-cart:hover{
     padding-top: 3rem;
   }
   .Customer_says_reviews_outer .slick-dots li{
-    width: 25px;
+    width: 10px;
   }
   .Customer_says_reviews_outer .slick-dots li button{
-    width: 25px;
+    width: 10px;
     height: 2px;
     border-radius: 5px;
     background: white;
