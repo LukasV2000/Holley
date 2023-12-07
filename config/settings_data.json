@@ -330,18 +330,21 @@
         "blocks": {
           "g_newsletter-popup-0": {
             "type": "heading",
+            "disabled": true,
             "settings": {
               "heading": "Subscribe to our emails"
             }
           },
           "g_newsletter-popup-1": {
             "type": "text",
+            "disabled": true,
             "settings": {
               "text": "Be the first to know about new collections and exclusive offers."
             }
           },
           "g_newsletter-popup-2": {
             "type": "newsletter_form",
+            "disabled": true,
             "settings": {
             }
           }
