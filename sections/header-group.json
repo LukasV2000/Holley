@@ -93,7 +93,7 @@
             "position": "secondary",
             "link_name": "Mystery box",
             "url": "shopify:\/\/products\/mystery-box",
-            "icon": "star"
+            "icon": "gift"
           }
         },
         "a0e5e96a-cb06-403c-b463-af2abc48fa2e": {
@@ -108,12 +108,11 @@
         },
         "3da5dd28-9d71-4b64-8ed9-1ae8812371fe": {
           "type": "link",
-          "disabled": true,
           "settings": {
             "position": "secondary",
-            "link_name": "Gift cards",
-            "url": "",
-            "icon": "gift"
+            "link_name": "Reviews",
+            "url": "shopify:\/\/pages\/reviews",
+            "icon": "star"
           }
         },
         "40b81852-f6cc-4c90-bbd5-3aede38492e0": {
