@@ -105,6 +105,66 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Vector_52227e6a-e6a3-4e53-8ff3-c57e5c1e9378.png"
           }
+        },
+        "5d825b2d-8022-4a90-8a89-8a9dec96bed2": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Press_logo_2.png"
+          }
+        },
+        "922d9aa6-7ac0-4438-9a0a-09b66cd2f430": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Press_logo_3.png"
+          }
+        },
+        "c657beae-8190-4c0b-a4b7-a9dd791da4a3": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-12-05_at_18.34.20-removebg-preview_1.png"
+          }
+        },
+        "65900420-a474-43fc-8aab-17912471d5fc": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-12-05_at_18.36.01-removebg-preview.png"
+          }
+        },
+        "5376110a-cea3-4a56-a941-da0404ca4a5d": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector.png"
+          }
+        },
+        "637403ec-0e8a-4ab9-aa22-1c54a1311a98": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Press_logo_2.png"
+          }
+        },
+        "e0998e43-7ff5-465a-aaae-e480ba970045": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Press_logo_3.png"
+          }
+        },
+        "6e57aef7-3089-4102-9aae-c275cf2167c1": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-12-05_at_18.34.20-removebg-preview_1.png"
+          }
+        },
+        "923a67eb-f63d-4742-a0b9-bcc91c408424": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-12-05_at_18.36.01-removebg-preview.png"
+          }
+        },
+        "0a756e4d-7f97-4f10-abf3-7024c0ffa3d3": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector.png"
+          }
         }
       },
       "block_order": [
@@ -113,7 +173,17 @@
         "6b84b0c3-645a-46ef-99b4-861ce87ddd9b",
         "db06d186-c05c-4100-8dfa-9a3c9f763a4b",
         "35b1e678-7b7e-43fa-9001-fb0eb45d788c",
-        "61b3d260-b27b-4815-9a63-7c7e4214eed2"
+        "61b3d260-b27b-4815-9a63-7c7e4214eed2",
+        "5d825b2d-8022-4a90-8a89-8a9dec96bed2",
+        "922d9aa6-7ac0-4438-9a0a-09b66cd2f430",
+        "c657beae-8190-4c0b-a4b7-a9dd791da4a3",
+        "65900420-a474-43fc-8aab-17912471d5fc",
+        "5376110a-cea3-4a56-a941-da0404ca4a5d",
+        "637403ec-0e8a-4ab9-aa22-1c54a1311a98",
+        "e0998e43-7ff5-465a-aaae-e480ba970045",
+        "6e57aef7-3089-4102-9aae-c275cf2167c1",
+        "923a67eb-f63d-4742-a0b9-bcc91c408424",
+        "0a756e4d-7f97-4f10-abf3-7024c0ffa3d3"
       ],
       "settings": {
         "speed_desktop": 170,
