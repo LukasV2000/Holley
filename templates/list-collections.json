@@ -577,6 +577,7 @@
         },
         "84505222-f7b6-46a1-a560-9a8d7f36ccab": {
           "type": "Review",
+          "disabled": true,
           "settings": {
             "avatar": "shopify:\/\/shop_images\/1.png",
             "name": "Jeannette Ellis",
