@@ -1297,19 +1297,19 @@
             "product_subtitle": ""
           }
         },
+        "1654693292a215d319-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SnackPot_AuthenticFoodQuest_jpg.webp",
+            "product": "general-mills-reese-puffs-326gr",
+            "product_subtitle": ""
+          }
+        },
         "1654693292a215d319-2": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/20-Best-Favorite-Japanese-Snacks-You-Must-Try_1024x1024_1c629895-cf46-4fa7-b3f0-b7b351a6b3f5.webp",
             "product": "nerds-rope-very-berry-26g",
-            "product_subtitle": ""
-          }
-        },
-        "1654693292a215d319-3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/d1ea4c47ba48571d6311ce650124e73f54f74a3b573b4793f695c1282de0554c.jpg",
-            "product": "general-mills-reese-puffs-326gr",
             "product_subtitle": ""
           }
         },
@@ -1321,20 +1321,20 @@
             "product_subtitle": ""
           }
         },
+        "f06c7a6a-1d58-4c92-9294-44b80f4fb2a2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/d1ea4c47ba48571d6311ce650124e73f54f74a3b573b4793f695c1282de0554c.jpg",
+            "product": "nerds-grape-strawberry-box-141g",
+            "product_subtitle": ""
+          }
+        },
         "1654693292a215d319-4": {
           "type": "image",
           "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_6908.jpg",
             "product": "general-mills-lucky-charms-300g",
-            "product_subtitle": ""
-          }
-        },
-        "1654693292a215d319-5": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/snacks-in-america.webp",
-            "product": "general-mills-reese-puffs-326gr",
             "product_subtitle": ""
           }
         },
@@ -1356,11 +1356,11 @@
             "product_subtitle": ""
           }
         },
-        "f06c7a6a-1d58-4c92-9294-44b80f4fb2a2": {
+        "1654693292a215d319-5": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-12-06-13-44-50-33_1c337646f29875672b5a61192b9010f9.jpg",
-            "product": "nerds-grape-strawberry-box-141g",
+            "image": "shopify:\/\/shop_images\/snacks-in-america.webp",
+            "product": "general-mills-reese-puffs-326gr",
             "product_subtitle": ""
           }
         },
@@ -1376,14 +1376,14 @@
       },
       "block_order": [
         "1654693292a215d319-0",
-        "1654693292a215d319-2",
         "1654693292a215d319-3",
+        "1654693292a215d319-2",
         "1654693292a215d319-1",
+        "f06c7a6a-1d58-4c92-9294-44b80f4fb2a2",
         "1654693292a215d319-4",
-        "1654693292a215d319-5",
         "6d278eeb-1c65-40e5-90cc-f98b772bd1a1",
         "0992f6d1-bc3c-4c6a-acfc-d3d58286cf6d",
-        "f06c7a6a-1d58-4c92-9294-44b80f4fb2a2",
+        "1654693292a215d319-5",
         "d5d70cc8-bdb1-43ef-9bca-93650c88893a"
       ],
       "settings": {
