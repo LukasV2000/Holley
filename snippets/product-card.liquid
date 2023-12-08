@@ -86,6 +86,17 @@
             {%- endif -%}
         </div>
     {%- endif -%}
+    {% for tag in product.tags %}
+        {% if tag contains 'trending' %}
+            <div class="Badge_by_tag">TRENDING 🚀</div>
+        {% elsif tag contains 'hot' %}
+            <div class="Badge_by_tag">HOT 🔥</div>
+        {% elsif tag contains 'coming-soon' %}
+            <div class="Badge_by_tag">COMING SOON 🔜</div>
+        {% elsif tag contains 'best-seller' %}
+            <div class="Badge_by_tag">BEST-SELLER 🥇</div>
+        {% endif %}
+    {% endfor %}
 {%- endcapture -%}
 
 {%- if settings.product_card_show_color_swatches and product -%}

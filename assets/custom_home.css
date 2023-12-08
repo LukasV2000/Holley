@@ -1065,3 +1065,19 @@ product-to-cart:hover{
     text-align: center;
   }
 }
+/* Badges */
+.shopify-section .\#product-card-badges{
+  display: block;
+  text-align: left;
+}
+.shopify-section .\#product-card-badges .\#product-card-badge.\@type\:sale{
+  display: inline-block !important;
+}
+.Badge_by_tag{
+  margin-top: 5px;
+  border-radius: 5px;
+  padding: 5px 5px;
+  background: #D9D6FE;
+  color: #5720B7;
+  font-weight: bold;
+}
