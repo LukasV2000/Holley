@@ -1,5 +1,58 @@
 {
   "sections": {
+    "6d46a58a-99cf-4eb2-991c-65b8862c8d7f": {
+      "type": "d_rich-text",
+      "blocks": {
+        "template--21716628144443__6d46a58a-99cf-4eb2-991c-65b8862c8d7f-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Rich text",
+            "heading_accent_enable": true,
+            "heading_accent_use_cutom_color": false,
+            "heading_accent_color": "#e22d00"
+          }
+        },
+        "template--21716628144443__6d46a58a-99cf-4eb2-991c-65b8862c8d7f-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Holly Lollies, we have a minimum order value of 20 EUR to sustain our promise of premium quality and efficient shipping. This helps us deliver the best candy experience while maintaining economic sustainability. Thanks for your understanding and happy shopping!🙏🍬<\/p>"
+          }
+        },
+        "template--21716628144443__6d46a58a-99cf-4eb2-991c-65b8862c8d7f-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "mobile_hidden": false,
+            "f_button_label": "Shop now",
+            "f_button_link": "",
+            "f_button_style": "normal",
+            "f_button_custom_colors": false,
+            "f_button_bg_color": "",
+            "f_button_text_color": "#ffffff",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_style": "normal",
+            "s_button_custom_colors": false,
+            "s_button_bg_color": "",
+            "s_button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--21716628144443__6d46a58a-99cf-4eb2-991c-65b8862c8d7f-heading-1",
+        "template--21716628144443__6d46a58a-99cf-4eb2-991c-65b8862c8d7f-text-1",
+        "template--21716628144443__6d46a58a-99cf-4eb2-991c-65b8862c8d7f-buttons-1"
+      ],
+      "settings": {
+        "section_layout": "default",
+        "text_align": "center",
+        "size": "md",
+        "use_custom_color": false,
+        "text_color": "#FFFFFF",
+        "bg_color": "#383838"
+      }
+    },
     "main": {
       "type": "s_cart",
       "blocks": {
@@ -210,6 +263,7 @@
     }
   },
   "order": [
+    "6d46a58a-99cf-4eb2-991c-65b8862c8d7f",
     "main",
     "63551180-b9d9-44f6-9f4f-1c36c0f98c4e",
     "1c236c23-4bbf-49fa-a6bc-3f71a7cc101f",
