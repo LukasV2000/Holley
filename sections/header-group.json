@@ -124,6 +124,15 @@
             "icon": "star"
           }
         },
+        "482c35db-3aac-4c80-b180-3312ae1c5012": {
+          "type": "link",
+          "settings": {
+            "position": "secondary",
+            "link_name": "HOT DEALS",
+            "url": "shopify:\/\/collections\/hot-deals",
+            "icon": "fire"
+          }
+        },
         "40b81852-f6cc-4c90-bbd5-3aede38492e0": {
           "type": "link",
           "disabled": true,
@@ -172,15 +181,6 @@
             ],
             "image_size": "square"
           }
-        },
-        "482c35db-3aac-4c80-b180-3312ae1c5012": {
-          "type": "link",
-          "settings": {
-            "position": "secondary",
-            "link_name": "HOT DEALS",
-            "url": "shopify:\/\/collections\/hot-deals",
-            "icon": "fire"
-          }
         }
       },
       "block_order": [
@@ -189,12 +189,12 @@
         "56d8cc47-7575-4811-aed8-71467431ca6e",
         "a0e5e96a-cb06-403c-b463-af2abc48fa2e",
         "3da5dd28-9d71-4b64-8ed9-1ae8812371fe",
+        "482c35db-3aac-4c80-b180-3312ae1c5012",
         "40b81852-f6cc-4c90-bbd5-3aede38492e0",
         "8e0339af-3352-4a9e-a753-67e28bcb51fb",
         "3dc93ca1-2c9f-4069-b258-e858e3898047",
         "b5ef1c15-9f9e-4491-bdaa-c00e8f506a2b",
-        "19641f5c-99b5-40e2-8e18-b78f90f7b843",
-        "482c35db-3aac-4c80-b180-3312ae1c5012"
+        "19641f5c-99b5-40e2-8e18-b78f90f7b843"
       ],
       "settings": {
         "header_font_size": 160,
