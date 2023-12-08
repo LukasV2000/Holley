@@ -202,7 +202,7 @@
 
 <{{ wrapper }} class="Product_card_outer {{ cn }} {% if dim_product %}@dim{% endif %} @align:{{ settings.product_card_align }} {% if horizontal == true %}@horizontal{% endif %} {% if settings.product_card_image_padding %}@image-padding{% endif %} {{ cn_shadow }}" style="--max-lines: {{ settings.product_card_title_max_lines }};">
     {% for tag in product.tags %}
-        {% if tag contains 'new_badge' %}
+        {% if tag contains 'new' %}
             {% assign new_badge = true %}
         {% else %}
             {% assign new_badge = false %}
