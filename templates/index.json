@@ -649,7 +649,7 @@
         "template--21462135734587__b03fa275-5869-46d4-9b3b-f53193c36f21-buy_buttons-1": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
+            "show_dynamic_checkout": false,
             "enable_stock_notifier": true,
             "prev_attach": false
           }
