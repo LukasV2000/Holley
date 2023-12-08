@@ -115,6 +115,15 @@
     "d14fafd6-ea3e-4c9c-93c6-818d797a5ec7": {
       "type": "Index_reviews_carousel",
       "blocks": {
+        "461b4783-4a38-44ee-93ca-dcc3a9775432": {
+          "type": "Slide",
+          "settings": {
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2248ffeeb076473a97af3f0dc82f1e28.mp4",
+            "headline": "“It's all delicious and let's you try different flavor combinations you never would have thought of or had the chance to experience.\"",
+            "name": "— Arjen Wesseling",
+            "info": "Proud Client from Netherlands 🇳🇱"
+          }
+        },
         "38b63eb6-a4be-43d2-82b6-d5972a434fd4": {
           "type": "Slide",
           "settings": {
@@ -141,22 +150,13 @@
             "name": "— Ruud de Nijs",
             "info": "Proud Client from Netherlands 🇳🇱"
           }
-        },
-        "461b4783-4a38-44ee-93ca-dcc3a9775432": {
-          "type": "Slide",
-          "settings": {
-            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2248ffeeb076473a97af3f0dc82f1e28.mp4",
-            "headline": "“It's all delicious and let's you try different flavor combinations you never would have thought of or had the chance to experience.\"",
-            "name": "— Arjen Wesseling",
-            "info": "Proud Client from Netherlands 🇳🇱"
-          }
         }
       },
       "block_order": [
+        "461b4783-4a38-44ee-93ca-dcc3a9775432",
         "38b63eb6-a4be-43d2-82b6-d5972a434fd4",
         "d8cf7aaa-707c-476e-8708-fe07b39108b0",
-        "9584ee68-3fdc-4b6b-aa78-b7a776422807",
-        "461b4783-4a38-44ee-93ca-dcc3a9775432"
+        "9584ee68-3fdc-4b6b-aa78-b7a776422807"
       ],
       "settings": {
         "title": "This is what our community says",
