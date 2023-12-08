@@ -16,7 +16,7 @@
         "template--21716628144443__6d46a58a-99cf-4eb2-991c-65b8862c8d7f-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Join our world of yum with a minimum order of 20 EUR. It's our way of ensuring every Holly Lollies box is packed with love and quality! 🙏<\/p>"
+            "text": "<p>❗Join our world of yum with a minimum order of 20 EUR. It's our way of ensuring every Holly Lollies box is packed with love and quality! 🙏<\/p>"
           }
         },
         "template--21716628144443__6d46a58a-99cf-4eb2-991c-65b8862c8d7f-buttons-1": {
@@ -49,7 +49,7 @@
         "text_align": "center",
         "size": "md",
         "use_custom_color": false,
-        "text_color": "#FFFFFF",
+        "text_color": "#ffffff",
         "bg_color": "#383838"
       }
     },
