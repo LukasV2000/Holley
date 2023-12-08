@@ -269,6 +269,15 @@
     "939fe1cf-87b0-4404-b1ef-5be59fbcf5d4": {
       "type": "Customer_says_reviews",
       "blocks": {
+        "1d026fc1-9182-4a4d-a23e-f00c81313ee5": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/2_b99b379b-0535-4eec-b291-47fca148424c.png",
+            "name": "Cordula Schuster",
+            "info": "Proud customer from 🇦🇹",
+            "content": "<p>For the price it's an exceptional value and I like that it has a balanced selection of sweet and savory snacks and that they are full sized. I also noticed that all the snacks in this box were fresh. No stale crackers or chips like I've experienced in other similar boxes. Very pleased with this purchase and would highly recommend to friends, family, and as a gift.<\/p>"
+          }
+        },
         "6ec83660-8eae-4718-a2d9-460ca0f35c91": {
           "type": "Review",
           "settings": {
@@ -332,15 +341,6 @@
             "content": "<p>Amazing service much better than a large competitor who can’t actually deliver. Holly Lollies box arrived with in 3 business days . The treats were tasty and well explained. Highly recommend.<\/p>"
           }
         },
-        "1d026fc1-9182-4a4d-a23e-f00c81313ee5": {
-          "type": "Review",
-          "settings": {
-            "avatar": "shopify:\/\/shop_images\/2_b99b379b-0535-4eec-b291-47fca148424c.png",
-            "name": "Cordula Schuster",
-            "info": "Proud customer from 🇦🇹",
-            "content": "<p>For the price it's an exceptional value and I like that it has a balanced selection of sweet and savory snacks and that they are full sized. I also noticed that all the snacks in this box were fresh. No stale crackers or chips like I've experienced in other similar boxes. Very pleased with this purchase and would highly recommend to friends, family, and as a gift.<\/p>"
-          }
-        },
         "dfab66f7-6717-4e7f-b625-b15e905cf1bb": {
           "type": "Review",
           "settings": {
@@ -380,6 +380,7 @@
         }
       },
       "block_order": [
+        "1d026fc1-9182-4a4d-a23e-f00c81313ee5",
         "6ec83660-8eae-4718-a2d9-460ca0f35c91",
         "85f99483-9520-4b2d-ba93-f2f09355f6d7",
         "f50736a8-0ae1-41fc-9ed9-b29e478584a5",
@@ -387,7 +388,6 @@
         "284d89ef-da6e-436b-81aa-5dc026b5cf3d",
         "253488bc-81ef-488a-ab1a-0d3bdc35f9c7",
         "d3f034f8-f8bb-41e1-8310-a94812245c4a",
-        "1d026fc1-9182-4a4d-a23e-f00c81313ee5",
         "dfab66f7-6717-4e7f-b625-b15e905cf1bb",
         "60d8d18e-74e9-4c51-b13f-345b620b4aa8",
         "6a35730d-2035-45bd-bccd-c488666cbc06",
