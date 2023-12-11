@@ -16,7 +16,7 @@
         "template--21716628144443__6d46a58a-99cf-4eb2-991c-65b8862c8d7f-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>❗Free shipping over 40.00 EUR<\/p><p>❗5.99 shipping over 25 EUR<\/p><p>❗7.99 shipping less than 24.99 EUR<\/p>"
+            "text": "<p>❗Free shipping over €40.00 <\/p><p>❗€5.99 shipping over €25 <\/p><p>❗€7.99 shipping less than €24.99 <\/p>"
           }
         },
         "template--21716628144443__6d46a58a-99cf-4eb2-991c-65b8862c8d7f-buttons-1": {
