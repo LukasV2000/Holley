@@ -111,7 +111,7 @@
         "buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
+            "show_dynamic_checkout": false,
             "enable_stock_notifier": true,
             "show_gift_card_recipient": false,
             "prev_attach": false
