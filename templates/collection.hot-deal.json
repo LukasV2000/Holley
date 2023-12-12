@@ -188,7 +188,7 @@
         "template--21801079308603__17d5f566-a4e8-43ac-9cb5-500183341ea0-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Dive into a world of surprises with a handpicked selection of the most unique and trending candies. Each box is a fresh adventure, offering a delightful mix of flavors from sweet to savory, spanning the globe from Japan to the USA. Grab yours and embark on a taste journey like no other! 🍬🌈 #HollyLolliesAdventure 🎈<\/p>"
+            "text": "<p>Dive into a world of surprises with a handpicked selection of the most unique and trending candies.🍬🌈 #HollyLolliesAdventure 🎈<\/p>"
           }
         },
         "template--21801079308603__17d5f566-a4e8-43ac-9cb5-500183341ea0-buttons-1": {
@@ -266,7 +266,7 @@
       ],
       "settings": {
         "section_layout": "container",
-        "image_size": "lg",
+        "image_size": "md",
         "image_width": 50,
         "image_position": "left",
         "text_size": "lg",
