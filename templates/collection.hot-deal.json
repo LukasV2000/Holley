@@ -438,93 +438,6 @@
         "mobile_caption_display": "offset"
       }
     },
-    "5c780433-fceb-4762-99a2-8330df5c95eb": {
-      "type": "d_logo-list",
-      "blocks": {
-        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-1": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/163.png",
-            "link": ""
-          }
-        },
-        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-2": {
-          "type": "logo",
-          "settings": {
-            "link": ""
-          }
-        },
-        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-3": {
-          "type": "logo",
-          "settings": {
-            "link": ""
-          }
-        },
-        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-4": {
-          "type": "logo",
-          "settings": {
-            "link": ""
-          }
-        },
-        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-5": {
-          "type": "logo",
-          "settings": {
-            "link": ""
-          }
-        },
-        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-6": {
-          "type": "logo",
-          "settings": {
-            "link": ""
-          }
-        },
-        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-7": {
-          "type": "logo",
-          "settings": {
-            "link": ""
-          }
-        },
-        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-8": {
-          "type": "logo",
-          "settings": {
-            "link": ""
-          }
-        },
-        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-9": {
-          "type": "logo",
-          "settings": {
-            "link": ""
-          }
-        },
-        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-10": {
-          "type": "logo",
-          "settings": {
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-1",
-        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-2",
-        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-3",
-        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-4",
-        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-5",
-        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-6",
-        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-7",
-        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-8",
-        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-9",
-        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-10"
-      ],
-      "settings": {
-        "heading": "What products you can expect in mystery box",
-        "subheading": "",
-        "columns": 5,
-        "logo_height": 200,
-        "enable_grayscale_hover": false,
-        "section_button_label": "",
-        "section_button_url": ""
-      }
-    },
     "24c2231f-0181-40f0-97da-7d8394ebeaf7": {
       "type": "d_rich-text",
       "blocks": {
@@ -574,6 +487,113 @@
         "use_custom_color": false,
         "text_color": "#FFFFFF",
         "bg_color": "#383838"
+      }
+    },
+    "bca5d02a-9d59-405f-adee-d7fd79070582": {
+      "type": "d_collection-list",
+      "blocks": {
+        "template--21801079308603__bca5d02a-9d59-405f-adee-d7fd79070582-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/163.png",
+            "custom_title": "SAMYANG"
+          }
+        },
+        "template--21801079308603__bca5d02a-9d59-405f-adee-d7fd79070582-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/152.png",
+            "custom_title": "POCKY"
+          }
+        },
+        "template--21801079308603__bca5d02a-9d59-405f-adee-d7fd79070582-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/142.png",
+            "custom_title": "CANDY POP"
+          }
+        },
+        "template--21801079308603__bca5d02a-9d59-405f-adee-d7fd79070582-collection-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/130.png",
+            "custom_title": "KITKAT"
+          }
+        },
+        "template--21801079308603__bca5d02a-9d59-405f-adee-d7fd79070582-collection-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Untitleddesign_50.png",
+            "custom_title": "KINDER"
+          }
+        },
+        "bf5eef3b-3b1e-47cb-a0e9-2438521933fc": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/122.png",
+            "custom_title": "REESE"
+          }
+        },
+        "9ed9a7a6-7646-49db-ad17-a6de2a072e01": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/107.png",
+            "custom_title": "CHEETOS"
+          }
+        },
+        "eb189f5b-7e70-4bc5-bd8e-5c387d58664a": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Untitleddesign_46.png",
+            "custom_title": "FEASTABLES"
+          }
+        },
+        "795bcca3-e1b7-4b4a-ae85-dd1ff4c9cb65": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/74.png",
+            "custom_title": "HATA"
+          }
+        },
+        "9e0b145b-3489-4d54-96b7-ad1b8a38faf3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/takis-blue-heat.jpg",
+            "custom_title": "TAKIS"
+          }
+        }
+      },
+      "block_order": [
+        "template--21801079308603__bca5d02a-9d59-405f-adee-d7fd79070582-collection-1",
+        "template--21801079308603__bca5d02a-9d59-405f-adee-d7fd79070582-collection-2",
+        "template--21801079308603__bca5d02a-9d59-405f-adee-d7fd79070582-collection-3",
+        "template--21801079308603__bca5d02a-9d59-405f-adee-d7fd79070582-collection-4",
+        "template--21801079308603__bca5d02a-9d59-405f-adee-d7fd79070582-collection-5",
+        "bf5eef3b-3b1e-47cb-a0e9-2438521933fc",
+        "9ed9a7a6-7646-49db-ad17-a6de2a072e01",
+        "eb189f5b-7e70-4bc5-bd8e-5c387d58664a",
+        "795bcca3-e1b7-4b4a-ae85-dd1ff4c9cb65",
+        "9e0b145b-3489-4d54-96b7-ad1b8a38faf3"
+      ],
+      "settings": {
+        "show_card_title": true,
+        "heading": "What you can expect in your box",
+        "subheading": "",
+        "columns": 5,
+        "image_size": "square",
+        "text_position": "center",
+        "show_frame": false,
+        "section_button_label": ""
       }
     },
     "d8c8378b-888e-4908-8f87-fcc578b5dd78": {
@@ -812,8 +832,8 @@
     "5c2e03fe-1254-4e51-8280-ae47bf86aa07",
     "0ef39cd6-3323-4df0-8a07-f02d9753cdc9",
     "5161f76f-8a4a-4166-9d71-9358c297ea80",
-    "5c780433-fceb-4762-99a2-8330df5c95eb",
     "24c2231f-0181-40f0-97da-7d8394ebeaf7",
+    "bca5d02a-9d59-405f-adee-d7fd79070582",
     "d8c8378b-888e-4908-8f87-fcc578b5dd78",
     "5ccbf5a5-e1ed-4fbe-8d40-a887b4e72b7d",
     "556f5c1d-5c6f-4265-998d-4c99b08cb073",
