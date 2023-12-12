@@ -14,11 +14,13 @@
         "304f866d-56d0-479f-8b73-bd9b50896aec": {
           "type": "Slide",
           "settings": {
-            "headline": "Superlicious candies",
-            "info": "<p>Superlicious candies lorem ipsum<\/p>",
-            "button_title_1": "Shop now",
+            "image": "shopify:\/\/shop_images\/Elements-geometric-shape-square-frame_95562da9-8ec3-4363-8ff2-25a87cb139e3.png",
+            "trust_image": "shopify:\/\/shop_images\/Trustpilot_Micro.png",
+            "headline": "🔥HOTTEST DEAL OF THE MONTH",
+            "info": "<p>🎈Opening Special Treat: Enjoy a massive 50% discount for Holly Lollies Mystery box! <\/p>",
+            "button_title_1": "",
             "button_url_1": "",
-            "button_title_2": "Shop now",
+            "button_title_2": "",
             "button_url_2": ""
           }
         },
