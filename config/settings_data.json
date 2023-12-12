@@ -38,6 +38,7 @@
     "social_tiktok_link": "https:\/\/tiktok.com\/@hollylolliesofficial",
     "social_youtube_link": "",
     "favicon": "shopify:\/\/shop_images\/Untitled_design__3_-removebg-preview.png",
+    "predictive_search_only_in_stock_products": true,
     "predictive_search_src_page": true,
     "predictive_search_src_blog": true,
     "predictive_search_initial_suggestions_show": false,
