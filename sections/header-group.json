@@ -129,7 +129,7 @@
           "type": "link",
           "settings": {
             "position": "secondary",
-            "link_name": "HOT DEALS",
+            "link_name": "HOT DEAL",
             "url": "shopify:\/\/collections\/mystery-box-hot-deal",
             "icon": "fire"
           }
