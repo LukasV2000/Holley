@@ -225,6 +225,527 @@
         "sidebar_width": 20,
         "collapse_filters": false
       }
+    },
+    "17d5f566-a4e8-43ac-9cb5-500183341ea0": {
+      "type": "d_rich-text",
+      "blocks": {
+        "template--21801079308603__17d5f566-a4e8-43ac-9cb5-500183341ea0-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rich text",
+            "heading_accent_enable": true,
+            "heading_accent_use_cutom_color": false,
+            "heading_accent_color": "#e22d00"
+          }
+        },
+        "template--21801079308603__17d5f566-a4e8-43ac-9cb5-500183341ea0-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers.<br>Describe a product, share announcements or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--21801079308603__17d5f566-a4e8-43ac-9cb5-500183341ea0-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "mobile_hidden": false,
+            "f_button_label": "Shop now",
+            "f_button_link": "",
+            "f_button_style": "normal",
+            "f_button_custom_colors": false,
+            "f_button_bg_color": "",
+            "f_button_text_color": "#ffffff",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_style": "normal",
+            "s_button_custom_colors": false,
+            "s_button_bg_color": "",
+            "s_button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--21801079308603__17d5f566-a4e8-43ac-9cb5-500183341ea0-heading-1",
+        "template--21801079308603__17d5f566-a4e8-43ac-9cb5-500183341ea0-text-1",
+        "template--21801079308603__17d5f566-a4e8-43ac-9cb5-500183341ea0-buttons-1"
+      ],
+      "settings": {
+        "section_layout": "default",
+        "text_align": "center",
+        "size": "md",
+        "use_custom_color": false,
+        "text_color": "#FFFFFF",
+        "bg_color": "#383838"
+      }
+    },
+    "5c2e03fe-1254-4e51-8280-ae47bf86aa07": {
+      "type": "d_image-with-text",
+      "blocks": {
+        "template--21801079308603__5c2e03fe-1254-4e51-8280-ae47bf86aa07-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Subheading"
+          }
+        },
+        "template--21801079308603__5c2e03fe-1254-4e51-8280-ae47bf86aa07-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text heading"
+          }
+        },
+        "template--21801079308603__5c2e03fe-1254-4e51-8280-ae47bf86aa07-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Give customers details about the hero image or content on the template.<\/p>"
+          }
+        },
+        "template--21801079308603__5c2e03fe-1254-4e51-8280-ae47bf86aa07-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "f_button_label": "Shop now",
+            "f_button_link": "",
+            "f_button_style": "normal",
+            "f_button_custom_colors": false,
+            "f_button_text_color": "#ffffff",
+            "f_button_bg_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "template--21801079308603__5c2e03fe-1254-4e51-8280-ae47bf86aa07-subheading-1",
+        "template--21801079308603__5c2e03fe-1254-4e51-8280-ae47bf86aa07-heading-1",
+        "template--21801079308603__5c2e03fe-1254-4e51-8280-ae47bf86aa07-text-1",
+        "template--21801079308603__5c2e03fe-1254-4e51-8280-ae47bf86aa07-buttons-1"
+      ],
+      "settings": {
+        "section_layout": "container",
+        "image_size": "lg",
+        "image_width": 50,
+        "image_position": "left",
+        "text_size": "lg",
+        "text_color": "",
+        "bg_color": ""
+      }
+    },
+    "0ef39cd6-3323-4df0-8a07-f02d9753cdc9": {
+      "type": "d_image-with-text",
+      "blocks": {
+        "template--21801079308603__0ef39cd6-3323-4df0-8a07-f02d9753cdc9-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Subheading"
+          }
+        },
+        "template--21801079308603__0ef39cd6-3323-4df0-8a07-f02d9753cdc9-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text heading"
+          }
+        },
+        "template--21801079308603__0ef39cd6-3323-4df0-8a07-f02d9753cdc9-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Give customers details about the hero image or content on the template.<\/p>"
+          }
+        },
+        "template--21801079308603__0ef39cd6-3323-4df0-8a07-f02d9753cdc9-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "f_button_label": "Shop now",
+            "f_button_link": "",
+            "f_button_style": "normal",
+            "f_button_custom_colors": false,
+            "f_button_text_color": "#ffffff",
+            "f_button_bg_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "template--21801079308603__0ef39cd6-3323-4df0-8a07-f02d9753cdc9-subheading-1",
+        "template--21801079308603__0ef39cd6-3323-4df0-8a07-f02d9753cdc9-heading-1",
+        "template--21801079308603__0ef39cd6-3323-4df0-8a07-f02d9753cdc9-text-1",
+        "template--21801079308603__0ef39cd6-3323-4df0-8a07-f02d9753cdc9-buttons-1"
+      ],
+      "settings": {
+        "section_layout": "container",
+        "image_size": "lg",
+        "image_width": 50,
+        "image_position": "right",
+        "text_size": "lg",
+        "text_color": "",
+        "bg_color": ""
+      }
+    },
+    "5161f76f-8a4a-4166-9d71-9358c297ea80": {
+      "type": "d_hero-background-video",
+      "blocks": {
+        "template--21801079308603__5161f76f-8a4a-4166-9d71-9358c297ea80-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Subheading"
+          }
+        },
+        "template--21801079308603__5161f76f-8a4a-4166-9d71-9358c297ea80-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hero Image Heading",
+            "heading_accent_enable": true,
+            "heading_accent_use_cutom_color": false,
+            "heading_accent_color": "#e22d00"
+          }
+        },
+        "template--21801079308603__5161f76f-8a4a-4166-9d71-9358c297ea80-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Give customers details about the hero image or content on the template.<\/p>"
+          }
+        },
+        "template--21801079308603__5161f76f-8a4a-4166-9d71-9358c297ea80-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "mobile_hidden": false,
+            "f_button_label": "Shop Now",
+            "f_button_link": "",
+            "f_button_style": "normal",
+            "f_button_custom_colors": false,
+            "f_button_bg_color": "#000000",
+            "f_button_text_color": "#ffffff",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_style": "normal",
+            "s_button_custom_colors": false,
+            "s_button_bg_color": "#000000",
+            "s_button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--21801079308603__5161f76f-8a4a-4166-9d71-9358c297ea80-subheading-1",
+        "template--21801079308603__5161f76f-8a4a-4166-9d71-9358c297ea80-heading-1",
+        "template--21801079308603__5161f76f-8a4a-4166-9d71-9358c297ea80-text-1",
+        "template--21801079308603__5161f76f-8a4a-4166-9d71-9358c297ea80-buttons-1"
+      ],
+      "settings": {
+        "section_layout": "full",
+        "embedded_video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "height": 64,
+        "display_desktop_only": false,
+        "mobile_image_size": "9x16",
+        "overlay": 50,
+        "use_box": false,
+        "width": 50,
+        "size": "md",
+        "text_position": "center-center",
+        "mobile_caption_display": "offset"
+      }
+    },
+    "5c780433-fceb-4762-99a2-8330df5c95eb": {
+      "type": "d_logo-list",
+      "blocks": {
+        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-1": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-2": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-3": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-4": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-5": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-6": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-7": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-8": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-9": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-10": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-1",
+        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-2",
+        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-3",
+        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-4",
+        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-5",
+        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-6",
+        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-7",
+        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-8",
+        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-9",
+        "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-10"
+      ],
+      "settings": {
+        "heading": "What products you can expect in mystery box",
+        "subheading": "",
+        "columns": 5,
+        "logo_height": 120,
+        "enable_grayscale_hover": true,
+        "section_button_label": "",
+        "section_button_url": ""
+      }
+    },
+    "24c2231f-0181-40f0-97da-7d8394ebeaf7": {
+      "type": "d_rich-text",
+      "blocks": {
+        "template--21801079308603__24c2231f-0181-40f0-97da-7d8394ebeaf7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rich text",
+            "heading_accent_enable": true,
+            "heading_accent_use_cutom_color": false,
+            "heading_accent_color": "#e22d00"
+          }
+        },
+        "template--21801079308603__24c2231f-0181-40f0-97da-7d8394ebeaf7-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers.<br>Describe a product, share announcements or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--21801079308603__24c2231f-0181-40f0-97da-7d8394ebeaf7-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "mobile_hidden": false,
+            "f_button_label": "Shop now",
+            "f_button_link": "",
+            "f_button_style": "normal",
+            "f_button_custom_colors": false,
+            "f_button_bg_color": "",
+            "f_button_text_color": "#ffffff",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_style": "normal",
+            "s_button_custom_colors": false,
+            "s_button_bg_color": "",
+            "s_button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--21801079308603__24c2231f-0181-40f0-97da-7d8394ebeaf7-heading-1",
+        "template--21801079308603__24c2231f-0181-40f0-97da-7d8394ebeaf7-text-1",
+        "template--21801079308603__24c2231f-0181-40f0-97da-7d8394ebeaf7-buttons-1"
+      ],
+      "settings": {
+        "section_layout": "default",
+        "text_align": "center",
+        "size": "md",
+        "use_custom_color": false,
+        "text_color": "#FFFFFF",
+        "bg_color": "#383838"
+      }
+    },
+    "d8c8378b-888e-4908-8f87-fcc578b5dd78": {
+      "type": "d_featured-product",
+      "blocks": {
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-title-1": {
+          "type": "title",
+          "settings": {
+            "size": "h1",
+            "max_lines": 3,
+            "prev_attach": false
+          }
+        },
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-price-1": {
+          "type": "price",
+          "settings": {
+            "show_savings": true,
+            "show_taxes": true,
+            "prev_attach": false
+          }
+        },
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-variant_selector-1": {
+          "type": "variant_selector",
+          "settings": {
+            "picker_type": "swatch",
+            "color_swatches": false,
+            "align_option_values": true,
+            "prev_attach": false
+          }
+        },
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-buy_with-1": {
+          "type": "buy_with",
+          "settings": {
+            "meta_heading": "Frequently Bought Together",
+            "use_counter": true,
+            "prev_attach": false
+          }
+        },
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "enable_stock_notifier": true,
+            "prev_attach": false
+          }
+        },
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-payment_methods-1": {
+          "type": "payment_methods",
+          "settings": {
+            "meta_heading": "We Accept",
+            "center": false,
+            "prev_attach": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-title-1",
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-price-1",
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-variant_selector-1",
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-buy_with-1",
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-buy_buttons-1",
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-payment_methods-1"
+      ],
+      "settings": {
+        "headline_main": "WANT THE WHOLE EXPERIENCE? 🤔👇",
+        "description": "This set of sweets, snacks and drinks is ideal for both a party and a hideaway to munch on all by yourself.",
+        "heading": "",
+        "subheading": "",
+        "product": "",
+        "gallery_width": 55,
+        "slideshow_zoom": true,
+        "thumbnails_layout": "slideshow",
+        "learn_more_title": "Learn more",
+        "learn_more_url": ""
+      }
+    },
+    "5ccbf5a5-e1ed-4fbe-8d40-a887b4e72b7d": {
+      "type": "Customer_says_reviews",
+      "blocks": {
+        "81c1e3e0-03d7-41f8-a6c7-faf724e229bf": {
+          "type": "Review",
+          "settings": {
+            "name": "John Smith",
+            "info": "Designer",
+            "content": "<p>LOVE their sweaters! Exactly what I was looking for. Ordered couple of them and all are perfect. For the price, the material is better than expected! The inside is incredibly soft. No downsides, perfect sweaters!<\/p>"
+          }
+        },
+        "a2092306-2f3e-48ce-ac8a-1c4aac01ad42": {
+          "type": "Review",
+          "settings": {
+            "name": "John Smith",
+            "info": "Designer",
+            "content": "<p>LOVE their sweaters! Exactly what I was looking for. Ordered couple of them and all are perfect. For the price, the material is better than expected! The inside is incredibly soft. No downsides, perfect sweaters!<\/p>"
+          }
+        },
+        "97e94b61-861a-4725-9ff7-65626389e751": {
+          "type": "Review",
+          "settings": {
+            "name": "John Smith",
+            "info": "Designer",
+            "content": "<p>LOVE their sweaters! Exactly what I was looking for. Ordered couple of them and all are perfect. For the price, the material is better than expected! The inside is incredibly soft. No downsides, perfect sweaters!<\/p>"
+          }
+        },
+        "19184438-5995-4631-92a2-2ba67a0a8150": {
+          "type": "Review",
+          "settings": {
+            "name": "John Smith",
+            "info": "Designer",
+            "content": "<p>LOVE their sweaters! Exactly what I was looking for. Ordered couple of them and all are perfect. For the price, the material is better than expected! The inside is incredibly soft. No downsides, perfect sweaters!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "81c1e3e0-03d7-41f8-a6c7-faf724e229bf",
+        "a2092306-2f3e-48ce-ac8a-1c4aac01ad42",
+        "97e94b61-861a-4725-9ff7-65626389e751",
+        "19184438-5995-4631-92a2-2ba67a0a8150"
+      ],
+      "settings": {
+        "title": "This is what our community says",
+        "btn_title": "Read more",
+        "btn_link": ""
+      }
+    },
+    "556f5c1d-5c6f-4265-998d-4c99b08cb073": {
+      "type": "Index_reviews_carousel",
+      "blocks": {
+        "fdc4be60-c3a3-4864-9b7c-0a1ca028521f": {
+          "type": "Slide",
+          "settings": {
+            "video": "",
+            "headline": "“Superlicious candies is what drives me the most in this life. I love eating candies and Holly Lollies helped me to achieve it.”",
+            "name": "— Renee Wells",
+            "info": "Proud Client from Asia"
+          }
+        },
+        "ff07d8b2-5faf-4334-a78e-e4bf43dee446": {
+          "type": "Slide",
+          "settings": {
+            "video": "",
+            "headline": "“Superlicious candies is what drives me the most in this life. I love eating candies and Holly Lollies helped me to achieve it.”",
+            "name": "— Renee Wells",
+            "info": "Proud Client from Asia"
+          }
+        },
+        "33c897ed-fef0-4d69-b672-e8c667f4864b": {
+          "type": "Slide",
+          "settings": {
+            "video": "",
+            "headline": "“Superlicious candies is what drives me the most in this life. I love eating candies and Holly Lollies helped me to achieve it.”",
+            "name": "— Renee Wells",
+            "info": "Proud Client from Asia"
+          }
+        },
+        "b7331f9a-2ca0-4c26-82e5-928ae6af82c0": {
+          "type": "Slide",
+          "settings": {
+            "video": "",
+            "headline": "“Superlicious candies is what drives me the most in this life. I love eating candies and Holly Lollies helped me to achieve it.”",
+            "name": "— Renee Wells",
+            "info": "Proud Client from Asia"
+          }
+        }
+      },
+      "block_order": [
+        "fdc4be60-c3a3-4864-9b7c-0a1ca028521f",
+        "ff07d8b2-5faf-4334-a78e-e4bf43dee446",
+        "33c897ed-fef0-4d69-b672-e8c667f4864b",
+        "b7331f9a-2ca0-4c26-82e5-928ae6af82c0"
+      ],
+      "settings": {
+        "title": "This is what our community says"
+      }
     }
   },
   "order": [
@@ -232,6 +753,15 @@
     "72ba95f8-67e7-495d-b7d6-5a27ba1abbb9",
     "5421c922-eef9-488d-9d14-a3de82698eaf",
     "1731e527-d5a3-4669-8310-5ca852ba4abc",
-    "main"
+    "main",
+    "17d5f566-a4e8-43ac-9cb5-500183341ea0",
+    "5c2e03fe-1254-4e51-8280-ae47bf86aa07",
+    "0ef39cd6-3323-4df0-8a07-f02d9753cdc9",
+    "5161f76f-8a4a-4166-9d71-9358c297ea80",
+    "5c780433-fceb-4762-99a2-8330df5c95eb",
+    "24c2231f-0181-40f0-97da-7d8394ebeaf7",
+    "d8c8378b-888e-4908-8f87-fcc578b5dd78",
+    "5ccbf5a5-e1ed-4fbe-8d40-a887b4e72b7d",
+    "556f5c1d-5c6f-4265-998d-4c99b08cb073"
   ]
 }
