@@ -596,6 +596,59 @@
         "section_button_label": ""
       }
     },
+    "d8c17a1a-74c4-4cef-b392-8de4254611f5": {
+      "type": "d_rich-text",
+      "blocks": {
+        "template--21801079308603__d8c17a1a-74c4-4cef-b392-8de4254611f5-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "And.... many many more.",
+            "heading_accent_enable": true,
+            "heading_accent_use_cutom_color": false,
+            "heading_accent_color": "#e22d00"
+          }
+        },
+        "template--21801079308603__d8c17a1a-74c4-4cef-b392-8de4254611f5-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>And.... many many more.<\/p>"
+          }
+        },
+        "template--21801079308603__d8c17a1a-74c4-4cef-b392-8de4254611f5-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "mobile_hidden": false,
+            "f_button_label": "Shop now",
+            "f_button_link": "",
+            "f_button_style": "normal",
+            "f_button_custom_colors": false,
+            "f_button_bg_color": "",
+            "f_button_text_color": "#ffffff",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_style": "normal",
+            "s_button_custom_colors": false,
+            "s_button_bg_color": "",
+            "s_button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--21801079308603__d8c17a1a-74c4-4cef-b392-8de4254611f5-heading-1",
+        "template--21801079308603__d8c17a1a-74c4-4cef-b392-8de4254611f5-text-1",
+        "template--21801079308603__d8c17a1a-74c4-4cef-b392-8de4254611f5-buttons-1"
+      ],
+      "settings": {
+        "section_layout": "default",
+        "text_align": "center",
+        "size": "md",
+        "use_custom_color": false,
+        "text_color": "#FFFFFF",
+        "bg_color": "#383838"
+      }
+    },
     "d8c8378b-888e-4908-8f87-fcc578b5dd78": {
       "type": "d_featured-product",
       "blocks": {
@@ -658,7 +711,7 @@
         "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-payment_methods-1"
       ],
       "settings": {
-        "headline_main": "WANT THE WHOLE EXPERIENCE? 🤔👇",
+        "headline_main": "READY TO EXPERIENCE? 🤔👇",
         "description": "This set of sweets, snacks and drinks is ideal for both a party and a hideaway to munch on all by yourself.",
         "heading": "",
         "subheading": "",
@@ -834,6 +887,7 @@
     "5161f76f-8a4a-4166-9d71-9358c297ea80",
     "24c2231f-0181-40f0-97da-7d8394ebeaf7",
     "bca5d02a-9d59-405f-adee-d7fd79070582",
+    "d8c17a1a-74c4-4cef-b392-8de4254611f5",
     "d8c8378b-888e-4908-8f87-fcc578b5dd78",
     "5ccbf5a5-e1ed-4fbe-8d40-a887b4e72b7d",
     "556f5c1d-5c6f-4265-998d-4c99b08cb073",
