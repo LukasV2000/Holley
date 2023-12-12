@@ -444,6 +444,7 @@
         "template--21801079308603__5c780433-fceb-4762-99a2-8330df5c95eb-logo-1": {
           "type": "logo",
           "settings": {
+            "image": "shopify:\/\/shop_images\/163.png",
             "link": ""
           }
         },
@@ -518,8 +519,8 @@
         "heading": "What products you can expect in mystery box",
         "subheading": "",
         "columns": 5,
-        "logo_height": 120,
-        "enable_grayscale_hover": true,
+        "logo_height": 200,
+        "enable_grayscale_hover": false,
         "section_button_label": "",
         "section_button_url": ""
       }
