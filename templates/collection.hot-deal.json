@@ -18,7 +18,7 @@
             "trust_image": "shopify:\/\/shop_images\/Trustpilot_Micro.png",
             "headline": "🔥HOTTEST DEAL OF THE MONTH",
             "info": "<p>🎈Opening Special Treat: Enjoy a massive 50% discount for Holly Lollies Mystery box! <\/p>",
-            "button_title_1": "",
+            "button_title_1": "👇 EXPLORE THE DEAL 👇",
             "button_url_1": "",
             "button_title_2": "",
             "button_url_2": ""
@@ -26,6 +26,7 @@
         },
         "77f5944c-d7c5-43c4-a629-eeb44684e3f8": {
           "type": "Slide",
+          "disabled": true,
           "settings": {
             "headline": "Superlicious candies",
             "info": "<p>Superlicious candies lorem ipsum<\/p>",
@@ -37,6 +38,7 @@
         },
         "21d302aa-f66a-4625-8f0c-445d350e351b": {
           "type": "Slide",
+          "disabled": true,
           "settings": {
             "headline": "Superlicious candies",
             "info": "<p>Superlicious candies lorem ipsum<\/p>",
