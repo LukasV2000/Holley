@@ -8,7 +8,7 @@
         "ccb463a8-7c50-4635-99eb-d5f8e52c2c84": {
           "type": "announcement",
           "settings": {
-            "text": "EXPLORE HOT DEALS - DISCOUNTS UP TO 50%",
+            "text": "HOT DEAL OF THE MONTH - 40% Off Your Mystery Box Adventure!",
             "link": "shopify:\/\/collections\/hot-deals",
             "icon": "meteor"
           }
@@ -16,7 +16,7 @@
         "5d86f9c7-6db2-439f-ba5a-8f69a9aa3fa2": {
           "type": "announcement",
           "settings": {
-            "text": "FREE SHIPPING OVER €49.99",
+            "text": "FREE SHIPPING OVER €40.00",
             "link": "shopify:\/\/collections",
             "icon": "truck-fast"
           }
