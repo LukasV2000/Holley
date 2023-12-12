@@ -123,19 +123,19 @@
     "e3072ddc-be59-4c07-ba88-884d5f1497a9": {
       "type": "d_collection-list",
       "blocks": {
-        "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "best-sellers",
-            "image": "shopify:\/\/shop_images\/01_Image_8.png",
-            "custom_title": ""
-          }
-        },
         "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-2": {
           "type": "collection",
           "settings": {
             "collection": "mystery-box-hot-deal",
             "image": "shopify:\/\/shop_images\/01_Image_6.png",
+            "custom_title": ""
+          }
+        },
+        "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-sellers",
+            "image": "shopify:\/\/shop_images\/01_Image_8.png",
             "custom_title": ""
           }
         },
@@ -181,8 +181,8 @@
         }
       },
       "block_order": [
-        "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-1",
         "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-2",
+        "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-1",
         "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-3",
         "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-4",
         "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-5",
