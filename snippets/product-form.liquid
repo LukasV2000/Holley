@@ -112,11 +112,14 @@
                         {%- else -%}
                             {{ Add_to_cart_button }}
                         {%- endif -%}
-                        {% if show_dynamic_checkout and gift_card_recipient_feature == false %}
+                        {% comment %} {% if show_dynamic_checkout and gift_card_recipient_feature == false %}
                             <product-dynamic-checkout section-id="{{ section.id }}">
                                 {{ form | payment_button }}
                             </product-dynamic-checkout>
-                        {% endif %}
+                        {% endif %} {% endcomment %}
+                        <product-dynamic-checkout section-id="{{ section.id }}">
+                            {{ form | payment_button }}
+                        </product-dynamic-checkout>
                     </div>
                 {% else %}
                     {% if show_stock_notifier %}
