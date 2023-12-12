@@ -655,7 +655,7 @@
           "type": "payment_methods",
           "settings": {
             "meta_heading": "We Accept",
-            "center": false,
+            "center": true,
             "prev_attach": false
           }
         }
