@@ -2,9 +2,157 @@
   "sections": {
     "header": {
       "type": "s_collection-header",
+      "disabled": true,
       "settings": {
         "bg_image": "shopify:\/\/shop_images\/bg_91589380-129e-49dc-9df1-9ad934882d5e.png",
         "show_collection_description": true
+      }
+    },
+    "72ba95f8-67e7-495d-b7d6-5a27ba1abbb9": {
+      "type": "new_slideshow-hero",
+      "blocks": {
+        "304f866d-56d0-479f-8b73-bd9b50896aec": {
+          "type": "Slide",
+          "settings": {
+            "headline": "Superlicious candies",
+            "info": "<p>Superlicious candies lorem ipsum<\/p>",
+            "button_title_1": "Shop now",
+            "button_url_1": "",
+            "button_title_2": "Shop now",
+            "button_url_2": ""
+          }
+        },
+        "77f5944c-d7c5-43c4-a629-eeb44684e3f8": {
+          "type": "Slide",
+          "settings": {
+            "headline": "Superlicious candies",
+            "info": "<p>Superlicious candies lorem ipsum<\/p>",
+            "button_title_1": "Shop now",
+            "button_url_1": "",
+            "button_title_2": "Shop now",
+            "button_url_2": ""
+          }
+        },
+        "21d302aa-f66a-4625-8f0c-445d350e351b": {
+          "type": "Slide",
+          "settings": {
+            "headline": "Superlicious candies",
+            "info": "<p>Superlicious candies lorem ipsum<\/p>",
+            "button_title_1": "Shop now",
+            "button_url_1": "",
+            "button_title_2": "Shop now",
+            "button_url_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "304f866d-56d0-479f-8b73-bd9b50896aec",
+        "77f5944c-d7c5-43c4-a629-eeb44684e3f8",
+        "21d302aa-f66a-4625-8f0c-445d350e351b"
+      ],
+      "settings": {
+        "autoplay_speed": 4000
+      }
+    },
+    "5421c922-eef9-488d-9d14-a3de82698eaf": {
+      "type": "d_slideshow",
+      "blocks": {
+        "template--21801079308603__5421c922-eef9-488d-9d14-a3de82698eaf-slide-1": {
+          "type": "slide",
+          "settings": {
+            "overlay": 0,
+            "icon": "",
+            "heading": "Slider heading",
+            "use_header_accent": true,
+            "subheading": "Subheading",
+            "text": "<p>Give customers details about the banner image(s) or content on the template.<\/p>",
+            "text_position": "center-center",
+            "use_box": true,
+            "width": 40,
+            "f_button_label": "",
+            "f_button_link": "",
+            "f_button_style": "normal",
+            "f_button_custom_colors": false,
+            "f_button_bg_color": "#000000",
+            "f_button_text_color": "#ffffff",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_style": "normal",
+            "s_button_custom_colors": false,
+            "s_button_bg_color": "#000000",
+            "s_button_text_color": "#ffffff"
+          }
+        },
+        "template--21801079308603__5421c922-eef9-488d-9d14-a3de82698eaf-slide-2": {
+          "type": "slide",
+          "settings": {
+            "overlay": 0,
+            "icon": "",
+            "heading": "Slider heading",
+            "use_header_accent": true,
+            "subheading": "Subheading",
+            "text": "<p>Give customers details about the banner image(s) or content on the template.<\/p>",
+            "text_position": "center-center",
+            "use_box": true,
+            "width": 40,
+            "f_button_label": "Shop now",
+            "f_button_link": "",
+            "f_button_style": "normal",
+            "f_button_custom_colors": false,
+            "f_button_bg_color": "#000000",
+            "f_button_text_color": "#ffffff",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_style": "normal",
+            "s_button_custom_colors": false,
+            "s_button_bg_color": "#000000",
+            "s_button_text_color": "#ffffff"
+          }
+        },
+        "template--21801079308603__5421c922-eef9-488d-9d14-a3de82698eaf-slide-3": {
+          "type": "slide",
+          "settings": {
+            "overlay": 0,
+            "icon": "",
+            "heading": "Slider heading",
+            "use_header_accent": true,
+            "subheading": "Subheading",
+            "text": "<p>Give customers details about the banner image(s) or content on the template.<\/p>",
+            "text_position": "center-center",
+            "use_box": true,
+            "width": 40,
+            "f_button_label": "Shop now",
+            "f_button_link": "",
+            "f_button_style": "normal",
+            "f_button_custom_colors": false,
+            "f_button_bg_color": "#000000",
+            "f_button_text_color": "#ffffff",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_style": "normal",
+            "s_button_custom_colors": false,
+            "s_button_bg_color": "#000000",
+            "s_button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--21801079308603__5421c922-eef9-488d-9d14-a3de82698eaf-slide-1",
+        "template--21801079308603__5421c922-eef9-488d-9d14-a3de82698eaf-slide-2",
+        "template--21801079308603__5421c922-eef9-488d-9d14-a3de82698eaf-slide-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_layout": "full",
+        "image_size": "21x9",
+        "mobile_image_size": "4x5",
+        "text_size": "md",
+        "subheading_position": "before",
+        "mobile_caption_display": "desktop",
+        "navigation": "pagination",
+        "enable_autoplay": true,
+        "autoplay": 5,
+        "mobile_hidden": false
       }
     },
     "1731e527-d5a3-4669-8310-5ca852ba4abc": {
@@ -62,6 +210,7 @@
     },
     "main": {
       "type": "s_collection",
+      "disabled": true,
       "settings": {
         "columns": 4,
         "rows": 3,
@@ -72,23 +221,13 @@
         "sidebar_width": 20,
         "collapse_filters": false
       }
-    },
-    "777b9d1b-9921-4062-bbd5-a3e5e4ef9376": {
-      "type": "d_browsing-history",
-      "settings": {
-        "heading": "Browsing history",
-        "subheading": "",
-        "section_layout": "container",
-        "items_per_view": 4,
-        "enable_loop": true,
-        "enable_pagination": false
-      }
     }
   },
   "order": [
     "header",
+    "72ba95f8-67e7-495d-b7d6-5a27ba1abbb9",
+    "5421c922-eef9-488d-9d14-a3de82698eaf",
     "1731e527-d5a3-4669-8310-5ca852ba4abc",
-    "main",
-    "777b9d1b-9921-4062-bbd5-a3e5e4ef9376"
+    "main"
   ]
 }
