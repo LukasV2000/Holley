@@ -221,7 +221,7 @@
         "text_align": "center",
         "size": "md",
         "use_custom_color": false,
-        "text_color": "#FFFFFF",
+        "text_color": "#ffffff",
         "bg_color": "#383838"
       }
     },
@@ -548,7 +548,7 @@
         "text_align": "center",
         "size": "md",
         "use_custom_color": false,
-        "text_color": "#FFFFFF",
+        "text_color": "#ffffff",
         "bg_color": "#383838"
       }
     },
@@ -558,7 +558,7 @@
         "template--21801079308603__17d5f566-a4e8-43ac-9cb5-500183341ea0-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "🎉 Opening Treat: Get 50% off our Holly Lollies Mystery Box! 🌍✨",
+            "heading": "Experience the Unforgettable 🌍✨",
             "heading_accent_enable": true,
             "heading_accent_use_cutom_color": false,
             "heading_accent_color": "#e22d00"
@@ -567,7 +567,7 @@
         "template--21801079308603__17d5f566-a4e8-43ac-9cb5-500183341ea0-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Dive into a world of surprises with a handpicked selection of the most unique and trending candies.🍬🌈 #HollyLolliesAdventure 🎈<\/p>"
+            "text": "<p>Now's the perfect time to dive into the world's most trending and unique candies! Our selection offers an extraordinary journey of flavors from across the globe, making it an unexpected yet delightful gift that's sure to be adored.  #UniqueGift #WorldOfSweets 🎁🎉<\/p>"
           }
         },
         "template--21801079308603__17d5f566-a4e8-43ac-9cb5-500183341ea0-buttons-1": {
@@ -600,7 +600,7 @@
         "text_align": "center",
         "size": "md",
         "use_custom_color": false,
-        "text_color": "#FFFFFF",
+        "text_color": "#ffffff",
         "bg_color": "#383838"
       }
     },
@@ -825,7 +825,7 @@
         "text_align": "center",
         "size": "md",
         "use_custom_color": false,
-        "text_color": "#FFFFFF",
+        "text_color": "#ffffff",
         "bg_color": "#383838"
       }
     }
