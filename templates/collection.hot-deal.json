@@ -676,7 +676,7 @@
         "subheading": "",
         "product": "mystery-box",
         "gallery_width": 55,
-        "slideshow_zoom": true,
+        "slideshow_zoom": false,
         "thumbnails_layout": "slideshow",
         "learn_more_title": "",
         "learn_more_url": ""
