@@ -396,6 +396,30 @@
     "bca5d02a-9d59-405f-adee-d7fd79070582": {
       "type": "d_collection-list",
       "blocks": {
+        "9e0b145b-3489-4d54-96b7-ad1b8a38faf3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/takis-blue-heat.jpg",
+            "custom_title": "TAKIS"
+          }
+        },
+        "795bcca3-e1b7-4b4a-ae85-dd1ff4c9cb65": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/74.png",
+            "custom_title": "HATA"
+          }
+        },
+        "9ed9a7a6-7646-49db-ad17-a6de2a072e01": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/107.png",
+            "custom_title": "CHEETOS"
+          }
+        },
         "template--21801079308603__bca5d02a-9d59-405f-adee-d7fd79070582-collection-1": {
           "type": "collection",
           "settings": {
@@ -444,14 +468,6 @@
             "custom_title": "REESE"
           }
         },
-        "9ed9a7a6-7646-49db-ad17-a6de2a072e01": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/107.png",
-            "custom_title": "CHEETOS"
-          }
-        },
         "eb189f5b-7e70-4bc5-bd8e-5c387d58664a": {
           "type": "collection",
           "settings": {
@@ -459,35 +475,19 @@
             "image": "shopify:\/\/shop_images\/Untitleddesign_46.png",
             "custom_title": "FEASTABLES"
           }
-        },
-        "795bcca3-e1b7-4b4a-ae85-dd1ff4c9cb65": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/74.png",
-            "custom_title": "HATA"
-          }
-        },
-        "9e0b145b-3489-4d54-96b7-ad1b8a38faf3": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/takis-blue-heat.jpg",
-            "custom_title": "TAKIS"
-          }
         }
       },
       "block_order": [
+        "9e0b145b-3489-4d54-96b7-ad1b8a38faf3",
+        "795bcca3-e1b7-4b4a-ae85-dd1ff4c9cb65",
+        "9ed9a7a6-7646-49db-ad17-a6de2a072e01",
         "template--21801079308603__bca5d02a-9d59-405f-adee-d7fd79070582-collection-1",
         "template--21801079308603__bca5d02a-9d59-405f-adee-d7fd79070582-collection-2",
         "template--21801079308603__bca5d02a-9d59-405f-adee-d7fd79070582-collection-3",
         "template--21801079308603__bca5d02a-9d59-405f-adee-d7fd79070582-collection-4",
         "template--21801079308603__bca5d02a-9d59-405f-adee-d7fd79070582-collection-5",
         "bf5eef3b-3b1e-47cb-a0e9-2438521933fc",
-        "9ed9a7a6-7646-49db-ad17-a6de2a072e01",
-        "eb189f5b-7e70-4bc5-bd8e-5c387d58664a",
-        "795bcca3-e1b7-4b4a-ae85-dd1ff4c9cb65",
-        "9e0b145b-3489-4d54-96b7-ad1b8a38faf3"
+        "eb189f5b-7e70-4bc5-bd8e-5c387d58664a"
       ],
       "settings": {
         "show_card_title": true,
