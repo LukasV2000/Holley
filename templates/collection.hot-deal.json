@@ -378,6 +378,7 @@
         "template--21801079308603__5161f76f-8a4a-4166-9d71-9358c297ea80-text-1",
         "template--21801079308603__5161f76f-8a4a-4166-9d71-9358c297ea80-buttons-1"
       ],
+      "disabled": true,
       "settings": {
         "section_layout": "full",
         "embedded_video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
@@ -625,6 +626,7 @@
         },
         "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-variant_selector-1": {
           "type": "variant_selector",
+          "disabled": true,
           "settings": {
             "picker_type": "swatch",
             "color_swatches": false,
@@ -666,11 +668,11 @@
         "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-payment_methods-1"
       ],
       "settings": {
-        "headline_main": "READY TO EXPERIENCE? 🤔👇",
+        "headline_main": "READY ?? 🤔👇",
         "description": "This set of sweets, snacks and drinks is ideal for both a party and a hideaway to munch on all by yourself.",
         "heading": "",
         "subheading": "",
-        "product": "",
+        "product": "mystery-box",
         "gallery_width": 55,
         "slideshow_zoom": true,
         "thumbnails_layout": "slideshow",
