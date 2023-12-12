@@ -354,24 +354,12 @@
         "template--21462135734587__65dd71fb-25de-49d7-bc75-be80fbb3c24d-products-1": {
           "type": "products",
           "settings": {
-            "show_only_products_in_stock": false
-          }
-        },
-        "template--21462135734587__65dd71fb-25de-49d7-bc75-be80fbb3c24d-banner-1": {
-          "type": "banner",
-          "disabled": true,
-          "settings": {
-            "image_overlay": 0,
-            "show_image_frame": true,
-            "heading": "{{ section.settings.collection.title }}",
-            "subheading": "Shop All",
-            "subheading_position": "before"
+            "show_only_products_in_stock": true
           }
         }
       },
       "block_order": [
-        "template--21462135734587__65dd71fb-25de-49d7-bc75-be80fbb3c24d-products-1",
-        "template--21462135734587__65dd71fb-25de-49d7-bc75-be80fbb3c24d-banner-1"
+        "template--21462135734587__65dd71fb-25de-49d7-bc75-be80fbb3c24d-products-1"
       ],
       "custom_css": [
         ".Featured_collection_outer {background: #e478fa;}",
