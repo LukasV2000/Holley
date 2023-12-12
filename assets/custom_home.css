@@ -469,6 +469,10 @@ product-dynamic-checkout{
   display: block;
   width: 100%;
 }
+product-dynamic-checkout > div,
+product-dynamic-checkout > div > div{
+  display: block !important;
+}
 
 /* Footer */
 .Footer_outer{
