@@ -496,7 +496,7 @@
       ],
       "settings": {
         "show_card_title": true,
-        "heading": "What you can expect in your box",
+        "heading": "What you can expect in the box",
         "subheading": "",
         "columns": 5,
         "image_size": "square",
