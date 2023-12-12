@@ -17,7 +17,7 @@
             "image": "shopify:\/\/shop_images\/Elements-geometric-shape-square-frame_95562da9-8ec3-4363-8ff2-25a87cb139e3.png",
             "trust_image": "shopify:\/\/shop_images\/Trustpilot_Micro.png",
             "headline": "🔥HOTTEST DEAL OF THE MONTH",
-            "info": "<p>🎈Opening Special Treat: Enjoy a massive 50% discount for Holly Lollies Mystery box! <\/p>",
+            "info": "<p>🎈Enjoy a massive 50% discount for Holly Lollies Mystery box! <\/p>",
             "button_title_1": "👇 EXPLORE THE DEAL 👇",
             "button_url_1": "",
             "button_title_2": "",
@@ -159,59 +159,6 @@
         "mobile_hidden": false
       }
     },
-    "1731e527-d5a3-4669-8310-5ca852ba4abc": {
-      "type": "d_rich-text",
-      "blocks": {
-        "template--21462135669051__1731e527-d5a3-4669-8310-5ca852ba4abc-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Rich text",
-            "heading_accent_enable": true,
-            "heading_accent_use_cutom_color": false,
-            "heading_accent_color": "#e22d00"
-          }
-        },
-        "template--21462135669051__1731e527-d5a3-4669-8310-5ca852ba4abc-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers.<br\/><\/p>"
-          }
-        },
-        "template--21462135669051__1731e527-d5a3-4669-8310-5ca852ba4abc-buttons-1": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "mobile_hidden": false,
-            "f_button_label": "Shop now",
-            "f_button_link": "",
-            "f_button_style": "normal",
-            "f_button_custom_colors": false,
-            "f_button_bg_color": "",
-            "f_button_text_color": "#ffffff",
-            "s_button_label": "",
-            "s_button_link": "",
-            "s_button_style": "normal",
-            "s_button_custom_colors": false,
-            "s_button_bg_color": "",
-            "s_button_text_color": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "template--21462135669051__1731e527-d5a3-4669-8310-5ca852ba4abc-heading-1",
-        "template--21462135669051__1731e527-d5a3-4669-8310-5ca852ba4abc-text-1",
-        "template--21462135669051__1731e527-d5a3-4669-8310-5ca852ba4abc-buttons-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "section_layout": "default",
-        "text_align": "center",
-        "size": "md",
-        "use_custom_color": false,
-        "text_color": "#ffffff",
-        "bg_color": "#383838"
-      }
-    },
     "main": {
       "type": "s_collection",
       "disabled": true,
@@ -232,7 +179,7 @@
         "template--21801079308603__17d5f566-a4e8-43ac-9cb5-500183341ea0-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Rich text",
+            "heading": "🎉 Opening Treat: Get 50% off our Holly Lollies Mystery Box! 🌍✨",
             "heading_accent_enable": true,
             "heading_accent_use_cutom_color": false,
             "heading_accent_color": "#e22d00"
@@ -241,11 +188,12 @@
         "template--21801079308603__17d5f566-a4e8-43ac-9cb5-500183341ea0-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers.<br>Describe a product, share announcements or welcome customers to your store.<\/p>"
+            "text": "<p>Dive into a world of surprises with a handpicked selection of the most unique and trending candies. Each box is a fresh adventure, offering a delightful mix of flavors from sweet to savory, spanning the globe from Japan to the USA. Grab yours and embark on a taste journey like no other! 🍬🌈 #HollyLolliesAdventure 🎈<\/p>"
           }
         },
         "template--21801079308603__17d5f566-a4e8-43ac-9cb5-500183341ea0-buttons-1": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "mobile_hidden": false,
             "f_button_label": "Shop now",
@@ -879,7 +827,6 @@
     "header",
     "72ba95f8-67e7-495d-b7d6-5a27ba1abbb9",
     "5421c922-eef9-488d-9d14-a3de82698eaf",
-    "1731e527-d5a3-4669-8310-5ca852ba4abc",
     "main",
     "17d5f566-a4e8-43ac-9cb5-500183341ea0",
     "5c2e03fe-1254-4e51-8280-ae47bf86aa07",
