@@ -240,7 +240,7 @@
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "hot-deals",
+            "collection": "mystery-box-hot-deal",
             "image": "shopify:\/\/shop_images\/01_Image_6.png",
             "custom_title": "HOTTEST DEALS"
           }
