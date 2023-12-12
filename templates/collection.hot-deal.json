@@ -335,12 +335,14 @@
       "blocks": {
         "template--21801079308603__5161f76f-8a4a-4166-9d71-9358c297ea80-subheading-1": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "subheading": "Subheading"
           }
         },
         "template--21801079308603__5161f76f-8a4a-4166-9d71-9358c297ea80-heading-1": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Hero Image Heading",
             "heading_accent_enable": true,
@@ -351,11 +353,12 @@
         "template--21801079308603__5161f76f-8a4a-4166-9d71-9358c297ea80-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Give customers details about the hero image or content on the template.<\/p>"
+            "text": "<p>LET'S PACK CLIENT'S HUGE ORDER<\/p>"
           }
         },
         "template--21801079308603__5161f76f-8a4a-4166-9d71-9358c297ea80-buttons-1": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "mobile_hidden": false,
             "f_button_label": "Shop Now",
@@ -381,9 +384,10 @@
       ],
       "disabled": true,
       "settings": {
-        "section_layout": "full",
-        "embedded_video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "height": 64,
+        "section_layout": "container",
+        "embedded_video": "",
+        "hosted_video": "shopify:\/\/files\/videos\/ezgif.com-mute-video (online-video-cutter.com).mp4",
+        "height": 76,
         "display_desktop_only": false,
         "mobile_image_size": "9x16",
         "overlay": 50,
