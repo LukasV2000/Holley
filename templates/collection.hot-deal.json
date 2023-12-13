@@ -734,6 +734,7 @@
       ],
       "settings": {
         "title": "This is what our community says",
+        "reviews_img": "shopify:\/\/shop_images\/Screenshot_2023-12-13_at_14.17.29.png",
         "btn_title": "Read more",
         "btn_link": "shopify:\/\/pages\/reviews"
       }
@@ -785,7 +786,8 @@
         "b7331f9a-2ca0-4c26-82e5-928ae6af82c0"
       ],
       "settings": {
-        "title": "More Sweet Words from Our Fans"
+        "title": "More Sweet Words from Our Customers",
+        "reviews_img": "shopify:\/\/shop_images\/Screenshot_2023-12-13_at_14.17.29.png"
       }
     },
     "794cd20b-6c15-4098-a12e-95ebbddc6371": {
