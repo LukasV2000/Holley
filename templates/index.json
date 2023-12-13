@@ -185,6 +185,7 @@
         "923a67eb-f63d-4742-a0b9-bcc91c408424",
         "0a756e4d-7f97-4f10-abf3-7024c0ffa3d3"
       ],
+      "disabled": true,
       "settings": {
         "speed_desktop": 170,
         "speed_mobile": 100
