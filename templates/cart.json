@@ -16,7 +16,7 @@
         "template--21716628144443__6d46a58a-99cf-4eb2-991c-65b8862c8d7f-text-1": {
           "type": "text",
           "settings": {
-            "text": ""
+            "text": "<p>❗Free shipping over €40.00 <\/p><p>❗€4.99 shipping over €20.00<\/p><p>❗€7.99 shipping less than €19.99<\/p><p>   _______________________________<\/p><p>❣️Attention! Limit of 2 items per Hot Deal product.<\/p>"
           }
         },
         "template--21716628144443__6d46a58a-99cf-4eb2-991c-65b8862c8d7f-buttons-1": {
@@ -44,6 +44,7 @@
         "template--21716628144443__6d46a58a-99cf-4eb2-991c-65b8862c8d7f-text-1",
         "template--21716628144443__6d46a58a-99cf-4eb2-991c-65b8862c8d7f-buttons-1"
       ],
+      "disabled": true,
       "settings": {
         "section_layout": "default",
         "text_align": "center",
