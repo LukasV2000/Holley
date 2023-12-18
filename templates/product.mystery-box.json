@@ -76,7 +76,6 @@
         },
         "7e37f69f-d0e7-4b32-801c-81c63db85c51": {
           "type": "variant_selector",
-          "disabled": true,
           "settings": {
             "picker_type": "dropdown",
             "color_swatches": false,
