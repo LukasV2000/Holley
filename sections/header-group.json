@@ -16,13 +16,14 @@
         "5d86f9c7-6db2-439f-ba5a-8f69a9aa3fa2": {
           "type": "announcement",
           "settings": {
-            "text": "FREE SHIPPING OVER €40.00",
+            "text": "🇪🇪 🇱🇻 🇱🇹 FREE SHIPPING OVER €34.99",
             "link": "shopify:\/\/collections",
             "icon": "truck-fast"
           }
         },
         "c4b59b37-19bd-476f-bb55-1efe555f93d0": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "CHRISTMAS SEASON SALE - SITEWIDE 25% OFF",
             "link": "shopify:\/\/collections",
