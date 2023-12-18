@@ -612,7 +612,6 @@
         },
         "template--21462135734587__b03fa275-5869-46d4-9b3b-f53193c36f21-variant_selector-1": {
           "type": "variant_selector",
-          "disabled": true,
           "settings": {
             "picker_type": "dropdown",
             "color_swatches": true,
