@@ -632,9 +632,8 @@
         },
         "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-variant_selector-1": {
           "type": "variant_selector",
-          "disabled": true,
           "settings": {
-            "picker_type": "swatch",
+            "picker_type": "dropdown",
             "color_swatches": false,
             "align_option_values": true,
             "prev_attach": false
