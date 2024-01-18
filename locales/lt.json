@@ -1539,7 +1539,16 @@
     },
     "store_availability": {
       "pick_up_time": {
-        "next_day": "Paruošta atsiimti kitą dieną"
+        "next_day": "Paruošta atsiimti kitą dieną",
+        "one_hour": "Paprastai paruošiama per 1 valandą",
+        "two_hours": "Paprastai paruošiama per 2 valandas",
+        "four_hours": "Paprastai paruošiama per 4 valandas",
+        "twenty_four_hours": "Paprastai paruošiama per 24 valandas",
+        "two_to_four_days": "Paprastai paruošiama per 2-4 dienas",
+        "five_or_more_days": "Paprastai paruošiama per 5+ dienas",
+        "zero_to_two_hours": "Paprastai paruošiama per 2 valandas",
+        "two_to_four_hours": "Paprastai paruošiama per 4 valandas",
+        "immediately": "Paruošta pasiimti dabar"
       }
     },
     "errors": {
@@ -1675,8 +1684,149 @@
           "pending": "Kol",
           "failure": "Nesėkmė",
           "error": "Klaida"
+        },
+        "cancel_reason": {
+          "declined": "Mokėjimas atmestas",
+          "inventory": "Elementai nepasiekiami",
+          "fraud": "Apgaulinga tvarka",
+          "customer": "Klientas pakeitė\/atšaukė užsakymą",
+          "staff": "Personalo klaida",
+          "other": "Kita"
+        },
+        "cash_on_delivery": "Grynieji pristatymo metu (COD)"
+      },
+      "cart": {
+        "only_n_items_available": "Į krepšelį galite pridėti tik %{count} %{name}.",
+        "too_many_items_in_cart": "Negalite pridėti daugiau %{name} į krepšelį.",
+        "less_than_minimum": "Šis elementas turi mažiausiai %{min}.",
+        "more_than_maximum": "Šis elementas turi didžiausią %{max}.",
+        "not_respect_step": "Šį elementą galite pridėti tik %{step} žingsniais.",
+        "all_items_in_cart": "Visi %{count} %{name} yra jūsų krepšelyje.",
+        "empty_update": "negali atnaujinti tuščio krepšelio",
+        "missing_parameters": "nėra galiojančio ID arba eilutės parametro",
+        "generic_error": "Krepšelio klaida",
+        "product_not_available": "Prekės nėra",
+        "too_many_line_items_error": "Jūsų krepšelyje negali būti daugiau nei %{max} prekių.",
+        "link_expired": "Nuorodos galiojimo laikas baigėsi",
+        "link_no_longer_exists": "Nuorodos nebėra.",
+        "stock_problems_html": "Vienas ar keli elementai nebepasiekiami. Pateikėme <a href=\"%{link}\">atnaujintą krepšelį<\/a> .",
+        "changed": "Krepšelis pakeistas",
+        "items_changed": "Pasikeitė vienas ar keli elementai.",
+        "product_sold_out": "Produktas „%{name}“ jau išparduotas.",
+        "variant_not_found": "Nepavyko rasti varianto",
+        "variant_requires_selling_plan": "Variantą galima įsigyti tik su pardavimo planu.",
+        "selling_plan_not_available_for_company_locations": "B2B užsakymams galima įsigyti tik vieną kartą",
+        "digital_product_not_available_for_company_locations": "Šios prekės negalima pridėti prie B2B užsakymo",
+        "selling_plan_not_applicable": "Neįmanoma pritaikyti pardavimo plano variantui",
+        "shipping_address_not_required": "Šis krepšelis nereikalauja siuntimo",
+        "shipping_address_invalid": "Apskaičiuojant siuntimo įkainius kilo problema. Tęskite atsiskaitymą, kad pasirinktumėte pristatymo tarifą prieš užbaigdami užsakymą.",
+        "bundle_requires_components": "Produkto paketo „%{name}“ negalima pridėti į krepšelį.",
+        "gift_card_with_components_not_supported": "Produkto paketo „%{name}“ negalima pridėti į krepšelį.",
+        "bundle_products_not_supported_for_b2b_draft": "Sugrupuotų prekių negalima pridėti prie B2B užsakymų šioje vietoje.",
+        "view_lines_limit_reached": "Eilutės turi būti mažesnės nei %{limit}",
+        "merchandise_line_transformers": {
+          "run_error": "Jūsų krepšelyje įvyko klaida."
+        }
+      },
+      "storefront": {
+        "invalid_password": "Slaptažodis neteisingas, bandykite dar kartą."
+      },
+      "tags": {
+        "add_articles": "Susiaurinkite paiešką iki straipsnių su žyma %{tag}",
+        "add_products": "Siauras pasirinkimas iki produktų, atitinkančių žymą %{tag}",
+        "remove_articles": "Išplėskite paiešką iki straipsnių, kurie nėra pažymėti %{tag}",
+        "remove_products": "Pašalinti žymą %{tag}"
+      }
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Dėkojame, kad užsiprenumeravote mūsų adresų sąrašą.",
+        "disclaimer": "Galite bet kada atsisakyti prenumeratos.",
+        "unsubscribe": "Atsisakyti prenumeratos"
+      },
+      "unsubscribed": {
+        "confirmation": "Jūs atsisakėte mūsų adresų sąrašo.",
+        "disclaimer": "Daugiau rinkodaros naujienų iš mūsų negausite. Galite vėl užsiprenumeruoti bet kuriuo metu.",
+        "preview": "Jūs peržiūrite, ką klientai matys atsisakę prenumeratos."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Pasirinkote stebėti atvirą el. paštu.<\/b>",
+          "visibility": "El. pašto atidarymo rodikliai bus pranešami anonimiškai. Matysime tik tuos atvejus, jei atidarėte el. laišką kaip bendro el. pašto atidarymo rodiklio dalį.",
+          "opt_out_html": "Jei nenorite dalytis šia informacija, galite <a style=\"text-decoration:underline;\" href=\"%{link}\">atsisakyti<\/a> atviro el. pašto stebėjimo.",
+          "preview_bar": "Jūs peržiūrite, ką klientai matys, kai pasirinks el. pašto atvirumo stebėjimą."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Atsisakėte atviro el. pašto stebėjimo.<\/b>",
+          "visibility": "Nematysime, ar atidarėte mūsų el. laiškus.",
+          "opt_in_html": "<a style=\"text-decoration:underline;\" href=\"%{link}\">Pasirinkite<\/a> el. pašto atidarymo stebėjimą.",
+          "preview_bar": "Jūs peržiūrite, ką klientai matys, kai atsisakys el. pašto atvirų stebėjimų."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Nebestebime jokių el. laiškų atidarymų.<\/b>",
+          "privacy_policy": "Išsiuntę šį el. laišką, atnaujinome savo privatumo politiką ir nebestebime atidarymų."
+        },
+        "track": {
+          "status_html": "<b>Pranešama apie el. pašto atidarymo stebėjimą.<\/b>",
+          "visibility": "Matysime tik tai, ar atidarėte el. laišką, kaip dalį bendro el. pašto atidarymo rodiklio."
+        },
+        "updated_policy": {
+          "status_html": "<b>Pranešama apie el. pašto atidarymo stebėjimą.<\/b>",
+          "visibility": "Atnaujinome savo politiką ir dabar atidaromi sekti el. laiškai. El. pašto atidarymo rodikliai bus pranešami anonimiškai. Matysime tik tai, ar atidarėte el. laišką kaip dalį bendro el. pašto atidarymo rodiklio.",
+          "opt_out_html": "Jei nenorite dalytis šia informacija, galite <a style=\"text-decoration:underline;\" href=\"%{link}\">atsisakyti prenumeratos.<\/a>"
         }
       }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "Prekyboje",
+          "out_of_stock": "Išparduota"
+        }
+      },
+      "boolean": {
+        "true_label": "Taip",
+        "false_label": "Nr"
+      }
+    },
+    "search": {
+      "sorting": {
+        "relevance": "Aktualumas",
+        "price_ascending": "Kaina nuo mažos iki didelės",
+        "price_descending": "Kaina nuo didelės iki mažiausios"
+      }
+    },
+    "page_titles": {
+      "blog_or_article_with_error": "Klaida – %{title}",
+      "products": "Produktai",
+      "shopping_cart": "Jūsų Pirkinių Krepšelis",
+      "account": "sąskaita",
+      "create_account": "Sukurti paskyrą",
+      "reset_account": "Iš naujo nustatyti paskyrą",
+      "addresses": "Adresai",
+      "order": "Užsakymas %{name}",
+      "search": "Paieška",
+      "search_results": {
+        "one": "Paieška: %{count} rasta rezultatų pagal \"%{terms}\"",
+        "other": "Paieška: %{count} rasta rezultatų pagal \"%{terms}\""
+      },
+      "collections": "Kolekcijos",
+      "not_found": "404 Nerasta",
+      "challenge": "Iššūkis",
+      "checkpoint": "Patikrinimo taškas"
+    },
+    "cart": {
+      "discounts_with_count": "Pritaikyta %{count} nuolaida"
+    },
+    "challenge": {
+      "message": "Norėdami tęsti, praneškite mums, kad nesate robotas.",
+      "error": "Jūsų atsakymas buvo neteisingas, bandykite dar kartą.",
+      "submit_button_text": "Pateikti"
+    },
+    "checkpoint": {
+      "message": "Norėdami tęsti, išspręskite „Captcha“.",
+      "error": "Nepavyko patvirtinti „Captcha“.",
+      "submit_button_text": "Pateikti"
     }
   },
   "customer_accounts": {
