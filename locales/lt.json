@@ -1090,6 +1090,134 @@
         "address_address1_blank": "Įveskite adresą",
         "address_address1_too_long": "Pirmoji adreso eilutė per ilga (daugiausia 255 simboliai)",
         "address_address1_contains_emojis": "Adrese1 negali būti jaustukų"
+      },
+      "payment_errors": {
+        "deferred_amount_changed": "Jūsų mokėjimo apdoroti nepavyko, nes pasikeitė atidėto mokėjimo suma. Patikrinkite užsakymą ir bandykite dar kartą.",
+        "deferred_date_changed": "Jūsų mokėjimo apdoroti nepavyko, nes pasikeitė atidėto mokėjimo data. Patikrinkite užsakymą ir bandykite dar kartą.",
+        "order_total_changed": "Mokėjimo apdoroti nepavyko, nes pasikeitė bendra užsakymo suma. Patikrinkite bendrą užsakymo sumą ir bandykite dar kartą.",
+        "payment_processing": "Jūsų mokėjimo negalima apdoroti dėl techninių priežasčių. Bandykite dar kartą arba naudokite kitą mokėjimo metodą.",
+        "payment_processing_no_retry": "Jūsų mokėjimo negalima apdoroti dėl techninių priežasčių. Išbandykite kitą mokėjimo metodą.",
+        "paypal_zero_amount": "Negalite naudoti „PayPal“ %{amount} užsakymams. Patvirtinkite, kad užsakymas teisingas, ir atsiskaitykite be „PayPal“.",
+        "paypal_invalid_token": "„PayPal“ nebuvo pasiekiamas. Bandykite dar kartą arba naudokite kitą atsiskaitymo parinktį.",
+        "pay_later_failed": "Apdorojant mokėjimą naudojant mokėjimą vėliau įvyko klaida. Pasirinkite kitą mokėjimo metodą ir bandykite dar kartą.",
+        "three_d_secure_failed": "Nepavyko patvirtinti jūsų mokėjimo. Bandykite dar kartą arba naudokite kitą mokėjimo metodą.",
+        "three_d_secure_failed_duplicate": "Kredito kortelės 3D Secure autentifikavimas nepavyko, nes jau vykdomas kitas.",
+        "three_d_secure_throttled": "Per daug bandymų; prieš bandydami dar kartą palaukite",
+        "subscription_agreement_blank": "Norint įsigyti prenumeratą, reikia išsaugoti mokėjimo informaciją. Norėdami tęsti, patvirtinkite, kad sutinkate, arba pašalinkite prenumeratos elementus iš savo užsakymo.",
+        "insufficient_funds": "Jūsų mokėjimas buvo atmestas, nes nepakanka lėšų. Bandykite dar kartą arba naudokite kitą mokėjimo metodą.",
+        "multiple_deferred_payment_not_allowed": "Vienai užklausai leidžiamas tik vienas atidėtas mokėjimas. Patikrinkite savo užklausą ir bandykite dar kartą.",
+        "shipping_must_match_billing": "Atsiskaitymo adresas turi atitikti pristatymo adresą. Naudokite kitą mokėjimo metodą.",
+        "decision_rule_block": "Apdorojant mokėjimą kilo problema. Kreipkitės į parduotuvės savininką.",
+        "pick_up_card": "Jūsų kortelė buvo atmesta. Bandykite dar kartą arba naudokite kitą mokėjimo metodą.",
+        "cannot_verify": "Nepavyko patvirtinti išsamios mokėjimo informacijos. Patikrinkite išsamią kortelės informaciją ir bandykite dar kartą.",
+        "invalid_number": "Įveskite galiojantį kortelės numerį",
+        "invalid_expiry_date": "Įveskite tinkamą galiojimo pabaigos datą",
+        "invalid_cvc": "Įveskite galiojantį saugos kodą",
+        "expired_card": "Jūsų kortelės galiojimo laikas baigėsi. Naudokite kitą mokėjimo metodą.",
+        "card_declined": "Jūsų kortelė buvo atmesta. Bandykite dar kartą arba naudokite kitą mokėjimo metodą.",
+        "processing_error": "Apdorojant mokėjimą kilo problema. Bandykite dar kartą arba naudokite kitą mokėjimo metodą.",
+        "processing_error_checkout_as_guest": "Apdorojant mokėjimą kilo problema. Bandykite dar kartą naudodami kitą mokėjimo metodą arba {{checkout_as_guest_link}} .",
+        "selected_payment_method": "Iškilo problema dėl pasirinkto mokėjimo metodo ir jūs nebuvote apmokestinti. Bandykite dar kartą arba naudokite kitą mokėjimo metodą.",
+        "payment_method_billing_address": "Iškilo problema dėl pasirinkto mokėjimo metodo atsiskaitymo adreso ir jūs nebuvote apmokestinti. Patikrinkite adresą ir bandykite dar kartą arba naudokite kitą mokėjimo metodą.",
+        "call_issuer": "Jūsų kortelė buvo atmesta. Norėdami gauti daugiau informacijos, naudokite kitą mokėjimo metodą arba susisiekite su banku.",
+        "test_mode_live_card": "Ši parduotuvė negali priimti tikrų užsakymų ar tikrų mokėjimų.",
+        "transient_error": "Apdorojant mokėjimą kilo problema. Pabandykite atnaujinti šį puslapį arba patikrinkite interneto ryšį.",
+        "missing_shipping_address": "Jūsų mokėjimo apdoroti nepavyko, nes trūksta pristatymo adreso. Pridėkite pristatymo adresą ir bandykite dar kartą.",
+        "invalid_shipping_address": "Jūsų mokėjimo apdoroti nepavyko, nes nepavyko rasti pristatymo adreso. Patikrinkite pristatymo adresą ir bandykite dar kartą.",
+        "successful_offsite_with_gift_card_error": "Apdorojant mokėjimą dovanų kortele kilo problema. Bandykite dar kartą arba naudokite kitą mokėjimo metodą.",
+        "development_store_order_limit_reached": "Pasiekėte kūrimo parduotuvės užsakymų limitą naudodami šį mokėjimų apdorojimo įrankį. Norėdami pateikti kitą užsakymą, turėsite naudoti bandomąjį mokėjimo šliuzą. Sužinokite daugiau apie %{development_store_order_testing_docs_link}.",
+        "development_store_with_order_limit": "Norėdami pateikti bandomąjį užsakymą, turėsite naudoti bandomąjį mokėjimo šliuzą. Sužinokite daugiau apie %{development_store_order_testing_docs_link}.",
+        "development_store_order_testing_docs_link": "užsakymų testavimas kūrimo parduotuvėse"
+      },
+      "shipping_errors": {
+        "shipping_method": "Pasikeitė jūsų užsakymo pristatymo parinktys. Peržiūrėkite pasirinkimą ir bandykite dar kartą.",
+        "shipping_method_not_available": "Jūsų krepšelis buvo atnaujintas ir jūsų pridėtos prekės negali būti išsiųstos jūsų adresu. Pašalinkite prekes, kad užbaigtumėte užsakymą.",
+        "shipping_method_not_available_generic": {
+          "one": "Jūsų užsakymas negali būti išsiųstas pasirinktu adresu. Peržiūrėkite adresą, kad įsitikintumėte, jog jis teisingas, ir bandykite dar kartą arba pasirinkite kitą adresą.",
+          "other": "Kai kurių prekių krepšelyje negalima išsiųsti įvestu adresu. Peržiūrėkite adresą, kad įsitikintumėte, jog jis teisingas, ir bandykite dar kartą arba pasirinkite kitą adresą."
+        },
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "Krepšelyje esančios prekės neatitinka kainos ar svorio reikalavimų, kad būtų galima pristatyti. Atnaujinkite krepšelį ir bandykite dar kartą.",
+        "shipping_method_not_available_updated": {
+          "one": "Prekė, kurią pridėjote, nesiunčiama į jūsų vietą. Išimkite jį, kad patikrintumėte, arba susisiekite su parduotuve.",
+          "other": "Vienas ar daugiau elementų, kuriuos pridėjote, nesiunčiami į jūsų vietą. Pašalinkite juos, kad patikrintumėte, arba susisiekite su parduotuve."
+        },
+        "payment_method_not_supported": "Negalite naudoti šio mokėjimo metodo %{country}. Jei norite siųsti į šią šalį, naudokite kitą mokėjimo metodą.",
+        "empty_state": "Įveskite savo pristatymo adresą, kad pamatytumėte galimus pristatymo būdus.",
+        "title": "Siuntimas negalimas"
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Greitas atsiskaitymas",
+        "or": "ARBA",
+        "show_more_options": "Rodyti daugiau parinkčių",
+        "hide_more_options": "Slėpti daugiau parinkčių"
+      },
+      "post_purchase": {
+        "page_title": "Po pirkimo",
+        "title": "Po pirkimo",
+        "escape_confirmation": "Sumokėjote už užsakymą.",
+        "escape_action": "Žiūrėti užsakymo patvirtinimą ›",
+        "components": {
+          "close": "Uždaryti",
+          "expand": "Peržiūrėti daugiau",
+          "processing": "Apdorojimas…",
+          "submit": "Pateikti"
+        }
+      },
+      "processing": {
+        "redirecting_page_title": "Peradresuojama…",
+        "redirecting_title": "Peradresuojama…",
+        "redirecting_notice": "Palaukite, kol jus nukreipsime.",
+        "complete_your_purchase_title": "Užbaikite pirkimą",
+        "continue_to_payment_gateway_notice": "Eikite į mokėjimą, kad pridėtumėte mokėjimo informaciją.",
+        "continue_to_payment_gateway_button_label": "Tęskite mokėjimą",
+        "complete_your_purchase_title_error": "Pataisykite mokėjimo informaciją",
+        "continue_to_payment_gateway_notice_error": "Nepavyko patvirtinti jūsų mokėjimo informacijos.",
+        "continue_to_payment_gateway_button_label_error": "Atnaujinkite mokėjimo informaciją",
+        "page_title": "Apdorojame užsakyma",
+        "title": "Apdorojame užsakyma",
+        "your_order_has_been_received_title": "Dėkojame už užsakymą",
+        "you_will_receive_confirmation": "Šiuo metu gauname daug užsakymų. Netrukus turėtumėte gauti patvirtinimą el. paštu arba žinute. Jei per kitą valandą jo negausite, praneškite mums.",
+        "you_will_not_be_charged": "Dar nebūsite apmokestinti",
+        "wait": {
+          "short": "Jūsų užsakymas apdorojamas.",
+          "medium": {
+            "one": "Jūsų užsakymas apdorojamas. Numatomas laukimo laikas yra %{count} min.",
+            "other": "Jūsų užsakymas apdorojamas. Numatomas laukimo laikas yra %{count} min."
+          },
+          "long": "Kai tik jūsų užsakymas bus apdorotas, gausite el. laišką. Šiuo metu yra didelis užsakymų kiekis.",
+          "no_auto_refresh_html": "Jei nesate automatiškai peradresuojami, %{link}.",
+          "refresh_this_page": "atnaujinti šį puslapį"
+        },
+        "action_required": "Reikalingas veiksmas"
+      },
+      "failed_payment": {
+        "page_title": "Mokėjimo apdoroti nepavyko",
+        "title": "Mokėjimo apdoroti nepavyko",
+        "payment_not_processed_title": "Jūsų mokėjimo apdoroti nepavyko",
+        "payment_not_processed_text": "Jūs nebuvote apmokestinti. Grįžkite į krepšelį, kad užbaigtumėte pirkimą.",
+        "return_to_cart_button_label": "Grįžti į krepšelį"
+      },
+      "payment_gateway": {
+        "credit_card_label": "Kreditinė kortelė",
+        "bank_deposit_label": "Banko depozitas",
+        "cash_on_delivery_label": "Grynieji pristatymo metu (COD)",
+        "money_order_label": "Pinigų pavedimas",
+        "debit_card_label": "Debeto kortelė",
+        "deferred_payment_label": "Mokėjimo būdą pasirinkite vėliau",
+        "generic_payment_terms": "Jums taikomos {{translatedName}} sąlygos. Mokėjimas turi būti atliktas {{dueDate}} .",
+        "login_prompt": {
+          "no_access": {
+            "message": "{{logIn}} prie paskyros, turinčios prieigą prie šios vietos, kad galėtumėte pridėti arba naudoti išsaugotus mokėjimo metodus.",
+            "link": "Prisijungti"
+          }
+        },
+        "direct_payment_terms": "Jums taikomos {{translatedName}} sąlygos. Jūsų kortelė bus apmokestinta {{dueDate}} .",
+        "order_due_on_fulfillment_choose_later": "Mokėjimas bus atliktas įvykdžius užsakymą.",
+        "order_due_on_fulfillment_payment": "Kai užsakymas bus įvykdytas, jūsų kortelė bus apmokestinta.",
+        "draft_order_payment_due_later_no_terms": "Mokėjimas bus atliktas, kai užsakymas bus patvirtintas.",
+        "draft_order_payment_due_later_no_terms_payment_selected": "Kai užsakymas bus patvirtintas, jūsų kortelė bus apmokestinta.",
+        "draft_order_payment_due_later_terms": "Kai užsakymas bus patvirtintas, jums bus taikomos {{translatedName}} sąlygos.",
+        "draft_order_payment_due_on_fulfillment": "Mokėjimas bus atliktas, kai užsakymas bus patvirtintas ir įvykdytas."
       }
     },
     "pagination": {
