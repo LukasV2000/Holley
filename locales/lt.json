@@ -2464,10 +2464,67 @@
         "order_timeline": {
           "expand_events_accessibility_label": "Rodyti išsamią užsakymo juodraščio informaciją",
           "hide_events_label": "Paslėpti detales",
-          "hide_events_accessibility_label": "Slėpti išsamią užsakymo juodraščio informaciją"
+          "hide_events_accessibility_label": "Slėpti išsamią užsakymo juodraščio informaciją",
+          "expand_events_label": "Parodyk detales"
         },
         "subtitle": "Pateikta {{date}}",
-        "title": "Užsakyti {{name}}"
+        "title": "Užsakyti {{name}}",
+        "draft_order_subtitle": "Patvirtinta {{date}} iš užsakymo {{draftOrderName}}",
+        "loading": "Įkeliama užsakymo informacija",
+        "loading_finished_accessibility_message": "Užsakymo informacija buvo įkelta",
+        "payment_status": {
+          "pending": {
+            "banner_overdue": {
+              "one": "Jūsų mokėjimas vėluoja {{count}} d",
+              "other": "Jūsų mokėjimas vėluoja {{count}} d"
+            },
+            "banner_due": {
+              "one": "Mokėjimas turi būti atliktas po {{count}} d",
+              "other": "Mokėjimas turi būti atliktas po {{count}} dienų"
+            },
+            "banner_due_today": "Jūsų mokėjimas turi būti atliktas šiandien",
+            "title": "Mokėjimo terminas",
+            "title_with_date": "Sumokėti {{date}}",
+            "title_due_on_receipt": "Mokėjimas dar neįvykęs",
+            "title_due_on_fulfillment": "Mokėjimas įvykdžius",
+            "description_overdue": "Jūsų mokėjimas vėluoja.",
+            "description_partially_paid": "Šis užsakymas buvo iš dalies apmokėtas. Turite likutį.",
+            "description_authorized": "Jūsų mokėjimo metodas bus apmokestintas mokėjimo dieną arba galite sumokėti dabar.",
+            "description_due_on_receipt": "Suėjus mokėjimo terminui gausite sąskaitą faktūrą.",
+            "description_due_on_fulfillment": "Mokėti reikia, kai bus įvykdytos visos šio užsakymo prekės."
+          },
+          "draft": {
+            "description": "Mokėjimo detalės nustatomos patvirtinus užsakymą.",
+            "title": "Mokėjimas dar nesumokėtas",
+            "in_review": {
+              "description": "Mokėjimo detalės nustatomos patvirtinus užsakymą.",
+              "title": "Mokėjimas dar nesumokėtas"
+            },
+            "submitted": {
+              "description": "Norėdami patvirtinti šį užsakymą, pateikite mokėjimą.",
+              "title": "Mokėkite, kad patvirtintumėte"
+            }
+          },
+          "paid": {
+            "title": "Mokama",
+            "title_with_date": "Sumokėta {{date}}",
+            "description": "Jūsų užsakymas yra visiškai apmokėtas."
+          },
+          "refund": {
+            "title": "Grąžinta",
+            "title_with_date": "Lėšos grąžintos {{date}}",
+            "description_full_refund": "Gavote visas lėšas už šį užsakymą.",
+            "description_single_refund": "Gavote dalinį lėšų už šį užsakymą grąžinimą.",
+            "description_multiple_refunds": "Gavote dalinius lėšas už šį užsakymą."
+          },
+          "canceled": {
+            "title": "Mokėjimas atšauktas",
+            "description": "Jūs nebuvote apmokestinti."
+          },
+          "pay_now": "Sumokėk dabar",
+          "pay_now_accessibility_label": "Mokėkite dabar už užsakymą {{orderName}}",
+          "title": "Mokėjimo būsena"
+        }
       },
       "payment_methods": {
         "payment_delete": {
@@ -2506,7 +2563,85 @@
         "contact_phone_number": "Telefono numeris",
         "location_picker_label": "Vietos pavadinimas",
         "location_picker_accessibility_label": "Vietos pavadinimas: {{locationName}}",
-        "net_payment_terms_description": "{{name}} : mokėjimai atlikti per {{numberOfDays}} d"
+        "net_payment_terms_description": "{{name}} : mokėjimai atlikti per {{numberOfDays}} d",
+        "own_role_contact_name": "Tu",
+        "pagination": {
+          "load_more": "Įkelti daugiau",
+          "load_more_accessibility_label": "Įkelti daugiau vietų"
+        },
+        "payment_details_title": "Mokėjimo detalės",
+        "payment_terms": "Mokėjimo sąlygos",
+        "permissions_label": "Jūsų leidimai",
+        "permissions_title": "Leidimai",
+        "section_title": "Vieta",
+        "shipping_address_required": "Pridėkite pristatymo adresą šioje vietoje, kad pradėtumėte teikti užsakymus.",
+        "staff_and_permissions_title": "Personalas ir leidimai",
+        "tax_details_title": "Mokesčių duomenys",
+        "tax_id": "Mokesčių ID",
+        "tax_exemptions": "Mokesčių lengvatos",
+        "multiple_tax_exemptions": "Dar {{taxExemptionsCount}}",
+        "multiple_tax_exemptions_and": "ir",
+        "tax_exemptions_modal_close": "Uždaryti",
+        "taxes_none": "Nė vienas",
+        "tax_exemptions_modal_button_accessibility_label": "Peržiūrėkite visas mokesčių lengvatas"
+      },
+      "location_selection": {
+        "continue_to_store": "Toliau saugoti",
+        "description": "Jei jau turite prekių krepšelyje, vietos keitimas gali turėti įtakos krepšelio kainoms ir kiekiams.",
+        "list_accessibility_label": "Vietovių sąrašas",
+        "list_item_without_address_accessibility_label": "{{name}} : Nėra adreso",
+        "list_loading_accessibility_message": "Įkeliamas vietų sąrašas",
+        "list_loading_address_accessibility_message": "Įkeliamas {{locationName}} adresas",
+        "list_loading_finished_accessibility_message": "Vietų sąrašas įkeltas",
+        "loading_store_accessibility_message": "Eina į parduotuvę",
+        "no_location_title": "Tik asmeniniai užsakymai",
+        "no_location_description": "Nebeturite leidimo pateikti {{company}} užsakymų. Dar galite pateikti asmeninius užsakymus.",
+        "no_locations_found": "Vietų nerasta",
+        "search": "Ieškokite vietos",
+        "search_location_title": "Pasirinkite vietą",
+        "selection_cancel_button": "Atšaukti",
+        "selection_confirmation_button": "Pasirinkite vietą",
+        "title": "Kuriai vietai perkate?",
+        "clear_search": "Išvalyti paiešką",
+        "try_new_search": "Išbandykite naują paiešką"
+      },
+      "addresses": {
+        "add_billing_address_button": "Pridėkite atsiskaitymo adresą",
+        "add_billing_address_section_accessibility_label": "Pridėkite atsiskaitymo adresą",
+        "add_shipping_address_button": "Pridėkite pristatymo adresą",
+        "add_shipping_address_section_accessibility_label": "Pridėkite pristatymo adresą",
+        "billing_address_card_title": "Atsiskaitymo adresas",
+        "cancel_adding_billing_address_accessibility_label": "Atšaukti atsiskaitymo adreso pridėjimą",
+        "cancel_adding_shipping_address_accessibility_label": "Atšaukti pristatymo adreso pridėjimą",
+        "save_new_billing_address_accessibility_label": "Išsaugoti atsiskaitymo adresą",
+        "save_new_shipping_address_accessibility_label": "Išsaugokite pristatymo adresą",
+        "shipping_address_card_title": "Pristatymo adresas"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "Viską paslėpti",
+          "show_all": "Rodyti viską",
+          "hide_all_accessibility_label": "Slėpti visus peržiūrimos užsakymus",
+          "show_all_accessibility_label": "Rodyti visus peržiūrimus užsakymus",
+          "show_all_orders_in_review": "Rodyti visus peržiūrimos užsakymus",
+          "show_less_orders_in_review": "Rodyti mažiau užsakymų peržiūroje",
+          "title": "Kol",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "Neturite laukiančių užsakymų",
+            "pending_orders": {
+              "one": "Turite {{count}} laukiantį užsakymą",
+              "other": "Turite {{count}} laukiančių užsakymų"
+            },
+            "more_than_pagination_length": "Turite daugiau nei {{count}} laukiančių užsakymų"
+          },
+          "pending_orders_count_more_than_pagination_length": "{{count}} +",
+          "pagination": {
+            "nav_accessibility_label": "Užsakymai peržiūros naršymo mygtukais"
+          }
+        },
+        "order_list_column_headers_location": "Vieta",
+        "order_list_column_headers_contact": "kontaktas",
+        "removed_company_contact_tooltip": "Pašalintas iš įmonės"
       }
     },
     "errors": {
