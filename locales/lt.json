@@ -802,6 +802,121 @@
       "subtitle": "Patvirtinta {{date}}",
       "subtotal": "Tarpinė suma",
       "summary_list_title_accessibility_label": "Užsisakykite prekes"
+    },
+    "payment_methods": {
+      "edit_payment_method": {
+        "billing_address_add_new": "Pridėti naują",
+        "billing_address_choose_from_list": "Pasirinkite iš sąrašo",
+        "future_purchases_notice": "Šis mokėjimo būdas bus išsaugotas būsimiems pirkiniams.",
+        "generic_error": "Atnaujinant kilo problema. Prašau, pabandykite dar kartą."
+      },
+      "card_fields": {
+        "card_number_label": "Kortelės numeris",
+        "card_number_placeholder": "Kortelės numeris",
+        "name_on_card_label": "Vardas ant kortelės",
+        "name_on_card_placeholder": "Vardas ant kortelės",
+        "card_expiry_label": "Galiojimo pabaigos data (MM \/ MM)",
+        "card_expiry_placeholder": "Galiojimo pabaigos data (MM \/ MM)",
+        "card_verification_value_label": "Apsaugos kodas",
+        "card_verification_value_placeholder": "Apsaugos kodas",
+        "card_start_label": "Išleidimo data (MM \/ MM)",
+        "card_start_placeholder": "Išleidimo data (MM \/ MM)",
+        "tooltip": {
+          "tooltip_accessibility_label": "Daugiau informacijos",
+          "card_verification_value_explanation_amex": "4 skaitmenų saugos kodas kortelės priekyje",
+          "card_verification_value_explanation_other": "3 skaitmenų saugos kodas kortelės gale",
+          "card_verification_value_explanation": "3 skaitmenų saugos kodas paprastai randamas užpakalinėje kortelės pusėje. „American Express“ kortelės priekyje yra 4 skaitmenų kodas.",
+          "card_security_notice": "Visos operacijos yra saugios ir užšifruotos."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Įveskite savo vardą tiksliai taip, kaip parašyta kortelėje",
+          "credit_card_number_invalid": "Įveskite galiojantį kortelės numerį",
+          "credit_card_expiry_invalid": "Įveskite galiojančią kortelės galiojimo pabaigos datą",
+          "credit_card_verification_value_blank": "Įveskite CVV arba saugos kodą savo kortelėje"
+        }
+      },
+      "payment_delete": {
+        "title": "Ištrinti mokėjimo metodą",
+        "description_without_replacement": "Šis mokėjimo būdas nebebus pasiekiamas perkant ateityje.",
+        "description_with_replacement": "Šio mokėjimo metodo ištrynimas turės įtakos išankstiniams mokėjimams. Jei norite ir toliau gauti būsimus užsakymus, galite pasirinktinai jį pakeisti kitu mokėjimo būdu.",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "Šio mokėjimo metodo ištrynimas turės įtakos išankstiniams mokėjimams. Jei nepasirinksite alternatyvaus mokėjimo metodo, šis mokėjimo būdas vis tiek bus apmokestintas už esamų užsakymų neapmokėtus likučius. Pasirinkę alternatyvų mokėjimo būdą galėsite be trikdžių gauti būsimus prenumeratos užsakymus.",
+          "with_pending_orders": "Ištrynus šį mokėjimo metodą jis bus pašalintas iš paskyros ir jo nebebus galima įsigyti ateityje. Jei nepasirinksite alternatyvaus mokėjimo metodo, jis vis tiek bus apmokestintas už esamų užsakymų neapmokėtus likučius.",
+          "with_subscriptions": "Šio mokėjimo metodo ištrynimas turės įtakos išankstiniams mokėjimams. Pakeiskite jį kitu mokėjimo būdu, kad ir toliau gautumėte būsimus užsakymus."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "Šio mokėjimo metodo ištrynimas turės įtakos išankstiniams mokėjimams. Šis mokėjimo metodas vis tiek bus apmokestintas už esamų užsakymų neapmokėtus likučius, bet negausite būsimų prenumeratos užsakymų. Pridėkite alternatyvų mokėjimo metodą, kad toliau gautumėte prenumeratos užsakymus.",
+          "with_pending_orders": "Ištrynus šį mokėjimo metodą jis bus pašalintas iš paskyros ir jo nebebus galima įsigyti ateityje. Jis vis tiek bus apmokestintas už esamų užsakymų neapmokėtus likučius.",
+          "with_subscriptions": "Šio mokėjimo metodo ištrynimas turės įtakos išankstiniams mokėjimams. Pridėkite alternatyvų mokėjimo metodą, kad toliau gautumėte būsimus užsakymus."
+        },
+        "payment_method_selector_placeholder": "Pasirinkite pakaitinį mokėjimo metodą (pasirenkama)",
+        "payment_method_selector_no_alternative_payment": "Nėra pakeitimo metodo",
+        "replace_method_with_new_method_description": "Jūsų {{currentPaymentMethodName}} bus ištrintas ir pakeistas jūsų {{newPaymentMethodName}} .",
+        "error_when_deleting": "Atsiprašome, bet kažkas nutiko ir nepavyko ištrinti šio mokėjimo metodo. Bandykite dar kartą vėliau arba atnaujinkite puslapį.",
+        "delete_and_replace_button": "Ištrinkite ir pakeiskite",
+        "delete_and_replace_button_accessibility_label": "Ištrinkite {{currentPaymentMethodName}} ir pakeiskite į {{newPaymentMethodName}} .",
+        "deleted_successfully": "Mokėjimo metodas sėkmingai ištrintas.",
+        "loading_available_payment_methods_accessibility_label": "Įkeliami galimi mokėjimo būdai"
+      },
+      "add_payment_method": {
+        "title": "Pridėti mokėjimo metodą",
+        "payment_method_added_confirmation": "Pridėtas mokėjimo būdas",
+        "billing_address": {
+          "title": "Atsiskaitymo adresas",
+          "add_billing_address_button": "Pridėti naują",
+          "add_billing_address_button_accessibility_label": "Pridėti naują atsiskaitymo adresą",
+          "choose_billing_address_from_list_button": "Pasirinkite iš sąrašo",
+          "choose_billing_address_from_list_button_accessibility_label": "Iš sąrašo pasirinkite atsiskaitymo adresą",
+          "missing_billing_address_error_message": "Nurodykite atsiskaitymo adresą",
+          "default_checkbox": "Nustatyti kaip numatytąjį mokėjimo metodą"
+        }
+      }
+    },
+    "payment_method_brands": {
+      "visa": "viza",
+      "discover": "Atrasti",
+      "dinersclub": "Diners klubas",
+      "dankort": "Dankortas",
+      "hipercard": "Hiperkorta",
+      "laser": "Lazeris",
+      "shoppay": "Parduotuvė Mokėti"
+    },
+    "shop_policies": {
+      "legal_notice": "Teisinis įspėjimas",
+      "privacy_policy": "Privatumo politika",
+      "refund_policy": "Grąžinimo politika",
+      "shipping_policy": "Siuntimo politika",
+      "subscription_policy": "Prenumeratos politika",
+      "terms_of_sale": "Pardavimo sąlygos",
+      "terms_of_service": "Paslaugų teikimo sąlygos"
+    },
+    "ui_components": {
+      "closeNotification": "Uždaryti",
+      "expandNotification": "Peržiūrėti daugiau",
+      "closeModal": "Uždaryti",
+      "submit": "Pateikti",
+      "processing": "Apdorojimas…",
+      "increase": "Padidinti {{type}}",
+      "decrease": "Sumažinti {{type}}",
+      "minimumReached": "Pasiektas minimumas {{value}}",
+      "maximumReached": "Pasiektas maksimalus {{value}}",
+      "january": "sausio mėn",
+      "february": "vasario mėn",
+      "march": "Kovas",
+      "april": "Balandis",
+      "may": "Gegužė",
+      "june": "birželio mėn",
+      "july": "liepos mėn",
+      "august": "Rugpjūtis",
+      "september": "rugsėjis",
+      "october": "Spalio mėn",
+      "november": "lapkritis",
+      "december": "gruodį",
+      "monday": "pirmadienis",
+      "tuesday": "antradienis",
+      "wednesday": "trečiadienį",
+      "thursday": "ketvirtadienis",
+      "friday": "penktadienis"
     }
   }
 }
