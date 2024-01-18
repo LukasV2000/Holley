@@ -1135,12 +1135,149 @@
         "za": "Abėcėlės tvarka ZA",
         "price_ascending": "Kaina nuo mažos iki didelės",
         "price_descending": "Kaina nuo didelės iki mažiausios",
-        "date_ascending": "Data, nuo seno iki naujo"
+        "date_ascending": "Data, nuo seno iki naujo",
+        "date_descending": "Data, nuo naujo iki seno"
       }
     },
     "store_availability": {
       "pick_up_time": {
         "next_day": "Paruošta atsiimti kitą dieną"
+      }
+    },
+    "errors": {
+      "blank": "negali būti tuščias",
+      "blocked_address": "Ši vieta nepalaikoma.",
+      "credit_card_session_expired": "Baigėsi kredito kortelės įgaliojimas, dar kartą įveskite mokėjimo informaciją. Jūsų kortelė nebuvo apmokestinta.",
+      "empty": "negali būti tuščias",
+      "invalid_email": "Turi būti galiojantis elektroninio pašto adresas",
+      "discount_disabled": "Ši nuolaida buvo išjungta",
+      "discount_expired": "Ši nuolaida nebegalioja",
+      "discount_limit_reached": "Ši nuolaida pasiekė savo naudojimo limitą",
+      "discount_not_found": "Nepavyko rasti galiojančios nuolaidos, atitinkančios įvestą kodą",
+      "customer_already_used_once_per_customer_discount_notice": "Ši nuolaida pasiekė savo naudojimo limitą",
+      "gift_card_already_applied": "Kodas jau pritaikytas atsiskaitant",
+      "gift_card_code_invalid": "Kodas neteisingas",
+      "gift_card_currency_mismatch": "Jūsų dovanų kortelė yra %{gift_card_currency}. Susisiekite su mumis, kad jis būtų pakartotinai išduotas %{checkout_currency}.",
+      "gift_card_depleted": "Šioje dovanų kortelėje nebėra lėšų",
+      "gift_card_disabled": "Dovanų kortelė išjungta",
+      "gift_card_expired": "Baigėsi dovanų kortelės galiojimo laikas",
+      "invalid": "Netinkamas",
+      "bad_domain": "yra neteisingas domeno pavadinimas",
+      "taken": "jau paimtas",
+      "contains_html_tags": "negali būti HTML žymų",
+      "too_short": "yra per trumpas (mažiausiai %{count} simbolių)",
+      "too_long": "yra per ilgas (daugiausia %{count} simbolių)",
+      "password_mismatch": "turi atitikti pateiktą slaptažodį",
+      "contains_spaces": "prasideda arba baigiasi tarpais.",
+      "email_domain_invalid": "teikėjas nepalaikomas",
+      "invalid_for_country": "negalioja %{country}",
+      "invalid_for_country_and_province": "negalioja %{province} ir %{country}",
+      "invalid_province_in_country": "nėra tinkama provincija %{country}",
+      "invalid_state_in_country": "nėra galiojanti valstija %{country}",
+      "invalid_region_in_country": "nėra tinkamas regionas %{country}",
+      "less_than_or_equal_to": "turi būti mažesnis arba lygus %{count}",
+      "not_supported": "nepalaikomas",
+      "full_name_required": "Įveskite vardą ir pavardę",
+      "invalid_for_card_type": "Netinkamas",
+      "invalid_type": "atsiprašome, mes nepriimame tokio tipo kortelių",
+      "invalid_format": "formatas negalioja",
+      "expired": "baigėsi",
+      "invalid_start_date_or_issue_number_for_debit": "reikalinga galiojanti pradžios data arba išdavimo numeris",
+      "invalid_expiry_year": "nėra galiojantys galiojimo metai",
+      "reset_password_html": "Šis el. pašto adresas jau susietas su paskyra. Jei ši paskyra priklauso jums, galite <a href=\"\/account\/login#recover\">iš naujo nustatyti slaptažodį<\/a>",
+      "verify_email": "Išsiuntėme el. laišką adresu %{customer_email}, spustelėkite pateiktą nuorodą, kad patvirtintumėte savo el. pašto adresą.",
+      "product_not_available": "produktas nėra paskelbtas šiam klientui.",
+      "shop_404": {
+        "title": "Sukurkite el. prekybos svetainę ir parduokite internetu! „Shopify“ el. prekybos programinė įranga",
+        "heros": {
+          "store_unavailable": "Atsiprašome, ši parduotuvė šiuo metu nepasiekiama.",
+          "store_not_exist": "Šios parduotuvės nėra.",
+          "no_storefront": "Ši parduotuvė dar neturi svetainės."
+        },
+        "links": {
+          "explore_other_stores": "Naršykite kitas parduotuves",
+          "start_free_trial": "Pradėkite nemokamą bandomąją versiją"
+        },
+        "owner_ctas": {
+          "header": "Ar esate parduotuvės savininkas?",
+          "fix_domain": "Užbaikite naujo žiniatinklio adreso nustatymą, eikite į %{domain_settings_link}. Spustelėkite „Prijungti domeną“ ir įveskite: %{domain}.<br> Jei nepavyksta patekti į savo parduotuvę, išbandykite %{forgot_your_store_link} puslapį.",
+          "fix_domain_link_text": "savo domeno nustatymus",
+          "forgot_your_store_link_text": "pamiršo savo parduotuvę",
+          "add_storefront": "Galite nustatyti savo svetainę pridėję internetinės parduotuvės kanalą savo %{admin_link}. Jei nepavyksta patekti į savo parduotuvę, išbandykite %{forgot_your_store_link} puslapį."
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Parduodu asmeniškai",
+            "caption": "Gaukite funkcijas, kurių reikia norint valdyti savo mažmeninę parduotuvę, nesvarbu, ar pradedate veiklą, ar plečiate savo veiklą.",
+            "link_text": "Pradėkite nemokamą bandomąją versiją"
+          },
+          "open_a_store": {
+            "header": "Atidarykite naują Shopify parduotuvę",
+            "caption": "Pradėkite 3 dienų nemokamą bandomąją versiją, tada tęskite už 1 USD per mėnesį kitus 3 mėnesius.",
+            "link_text": "Užsiregistruokite dabar"
+          },
+          "editions": {
+            "header": "Peržiūrėkite „Shopify Editions“.",
+            "caption": "Turėdami daugiau nei 100 produktų atnaujinimų, galite būti produktyvesni ir kūrybiškesni bei galingesni prekybos srityje, nei kada nors įsivaizdavote.",
+            "link_text": "Naršykite naujausius leidimus"
+          },
+          "store_owner": {
+            "header": "Ar esate parduotuvės savininkas?",
+            "caption": "Ar jums sunku patekti į savo parduotuvę? Išbandykite %{forgot_your_store_link} funkciją. Jei norite iš naujo suaktyvinti parduotuvę, susisiekite su %{shopify_support_link}.",
+            "shopify_support_link_text": "Shopify palaikymas"
+          }
+        }
+      }
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Slaptažodžio nustatymo iš naujo klaida",
+        "no_account_found": "Su šiuo el. paštu paskyra nerasta.",
+        "invalid_credentials": "Neteisingas el.paštas arba slaptažodis.",
+        "denylisted_reset_password": "Nepavyko pasiekti jūsų paskyros, nes dabartinis slaptažodis nėra saugus. Jūs gausite el. laišką, kad atnaujintumėte slaptažodį."
+      },
+      "address": {
+        "updated": "Adresas sėkmingai atnaujintas.",
+        "error_updating": "Klaida atnaujinant adresą",
+        "created": "Adresas sėkmingai sukurtas",
+        "error_creating": "Klaida kuriant adresą.",
+        "deleted": "Adresas sėkmingai ištrintas",
+        "error_deleting": "Klaida ištrinant adresą."
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "Pridėta %{delta}",
+          "increment_item": "Pridėta %{delta}",
+          "decrement_item": "Pašalinta %{delta} iš %{total}",
+          "decrement_fulfilled_line_item": "Grąžinta %{delta} iš %{total}"
+        }
+      },
+      "order": {
+        "not_available": "Šis užsakymas nepasiekiamas",
+        "financial_status": {
+          "authorized": "Įgaliotas",
+          "pending": "Kol",
+          "paid": "Mokama",
+          "unpaid": "Neapmokėta",
+          "voided": "Anuliuota",
+          "partially_paid": "Iš dalies apmokėta",
+          "partially_refunded": "Iš dalies grąžinta",
+          "refunded": "Grąžinta",
+          "expired": "Baigėsi galiojimo laikas"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Įvykdė",
+          "complete": "Užbaigti",
+          "partial": "Dalinis",
+          "unfulfilled": "Neįvykdytas",
+          "restocked": "Atnaujinta"
+        },
+        "transaction_status": {
+          "success": "Sėkmė",
+          "pending": "Kol",
+          "failure": "Nesėkmė",
+          "error": "Klaida"
+        }
       }
     }
   },
