@@ -2173,7 +2173,51 @@
       "hide_order_summary": "Slėpti užsakymo suvestinę",
       "subtitle": "Patvirtinta {{date}}",
       "subtotal": "Tarpinė suma",
-      "summary_list_title_accessibility_label": "Užsisakykite prekes"
+      "summary_list_title_accessibility_label": "Užsisakykite prekes",
+      "summary_title": "Užsakymo santrauka",
+      "summary_totals_title_accessibility_label": "Užsakymų sumos",
+      "shop_order_tracking": {
+        "download_shop_to_track": "Atsisiųskite parduotuvę, kad galėtumėte sekti paketą",
+        "track_order_with_shop": "Sekite užsakymą parduotuvėje",
+        "title_header": "Nuskaitykite telefonu",
+        "real_time_delivery_updates": "Parduotuvė jums atsiųs pristatymo atnaujinimus realiuoju laiku, kai tik jūsų užsakymas bus išsiųstas."
+      },
+      "edit_summary": {
+        "added": "Pridėta",
+        "added_with_quantity": "Pridėta {{quantity}}",
+        "removed": "Pašalinta",
+        "removed_with_quantity": "{{quantity}} pašalinta",
+        "updated_at": "Jūsų užsakymas buvo atnaujintas {{date}}",
+        "returned": "Sugrįžo",
+        "returned_with_quantities": "Grąžinta {{delta}} iš {{total}}",
+        "removed_with_quantities": "Pašalinta {{delta}} iš {{total}}"
+      },
+      "shop_pay": {
+        "order_completed_with": "Užsakymas baigtas su",
+        "learn_more": "Sužinokite daugiau"
+      },
+      "taxes": "Mokesčiai",
+      "duties": "Pareigos",
+      "ok_duties_tooltip": "Šis užsakymas siunčiamas iš kitos šalies, todėl mokesčiai buvo pridėti prie jūsų užsakymo sumos.",
+      "error_duties_tooltip": "Šis užsakymas siunčiamas iš kitos šalies, todėl pristatymo metu gali būti taikomi muitai ir mokesčiai.",
+      "zero_duties_tooltip": "Šis užsakymas siunčiamas iš kitos šalies. Už tokios vertės užsakymus muitai neapmokestinami.",
+      "tip": "Patarimas",
+      "title": "Užsakyti {{name}}",
+      "total": "Iš viso",
+      "unit_price": "{{price}} \/ vnt",
+      "pagination": {
+        "load_more": "Įkelti daugiau",
+        "load_more_accessibility_label": "Įkelti daugiau prekių",
+        "loading_accessibility_label": "Įkeliami daiktai"
+      },
+      "login_to_view_all_order_details": "Prisijunkite norėdami pamatyti visą užsakymo informaciją.",
+      "log_in": "Prisijungti",
+      "logged_in_account_no_permission_to_order": "Esate prisijungę kaip {{email}} . Ši paskyra neturi leidimo tvarkyti šio užsakymo.",
+      "log_in_to_a_different_account": "Prisijunkite prie kitos paskyros",
+      "fees": {
+        "restocking_fee": "Atnaujinimo mokestis",
+        "return_shipping_fee": "Siuntimas atgal"
+      }
     },
     "payment_methods": {
       "edit_payment_method": {
@@ -2449,6 +2493,20 @@
         "modal_po_number_input_max_length_error": "PO numerius sudaro ne daugiau kaip {{maxLength}} simboliai.",
         "save": "Sutaupyti",
         "title": "PO Nr. {{poNumber}}"
+      },
+      "account_information": {
+        "company_card_name_label": "Įmonės pavadinimas",
+        "company_card_section_accessibility_label": "Bendrovė"
+      },
+      "locations": {
+        "contact_email": "El. paštas",
+        "contact_list_title": "Žmonės",
+        "contact_name": "vardas",
+        "contact_permissions": "Leidimai",
+        "contact_phone_number": "Telefono numeris",
+        "location_picker_label": "Vietos pavadinimas",
+        "location_picker_accessibility_label": "Vietos pavadinimas: {{locationName}}",
+        "net_payment_terms_description": "{{name}} : mokėjimai atlikti per {{numberOfDays}} d"
       }
     },
     "errors": {
@@ -2504,6 +2562,72 @@
         "description": "Atnaujinkite šį puslapį arba bandykite dar kartą po kelių minučių.",
         "refresh_button": "Atnaujinti puslapį"
       }
+    },
+    "addresses": {
+      "add_button": "Pridėti adresą",
+      "add_button_text": "Papildyti",
+      "add_button_accessibility_label": "Pridėti adresą",
+      "back_button": "Atgal",
+      "back_button_accessibility_label": "Grįžti į adreso {{address}} redagavimą",
+      "add_address_banner": "Pridėkite adresus, kuriuos naudosite atsiskaitydami",
+      "no_addresses_banner": "Adresų nepridėta",
+      "address_deleted_notification": "Adresas ištrintas",
+      "cancel_adding_address_accessibility_label": "Atšaukti adreso pridėjimą",
+      "cancel_deletion_button": "Atšaukti",
+      "cancel_deletion_button_accessibility_label": "Atšaukti {{address}} ištrynimą",
+      "default_address": {
+        "title": "Numatytasis adresas",
+        "title_accessibility_label": "Numatytasis adresas: {{address}}"
+      },
+      "delete_button": "Ištrinti",
+      "delete_button_accessibility_label": "Ištrinti {{address}}",
+      "delete_confirmation_button": "Ištrinti adresą",
+      "delete_confirmation_button_accessibility_label": "Ištrinti {{address}}",
+      "delete_confirmation_message": "Ištrinti adresą? Esami užsakymai neturi įtakos.",
+      "delete_confirmation_title": "Ištrinti adresą?",
+      "delete_confirmation_description": "Esami užsakymai neturi įtakos.",
+      "edit_button": "Redaguoti",
+      "edit_button_accessibility_label": "Redaguoti {{address}}",
+      "edit_section_accessibility_label": "Redaguoti {{address}}",
+      "edit_modal_title": {
+        "default": "Redaguoti adresą",
+        "billing": "Redaguoti atsiskaitymo adresą",
+        "shipping": "Redaguoti pristatymo adresą"
+      },
+      "loading_accessibility_message": "Įkeliamas adresas",
+      "loading_addresses_accessibility_message": "Įkeliami adresai",
+      "loading_billing_accessibility_message": "Įkeliamas atsiskaitymo adresas",
+      "loading_finished_accessibility_message": "Įkeltas naujas adresų puslapis",
+      "loading_shipping_accessibility_message": "Įkeliamas pristatymo adresas",
+      "pagination": {
+        "load_more": "Įkelti daugiau",
+        "load_more_accessibility_label": "Įkelti daugiau adresų"
+      },
+      "save_new_address_accessibility_label": "Išsaugoti adresą",
+      "title": "Adresai",
+      "billing_address_dropdown_placeholder": "Atsiskaitymo adresas"
+    },
+    "address_form": {
+      "attention": "Dėmesio",
+      "attention_company": "Įmonė\/dėmesys",
+      "attention_help_text": "Asmens ar skyriaus pavadinimas",
+      "auto_complete_close_accessibility_label": "Uždaryti pasiūlymus",
+      "auto_complete_title": "Pasiūlymai",
+      "billing_address": "Naudoti kaip atsiskaitymo adresą",
+      "cancel": "Atšaukti",
+      "cancel_accessibility_label": "Atšaukti adreso {{address}} redagavimą",
+      "creation_success_notification": "Adresas pridėtas",
+      "default_address": "Tai mano numatytasis adresas",
+      "default_address_creation_success_notification": "Pridėtas numatytasis adresas",
+      "default_address_update_success_notification": "Numatytasis adresas atnaujintas",
+      "loading_add_form_accessibility_message": "Įkeliama nauja adreso forma",
+      "loading_edit_form_accessibility_message": "Įkeliama redagavimo adreso forma",
+      "loading_form_accessibility_message": "Įkeliama adreso forma",
+      "loading_finished_accessibility_message": "Adreso forma įkelta",
+      "save": "Sutaupyti",
+      "save_accessibility_label": "Išsaugoti adresą {{address}}",
+      "section_title_accessibility_label": "Pridėti adresą",
+      "update_success_notification": "Adresas atnaujintas"
     }
   }
 }
