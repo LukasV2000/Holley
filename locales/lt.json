@@ -665,6 +665,11 @@
         "price_descending": "Kaina nuo didelės iki mažiausios",
         "date_ascending": "Data, nuo seno iki naujo"
       }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "next_day": "Paruošta atsiimti kitą dieną"
+      }
     }
   },
   "customer_accounts": {
@@ -699,7 +704,79 @@
         "other": "Jei jie nebuvo gauti,"
       },
       "let_us_know": "Praneškite mums",
-      "contact_us": "Susisiekite su mumis."
+      "contact_us": "Susisiekite su mumis.",
+      "list_layout_accessibility_label": "Išdėstymo parinktys",
+      "list_title": "Užsakymai",
+      "order_list": {
+        "column_headers": {
+          "order": "Įsakymas",
+          "items": "Daiktai",
+          "total": "Iš viso"
+        },
+        "delivered": "Pristatyta {{date}}",
+        "empty_state_order_source_description": "Čia bus rodomi tik {{email}} pateikti užsakymai.",
+        "empty_state_subtitle": "Eikite į parduotuvę, kad pateiktumėte užsakymą.",
+        "empty_state_title": "Užsakymų dar nėra",
+        "empty_state_title_for_pending_orders": "Nėra laukiančių užsakymų",
+        "estimated_shortform": "Įvert. {{date}}",
+        "estimated_delivery": "Numatoma pristatymo {{date}}",
+        "one_images_accessibility_label": "Užsakyme yra {{lineItemName1}}",
+        "two_images_accessibility_label": "Užsakyme yra {{lineItemName1}} , {{lineItemName2}}",
+        "three_images_accessibility_label": "Užsakyme yra {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}}",
+        "four_images_accessibility_label": "Užsakymas apima {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}} , {{lineItemName4}}",
+        "more_than_three_products_accessibility_label": "Užsakyme yra {{lineItemName1}} , {{lineItemName2}} ir dar {{numberOfAdditionalProducts}} produktai",
+        "more_than_four_products_accessibility_label": "Užsakyme yra {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}} ir dar {{numberOfAdditionalProducts}} produktai",
+        "plus_more": "+ {{numberOfAdditionalProducts}}",
+        "plus_more_products": "+ {{numberOfAdditionalProducts}} produktų",
+        "carousel": {
+          "one_products_accessibility_label": "Užsakyme yra {{lineItemName1}} kiekis {{lineItemQuantity1}}",
+          "two_products_accessibility_label": "Užsakyme yra {{lineItemName1}} kiekis {{lineItemQuantity1}} , {{lineItemName2}} kiekis {{lineItemQuantity2}}",
+          "three_products_accessibility_label": "Užsakyme yra {{lineItemName1}} kiekis {{lineItemQuantity1}} , {{lineItemName2}} kiekis {{lineItemQuantity2}} , {{lineItemName3}} kiekis {{lineItemQuantity3}}",
+          "four_products_accessibility_label": "Užsakyme yra {{lineItemName1}} kiekis {{lineItemQuantity1}} , {{lineItemName2}} kiekis {{lineItemQuantity2}} , {{lineItemName3}} kiekis {{lineItemQuantity3}} , {{lineItemName4}} kiekis {{lineItemQuantity4}}",
+          "five_products_accessibility_label": "Užsakyme yra {{lineItemName1}} kiekis {{lineItemQuantity1}} , {{lineItemName2}} kiekis {{lineItemQuantity2}} , {{lineItemName3}} kiekis {{lineItemQuantity3}} , {{lineItemName4}} kiekis {{lineItemQuantity4}} {{lineItemName5}} kiekis {{lineItemQuantity5}}",
+          "six_products_accessibility_label": "Užsakyme yra {{lineItemName1}} kiekis {{lineItemQuantity1}} , {{lineItemName2}} kiekis {{lineItemQuantity2}} , {{lineItemName3}} kiekis {{lineItemQuantity3}} , {{lineItemName4}} kiekis {{lineItemQuantity4}} {{lineItemName5}} kiekis {{lineItemQuantity5}} , {{lineItemName6}} kiekis {{lineItemQuantity6}}",
+          "six_and_more_products_accessibility_label": "Užsakyme yra {{lineItemName1}} kiekis {{lineItemQuantity1}} , {{lineItemName2}} kiekis {{lineItemQuantity2}} , {{lineItemName3}} kiekis {{lineItemQuantity3}} , {{lineItemName4}} kiekis {{lineItemQuantity4}} {{lineItemName5}} kiekis {{lineItemQuantity5}} , {{lineItemName6}} kiekis {{lineItemQuantity6}} ir daugiau",
+          "view_order_details": "Peržiūrėti užsakymo detales",
+          "previous": "Ankstesnis",
+          "next": "Kitas"
+        },
+        "items": {
+          "one": "{{count}} elementas",
+          "other": "{{count}} elementai"
+        },
+        "list_view": "Rodyti sąrašo rodinį",
+        "no_filtered_results_description": "Pašalinkite arba pakoreguokite filtrus, kad matytumėte savo užsakymus",
+        "no_filtered_results_title": "Nėra filtruotų rezultatų",
+        "order_link": "Peržiūrėti užsakymą {{name}}",
+        "order_number": "Užsakyti {{name}}",
+        "orders_title": "Patvirtinta",
+        "pagination": {
+          "nav_accessibility_label": "Užsakymų naršymo mygtukai",
+          "next": "Kitas",
+          "next_accessibility_label": "Kiti užsakymai",
+          "previous": "Ankst",
+          "previous_accessibility_label": "Ankstesni užsakymai",
+          "load_more": "Įkelti daugiau",
+          "load_more_accessibility_label": "Įkelti daugiau užsakymų"
+        },
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "Norėdami gauti daugiau informacijos, žiūrėkite užsakymą",
+            "estimated_delivery": "Numatoma pristatymo {{date}}",
+            "last_updated": "Paskutinį kartą atnaujinta {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "Įvert. pristatymo {{date}}"
+          }
+        },
+        "payment_status": {
+          "list_view": {
+            "overdue": "Uždelstas mokėjimas",
+            "due": "Sumokėti {{date}}",
+            "due_today": "Mokėjimas turi būti atliktas šiandien"
+          }
+        }
+      }
     },
     "order_details": {
       "shipment_timeline": {
@@ -917,6 +994,67 @@
       "wednesday": "trečiadienį",
       "thursday": "ketvirtadienis",
       "friday": "penktadienis"
+    },
+    "enable_javascript": "Norėdami peržiūrėti paskyrą, naršyklės nustatymuose įgalinkite JavaScript arba prisijunkite naudodami kitą naršyklę.",
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Slėpti paskyros meniu",
+        "label": "sąskaita",
+        "show_accessibility_label": "Rodyti paskyros meniu",
+        "nav_accessibility_label": "Paskyros naršymas",
+        "open_menu_accessibility_label": "Atidarykite paskyros naršymą",
+        "close_menu_accessibility_label": "Uždaryti paskyros naršymą",
+        "loading_message": "Įkeliamas paskyros naršymas"
+      },
+      "action_menu_accessibility_label": "Daugiau veiksmų",
+      "close_menu_accessibility_label": "Uždaryti pagrindinę navigaciją",
+      "contact_email_subject": "Susisiekite iš {{shopName}} internetinės parduotuvės",
+      "contact_link": "Susisiekite su mumis",
+      "delete_confirmation": {
+        "cancel": "Atšaukti",
+        "delete": "Ištrinti"
+      },
+      "dismiss_toast": "Atsisakyti",
+      "document_title": "{{sectionName}} – {{shopName}} – paskyra",
+      "go_to_store_link": "Nueik į parduotuvę",
+      "loading_message": "Įkeliama",
+      "log_out_link": "Atsijungti",
+      "logout_overlay_label": "Išregistruojamas...",
+      "nav_label_accessibility_label": "Pagrindinė navigacija",
+      "navigation_accessibility_message": "Nuėjote į {{sectionName}}",
+      "open_menu_accessibility_label": "Atidarykite pagrindinę navigaciją",
+      "orders_link_label": "Užsakymai",
+      "shop_logo_accessibility_label": "{{shopName}} logotipas",
+      "subscriptions_link_label": "Prenumeratos",
+      "settings_link": "Nustatymai"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Įkeliama paskyros informacija",
+      "loading_finished_accessibility_message": "Paskyros informacija įkelta",
+      "profile_card": {
+        "cancel": "Atšaukti",
+        "cancel_accessibility_label": "Atšaukti profilio redagavimą",
+        "edit": "Redaguoti",
+        "edit_accessibility_label": "Redaguoti profilį",
+        "email_help_text": "Prisijungimui naudoto el. pašto adreso pakeisti negalima",
+        "first_name": "Pirmas vardas",
+        "last_name": "Pavardė",
+        "no_name_provided_accessibility_label": "Vardas nepridėtas",
+        "phone_number_help_text": "Prisijungimui naudoto telefono numerio pakeisti negalima",
+        "save": "Sutaupyti",
+        "save_accessibility_label": "Išsaugoti profilį",
+        "title": "Profilis"
+      },
+      "profile_update_confirmation_message": "profilis atnaujintas",
+      "title": "Profilis",
+      "people": {
+        "pagination": {
+          "load_more": "Įkelti daugiau",
+          "load_more_accessibility_label": "Įkelkite daugiau žmonių",
+          "loading_accessibility_label": "Įkeliami žmonės"
+        }
+      },
+      "add_button": "Papildyti"
     }
   }
 }
