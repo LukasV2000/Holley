@@ -114,7 +114,119 @@
             "must_fulfill_from_constraint_not_satisfied": "Vykdymo apribojimai netenkinami, nes elementai negali būti įvykdyti iš reikiamų vietų.",
             "must_fulfill_from_same_location_constraint_not_satisfied": "Įvykdymo apribojimai netenkinami, nes elementai negali būti įvykdyti iš tos pačios vietos.",
             "delivery_strategy_conditions_not_satisfied": "Galimos pristatymo strategijos šioje vietoje, tačiau jų sąlygos netenkinamos.",
-            "out_of_stock_at_origin_location": "Pradinėje vietoje atsargų nėra."
+            "out_of_stock_at_origin_location": "Pradinėje vietoje atsargų nėra.",
+            "invalid_signature": "Netinkamas nuolaidos parašas."
+          },
+          "discount": {
+            "discounts_not_allowed_for_b2b": "B2B parduotuvėse nuolaidos neleidžiamos.",
+            "custom_discount_not_honoured": "Suteikta individuali nuolaida nebuvo įvykdyta.",
+            "unsupported_expectation": "Pateiktoje nuolaidų eilutėje buvo tikimasi, kad politika negalėjo interpretuoti.",
+            "additional_requested_discount_code_discarded": "Prašoma papildoma kodo nuolaida buvo atmesta.",
+            "allocations_mismatch": "Numatytas nuolaidos paskirstymas neatitinka faktinio nuolaidos paskirstymo.",
+            "discount_code_not_honoured": "Nuolaidos kodas nepritaikytas."
+          },
+          "tax": {
+            "new_tax_must_be_accepted": "Norint tęsti, reikia patvirtinti naują mokesčių eilutę pardavėjo pasiūlyme.",
+            "unresolvable_tax_terms": "Siūlomos sąlygos yra neišspręstos atsižvelgiant į dabartinį derybų kontekstą.",
+            "delivery_price_is_abstract": "Susijusi pristatymo kaina yra abstrakti.",
+            "tax_inclusivity_mismatch": "Iš naujo derėkitės su konkrečia totalTaxAndDutyAmount arba totalAmountIncludedInTarget verte.",
+            "tax_exemption_not_supported": "Dabartinės derybų sesijos mokesčių lengvatos nepalaikomos.",
+            "delivery_tax_exemption_not_supported": "Šiuo metu pristatymo linijų mokesčių lengvatos nepalaikomos.",
+            "proposed_allocations_required": "Trūksta lauko „siūlomi paskirstymai“.",
+            "merchandise_terms_must_be_defined": "Turi būti apibrėžtos prekių sąlygos.",
+            "delivery_terms_must_be_defined": "Pristatymo sąlygos turi būti apibrėžtos.",
+            "merchandise_discount_terms_must_be_defined": "Turi būti apibrėžtos prekių nuolaidų sąlygos.",
+            "delivery_discount_terms_must_be_defined": "Pristatymo nuolaidos sąlygos turi būti apibrėžtos.",
+            "allocated_required": "Trūksta „paskirto“ lauko.",
+            "value_required": "Trūksta „vertės“ lauko.",
+            "line_splits_not_supported": "Laukas „prekių linijos“ turi būti padalintas taip, kad kiekvienoje pardavėjo pasiūlyme būtų viena eilutė."
+          },
+          "payment": {
+            "manual_payments_not_allowed_for_b2b": "Neautomatiniai mokėjimai B2B parduotuvėse neleidžiami.",
+            "positive_amount_expected": "Mokėtina suma turi būti didesnė nei 0.",
+            "total_amount_mismatch": "Bendra mokėtina suma nesutampa su mokėjimų sumos suma.",
+            "subscription_terms_not_accepted": "Prenumeratos sąlygos nepriimamos.",
+            "missing_session_id": "Trūksta kredito kortelės sesijos informacijos.",
+            "gateway_not_supported": "Mokėjimo šliuzas nepalaiko mokėjimo metodo saugojimo.",
+            "credit_card_last_name_required": "„pavardė“ negali būti nulis.",
+            "credit_card_update_failed": "Nepavyko atnaujinti kredito kortelės.",
+            "installments_amount_invalid": "Netinkama įmokų operacijos suma.",
+            "installments_test_mode_not_allowed": "Bandymo režimas neleidžiamas.",
+            "installments_gift_card_not_allowed": "Įmokos neleidžia naudoti dovanų kortelių.",
+            "installments_unsupported_currency": "Išmokos nepalaiko šios valiutos.",
+            "installments_unsupported_shipping": "Įmokos nepalaiko siuntimo šiuo adresu.",
+            "installments_unsupported_billing": "Įmokos nepalaiko šio atsiskaitymo adreso.",
+            "installments_unsupported_subscriptions": "Įmokos nepalaiko prenumeratos.",
+            "installments_ineligible_line_item": "Įmokos išjungtos šio pirkinio eilutės elementui.",
+            "shop_cash_not_allowed": "Parduotuvė Grynieji pinigai neleidžiami be Shop Pay.",
+            "shop_cash_unsupported_checkout_source": "„Shop Cash“ nepalaiko šios kasos.",
+            "shop_cash_gift_card_not_allowed": "„Shop Cash“ neleidžia įsigyti dovanų kortelių.",
+            "shop_cash_not_enabled": "Parduotuvė Grynieji pinigai šioje parduotuvėje neįjungti.",
+            "shop_cash_unsupported_subscriptions": "„Shop Cash“ nepalaiko prenumeratos.",
+            "shop_cash_unsupported_shipping": "„Shop Cash“ nepalaiko prekių be pristatymo.",
+            "invalid_address_type": "Pateiktas adreso tipas netinkamas šiam mokėjimo metodui.",
+            "missing_retail_attributions": "Mažmeninės prekybos priskyrimas reikalingas rankiniu būdu įvestiems mokėjimams kredito kortele.",
+            "unexpected_retail_attributions": "Mažmeninės prekybos priskyrimai netikėtai pateikti mokant kredito kortele.",
+            "invalid_card_source": "Ši sesija neturi leidimo naudoti šio kortelės šaltinio.",
+            "wallet_content_missing": "Trūksta piniginės turinio.",
+            "payment_instrument_not_found": "Nepavyko rasti mokėjimo metodo",
+            "unauthorized_capture_method": "Mokėjimo fiksavimo metodo konfigūruoti neleidžiama.",
+            "saved_payment_methods_not_allowed": "Išsaugoti mokėjimo būdai neleidžiami.",
+            "saved_payment_methods_not_enabled": "Išsaugoti mokėjimo metodai šioje parduotuvėje neįjungti.",
+            "store_credit_not_enabled": "Parduotuvės kreditas šioje parduotuvėje neįjungtas.",
+            "store_credit_account_not_found": "Parduotuvės kredito sąskaita nerasta.",
+            "store_credit_account_mismatch": "Parduotuvės kredito sąskaita neatitinka pirkėjo tapatybės.",
+            "store_credit_mismatched_currency": "Parduotuvės kredito sąskaitos valiuta nesutampa su atsiskaitymo valiuta.",
+            "store_credit_insufficient_funds": "Parduotuvės kredito sąskaitoje nėra pakankamai lėšų.",
+            "store_credit_buying_gift_card": "Negalite naudoti parduotuvės kredito dovanų kortelei įsigyti.",
+            "gift_cards_not_allowed_for_b2b": "Dovanų kortelės B2B parduotuvėse neleidžiamos.",
+            "method_required": "Turi būti pasiūlytas mokėjimo būdas.",
+            "paypal_express_address_invalid": "„PayPal“ grąžino neteisingą adresą.",
+            "shop_cash_unsupported_currency": "„Shop Cash“ nepalaiko šios valiutos.",
+            "market_manager_blocks_wallet_payments": "Turgaus valdytojas nepalaiko mokėjimo būdo."
+          },
+          "tip": {
+            "not_accepted_by_shop": "Parduotuvė arbatpinigių nepriima.",
+            "only_one_tip_line_allowed": "Kelios antgalių eilutės nepalaikomos.",
+            "tips_not_allowed_for_b2b": "B2B parduotuvėse arbatpinigiai neleidžiami.",
+            "currency_change_reset": "Patarimas buvo nustatytas iš naujo dėl valiutos pasikeitimo.",
+            "tips_not_allowed_for_deferred_purchase_options": "Patarimai dar nepalaikomi dėl atidėto pirkimo parinkčių."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Šio užsakymo juodraščio dabartinėje parduotuvėje nėra.",
+            "staff_member_not_exist": "Šio personalo dabartinėje parduotuvėje nėra.",
+            "location_not_exist": "Šios vietos dabartinėje parduotuvėje nėra.",
+            "point_of_sale_device_not_exist": "Šio pardavimo vietos įrenginio dabartinėje parduotuvėje nėra.",
+            "unresolvable_target_merchandise_lines": "Siūlomi pardavimo priskyrimai yra neišsprendžiami atsižvelgiant į dabartinį derybų kontekstą."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "Jūsų pirkėjo pasiūlyme turi būti neaptariamos sąlygos.",
+            "invalid_signature": "{{target_terms}} parašas neteisingas."
+          },
+          "inventory": {
+            "missing_quantity_value": "Pirkėjo atsargų eilutėse trūksta lauko kiekio.",
+            "changing_behavior_not_allowed": "Šis klientas neturi leidimo keisti atsargų elgsenos.",
+            "only_one_inventory_behavior_allowed": "Šiuo metu per vieną patikrą leidžiama atlikti tik vieną atsargų elgseną."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "Šioje kasoje neleidžiama atsisakyti pareigų."
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "Mažmeninės prekybos priskyrimas neleidžiamas atliekant šią patikrą.",
+            "retail_attribution_required": "Šiai patikrai reikalingas mažmeninės prekybos priskyrimas."
+          },
+          "captcha": {
+            "metadata_missing": "Norint atlikti šią patikrą, reikia užpildyti „captcha“.",
+            "metadata_mismatch": "Pateiktas captcha teikėjas ir tipas neatitinka laukiamų verčių.",
+            "token_missing": "Norint užbaigti šią patikrą, reikia pateikti captcha prieigos raktą.",
+            "job_enqueue_failed": "Nepavyko įtraukti „captcha“ patvirtinimo užduoties į eilę.",
+            "job_already_queued": "„Captcha“ patvirtinimas jau buvo įtrauktas į šio „captcha“ prieigos rakto eilę.",
+            "token_expired": "Pateiktas captcha prieigos raktas nebegalioja. Norėdami tęsti patikrą, užpildykite naują „captcha“.",
+            "token_invalid": "Pateiktas captcha prieigos raktas neteisingas. Norėdami tęsti patikrą, užpildykite naują „captcha“.",
+            "token_not_valid_for_session": "Pateikta „captcha“ negali būti naudojama atliekant šią patikrą."
+          },
+          "fx_reconciliation_override": {
+            "shop_currency_mismatch": "Gauta suma turi būti parduotuvės valiuta."
           }
         },
         "choose_delivery_strategy": "Pasirinkite pristatymo būdą",
@@ -171,7 +283,17 @@
             "one": "{{number}} žymeklio grupė",
             "other": "{{number}} žymeklių grupė"
           }
-        }
+        },
+        "full_price": "Pilna kaina:",
+        "title": "Patikra – {{shopName}}",
+        "full_title": "{{pageTitle}} – {{shopName}} – Patikrinimas",
+        "loading_title": "Patikra – {{shopName}}",
+        "google_map_title": "Google žemėlapis",
+        "submit_order_button_label": "Pateikti užsakymą",
+        "submit_for_review_button_label": "Pateikti peržiūrai",
+        "submit_for_review_notice_label": "Mokėjimas nebus atliktas, kol jūsų užsakymas nebus peržiūrėtas",
+        "continue_to_payment_plans_button_label": "Tęskite mokėjimo planus",
+        "back_button_label": "Grįžti"
       },
       "contact": {
         "different_shipping_address_label": "Siunčiu kitu adresu",
