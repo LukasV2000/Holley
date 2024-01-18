@@ -900,7 +900,89 @@
             "text": "Stebėkite ir valdykite „Pirkti naudojant pagrindinį užsakymą“.",
             "new_window_disclaimer": "(atidaro naują langą)"
           }
-        }
+        },
+        "attempted_delivery_label": "Bandytas įvykdyti pristatymas",
+        "attempted_delivery_description": "Bandymas pristatyti buvo nesėkmingas.",
+        "attempted_to_deliver_label": "Bandė pristatyti",
+        "confirmed_description": "Gavome jūsų užsakymą.",
+        "on_its_way_description": "Ši siunta pakeliui.",
+        "out_for_delivery_description": "Ši siunta yra pristatyta.",
+        "preparing_for_shipping_label": "Pasiruošimas siuntimui",
+        "preparing_for_shipping_description": "Šios prekės ruošiamos siuntimui.",
+        "ready_for_pickup_label": "Paruošta pasiimti",
+        "ready_for_pickup_description": "Šios prekės paruoštos atsiimti. Atsiimdami užsakymą atsineškite užsakymo patvirtinimą.",
+        "ready_for_pickup_location": "Jūsų užsakymas paruoštas atsiimti vietoje",
+        "picked_up_label": "Paėmė",
+        "picked_up_description": "Šie daiktai buvo paimti.",
+        "canceled_description": "Jūsų užsakymas buvo atšauktas {{date}} .",
+        "canceled_label": "Atšauktas",
+        "canceled_title": "Jūsų užsakymas atšauktas",
+        "come_back": "Grįžkite į šį puslapį ir sužinokite apie siuntos būseną.",
+        "company_tracking_number": "{{company}} stebėjimo numeris:",
+        "confirmed_label": "Patvirtinta",
+        "confirmed_title": "Jūsų užsakymas patvirtintas",
+        "confirmed_description_pickup": "Kai užsakymas bus paruoštas atsiimti, gausite el. laišką.",
+        "confirmed_description_digital": "Kai užsakymas bus paruoštas, gausite el. laišką.",
+        "confirmed_description_gift_card_text": "Kai užsakymas bus paruoštas, gausite tekstinį pranešimą.",
+        "delivered_description": "Ši siunta buvo pristatyta.",
+        "delivered_label": "Pristatyta",
+        "delivered_title": "Jūsų siunta pristatyta",
+        "delivered_description_digital": "Jūsų užsakymas baigtas.",
+        "delivered_description_gift_card": {
+          "one": "Dovanų kuponas buvo išsiųstas el.",
+          "other": "Dovanų kuponai buvo išsiųsti el."
+        },
+        "delivered_description_gift_card_text": {
+          "one": "Dovanų kuponas išsiųstas žinute.",
+          "other": "Dovanų kuponai buvo išsiųsti žinute."
+        },
+        "gift_card_label": {
+          "one": "Dovanų kortelė",
+          "other": "Dovanų kuponai"
+        },
+        "gift_card_resend": {
+          "one": "Iš naujo siųsti el. laišką",
+          "other": "Iš naujo siųsti el"
+        },
+        "gift_card_resend_text": {
+          "one": "Iš naujo siųsti tekstą",
+          "other": "Iš naujo siųsti tekstus"
+        },
+        "gift_resend_success": {
+          "one": "Dovanų kortelė išsiųsta iš naujo",
+          "other": "Dovanų kortelės išsiųstos iš naujo"
+        },
+        "gift_resend_failure": {
+          "one": "Iš naujo siunčiant dovanų kortelę kilo problema. Bandykite dar kartą arba susisiekite su mumis.",
+          "other": "Iš naujo siunčiant dovanų korteles kilo problema. Bandykite dar kartą arba susisiekite su mumis."
+        },
+        "gift_card_resend_description": {
+          "one": "Jei jo negavote, iš naujo išsiųskite el. laišką arba",
+          "other": "Jei jų negavote, išsiųskite el. laiškus iš naujo arba"
+        },
+        "gift_card_resend_description_text": {
+          "one": "Jei jo negavote, iš naujo išsiųskite tekstą arba",
+          "other": "Jei jų negavote, siųskite tekstus dar kartą arba"
+        },
+        "confirmed_gift_card_additional_description": {
+          "one": "Dovanų kuponas bus išsiųstas atskiru el.",
+          "other": "Kiekviena dovanų kortelė bus išsiųsta atskiru el."
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "one": "Dovanų kuponas bus išsiųstas atskiru tekstu.",
+          "other": "Kiekviena dovanų kortelė bus išsiųsta atskiru tekstu."
+        },
+        "estimated_delivery": "Numatoma pristatymo {{date}}",
+        "in_review_description": "Informuosime jus, jei reikės daugiau informacijos arba kai jūsų užsakymas bus patvirtintas.",
+        "in_review_label": "Peržiūroje",
+        "in_review_title": "Jūsų užsakymas peržiūrimas",
+        "last_updated": "Paskutinį kartą atnaujinta {{date}}",
+        "multiple_shipments_label": "Kelios siuntos",
+        "no_tracking_number": "Šios siuntos sekimo numerio nėra.",
+        "on_its_way_label": "Pakeliui",
+        "on_its_way_title": "Jūsų siunta yra pakeliui",
+        "out_for_delivery_label": "Išvesta pristatymui",
+        "out_for_delivery_title": "Jūsų siunta išsiųsta"
       },
       "status_mark_as_delivered": "Pažymėti kaip pristatytą",
       "status_title": "Užsakymo būsena",
@@ -986,9 +1068,65 @@
           "list_view": {
             "overdue": "Uždelstas mokėjimas",
             "due": "Sumokėti {{date}}",
-            "due_today": "Mokėjimas turi būti atliktas šiandien"
+            "due_today": "Mokėjimas turi būti atliktas šiandien",
+            "due_without_date": "Mokėjimo terminas",
+            "due_on_fulfillment": "Mokėjimas įvykdžius",
+            "pay_to_confirm": "Mokėkite, kad patvirtintumėte",
+            "payment_not_due": "Mokėjimas dar nesumokėtas"
+          },
+          "table_view": {
+            "overdue": "Pavėluota",
+            "due": "Terminas {{date}}",
+            "due_today": "Iki šiandien",
+            "paid": "Mokama",
+            "due_without_date": "Dėl",
+            "due_on_fulfillment": "Sumokama iki įvykdymo",
+            "pay_to_confirm": "Mokėkite, kad patvirtintumėte",
+            "payment_not_due": "Dar neįvyko"
           }
-        }
+        },
+        "sort_by": "Rūšiuoti pagal: {{option}}",
+        "sort_hide_options_accessibility_label": "Slėpti patvirtintų užsakymų rūšiavimo parinktis.",
+        "sort_show_options_accessibility_label": "Rodyti patvirtintų užsakymų rūšiavimo parinktis.",
+        "sort_currently_sorted_by_accessibility_label": "Šiuo metu rūšiuojama pagal: {{option}}",
+        "sort_title": "Rūšiuoti",
+        "sort": {
+          "date": {
+            "newest": "Nuo naujausio iki seniausio",
+            "oldest": "Nuo seniausių iki naujausių"
+          },
+          "location": {
+            "ascending": "Vieta (AZ)",
+            "descending": "Vieta (ZA)"
+          },
+          "order_number": {
+            "ascending": "Užsakymo numeris (nuo mažo iki didelio)",
+            "descending": "Užsakymo numeris (nuo didelio iki mažo)"
+          },
+          "order_total": {
+            "ascending": "Bendras užsakymas (nuo mažo iki didžiausio)",
+            "descending": "Užsakymo suma (nuo didelio iki mažo)"
+          }
+        },
+        "filter_title": "Filtras",
+        "filter": {
+          "clear_section": "Išvalyti skyrių",
+          "clear_all": "Išvalyti viską",
+          "apply": "Taikyti",
+          "date": {
+            "start_date": "Pradžios data",
+            "end_date": "Pabaigos data",
+            "title": "Užsakymo data",
+            "today": "Šiandien",
+            "last_7_days": "Paskutines 7 dienas",
+            "last_30_days": "Paskutines 30 dienų",
+            "last_90_days": "Paskutines 90 dienų",
+            "last_365_days": "Paskutiniai 12 mėnesių",
+            "custom": "Pasirinktinis"
+          }
+        },
+        "table_view": "Rodyti lentelės vaizdą",
+        "show_order_actions_accessibility_label": "Rodyti užsakymo veiksmus {{name}}"
       }
     },
     "order_details": {
