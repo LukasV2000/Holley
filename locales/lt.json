@@ -1,0 +1,386 @@
+{
+  "shopify": {
+    "sentence": {
+      "two_words_connector": " ir ",
+      "last_word_connector": ", ir "
+    },
+    "checkout": {
+      "address_management": {
+        "confirm_address_deletion": "Ar tikrai norite ištrinti adresą {{address}} ?"
+      },
+      "general": {
+        "page_title": "Patikra",
+        "error_page_title": "Klaida",
+        "skip_to_content": "Pereiti prie turinio",
+        "breadcrumb": "Duonos trupiniai",
+        "continue_button_label": "Tęsti",
+        "complete_purchase_button_label": "Pilnas užsakymas",
+        "pay_now_button_label": "Sumokėk dabar",
+        "authenticate_purchase_button_label": "Patvirtinti mokėjimą",
+        "edit_link_label": "Redaguoti",
+        "all_rights_reserved": "Visos teisės saugomos %{shop_name}",
+        "print_policies_link_label": "Spausdinti",
+        "cart": "Krepšelis",
+        "close_modal_label": "Uždaryti",
+        "close_notice_label": "Uždaryti",
+        "expand_notice_label": "Peržiūrėti daugiau",
+        "continue_to_shipping_method": "Tęsti siuntimą",
+        "continue_to_payment_method": "Tęskite mokėjimą",
+        "continue_to_review": "Peržiūrėkite užsakymą",
+        "back_to_cart": "Grįžti į krepšelį",
+        "back_to_contact_information": "Grįžti į informaciją",
+        "back_to_shipping_method": "Grįžti į siuntimą",
+        "back_to_payment_method": "Grįžti į mokėjimą",
+        "choose_shipping_method": "Pasirinkite pristatymo būdą",
+        "choose_payment_method": "Pasirinkite mokėjimo būdą",
+        "choose_billing_address": "Pasirinkite atsiskaitymo adresą",
+        "contact_us_html": "Norėdami gauti daugiau informacijos, susisiekite su mumis",
+        "autocomplete_title": "Pasiūlymai",
+        "autocomplete_single_item": "Yra 1 prekė",
+        "autocomplete_multi_item": "Yra {{number}} elementų",
+        "autocomplete_close": "Uždaryti pasiūlymus",
+        "forwarding_indicator": {
+          "new_window": "Atsidaro naujame lange.",
+          "external": "Atidaro išorinę svetainę.",
+          "external_and_new_window": "Išorinė svetainė atidaroma naujame lange."
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} – Patikrinimas"
+        },
+        "tooltip_accessibility_label": "Daugiau informacijos",
+        "errors": {
+          "only_empty_terms_accepted": "Ši politika priima tik tuščias sąlygas.",
+          "session_identifier_not_unique_error": "Kažkas nepavyko su užsakymu, pabandykite dar kartą patikrinti.",
+          "line_item_limit_reached": "Pasiektas maksimalus eilutinių elementų skaičius.",
+          "session_is_already_finished": "Ši patikros sesija jau baigta.",
+          "merchandise": {
+            "only_value_constraint": "Prekių įvestyje leidžiamos tik tikslios vertės.",
+            "merchandise_not_found": "Prekė nerasta.",
+            "merchandise_variant_not_found": "Prekės variantas nerastas.",
+            "merchandise_not_applicable": "Prekės varianto įsigyti negalima.",
+            "digital_products_not_supported_for_b2b": "Skaitmeniniai produktai nepasiekiami B2B kontekste.",
+            "bundle_products_not_supported_for_b2b": "Sugrupuotų prekių negalima pridėti prie B2B užsakymų šioje vietoje.",
+            "gift_card_quantity_mismatch": "Nurodant dovanų kortelių kodus turi sutapti eilutės prekių kiekis ir dovanų kortelių kodų skaičius.",
+            "gift_card_not_supported": "Šioje kasoje dovanų kortelės nepalaikomos.",
+            "gift_card_not_unique": "Dovanų kortelė su kodu {{code}} atsiskaitoma daugiau nei vieną kartą. Kodai suformatuojami prieš palyginimą.",
+            "gift_card_used": "Dovanų kortelės kodas {{code}} jau priskirtas dovanų kortelei. Kodai suformatuojami prieš palyginimą.",
+            "gift_card_invalid": "Netinkamas dovanų kortelės kodas {{code}} .",
+            "gift_card_code_changed": "Dovanų kortelės kodas {{proposed_code}} pakeistas į {{formatted_code}} , kad atitiktų formatavimo taisykles.",
+            "gift_card_with_attributes_not_supported": "Dovanų kortelės su tinkintais atributais šioje kasoje nepalaikomos.",
+            "gift_card_with_components_not_supported": "Dovanų kortelės su komponentais šioje kasoje nepalaikomos.",
+            "selling_plan_mismatch": "Prenumerata buvo atnaujinta.",
+            "selling_plan_not_supported": "Prenumeratos nepalaikomos.",
+            "selling_plan_not_supported_b2b": "B2B patikros prenumeratos nepalaikomos.",
+            "price_mismatch": "Anksčiau pasiūlyta šios prekės kaina buvo neteisinga ir buvo atnaujinta.",
+            "inventory_not_found": "Šios prekės atsargų nerasta.",
+            "product_not_published": "Prekė neskelbiama.",
+            "duplicated_stable_id": "Ši prekių linija turi tą patį stabilų ID kaip ir kita linija.",
+            "minimum_quantity_not_met": "Šios prekės kiekis neatitinka minimalaus reikalaujamo {{min}} kiekio.",
+            "maximum_quantity_exceeded": "Šios prekės kiekis neatitinka didžiausio leistino {{max}} kiekio.",
+            "quantity_increment_not_met": "Šiai prekei turi būti pritaikytas {{increment}} kiekio padidėjimas.",
+            "quantity_rules_not_met": "Neteisingas prekių kiekis.",
+            "bundle_requires_components": "Šios pakuotės prekės neturi komponentų.",
+            "title_too_long": "Prekės pavadinimas per ilgas."
+          },
+          "buyer_identity": {
+            "business_customer_does_not_match_company": "Įmonės kontaktas neturi prieigos prie įmonės.",
+            "customer_account_required": "Klientas turi prisijungti, kad galėtų tęsti.",
+            "contact_info_does_not_match_customer_account": "Nurodyta kliento informacija turi atitikti prisijungusio kliento paskyrą.",
+            "phone_number_does_not_match_expected_pattern": "Nurodytas telefono numeris neatitinka numatyto modelio.",
+            "email_required": "Kai prekė perkama naudojant prenumeratą, būtinas el.",
+            "email_domain_is_invalid": "Šio nurodyto domeno nepavyko išspręsti.",
+            "missing_contact_method": "Trūksta galiojančio susisiekimo būdo.",
+            "checkout_completion_target_is_missing": "Trūksta patikros užbaigimo tikslo.",
+            "invalid_customer_profile": "Pateiktas netinkamas kliento profilis.",
+            "customer_profile_access_restricted": "„Checkout“ neturi leidimo pasiekti kliento profilį.",
+            "checkout_completion_target_is_invalid_proc": "Netinkamas atsiskaitymo užbaigimo tikslas."
+          },
+          "delivery": {
+            "only_one_delivery_line_allowed": "Krepšelyje turi būti tik viena pristatymo eilutė.",
+            "wrong_number_of_delivery_lines": "Kiekvienai prekių grupei turi būti nurodyta pristatymo linija.",
+            "external_delivery_promise_error": "Išorinio pristatymo pažado gavimo klaida.",
+            "options_instructions_invalid": "Nurodytos instrukcijos neatitinka numatyto modelio.",
+            "destination_address_required": "Norint tęsti, būtinas paskirties adresas.",
+            "pickup_points_unavailable": "Paėmimo taškai šiuo metu nepasiekiami.",
+            "local_pickup_delivery_line_detail_changed": "Norint tęsti, dabartinė vietinio atsiėmimo pristatymo strategija turi būti pakeista.",
+            "local_pickup_no_delivery_strategy_available": "Nerasta galimos vietinio atsiėmimo pristatymo strategijos.",
+            "origin_location_id_required": "Kilmės vietos ID reikalingas, kai reikalaujama pristatymo būdo mažmeninėje prekyboje.",
+            "invalid_origin_location_id": "Nepavyko rasti vietos, atitinkančios kilmės vietos ID.",
+            "origin_location_id_not_allowed": "Prašomi pristatymo metodai nepalaiko kilmės vietos ID.",
+            "auto_fulfill_not_allowed": "Ši sesija neturi teisės nepaisyti vykdymo elgesio.",
+            "auto_fulfill_required": "Reikalingas automatinis įvykdymas, kai prašoma pristatymo būdo MAŽMENINĖ PRIEMONĖ.",
+            "prefetch_shipping_rates_used": "Iš anksto gauti pristatymo įkainiai niekada neturėtų grąžinti įkainių.",
+            "fulfillment_constraints_not_satisfied": "Vienas ar keli įvykdymo apribojimai nebuvo įvykdyti.",
+            "must_fulfill_from_constraint_not_satisfied": "Vykdymo apribojimai netenkinami, nes elementai negali būti įvykdyti iš reikiamų vietų.",
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Įvykdymo apribojimai netenkinami, nes elementai negali būti įvykdyti iš tos pačios vietos.",
+            "delivery_strategy_conditions_not_satisfied": "Galimos pristatymo strategijos šioje vietoje, tačiau jų sąlygos netenkinamos.",
+            "out_of_stock_at_origin_location": "Pradinėje vietoje atsargų nėra."
+          }
+        }
+      },
+      "contact": {
+        "different_shipping_address_label": "Siunčiu kitu adresu",
+        "different_shipping_address_text": "Šiam užsakymui naudokite vienkartinį adresą",
+        "change_company_location_link_label": "Pakeiskite įmonės vietą",
+        "change_location_link_label": "Keisti vietą",
+        "ship_to_company": "Siuntimas į {{companyName}}"
+      },
+      "delivery_options": {
+        "free_total_label": "Laisvas",
+        "ship": "Laivas",
+        "shipping_address": "Pristatymas",
+        "pick_up": "Paimti",
+        "pick_up_locations": "Paėmimo vietos",
+        "pick_up_in_one_hour": "Paprastai paruošiama per 1 valandą",
+        "pick_up_in_two_hours": "Paprastai paruošiama per 2 valandas",
+        "pick_up_in_four_hours": "Paprastai paruošiama per 4 valandas",
+        "pick_up_in_twenty_four_hours": "Paprastai paruošiama per 24 valandas",
+        "pick_up_in_two_to_four_days": "Paprastai paruošiama per 2-4 dienas",
+        "pick_up_in_five_or_more_days": "Paprastai paruošiama per 5+ dienas",
+        "pick_up_in_zero_to_two_hours": "Paruošta pasiimti per 2 valandas",
+        "pick_up_in_two_to_four_hours": "Paruošta pasiimti per 4 valandas",
+        "pick_up_immediately": "Paruošta pasiimti dabar",
+        "pick_up_next_day": "Paruošta atsiimti kitą dieną",
+        "pickup_point_method_definition": "Siunčiu į atsiėmimo punktą",
+        "retail_method_definition": "Mažmeninis siuntimas",
+        "none_method_definition": "Jokio siuntimo",
+        "subscription_pickup_information": "Šis pristatymo būdas bus taikomas visoms šio užsakymo prekėms ir visiems būsimiems šios prenumeratos užsakymams."
+      },
+      "customer_account": {
+        "not_user_label": "Ne %{first_name}?",
+        "have_an_account_label": "Turite paskyrą?",
+        "sign_in_link_label": "Prisijungti",
+        "sign_out_link_label": "Atsijungti",
+        "save_my_information_label": "Išsaugokite šią informaciją kitam kartui",
+        "invalid_address": "Pasirinktas adresas neteisingas. %{update_address_link} arba pasirinkite kitą adresą.",
+        "incomplete_address": "Pasirinktas adresas neužbaigtas. %{update_address_link} arba pasirinkite kitą adresą.",
+        "rollup_label": "sąskaita",
+        "invalid_shipping_method_summary": "Pasirinkite galiojantį pristatymo adresą, kad pamatytumėte galimus pristatymo būdus"
+      },
+      "stock": {
+        "page_title": "Inventoriaus problemos",
+        "title": "Išparduota",
+        "items_unavailable_notice": "Kai kurių prekių nebėra.",
+        "product_column_header": "Produktai",
+        "quantity_column_header": "Kiekis",
+        "price_column_header": "Kaina",
+        "status_column_header": "Būsena",
+        "removed_from_cart_notice": "Išimtas iš krepšelio",
+        "sold_out_label": "Išparduota",
+        "reduced_label": "Sumažintas",
+        "reduced_with_quantity_label": "Liko tik %{quantity_available}",
+        "remove_from_cart_button_label": "Išimti iš krepšelio",
+        "continue_shopping_button_label": "Tęsti",
+        "go_back_to_cart_button_label": "Grįžk į mano krepšelį",
+        "remove": "Pašalinti",
+        "return_to_store_label": "Grįžti į parduotuvę",
+        "continue_cta_label": "Tęsti patikrą",
+        "item_label": {
+          "one": "{{count}} elementas",
+          "other": "{{count}} elementai"
+        },
+        "empty_cart_label": "Jūsų krepšelis tuščias",
+        "quantity_update": {
+          "page_title": "Kiekio atnaujinimas",
+          "title": "Kiekio atnaujinimas",
+          "description": "Galimi šių prekių kiekiai pasikeitė ir atnaujinami jūsų krepšelyje."
+        },
+        "unpurchasable_product": {
+          "title": "Neperkamas produktas",
+          "header": "Kai kurios prekės buvo pašalintos iš jūsų krepšelio",
+          "message": "Šios prekės nėra prieinamos B2B užsakymams.",
+          "status_column_header": "Nepasiekiamas"
+        },
+        "unpurchasable_product_generic": {
+          "title": "Neperkamas produktas",
+          "header": "Kai kurios prekės buvo pašalintos iš jūsų krepšelio",
+          "message": "Šios prekės nepasiekiamos.",
+          "status_column_header": "Nepasiekiamas"
+        },
+        "unshippable_product": {
+          "title": "Pristatymo nėra",
+          "header": {
+            "one": "%{count} prekės pristatymas nepasiekiamas",
+            "other": "%{count} prekių pristatymas nepasiekiamas"
+          },
+          "message": {
+            "one": "Ši prekė bus pašalinta iš jūsų krepšelio, nes jūsų adresu nėra pristatymo būdų.",
+            "other": "Šios prekės bus pašalintos iš jūsų krepšelio, nes jūsų adresu nėra pristatymo būdų."
+          },
+          "status_column_header": "Nėra pristatymo"
+        },
+        "price_update": {
+          "title": "Kainos atnaujinimas",
+          "description": "Šių prekių kainos pasikeitė ir atnaujinamos jūsų krepšelyje."
+        },
+        "out_of_stock": {
+          "description": "Šios prekės nebepasiekiamos ir buvo pašalintos iš jūsų krepšelio.",
+          "items_unavailable": "Kai kurios prekės nebepasiekiamos ir buvo pašalintos iš jūsų krepšelio."
+        }
+      },
+      "contextual_availability": {
+        "title": {
+          "one": "Nepasiekiamas produktas",
+          "other": "Nepasiekiami produktai"
+        },
+        "products_not_available": {
+          "one": "Šis produktas bus pašalintas iš jūsų krepšelio, nes jo nėra jūsų šalyje \/ regione.",
+          "other": "Šie produktai bus pašalinti iš jūsų krepšelio, nes jų nėra jūsų šalyje \/ regione."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "Šis produktas jūsų šalyje\/regione nepasiekiamas.",
+          "other": "Šių produktų nėra jūsų šalyje\/regione."
+        },
+        "unavailable_label": "Nepasiekiamas"
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "%{count} prekės pristatymas nepasiekiamas",
+            "other": "%{count} prekių pristatymas nepasiekiamas"
+          },
+          "message": {
+            "one": "Ši prekė bus pašalinta iš jūsų krepšelio, nes jūsų adresu nėra pristatymo būdų.",
+            "other": "Šios prekės bus pašalintos iš jūsų krepšelio, nes jūsų adresu nėra pristatymo būdų."
+          },
+          "label": "Nėra pristatymo"
+        }
+      },
+      "order_summary": {
+        "title": "Užsakymo santrauka",
+        "group_title_label": "„%{group_title}“ dalis",
+        "order_name_label": "Užsakymas %{name}",
+        "shopping_cart_label": "Pirkinių krepšelis",
+        "discount_title": "Nuolaida",
+        "discount_title_stacking": {
+          "one": "Nuolaida",
+          "other": "Nuolaidos"
+        },
+        "discount_order_stacking": {
+          "one": "Užsisakykite nuolaidą",
+          "other": "Užsakyti nuolaidas"
+        },
+        "discount_label": "Nuolaidos kodas",
+        "discount_not_found": "Nepavyko rasti galiojančios nuolaidos, atitinkančios įvestą kodą",
+        "discount_placeholder": "Nuolaidos kodas",
+        "enter_shipping_address": "Įveskite pristatymo adresą",
+        "gift_card_title": "Dovanų kortelė"
+      },
+      "shipping": {
+        "shipping_information_redirect_link": "Įveskite savo informaciją čia",
+        "loading_progressive_rates": "Ieškome daugiau įkainių…",
+        "no_other_methods_available": "Kitų metodų nėra",
+        "duties_and_taxes_options": {
+          "ddu_title": "Mokėti pristatymo metu",
+          "ddu_caption": "Gali būti taikomi papildomi mokesčiai",
+          "ddp_title": "Sumokėk dabar",
+          "ddp_caption": "Jokių papildomų mokesčių už pristatymą"
+        },
+        "shipping_method_combinations": {
+          "combination": "%{rest} ir %{current}"
+        },
+        "shipping_used_as_billing_notice": "Jis taip pat bus naudojamas kaip šio užsakymo atsiskaitymo adresas.",
+        "address_update": "Atnaujinti adresą",
+        "enter_address_manually_label": "Įveskite adresą rankiniu būdu",
+        "shipping_address_title": "Siųsti į",
+        "add_address": "Naudokite kitą adresą",
+        "add_delivery_instructions": "Pridėkite pristatymo instrukcijas",
+        "edit": "Redaguoti",
+        "delete": "Ištrinti",
+        "address_more": "Daugiau veiksmų šiuo adresu",
+        "address_edit": "Redaguoti adresą",
+        "address_delete": "Ištrinti adresą",
+        "address_confirm": "Ar tikrai norite ištrinti šį adresą iš savo paskyros?",
+        "address_form": {
+          "add_address": "Pridėti adresą",
+          "save": "Sutaupyti",
+          "cancel": "Atšaukti",
+          "generic_error": "Išsaugant jūsų adresą kilo problema. Prašau, pabandykite dar kartą.",
+          "one_time_address_subtitle": "Šiam užsakymui naudokite vienkartinį adresą"
+        },
+        "different_shipping_method_summary": "Įveskite kitą pristatymo adresą, kad pamatytumėte galimus pristatymo būdus",
+        "invalid_shipping_method_summary": "Įveskite galiojantį pristatymo adresą, kad pamatytumėte galimus pristatymo būdus",
+        "method_summary": {
+          "incomplete_address_entered": "Įveskite visą pristatymo adresą, kad pamatytumėte galimus pristatymo būdus",
+          "incomplete_address_selected": "Norėdami pamatyti galimus pristatymo būdus, pasirinkite visą pristatymo adresą"
+        },
+        "local_pickup": {
+          "search_address": "Ieškokite adreso",
+          "rollup_title": "Paėmimo vieta"
+        },
+        "missing_shipping_address": "Trūksta pristatymo adreso"
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "Papildoma informacija"
+        }
+      },
+      "payment": {
+        "amazon_payments_label": "„Amazon Pay“.",
+        "amazon_payments_login_hint": "Jūsų bus paprašyta prisijungti prie „Amazon“.",
+        "amazon_payments_logout": "Atsijunkite nuo „Amazon Pay“.",
+        "amazon_payments_failed_mfa_challenge": "Nepavyko naudoti pasirinkto mokėjimo metodo. Pasirinkite kitą metodą arba susisiekite su banku ar kortelės išdavėju.",
+        "amazon_payments_abandoned_mfa_challenge": "Nepavyko atlikti mokėjimo. Išbandykite kitą mokėjimo metodą arba susisiekite su banku ar kortelės išdavėju.",
+        "amazon_payments_could_not_enqueue_authorize": "Apdorojant mokėjimą kilo problema. Bandykite dar kartą arba naudokite kitą mokėjimo metodą.",
+        "title": "Mokėjimas",
+        "amount_left_to_pay_label": "Mokėjimo terminas:",
+        "discount_button_action_label": "Taikyti nuolaidos kodą",
+        "gift_card_code_label": "Dovanų kortelės kodas",
+        "apply_gift_card_button_label": "Taikyti",
+        "gift_card_balance_label": "Likutis:",
+        "supported_card_brands_more_label": "ir dar…",
+        "detected_card_brand": "Aptiktas kortelės prekės ženklas: {brand}",
+        "credit_card_vaulting_sign_in_banner_title": "Išsaugokite savo kredito kortelę",
+        "credit_card_vaulting_sign_in_banner_info": "Prisijunkite arba susikurkite paskyrą, kad išsaugotumėte savo kredito kortelę būsimiems pirkiniams.",
+        "credit_card_vaulting_sign_in_banner_button_label": "Prisijungti",
+        "ftd_vault_credit_card_label": "Išsaugokite šią kredito kortelę mano paskyroje, kad galėtumėte greičiau atsiskaityti",
+        "card_number_label": "Kortelės numeris",
+        "card_number_placeholder": "Kortelės numeris",
+        "card_pay_with": "Mokėti su:",
+        "card_security_notice": "Visos operacijos yra saugios ir užšifruotos.",
+        "card_security_vault_notice": "Mums reikia jūsų duomenų būsimiems mokėjimams. Visos operacijos yra saugios ir užšifruotos.",
+        "card_information_notice": "Visos operacijos yra saugios ir užšifruotos. Kredito kortelės informacija niekada nesaugoma.",
+        "name_on_card_label": "Vardas ant kortelės",
+        "name_on_card_placeholder": "Vardas ant kortelės",
+        "card_expired": "Baigėsi galiojimo laikas",
+        "card_expiry_label": "Galiojimo pabaigos data (MM \/ MM)",
+        "card_expiry_placeholder": "Galiojimo pabaigos data (MM \/ MM)",
+        "credit_card_start_month": "Pradėti mėnesį",
+        "credit_card_start_year": "Pradžios metai",
+        "delete_customer_mandate_modal_title": "Pašalinti šią mokėjimo kortelę?",
+        "delete_customer_mandate_modal_body": "Jei pašalinsite šią kortelę, turėsite ją vėl pridėti prieš naudodami ją mokėjimams.",
+        "delete_customer_mandate_modal_confirm": "Pašalinti kortelę",
+        "delete_customer_mandate_modal_cancel": "Atšaukti",
+        "card_verification_value_label": "Apsaugos kodas",
+        "card_verification_value_placeholder": "Apsaugos kodas",
+        "card_verification_confirm": "Patvirtinimo tikslais įveskite kortelės saugos kodą.",
+        "card_expiry_date_explanation": "Kortelės galiojimo laikas formatu: mėnuo, mėnuo, metai, metai",
+        "card_expiration_month_label": "Galiojimo pabaigos mėnuo",
+        "card_expiration_year_label": "Galiojimo laikas",
+        "card_verification_value_explanation": "3 skaitmenų saugos kodas paprastai randamas užpakalinėje kortelės pusėje. „American Express“ kortelės priekyje yra 4 skaitmenų kodas.",
+        "card_verification_value_explanation_amex": "4 skaitmenų saugos kodas kortelės priekyje",
+        "card_verification_value_explanation_other": "3 skaitmenų saugos kodas kortelės gale",
+        "card_start_label": "Išleidimo data (MM \/ MM)",
+        "card_start_placeholder": "Išleidimo data (MM \/ MM)",
+        "card_issue_number_label": "Išdavimo numeris",
+        "card_issue_number_placeholder": "Išdavimo numeris",
+        "card_change_label": "Keisti",
+        "card_update_label": "Atnaujinti kortelę",
+        "ends_with_label": "baigiasi %{last_digits}",
+        "payment_method_saved": "Mokėjimo būdas išsaugotas",
+        "card_vaulted_company_location": "Kortelė išsaugota šiai vietai",
+        "expiry_long": "(Galiojimo laikas baigiasi %{mėn.\/%{metus})",
+        "expiry_short": "(Galiojimo laikas %{mėn.\/%{metai})",
+        "saved_by_payment_method": "Išsaugota %{payment_method}",
+        "pay_with_payment_method": "Mokėti naudojant %{payment_metho}",
+        "different_credit_card_label": "Naudokite kitą kredito kortelę",
+        "same_billing_address_label": "Toks pat kaip ir pristatymo adresas",
+        "different_billing_address_label": "Naudokite kitą atsiskaitymo adresą",
+        "billing_address_associated_with_mandate": "Naudokite adresą, susietą su mokėjimo metodu",
+        "billing_address_associated_with_mandate_info": "Jei norite pakeisti atsiskaitymo adresą, pašalinkite ir iš naujo įveskite savo kredito kortelės duomenis",
+        "free_order_notice_html": "Jūsų užsakymas <strong>nemokamas<\/strong> . Mokėti nereikia.",
+        "express_checkout_free_order": "Nebūsite apmokestinti už nemokamą užsakymą"
+      }
+    }
+  }
+}
