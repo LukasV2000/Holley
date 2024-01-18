@@ -380,7 +380,428 @@
         "billing_address_associated_with_mandate_info": "Jei norite pakeisti atsiskaitymo adresą, pašalinkite ir iš naujo įveskite savo kredito kortelės duomenis",
         "free_order_notice_html": "Jūsų užsakymas <strong>nemokamas<\/strong> . Mokėti nereikia.",
         "express_checkout_free_order": "Nebūsite apmokestinti už nemokamą užsakymą"
+      },
+      "thank_you": {
+        "ready_for_pickup_title": "Jūsų užsakymas paruoštas atsiimti",
+        "ready_for_pickup_description": "Jūsų užsakymas paruoštas atsiimti. Atsiimdami užsakymą atsineškite užsakymo patvirtinimą.",
+        "ready_for_delivery_title": "Jūsų užsakymas paruoštas pristatymui",
+        "ready_for_delivery_description": "Mes paruošėme jūsų užsakymą.",
+        "order_updates_title": "Užsakyti atnaujinimus",
+        "shop_phone_description": "Gausite tekstą su nuoroda į parduotuvės programą, kuri padės sekti užsakymą.",
+        "order_updates_description_html": "Atnaujinimai bus išsiųsti %{customer_contact}",
+        "order_updates_current_step_prefix": "Dabartinis žingsnis: ",
+        "order_updates_past_step_prefix": "Ankstesnis žingsnis: ",
+        "order_updates_upcoming_step_prefix": "Būsimas žingsnis: ",
+        "in_transit": "Pakeliui",
+        "in_transit_title": "Jūsų užsakymas yra pakeliui",
+        "in_transit_description": "Gausite atnaujinimus apie jo eigą.",
+        "in_transit_description_days": "Užsakymą turėtumėte gauti per kitas %{number} dienas.",
+        "in_transit_description_today": "Užsakymą turėtumėte gauti šiandien.",
+        "in_transit_description_tomorrow": "Užsakymą turėtumėte gauti kitą dieną.",
+        "no_tracking_number": "Šiam užsakymui nėra stebėjimo numerio.",
+        "out_for_delivery": "Išvesta pristatymui",
+        "out_for_delivery_title": "Jūsų užsakymas išsiųstas",
+        "out_for_delivery_description_html": "Jūsų užsakymas yra pakeliui ir turėtų būti pristatytas šiandien. Jei jis nebus pristatytas per kitas 2 dienas, %{contact_us}.",
+        "out_for_delivery_local_title": "Jūsų užsakymas išsiųstas",
+        "out_for_delivery_local_description_html": "Jūsų užsakymas netrukus pasieks.",
+        "attempted_delivery": "Bandytas įvykdyti pristatymas",
+        "attempted_delivery_title": "Buvo bandoma pristatyti jūsų užsakymą",
+        "attempted_delivery_description_html": "Buvo bandyta pristatyti jūsų užsakymą, tačiau tai nepavyko. %{contact_us} ir susitarti dėl kito pristatymo bandymo.",
+        "attempted_delivery_local_title": "Praleistas pristatymas",
+        "attempted_delivery_local_description_html": "Negalėjome pristatyti jūsų užsakymo. Norėdami suplanuoti kitą pristatymą, %{contact_us}.",
+        "delivered": "Pristatyta",
+        "delivered_title": "Jūsų užsakymas pristatytas",
+        "delivered_description_html": "Jūsų užsakymas buvo pristatytas Jūsų nurodytu adresu. Jei jo negavote arba turite kitų problemų, %{contact_us}.",
+        "delivered_local_title": "Jūsų užsakymas pristatytas",
+        "delivered_local_description_html": "Negavote užsakymo? %{Praneškite mums}.",
+        "payment_method_draft_order": "Terminas po užsakymo peržiūros",
+        "choose_payment_method_later": "Mokėjimo būdą pasirinkite vėliau",
+        "picked_up_title": "Jūsų užsakymas buvo paimtas",
+        "picked_up_description_html": "Jūsų užsakymas buvo paimtas %{location_name} %{date}.",
+        "contact_us": "Susisiekite su mumis",
+        "contact_us_lowercase": "Susisiekite su mumis",
+        "contact_us_html": "Reikia pagalbos? %{Susisiekite su mumis}",
+        "updated_time": "Atnaujinta prieš %{time_ago}",
+        "failure": "Nepristatytas",
+        "failed_title": "Jūsų užsakymo pristatyti nepavyko",
+        "failed_contact_merchant": "Susisiekite su %{company} ir susitarkite dėl pristatymo.",
+        "failed_contact_merchant_no_company": "Susisiekite su mumis dėl pristatymo.",
+        "non_shippable_title": "Jūsų užsakymas baigtas",
+        "let_us_know": "Praneškite mums",
+        "login_title": "Prisijunkite, kad pamatytumėte visą užsakymo informaciją",
+        "login_description": "Užsakymo numerį galite rasti kvite, kurį gavote el. paštu.",
+        "login_description_phone": "Užsakymo numerį galite rasti kvite, kurį gavote SMS žinute.",
+        "login_not_customer_html": "Ne %{name}? Galite %{link}",
+        "login_reorder_link_text": {
+          "one": "įsigykite ir šį produktą",
+          "other": "pirkite ir šiuos produktus"
+        },
+        "customer_information_hidden_fields_message": "Prisijunkite, kad pamatytumėte visą klientų informaciją.",
+        "cancelled_title": "Jūsų užsakymas atšauktas",
+        "cancelled_description": "Jūsų užsakymas buvo atšauktas %{date}. Jei turite klausimų, susisiekite su mumis.",
+        "order_number_label": "Užsakymo numeris",
+        "customer_validation_error": "Įveskite galiojantį el. pašto adresą arba užsakymo numerį.",
+        "customer_validation_error_phone": "Įveskite galiojantį telefono arba užsakymo numerį.",
+        "login": "Prisijungti",
+        "unfulfilled_items_title": "Pasiruošimas siuntimui",
+        "unfulfilled_items_description": "Šiuo metu ruošiame šias prekes siuntimui.",
+        "marker": {
+          "current": "Dabartinė siuntos vieta",
+          "shipping": "Pristatymo adresas"
+        },
+        "pick_up_in_store_marker": {
+          "current": "Dabartinė siuntos vieta",
+          "shipping": "Paėmimo vieta"
+        },
+        "fulfillment": {
+          "fulfilled_table_title": "Prekės šioje siuntoje",
+          "unfulfilled_table_title": "Prekės ruošiamos siuntimui",
+          "product_image_label": "Produkto vaizdas",
+          "description_label": "apibūdinimas",
+          "quantity_label": "Kiekis"
+        },
+        "order_updates_description_missing": "Negaunate pristatymo naujienų.",
+        "order_updates_subscribe_to_email_notifications": "Gaukite naujienas apie pristatymą el. paštu",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Gaukite naujienas apie pristatymą el. paštu arba žinute",
+        "order_updates_subscribe_to_phone_notifications": "Gaukite pristatymo naujienas žinute",
+        "order_updates_submit_subscription": "Pateikti",
+        "track_shipment": "Stebėti siuntą",
+        "other_options": "Kiti variantai",
+        "delivery_information_label": "Pristatymo informacija:",
+        "gift_card_sent_confirmation": "Dovanų kuponai išsiųsti",
+        "qr_code": {
+          "send_link_to_phone": "Arba atsiųskite nuorodą į savo telefoną",
+          "title": "Stebėti savo telefone"
+        },
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Nuskaitykite telefonu"
+          },
+          "sms": {
+            "title": "Arba atsiųskite nuorodą į savo telefoną"
+          }
+        },
+        "view_business_customer_account": "Žiūrėti paskyrą",
+        "breadcrumbs_submitted": "Pateikta",
+        "breadcrumbs_in_review": "Peržiūroje",
+        "breadcrumbs_confirmed": "Patvirtinta",
+        "missing_shipping_address_banner": {
+          "title": "Užsakyme nėra pristatymo adreso",
+          "text_html": "%{contact_us}, kad pridėtumėte savo adresą",
+          "contact_us": "Susisiekite su mumis"
+        },
+        "first_payment_complete": "Pirmas mokėjimas atliktas",
+        "in_store_purchase": "Pirkimas parduotuvėje",
+        "location_title": "Vieta",
+        "thank_you_ready_for_picked_up": "Jūsų užsakymas buvo paimtas adresu %{address}.",
+        "ready_for_delivery": "Paruošta pristatymui",
+        "order_updates_subscribe_to_email_notifications_failed": "Negalime saugoti šio el. pašto, kad gautume atnaujinimus. Bandykite dar kartą arba naudokite kitą el. pašto adresą.",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "Jūsų įvestas el. pašto adresas jau yra.",
+        "subscriptions_management": {
+          "title": "Prenumerata",
+          "description": "Eikite į paskyrą, kad peržiūrėtumėte ir tvarkytumėte prenumeratas.",
+          "button_label": "Tvarkykite savo prenumeratą"
+        }
+      },
+      "notice_banner": {
+        "shipping_address_incomplete_title": "Pristatymo adresas neišsamus",
+        "calculating_shipping": "Siuntimas dar skaičiuojamas. Bandykite dar kartą po kelių sekundžių. Jūs nebuvote apmokestinti.",
+        "calculating_taxes": "Mokesčiai dar skaičiuojami. Bandykite dar kartą po kelių sekundžių. Jūs nebuvote apmokestinti."
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Apžvalga",
+          "link_label": "{{partnerDisplayName}} taisyklės ir nuostatos"
+        }
+      },
+      "online_store_chat": {
+        "title": "Klausimai? Kalbėkitės su mumis"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "Yra %{count} parduotuvė, kurios atsargos yra netoli %{address}",
+          "other": "Yra %{count} parduotuvių, kurių atsargos yra beveik %{address}"
+        },
+        "toggle_location": "Keisti mano vietą",
+        "or": "ARBA",
+        "cancel": "Atšaukti",
+        "your_location": "Jūsų vieta",
+        "search_button": "Raskite parduotuves",
+        "no_stores_found": "Parduotuvių nerasta",
+        "could_not_resolve_address": "Nepavyko rasti jūsų adreso. Bandykite dar kartą arba naudokite kitą adresą",
+        "paginator": {
+          "accessibility_label": "Vietinis paėmimo puslapių žymėjimas",
+          "previous": "Ankstesnis puslapis",
+          "next": "Kitas puslapis",
+          "label": {
+            "one": "%{first} - %{last} iš %{count} parduotuvės",
+            "other": "%{first} - %{last} iš %{count} parduotuvių"
+          }
+        },
+        "reveal_more_label": {
+          "one": "Rodyti dar %{count} vietą",
+          "other": "Rodyti dar %{count} vietas"
+        }
+      },
+      "captcha": {
+        "title": "Norėdami tęsti, užpildykite CAPTCHA",
+        "errors": {
+          "not_solved": "Norėdami tęsti, užpildykite CAPTCHA"
+        }
+      },
+      "discount_errors": {
+        "generic_error": "Jūsų užsakymo apdoroti nepavyko, nes nuolaidos kodas nebepasiekiamas. Peržiūrėkite visą užsakymo sumą ir bandykite dar kartą."
+      },
+      "shop_pay_external": {
+        "errors": {
+          "problem_loading": "Įkeliant „Shop Pay“ kilo problema",
+          "try_again_later": "Patikrinkite ryšį arba uždarykite šį langą ir po kelių akimirkų bandykite dar kartą."
+        },
+        "return_to_store": "Grįžti į {{shopName}}"
+      },
+      "wallets": {
+        "return_to_store": "Grįžti į parduotuvę",
+        "redirect_hint": "Jūsų bus paprašyta prisijungti naudojant {{walletName}} .",
+        "logged_in": "Prisijungta prie {{email}}",
+        "shipping_line_label": "Siuntimas",
+        "payment_in_progress_title": "Vykdomas mokėjimas",
+        "payment_in_progress_body": "Jūsų mokėjimas apdorojamas. Jūsų užsakymas netrukus bus baigtas.",
+        "call_to_action": "Mokėti naudojant {{walletName}}",
+        "redirection_notice": "Spustelėję „ {{buttonLabel}} “, būsite nukreipti į {{walletName}} , kad galėtumėte saugiai užbaigti pirkimą.",
+        "errors": {
+          "unavailable": {
+            "title": "{{walletName}} nepasiekiamas",
+            "description": "{{walletName}} nebuvo pasiekiamas. Naudokite kitą mokėjimo metodą arba bandykite dar kartą vėliau.",
+            "instructions": "Iškilo su {{walletName}} susijusi problema. Grįžkite į parduotuvę ir pabandykite dar kartą arba patikrinkite kitu būdu."
+          },
+          "generic": "Iškilo su {{walletName}} susijusi problema. Bandykite dar kartą arba naudokite kitą mokėjimo metodą.",
+          "terminal": "Iškilo su {{walletName}} susijusi problema. Naudokite kitą mokėjimo metodą.",
+          "detour": {
+            "stock_problems": "Kai kurių prekių nebėra. Uždarykite {{walletName}} ir bandykite dar kartą.",
+            "price_change": "Kai kurių prekių kainos pasikeitė. Uždarykite {{walletName}} , kad peržiūrėtumėte užsakymą ir bandykite dar kartą.",
+            "queue": "Jūs buvote įtraukti į eilę, kad galėtumėte atsiskaityti. Norėdami tęsti, uždarykite {{walletName}} ."
+          },
+          "unsupported": {
+            "address": "Prekybininkas negali pristatyti šiuo adresu",
+            "postal_code": "Ši vieta nepalaikoma"
+          },
+          "outdated": {
+            "shipping_method": "Pasikeitė jūsų užsakymo pristatymo parinktys. Peržiūrėkite savo pasirinkimą."
+          },
+          "invalid": {
+            "shipping_address": "Įveskite galiojantį pristatymo adresą",
+            "billing_address": "Įveskite galiojantį atsiskaitymo adresą",
+            "shipping_option": "Pasirinkite tinkamą pristatymo parinktį",
+            "email": "Įveskite galiojantį el. pašto adresą",
+            "zone": "Įveskite galiojančią valstiją \/ provinciją",
+            "postal_code": "Įveskite galiojantį pašto kodą",
+            "reduction_code": "Įveskite galiojantį nuolaidos kodą arba dovanų kortelę"
+          },
+          "missing": {
+            "first_name": "Įveskite vardą",
+            "last_name": "Įveskite pavardę",
+            "address1": "Įveskite adresą",
+            "address2": "Įveskite butą, apartamentą ir pan.",
+            "city": "Įveskite miestą",
+            "province": "Pasirinkite valstiją \/ provinciją",
+            "country": "Pasirinkite šalį\/regioną",
+            "zip": "Įveskite pašto kodą \/ pašto kodą",
+            "phone": "Įveskite telefono numerį"
+          },
+          "formatting": {
+            "name_contains_emojis": "Ištrinkite jaustukus iš savo vardo",
+            "postal_code_contains_emoji": "Ištrinkite jaustukus iš pašto kodo",
+            "first_name_too_long": "Varde yra per daug raidžių",
+            "last_name_too_long": "Pavardėje yra per daug raidžių"
+          }
+        }
+      },
+      "note": {
+        "length_exceeds_maximum": "Sumažinkite užrašo dydį iki 5 000 ar mažiau simbolių."
       }
+    },
+    "pagination": {
+      "previous": "Ankstesnis",
+      "next": "Kitas"
+    },
+    "links": {
+      "powered_by_shopify": "Parduodama Shopify",
+      "learn_more": "Sužinokite daugiau"
+    },
+    "feed": {
+      "more": "Daugiau"
+    },
+    "attributes": {
+      "email": "paštu",
+      "password": "Slaptažodis",
+      "password_confirmation": "Slaptažodžio patvirtinimas",
+      "first_name": "Pirmas vardas",
+      "last_name": "pavardė",
+      "body": "kūnas",
+      "signature": "Adresas"
+    },
+    "addresses": {
+      "zip_code": "pašto kodas",
+      "postal_code": "Pašto kodas",
+      "postcode": "Pašto indeksas",
+      "pincode": "PIN kodas",
+      "region": "Regionas",
+      "prefecture": "prefektūra",
+      "province": "Provincija",
+      "state": "valstybė",
+      "state_and_territory": "Valstybė\/teritorija",
+      "county": "Apygarda",
+      "emirate": "Emyratas",
+      "governorate": "Gubernacija",
+      "confirm": "Ar tikrai norite ištrinti šį adresą?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Teminiai",
+        "best_selling": "Gerai parduodamas",
+        "az": "Abėcėlės tvarka AZ",
+        "za": "Abėcėlės tvarka ZA",
+        "price_ascending": "Kaina nuo mažos iki didelės",
+        "price_descending": "Kaina nuo didelės iki mažiausios",
+        "date_ascending": "Data, nuo seno iki naujo"
+      }
+    }
+  },
+  "customer_accounts": {
+    "orders": {
+      "order_status": {
+        "resume_tracking": "Tęsti stebėjimą",
+        "submitted_label": "Pateikta",
+        "submitted_description": "Peržiūrėkite užsakymo ir mokėjimo informaciją.",
+        "there_was_a_problem_label": "Ten buvo problema",
+        "track_shipment": "Stebėti siuntą",
+        "request_return": "Prašyti grąžinimo",
+        "view_order_for_details": "Norėdami gauti daugiau informacijos, žiūrėkite užsakymą",
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "text": "Stebėkite ir valdykite „Pirkti naudojant pagrindinį užsakymą“.",
+            "new_window_disclaimer": "(atidaro naują langą)"
+          }
+        }
+      },
+      "status_mark_as_delivered": "Pažymėti kaip pristatytą",
+      "status_title": "Užsakymo būsena",
+      "buy_again": "Pirkite dar kartą",
+      "buy_again_accessibility_label": "Pirkite dar kartą pagal užsakymą {{orderId}}",
+      "manage": "Tvarkyti",
+      "manage_accessiblity_label": "Tvarkyti užsakymą {{orderId}}",
+      "group_title_label": "Dalis: {{groupTitle}}",
+      "havent_received_your_delivery": "Negavote siuntinio?",
+      "didnt_pick_up_order": "Neatsiėmėte užsakymo?",
+      "if_you_didnt_receive_this": "Jei to negavote,",
+      "if_not_received": {
+        "one": "Jei jis nebuvo gautas,",
+        "other": "Jei jie nebuvo gauti,"
+      },
+      "let_us_know": "Praneškite mums",
+      "contact_us": "Susisiekite su mumis."
+    },
+    "order_details": {
+      "shipment_timeline": {
+        "expand_events_label": "Parodyk detales",
+        "expand_events_accessibility_label": "Rodyti užsakymo siuntimo informaciją",
+        "hide_events_label": "Paslėpti detales",
+        "hide_events_accessibility_label": "Slėpti užsakymo siuntimo informaciją"
+      },
+      "addresses_section_title": "Atsiskaitymas ir siuntimas",
+      "order_details": "Užsakymo detalės",
+      "order_details_skeleton_accessibility_label": "Prisijunkite norėdami pamatyti visą užsakymo informaciją.",
+      "billing_address": "Atsiskaitymo adresas",
+      "card_ending_with": "baigiasi {{lastDigits}}",
+      "contact": "kontaktas",
+      "contact_information": "Kontaktinė informacija",
+      "company": "Bendrovė",
+      "fully_refunded_label": "GRĄŽINTA",
+      "group_title_label": "Dalis: {{groupTitle}}",
+      "discount": "Nuolaida",
+      "hide_items": "Slėpti elementus",
+      "loading": "Įkeliama užsakymo informacija",
+      "loading_finished_accessibility_message": "Užsakymo informacija buvo įkelta",
+      "location": "Vieta",
+      "image_gallery": {
+        "next": "Rodyti kitus elementus",
+        "previous": "Rodyti ankstesnius elementus"
+      },
+      "mobile_summary_toggle_button": {
+        "open": "Rodyti užsakymo suvestinę",
+        "closed": "Slėpti užsakymo suvestinę"
+      },
+      "no_data": "Nė vienas",
+      "no_data_provided_accessibility_label": "{{fieldName}} yra tuščias",
+      "paid_amount": "Mokama",
+      "partially_refunded_label": "IŠDAL GRĄŽINTA",
+      "payment": {
+        "status_in_review": "Mokėjimas po peržiūros",
+        "status_unpaid": "Mokėjimo terminas {{date}}",
+        "title": "Mokėjimas",
+        "card_payment_details": "baigiasi {{lastDigits}} – {{formattedTransactionAmount}}",
+        "gift_card_payment_details": "baigiasi {{lastDigits}} – {{formattedTransactionAmount}}",
+        "store_credit_payment_details": "Parduotuvės kreditas – {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "Mokama Shop Pay išsimokėtinai",
+          "view_schedule": "Žiūrėti tvarkaraštį"
+        },
+        "manual_payment_methods": {
+          "money_order": "Pinigų pavedimas – {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Grynieji pinigai pristatymo metu (COD) – {{formattedTransactionAmount}}",
+          "bank_deposit": "Banko indėlis – {{formattedTransactionAmount}}",
+          "manual": "Rankinis – {{formattedTransactionAmount}}"
+        },
+        "transactions": {
+          "show_all": "Rodyti viską",
+          "show_less": "Rodyti mažiau"
+        }
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Mokama parduotuvėje, mokėkite išsimokėtinai",
+        "description": "Sekite savo mokėjimų tvarkaraštį naudodami priminimus „Shop“ programoje.",
+        "payment_reminders_button": "Gaukite mokėjimo priminimus",
+        "desktop_qr_code_content": {
+          "title": "Ieškokite priminimų",
+          "description": "Gaukite priminimus apie įmokas naudodami „Shop“."
+        }
+      },
+      "refunded_amount": "Grąžinta",
+      "request_return_failed": "Apdorojant jūsų užklausą kilo problema. Prašau, pabandykite dar kartą.",
+      "remaining_amount": "Likę",
+      "marketing_section_title": "Naujienos ir pasiūlymai",
+      "marketing_description": "Gausite rinkodaros el. laiškus. Galite bet kada atsisakyti prenumeratos.",
+      "marketing_checkbox_label": "Rašykite man su naujienomis ir pasiūlymais el",
+      "marketing_checkmark_label": "Jūs užsiprenumeravote naujienas ir pasiūlymus el. paštu",
+      "returns": {
+        "expand_events_label": "Parodyk detales",
+        "hide_events_label": "Paslėpti detales",
+        "ineligible_return_message": "Jokių šio užsakymo prekių grąžinti negalima.",
+        "ineligible_return_message_when_returned": "Jokių papildomų šio užsakymo prekių grąžinti negalima.",
+        "print_shipping_label": "Spausdinti siuntimo etiketę",
+        "return_and_refund_modal_header": "Grąžinimo politika",
+        "tracking_number": "Sekimo numeris:"
+      },
+      "shipping": {
+        "address": "Pristatymo adresas",
+        "address_map_marker": "Pristatymo adresas",
+        "method": "Atsiuntimo metodas",
+        "summary": "Siuntimas",
+        "free": "Laisvas",
+        "free_shipping_discount": "Nemokamas pristatymas",
+        "one_time": "Vienkartinis siuntimas",
+        "subscription": "Prenumeratos siuntimas"
+      },
+      "pickup": {
+        "pickup": "Paimti",
+        "pickup_location": "Paėmimo vieta"
+      },
+      "show_items": "Rodyti elementus",
+      "show_order_summary": "Rodyti užsakymo suvestinę",
+      "hide_order_summary": "Slėpti užsakymo suvestinę",
+      "subtitle": "Patvirtinta {{date}}",
+      "subtotal": "Tarpinė suma",
+      "summary_list_title_accessibility_label": "Užsisakykite prekes"
     }
   }
 }
