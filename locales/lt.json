@@ -9,13 +9,13 @@
         "confirm_address_deletion": "Ar tikrai norite ištrinti adresą {{address}} ?"
       },
       "general": {
-        "page_title": "Patikra",
+        "page_title": "Atsiskaitymas",
         "error_page_title": "Klaida",
         "skip_to_content": "Pereiti prie turinio",
         "breadcrumb": "Duonos trupiniai",
         "continue_button_label": "Tęsti",
-        "complete_purchase_button_label": "Pilnas užsakymas",
-        "pay_now_button_label": "Sumokėk dabar",
+        "complete_purchase_button_label": "Pabaigti užsakymą",
+        "pay_now_button_label": "Sumokėti dabar",
         "authenticate_purchase_button_label": "Patvirtinti mokėjimą",
         "edit_link_label": "Redaguoti",
         "all_rights_reserved": "Visos teisės saugomos %{shop_name}",
