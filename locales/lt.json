@@ -92,7 +92,7 @@
             "missing_contact_method": "Trūksta galiojančio susisiekimo būdo.",
             "checkout_completion_target_is_missing": "Trūksta patikros užbaigimo tikslo.",
             "invalid_customer_profile": "Pateiktas netinkamas kliento profilis.",
-            "customer_profile_access_restricted": "„Checkout“ neturi leidimo pasiekti kliento profilį.",
+            "customer_profile_access_restricted": "„Atsiskaitymas“ neturi leidimo pasiekti kliento profilį.",
             "checkout_completion_target_is_invalid_proc": "Netinkamas atsiskaitymo užbaigimo tikslas."
           },
           "delivery": {
@@ -102,8 +102,8 @@
             "options_instructions_invalid": "Nurodytos instrukcijos neatitinka numatyto modelio.",
             "destination_address_required": "Norint tęsti, būtinas paskirties adresas.",
             "pickup_points_unavailable": "Paėmimo taškai šiuo metu nepasiekiami.",
-            "local_pickup_delivery_line_detail_changed": "Norint tęsti, dabartinė vietinio atsiėmimo pristatymo strategija turi būti pakeista.",
-            "local_pickup_no_delivery_strategy_available": "Nerasta galimos vietinio atsiėmimo pristatymo strategijos.",
+            "local_pickup_delivery_line_detail_changed": "Norint tęsti, dabartinė vietinio atsiėmimo pristatymo vieta turi būti pakeista.",
+            "local_pickup_no_delivery_strategy_available": "Nerasta galimos vietinio atsiėmimo pristatymo vietos.",
             "origin_location_id_required": "Kilmės vietos ID reikalingas, kai reikalaujama pristatymo būdo mažmeninėje prekyboje.",
             "invalid_origin_location_id": "Nepavyko rasti vietos, atitinkančios kilmės vietos ID.",
             "origin_location_id_not_allowed": "Prašomi pristatymo metodai nepalaiko kilmės vietos ID.",
