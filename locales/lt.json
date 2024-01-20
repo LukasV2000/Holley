@@ -37,7 +37,7 @@
         "contact_us_html": "Norėdami gauti daugiau informacijos, susisiekite su mumis",
         "autocomplete_title": "Pasiūlymai",
         "autocomplete_single_item": "Yra 1 prekė",
-        "autocomplete_multi_item": "Yra {{number}} elementų",
+        "autocomplete_multi_item": "Yra {{number}} prekės(-ių)",
         "autocomplete_close": "Uždaryti pasiūlymus",
         "forwarding_indicator": {
           "new_window": "Atsidaro naujame lange.",
