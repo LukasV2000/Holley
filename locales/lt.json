@@ -3358,7 +3358,153 @@
     },
     "cart": {
       "view": "Peržiūrėti mano krepšelį ( {{ count }} )",
-      "open": "Atidaryti krepšelį"
+      "open": "Atidaryti krepšelį",
+      "qty_max_note": "Visos turimos prekės krepšelyje",
+      "item_added": "Prekė įdėta į krepšelį",
+      "recommendations": {
+        "heading": "tau taip pat gali patikti"
+      },
+      "notification": {
+        "title": "Įdėta į krepšelį",
+        "go_to_cart": "Eikite į krepšelį"
+      }
+    },
+    "share": {
+      "close": "Uždaryti bendrinimą",
+      "copy_to_clipboard": "Nukopijuoti nuorodą",
+      "share_url": "Nuoroda",
+      "success_message": "Nuoroda nukopijuota į mainų sritį",
+      "facebook": "Dalintis",
+      "twitter": "Tviteryje",
+      "pinterest": "Smeigtukas",
+      "email": "paštas"
+    },
+    "slider": {
+      "of": "apie",
+      "next_slide": "Eiti į kitą skaidrę",
+      "previous_slide": "Eiti į ankstesnę skaidrę"
+    },
+    "breadcrumbs": "naršymas"
+  },
+  "newsletter": {
+    "long_label": "Įrašykite savo el. paštą",
+    "success": "Ačiū, kad užsiprenumeravote",
+    "button_label": "Prenumeruoti"
+  },
+  "accessibility": {
+    "skip_to_product_info": "Pereiti prie produkto informacijos",
+    "vendor": "Pardavėjas:",
+    "refresh_page": "Pasirinkus pasirinkimą bus atnaujintas visas puslapis.",
+    "loading": "Įkeliama...",
+    "total_reviews": "viso atsiliepimų",
+    "star_reviews_info": "{{ rating_value }} iš {{ rating_max }} žvaigždučių"
+  },
+  "blogs": {
+    "article": {
+      "blog": "Dienoraštis",
+      "written_by": "Parašė {{ author }}",
+      "read_more_title": "Skaityti daugiau: {{ title }}",
+      "comments": {
+        "one": "{{ count }} komentaras",
+        "other": "{{ count }} komentarų"
+      },
+      "moderated": "Atminkite, kad komentarai turi būti patvirtinti prieš juos paskelbiant.",
+      "comment_form_title": "Palikite komentarą",
+      "message": "komentuoti",
+      "post": "Paskelbti komentarą",
+      "back_to_blog": "Grįžti į tinklaraštį",
+      "share": "Pasidalinkite šiuo straipsniu",
+      "success": "Jūsų komentaras sėkmingai paskelbtas! Ačiū!",
+      "success_moderated": "Jūsų komentaras sėkmingai paskelbtas. Po kurio laiko paskelbsime, nes mūsų tinklaraštis moderuojamas."
+    }
+  },
+  "onboarding": {
+    "product_title": "Produkto pavadinimo pavyzdys",
+    "collection_title": "Jūsų kolekcijos pavadinimas",
+    "blog_title": "Tinklaraščio pavadinimo pavyzdys"
+  },
+  "products": {
+    "total_price": "Bendra kaina:",
+    "select": "Pasirinkite",
+    "selected": "Pasirinkta",
+    "currently_viewing": "Šiuo metu žiūrima",
+    "add_count_items_to_cart_html": "Į krepšelį įdėkite <span data-i18n-amount>{{ amount }}<\/span> prekių",
+    "product": {
+      "add_to_cart": "Į krepšelį",
+      "description_read_mode": "Skaityti daugiau",
+      "on_sale": "Išpardavimas",
+      "saved_amount": "{{ value }} nuolaida",
+      "product_variants": "Prekių variantai",
+      "back_to_product": "Grįžti į produktą",
+      "quick_view": "Greita peržiūra",
+      "show_options": "Rodyti parinktis",
+      "express_show_options": "Galimybės",
+      "more_details": "Daugiau informacijos apie gaminį",
+      "review_count": {
+        "one": "apžvalga",
+        "other": "apžvalgos"
+      },
+      "stock_alert": {
+        "in_stock_msg": "Yra sandėlyje ir paruoštas siuntimui",
+        "low_stock_msg": "Sandėlyje liko tik {{ value }} !"
+      },
+      "stock_notification": {
+        "form": {
+          "label": "Pranešti apie atsargas",
+          "product": "Produktas",
+          "variant": "Variantas",
+          "email_placeholder": "Tavo elektroninis paštas",
+          "send": "Pranešk man"
+        },
+        "heading": "Pranešimas apie atsargas",
+        "subheading": "Gaukite pranešimą, kai šis produktas vėl bus pasiekiamas",
+        "post_success": {
+          "heading": "Užsiprenumeravote!",
+          "subheading": "Kai tik ši prekė bus sandėlyje, atsiųsime el"
+        }
+      },
+      "question": {
+        "label": "Klausimas",
+        "placeholder": "Įveskite klausimą"
+      },
+      "media": {
+        "zoom_loading": "Keičiamas vaizdas...",
+        "zoom_title": "Norėdami priartinti, užveskite paveikslėlį",
+        "gallery_viewer": "Galerijos peržiūros priemonė",
+        "load_image": "Įkelti vaizdą {{ index }} galerijos rodinyje",
+        "load_model": "Įkelti 3D modelį {{ index }} galerijos rodinyje",
+        "load_video": "Paleiskite vaizdo įrašą {{ index }} galerijos rodinyje",
+        "image_available": "Vaizdas {{ index }} dabar pasiekiamas galerijos rodinyje",
+        "open_media": "Atidarykite mediją {{ index }} modaliniu režimu",
+        "play_model": "Žaisti 3D vaizduoklę",
+        "play_video": "Leisti vaizdo įrašą"
+      },
+      "quantity": {
+        "input_label": "{{ product }} kiekis",
+        "increase": "Padidinti {{ product }} kiekį",
+        "decrease": "Sumažinti {{ product }} kiekį"
+      },
+      "pickup_availability": {
+        "view_store_info": "Peržiūrėkite parduotuvės informaciją",
+        "check_other_stores": "Patikrinkite prieinamumą kitose parduotuvėse",
+        "pick_up_available": "Galimas paėmimas",
+        "pick_up_unavailable": "Atsiėmimas nepasiekiamas",
+        "pick_up_available_at_html": "Galimas atsiimti <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "pick_up_unavailable_at_html": "Šiuo metu atsiimti negalima iš <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "unavailable": "Nepavyko įkelti atsiėmimo pasiekiamumo",
+        "refresh": "Atnaujinti",
+        "directions": "Gauti nuorodas"
+      },
+      "price": {
+        "from_price_html": "Nuo {{ price }}",
+        "regular_price": "Reguliari kaina",
+        "unit_price": "Vieneto kaina",
+        "save_price": "Jūs taupote"
+      },
+      "popup": {
+        "no_page": "Prašome pateikti puslapį"
+      },
+      "share": "Pasidalinkite šiuo produktu"
     }
   }
 }
