@@ -3534,22 +3534,22 @@
   },
   "blogs": {
     "article": {
-      "blog": "Dienoraštis",
+      "blog": "Tinklaraštis",
       "written_by": "Parašė {{ author }}",
       "read_more_title": "Skaityti daugiau: {{ title }}",
       "comments": {
         "one": "{{ count }} komentaras",
-        "other": "{{ count }} komentarų"
+        "other": "{{ count }} komentarai"
       },
       "moderated": "Atminkite, kad komentarai turi būti patvirtinti prieš juos paskelbiant.",
-      "comment_form_title": "Palikite komentarą",
-      "message": "komentuoti",
+      "comment_form_title": "Palikti komentarą",
+      "message": "Komentaras",
       "post": "Paskelbti komentarą",
       "back_to_blog": "Grįžti į tinklaraštį",
-      "share": "Pasidalinkite šiuo straipsniu",
+      "share": "Pasidalinti šiuo straipsniu",
       "success": "Jūsų komentaras sėkmingai paskelbtas! Ačiū!",
       "success_moderated": "Jūsų komentaras sėkmingai paskelbtas. Po kurio laiko paskelbsime, nes mūsų tinklaraštis moderuojamas.",
-      "name": "vardas",
+      "name": "Vardas",
       "email": "El. paštas"
     }
   },
