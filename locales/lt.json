@@ -50,9 +50,9 @@
         "tooltip_accessibility_label": "Daugiau informacijos",
         "errors": {
           "only_empty_terms_accepted": "Ši politika priima tik tuščias sąlygas.",
-          "session_identifier_not_unique_error": "Kažkas nepavyko su užsakymu, pabandykite dar kartą patikrinti.",
-          "line_item_limit_reached": "Pasiektas maksimalus eilutinių elementų skaičius.",
-          "session_is_already_finished": "Ši patikros sesija jau baigta.",
+          "session_identifier_not_unique_error": "Kažkas nepavyko su užsakymu, pabandykite dar kartą.",
+          "line_item_limit_reached": "Pasiektas maksimalus prekių skaičius.",
+          "session_is_already_finished": "Ši atsiskaitymo sesija jau baigta.",
           "merchandise": {
             "only_value_constraint": "Prekių įvestyje leidžiamos tik tikslios vertės.",
             "merchandise_not_found": "Prekė nerasta.",
@@ -60,8 +60,8 @@
             "merchandise_not_applicable": "Prekės varianto įsigyti negalima.",
             "digital_products_not_supported_for_b2b": "Skaitmeniniai produktai nepasiekiami B2B kontekste.",
             "bundle_products_not_supported_for_b2b": "Sugrupuotų prekių negalima pridėti prie B2B užsakymų šioje vietoje.",
-            "gift_card_quantity_mismatch": "Nurodant dovanų kortelių kodus turi sutapti eilutės prekių kiekis ir dovanų kortelių kodų skaičius.",
-            "gift_card_not_supported": "Šioje kasoje dovanų kortelės nepalaikomos.",
+            "gift_card_quantity_mismatch": "Nurodant dovanų kortelių kodus turi sutapti prekių kiekis ir dovanų kortelių kodų skaičius.",
+            "gift_card_not_supported": "Dovanų kortelės nepalaikomos.",
             "gift_card_not_unique": "Dovanų kortelė su kodu {{code}} atsiskaitoma daugiau nei vieną kartą. Kodai suformatuojami prieš palyginimą.",
             "gift_card_used": "Dovanų kortelės kodas {{code}} jau priskirtas dovanų kortelei. Kodai suformatuojami prieš palyginimą.",
             "gift_card_invalid": "Netinkamas dovanų kortelės kodas {{code}} .",
