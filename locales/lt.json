@@ -3718,11 +3718,11 @@
     },
     "contact": {
       "form": {
-        "comment": "komentuoti",
+        "comment": "Komentaras",
         "send": "Siųsti žinutę",
         "post_success": "Dėkojame, kad susisiekėte su mumis. Su jumis susisieksime kuo greičiau.",
         "error_heading": "Pakoreguokite šiuos dalykus:",
-        "name": "vardas",
+        "name": "Vardas",
         "email": "El. paštas",
         "phone": "Telefono numeris"
       }
