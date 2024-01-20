@@ -3303,7 +3303,7 @@
       "details": "Sąskaitos informacija",
       "view_addresses": "Peržiūrėkite adresus",
       "return": "Grįžti į paskyros informaciją",
-      "title": "sąskaita"
+      "title": "Sąskaita"
     },
     "activate_account": {
       "title": "Suaktyvinti paskyrą",
@@ -3325,7 +3325,7 @@
       "password_confirm": "Patvirtinti slaptažodį",
       "submit": "Atstatyti slaptažodį"
     },
-    "account_fallback": "sąskaita"
+    "account_fallback": "Sąskaita"
   },
   "gift_cards": {
     "issued": {
