@@ -1454,7 +1454,8 @@
         "address_last_name_contains_mathematical_symbols": "Pavardėje negali būti matematinių simbolių",
         "address_address1_blank": "Įveskite adresą",
         "address_address1_too_long": "Pirmoji adreso eilutė per ilga (daugiausia 255 simboliai)",
-        "address_address1_contains_emojis": "Adrese1 negali būti jaustukų"
+        "address_address1_contains_emojis": "Adrese1 negali būti jaustukų",
+        "address_suggestion_did_you_mean_html": "Ar turėjote omenyje %{html}?"
       },
       "payment_errors": {
         "deferred_amount_changed": "Jūsų mokėjimo apdoroti nepavyko, nes pasikeitė atidėto mokėjimo suma. Patikrinkite užsakymą ir bandykite dar kartą.",
@@ -1492,7 +1493,15 @@
         "successful_offsite_with_gift_card_error": "Apdorojant mokėjimą dovanų kortele kilo problema. Bandykite dar kartą arba naudokite kitą mokėjimo metodą.",
         "development_store_order_limit_reached": "Pasiekėte kūrimo parduotuvės užsakymų limitą naudodami šį mokėjimų apdorojimo įrankį. Norėdami pateikti kitą užsakymą, turėsite naudoti bandomąjį mokėjimo šliuzą. Sužinokite daugiau apie %{development_store_order_testing_docs_link}.",
         "development_store_with_order_limit": "Norėdami pateikti bandomąjį užsakymą, turėsite naudoti bandomąjį mokėjimo šliuzą. Sužinokite daugiau apie %{development_store_order_testing_docs_link}.",
-        "development_store_order_testing_docs_link": "užsakymų testavimas kūrimo parduotuvėse"
+        "development_store_order_testing_docs_link": "užsakymų testavimas kūrimo parduotuvėse",
+        "method_not_available": "Prašomas mokėjimo būdas nepasiekiamas.",
+        "available_methods_updated": "Galimi mokėjimo būdai buvo atnaujinti.",
+        "generic_error": "Apdorojant mokėjimą kilo problema. Bandykite dar kartą arba naudokite kitą mokėjimo metodą.",
+        "rejected_transaction": "Jūsų mokėjimas buvo atmestas. Bandykite dar kartą arba naudokite kitą mokėjimo metodą.",
+        "credit_card_processing": "Jūsų mokėjimo negalima apdoroti dėl techninių priežasčių. Bandykite dar kartą po kelių minučių arba naudokite kitą mokėjimo metodą.",
+        "checkout_amount_changed": "Mokėjimo apdoroti nepavyko, nes pasikeitė atsiskaitymo metu mokėtina suma. Patikrinkite užsakymą ir bandykite dar kartą.",
+        "deferred_payment_not_allowed": "Atidėti mokėjimai neleidžiami. Patikrinkite užsakymą ir bandykite dar kartą.",
+        "deferred_payment_required": "Šiam užsakymui reikalingas atidėtas mokėjimas. Patikrinkite užsakymą ir bandykite dar kartą."
       },
       "shipping_errors": {
         "shipping_method": "Pasikeitė jūsų užsakymo pristatymo parinktys. Peržiūrėkite pasirinkimą ir bandykite dar kartą.",
@@ -1703,6 +1712,164 @@
         "update_tip": "Atnaujinti patarimą",
         "message": "Ačiū, mes tai vertiname.",
         "no_tip_label": "Nė vienas"
+      },
+      "store_credit_errors": {
+        "generic_error": "Iškilo problema dėl parduotuvės kredito. Bandykite dar kartą arba iš naujo įkelkite puslapį."
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Dovanų kortelė jau pritaikyta jūsų užsakymui",
+          "insufficient_funds": "Šioje dovanų kortelėje nebėra lėšų",
+          "expired": "Šios dovanų kortelės galiojimo laikas baigėsi",
+          "not_available": "Ši dovanų kortelė nebepasiekiama",
+          "invalid": "Įveskite galiojančią dovanų kortelę",
+          "currency_mismatch": "Priimamos tik dovanų kortelės %{shop_currency}",
+          "generic": "Dovanų kortelės nepavyko pridėti prie apmokėjimo",
+          "throttle_limit_exceeded": "Viršijote maksimalų bandymų skaičių. Pabandyti dar kartą vėliau."
+        }
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "Pirkite %{product_name}",
+          "one": "Įsigykite %{product_name} ir %{count} kitos prekės",
+          "other": "Įsigykite %{product_name} ir %{count} kitų prekių"
+        }
+      },
+      "subscriptions": {
+        "recurring_total_intervals": {
+          "day": {
+            "one": "dieną",
+            "other": "%{count} dienų"
+          },
+          "week": {
+            "one": "savaitę",
+            "other": "%{count} sav"
+          },
+          "month": {
+            "one": "mėnuo",
+            "other": "%{count} mėn"
+          },
+          "year": {
+            "one": "metų",
+            "other": "%{count} metų"
+          }
+        },
+        "recurring_totals": "%{total_price} kas %{interval}",
+        "recurring_totals_with_initial_order_shipping_discount": "Pirmas mokėjimas %{total_price_with_discount}, tada %{recurring_total}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "Pirmas mokėjimas %{total_price}",
+            "other": "Pirmieji %{count} mokėjimai %{total_price} kiekvienas"
+          },
+          "following_cycles": ", tada %{total_price} kas %{interval}"
+        },
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", tada %{count} mokėjimas už %{total_price}",
+            "other": ", tada %{count} mokėjimų po %{total_price} kiekvieną"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "page_title": "Mokėjimo metodai",
+        "title": "Mokėjimo metodai",
+        "update_card_button_label": "Atnaujinti kortelę",
+        "delete_customer_mandate": {
+          "generic_error": "Apdorojant jūsų užklausą kilo problema.",
+          "success_message": "Jūsų mokėjimo metodas sėkmingai ištrintas"
+        }
+      },
+      "throttle": {
+        "too_many_attempts": {
+          "message": "Per daug bandymų",
+          "description": "Bandykite dar kartą po kelių minučių"
+        },
+        "line_to_check_out": "Esate eilėje, kad galėtumėte išsiregistruoti",
+        "cart_summary_heading": "Jūsų krepšelis",
+        "merchandise": {
+          "available": "Galima",
+          "sold_out": "Išparduota"
+        },
+        "inventory": {
+          "partial_inventory_banner": "Dalis jūsų krepšelio išparduota ir jo nebus galima įsigyti atsiskaitant.",
+          "sold_out": {
+            "heading": "Jūsų krepšelis išparduotas",
+            "storefront_body": "Grįžkite į parduotuvę ir tęskite apsipirkimą",
+            "no_storefront_body": "Deja, norimos įsigyti prekės nebėra.",
+            "link": "Grįžti į parduotuvę"
+          }
+        },
+        "title": "Eilė",
+        "time_to_checkout_title": "Laikas išsiregistruoti – {{shopName}}",
+        "estimated_wait_time": {
+          "calculating": "Apskaičiuojamas numatomas laukimo laikas",
+          "less_than_one": "Numatomas laukimo laikas: mažiau nei minutę",
+          "one": "Numatomas laukimo laikas: {{count}} min",
+          "other": "Numatomas laukimo laikas: {{count}} min"
+        },
+        "last_checked": "(Paskutinį kartą tikrinta: {{time}} )",
+        "footer": {
+          "heading": "Neatnaujinkite šio puslapio, jis bus atnaujintas automatiškai.",
+          "body": "Prekės jūsų krepšelyje nėra rezervuojamos, kol nebaigsite apmokėjimo."
+        }
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "Apdorojant jūsų užklausą kilo problema. Susisiekite su parduotuvės savininku."
+      },
+      "no_address_location": {
+        "title": "Vieta be adreso",
+        "header": "Neturite šios vietos pristatymo adreso",
+        "alt_header": "Trūksta pristatymo adreso",
+        "message": "Susisiekite su mumis, kad pridėtumėte šios vietos adresą, kad užbaigtumėte patikrą.",
+        "email_us_button_label": "Atsiųskite mums el. laišką"
+      },
+      "order_errors": {
+        "creation_failure": "Kuriant užsakymą kilo problema. Bandykite dar kartą arba susisiekite su mumis dėl išsamesnės informacijos.",
+        "network_failure": "Jūsų užsakymo nepavyko pateikti dėl tinklo klaidos. Patikrinkite ryšį ir bandykite dar kartą.",
+        "inventory_reservation_failure": "Kai kurių prekių nebėra."
+      },
+      "session_errors": {
+        "session_not_unique": "Apdorojant užsakymą kilo problema. Atnaujinkite šį puslapį, kad grįžtumėte į parduotuvę.",
+        "session_already_finished": "Šis užsakymas jau pateiktas. Galite grįžti į parduotuvę ir pradėti naują užsakymą."
+      },
+      "pickup_point": {
+        "location_is_currently_closed": "Uždaryta",
+        "business_hours": "Darbo valandos",
+        "title": "Paėmimo taškas",
+        "or": "arba",
+        "search_button": "Paieška",
+        "selector_tabs": "Paėmimo taško parinkiklis",
+        "selector_tab_map": "Žemėlapis",
+        "selector_tab_list": "Sąrašas",
+        "could_not_resolve_address": "Nepavyko rasti jūsų adreso. Bandykite dar kartą arba naudokite kitą adresą",
+        "no_pickup_points_near_you": "Netoli pasirinkto adreso atsiėmimo taškų nerasta",
+        "no_pickup_points_near_location": "Netoli jūsų vietos atsiėmimo taškų nerasta",
+        "no_pickup_points_found": "Atsiėmimo taškų nerasta",
+        "paginator": {
+          "next_accessibility_label": "Kitas puslapis",
+          "previous_accessibility_label": "Ankstesnis puslapis",
+          "header": {
+            "one": "Rodoma %{first} - %{last} iš %{count} taško",
+            "other": "Rodoma %{first} - %{last} iš %{count} taškų"
+          },
+          "selected_pickup_point_label": {
+            "one": "%{pickup_point_index} iš %{count} taško",
+            "other": "%{pickup_point_index} iš %{count} taškų"
+          },
+          "selected_page": {
+            "one": "%{first} - %{last} iš %{count} taško",
+            "other": "%{first} - %{last} iš %{count} taškų"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "%{count} atsiėmimo taškas netoli jūsų vietos",
+          "other": "%{count} atsiėmimo taškų netoli jūsų vietos"
+        },
+        "change": "Keisti",
+        "waiting_on_pickup_point_location_notice": "Ieškome atsiėmimo taškų...",
+        "geolocation": {
+          "shared_location_button": "Naudokite mano vietą"
+        }
       }
     },
     "pagination": {
