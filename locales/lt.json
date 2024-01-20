@@ -599,7 +599,30 @@
         "duties_label": "Pareigos",
         "duties_and_taxes_label": "Muitai ir mokesčiai",
         "error_duties_tooltip": "Šis užsakymas siunčiamas iš kitos šalies, todėl pristatymo metu gali būti taikomi muitai ir mokesčiai.",
-        "may_be_charged_on_delivery": "Gali būti apmokestintas pristatymo metu"
+        "may_be_charged_on_delivery": "Gali būti apmokestintas pristatymo metu",
+        "total_updated_label_with_price": "Atnaujinta bendra kaina: %{totalPrice}",
+        "updated_shipping_method": "Atnaujintas pristatymo būdas: %{shipping_method}",
+        "recurring_payments": "Pasikartojantys mokėjimai",
+        "recurring_total_multiple_label": "Šis užsakymas turi periodinį mokestį už kelias prekes.",
+        "deferred_total_due_date_label": "Iš viso terminas {{date}}",
+        "full_price": "Visa kaina: %{price}",
+        "custom_discount": "Individualizuota nuolaida",
+        "expand_component_information": {
+          "one": "Rodyti %{count} elementą",
+          "other": "Rodyti %{count} elementų"
+        },
+        "collapse_component_information": {
+          "one": "Slėpti %{count} elementą",
+          "other": "Slėpti %{count} elementus"
+        },
+        "discount_discovery": {
+          "add_code": "Pridėti nuolaidą",
+          "merchandise_quantity_label": {
+            "one": "%{count} prekė",
+            "other": "%{count} elementai"
+          }
+        },
+        "alternative_payment_currency_total": "Apmokestinta kaip %{amount_due}"
       },
       "shipping": {
         "shipping_information_redirect_link": "Įveskite savo informaciją čia",
@@ -643,7 +666,97 @@
           "search_address": "Ieškokite adreso",
           "rollup_title": "Paėmimo vieta"
         },
-        "missing_shipping_address": "Trūksta pristatymo adreso"
+        "missing_shipping_address": "Trūksta pristatymo adreso",
+        "title": "Pristatymas",
+        "delivery_title": "Pristatymas",
+        "shipping_method_title": "Atsiuntimo metodas",
+        "shipping_method_one_time_purchase_group_title": "Vienkartinis pirkimas",
+        "shipping_method_subscription_group_title": "Prenumerata",
+        "subscription_shipping": "Prenumeratos siuntimas",
+        "subscription_local_delivery": "Prenumeratos vietinis pristatymas",
+        "subscription_pickup": "Prenumeratos atsiėmimas",
+        "waiting_on_rate_notice": "Gaunami galimi pristatymo įkainiai…",
+        "waiting_on_pickup_location_notice": "Gaunamos galimos atsiėmimo vietos…",
+        "no_rates_for_cart_or_destination_notice": "Jūsų krepšeliui ar adresui nėra pristatymo būdų",
+        "no_pickup_location_notice": "Bent vieno iš jūsų produktų negalima atsiimti",
+        "no_rates_for_country_notice": "Pristatymo tarifų šiuo adresu nerasta.",
+        "no_rates_contact_notice": "Norėdami gauti daugiau informacijos, susisiekite su mumis",
+        "free_rate_label": "Laisvas",
+        "cheapest_rate_label": "Pigiausias",
+        "please_enter_your_shipping_information_notice": "Įveskite savo pristatymo informaciją.",
+        "estimated_delivery_date": {
+          "one": "%{count} darbo diena",
+          "other": "%{count} darbo dienų"
+        },
+        "estimated_delivery_date_range": "%{minimum} iki %{maximum} darbo dienų",
+        "estimated_delivery_time": "Numatomas pristatymo laikas %{time}",
+        "estimated_delivery_time_range": "Numatomas pristatymo laikas %{min_time}–%{max_time}",
+        "delivery_today": "Pristatymas tą pačią dieną %{time}",
+        "delivery_tomorrow": "Pristatymas kitą dieną %{time}",
+        "two_day_delivery": "2 dienų pristatymas %{time}",
+        "delivery": "Pristatymo laikas}",
+        "arrives_time": "Atvyksta %{time}",
+        "arrives_time_range": "Atvyksta %{min_time}–%{max_time}",
+        "estimated_time": "Apskaičiuotas laikas}",
+        "estimated_time_range": "Numatomas %{min_time}–%{max_time}",
+        "shipping_line_phone_label": "Mobiliojo telefono numeris (būtinas)",
+        "shipping_line_phone": "Jūsų kurjeris gali naudoti šį numerį, kad su jumis susisiektų.",
+        "shipping_line_delivery_phone_label": "Mobilaus telefono numeris",
+        "shipping_line_delivery_phone": "Su jumis gali būti susisiekta dėl pristatymo naujienų.",
+        "split_cart_merchandise_quantity_label_standard": "%{quantity} prekės",
+        "split_cart_merchandise_quantity_label_additional": "+ %{quantity} daugiau",
+        "split_cart_merchandise_shipment_number": "Siuntimas %{number} iš %{total}",
+        "split_cart_ships_now": "Siunčia dabar",
+        "split_cart_ships_later": "Išsiunčiama vėliau",
+        "split_cart_ships_by_date": "Išsiunčiama iki %{date}",
+        "split_cart_ships_date": "Pristatymas %{date}",
+        "split_cart_multiple_shipment_label": "Kelios siuntos",
+        "split_cart_shipping_label": "Metodas",
+        "split_cart_multiple_shipment_quantity_label": "%{quantity} siuntų",
+        "split_cart_multiple_shipment_notice": "Jūsų užsakymas bus pristatytas keliomis siuntomis",
+        "merchandise_quantity_label_inline_primary": "Kiekis: %{quantity}",
+        "optional_shipping_line_delivery_instructions_label": "Pristatymo instrukcijos (neprivaloma)",
+        "shipping_line_delivery_instructions": "Įveskite reikiamą informaciją, pvz., durų kodus arba išleidimo instrukcijas.",
+        "other_method": {
+          "zero": "Kitų metodų nėra",
+          "one": "%{count} kitas būdas pasiekiamas adresu",
+          "other": "%{count} kiti metodai galimi nuo"
+        },
+        "shipping_rate_discounted_amount": "Buvo: %{original_amount}. Dabar: %{amount}",
+        "local_delivery": "Vietinis pristatymas",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "%{count} pristatymui",
+            "other": "%{count} pristatymo"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "kiekvieną dieną",
+              "other": "kas %{count} dienų"
+            },
+            "week": {
+              "one": "kiekvieną savaitę",
+              "other": "kas %{count} sav"
+            },
+            "month": {
+              "one": "kiekvieną mėnesį",
+              "other": "kas %{count} mėn"
+            },
+            "year": {
+              "one": "kiekvienais metais",
+              "other": "kas %{count} metų"
+            }
+          },
+          "multiple_subscriptions_shipping_price_label": "%{shipping_price} už pristatymą",
+          "prepaid_shipping_price_label": "%{shipping_price} už pristatymą x %{delivery_interval_count}",
+          "initial_order_discounted": "Pirmas pristatymo mokestis %{discounted_shipping_cost}, tada %{frequency_description}",
+          "prepaid_initial_order_discounted": "Pirmasis pristatymo mokestis %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Pirmasis pristatymo mokestis %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Pirmas pristatymo mokestis %{discounted_shipping_price} %{prepaid_delivery_frequency}, tada %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Pirmas pristatymo mokestis %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), tada %{shipping_price} %{billing_cycle}",
+          "shipping_price_included": "Įskaitant",
+          "recurring_order_shipping_price": "po to %{recurring_order_shipping_price}"
+        }
       },
       "localized_fields": {
         "additional_information": {
