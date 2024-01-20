@@ -1,0 +1,51 @@
+
+{% if cart.total_price >= 2999 %}
+    <p><span class="Cart_limiter_note_text">Congratulations! You reached minimum order value!</span><span class="Until_min_orer_value"></span></p>
+{% else %}
+    {% assign untilMinValue = 2999 | minus: cart.total_price %}
+    {% assign progressWidth = untilMinValue | times: 100 %}
+    {% assign progressWidth = progressWidth | divided_by: 2999 %}
+    {% assign progressWidthTotal = 100 | minus: progressWidth %}
+    <p><span class="Cart_limiter_note_text">Until minimum order value left</span><span class="Until_min_orer_value">{{ untilMinValue | money }}</span></p>
+{% endif %}
+
+<div class="Cart_minimum_order_value_bar">
+    <div class="inner"></div>
+</div>
+
+<input type="hidden" value="{{ 0 | money }}" class="Cart_currency_checker__js">
+
+<style>
+    .Until_min_orer_value{
+        padding-left: 5px;
+    }
+    .Cart_minimum_order_value_bar{
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        width: 100%;
+    }
+    {% if cart.total_price >= 2999 %}
+        .Cart_minimum_order_value_bar .inner{
+            height: 15px;
+            width: 100%;
+            background-image: url('https://hollylollies.myshopify.com/cdn/shop/files/Screenshot_2023-11-03_at_10.51_4.jpg?v=1701456643');
+            background-size: cover;
+            background-position: center;
+            border-radius: 5px;
+            transition: all .2s;
+        }
+    {% else %}
+        .Checkout_button_full {
+            display: none;
+        }
+        .Cart_minimum_order_value_bar .inner{
+            height: 15px;
+            width: {{ progressWidthTotal }}%;
+            background-image: url('https://hollylollies.myshopify.com/cdn/shop/files/Screenshot_2023-11-03_at_10.51_4.jpg?v=1701456643');
+            background-size: cover;
+            background-position: center;
+            border-radius: 5px;
+            transition: all .2s;
+        }
+    {% endif %}
+</style>

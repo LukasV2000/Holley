@@ -31,6 +31,7 @@
         <div class="{{ cn }}-body">
             <div class="#grid @type:template" style="--template: 1fr 30%; --template-mobile: none; --gap: 4rem;">
                 <div>
+                    {% include 'cart-minimum-order-value' %}
                     <div class="{{ cn }}-items {% if section.settings.show_stock_alert %}@show-stock-alert{% endif %}">
                         <form action="{{ routes.cart_url }}" method="post" id="{{ form_id }}">                            
                             <div data-cart-items>
