@@ -3520,7 +3520,7 @@
   "accessibility": {
     "skip_to_product_info": "Pereiti prie produkto informacijos",
     "vendor": "Pardavėjas:",
-    "refresh_page": "Pasirinkus pasirinkimą bus atnaujintas visas puslapis.",
+    "refresh_page": "Pasirinkus bus atnaujintas visas puslapis.",
     "loading": "Įkeliama...",
     "total_reviews": "viso atsiliepimų",
     "star_reviews_info": "{{ rating_value }} iš {{ rating_max }} žvaigždučių",
