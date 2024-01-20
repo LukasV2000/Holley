@@ -2864,5 +2864,57 @@
       "section_title_accessibility_label": "Pridėti adresą",
       "update_success_notification": "Adresas atnaujintas"
     }
+  },
+  "customer": {
+    "addresses": {
+      "first_name": "Pirmas vardas",
+      "last_name": "Pavardė",
+      "company": "Bendrovė",
+      "address1": "Adresas",
+      "city": "Miestas",
+      "province": "Provincija",
+      "phone": "Telefonas",
+      "add": "Pridėti adresą",
+      "update": "Atnaujinti adresą",
+      "cancel": "Atšaukti",
+      "edit": "Redaguoti",
+      "delete": "Ištrinti",
+      "delete_confirm": "Ar tikrai norite ištrinti šį adresą?"
+    },
+    "log_in": "Prisijungti",
+    "log_out": "Atsijungti",
+    "login_page": {
+      "cancel": "Atšaukti",
+      "email": "El. paštas",
+      "guest_continue": "Tęsti",
+      "submit": "Pateikti"
+    },
+    "order": {
+      "discount": "Nuolaida",
+      "shipping": "Siuntimas",
+      "price": "Kaina",
+      "quantity": "Kiekis",
+      "total": "Iš viso",
+      "track_shipment": "Stebėti siuntą",
+      "subtotal": "Tarpinė suma"
+    },
+    "orders": {
+      "order_number": "Įsakymas",
+      "payment_status": "Mokėjimo būsena",
+      "total": "Iš viso"
+    },
+    "register": {
+      "first_name": "Pirmas vardas",
+      "last_name": "Pavardė",
+      "email": "El. paštas"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "gift_card_code": "Dovanų kortelės kodas",
+      "shop_link": "Tęsti apsipirkimą",
+      "expired": "Baigėsi galiojimo laikas",
+      "print_gift_card": "Spausdinti"
+    }
   }
 }
