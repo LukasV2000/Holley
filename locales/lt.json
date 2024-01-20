@@ -2851,7 +2851,7 @@
       },
       "dismiss_toast": "Atsisakyti",
       "document_title": "{{sectionName}} – {{shopName}} – paskyra",
-      "go_to_store_link": "Nueik į parduotuvę",
+      "go_to_store_link": "Eiti į parduotuvę",
       "loading_message": "Įkeliama",
       "log_out_link": "Atsijungti",
       "logout_overlay_label": "Išregistruojamas...",
