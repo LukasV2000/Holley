@@ -1023,6 +1023,12 @@
     "name": "Extras",
     "settings": [
       {
+        "type":"number",
+        "id":"minimum_value",
+        "label":"Minimum Order value in cents",
+        "default": 1899
+      },
+      {
         "type": "checkbox",
         "id": "show_breadcrumb_nav",
         "label": "Enable breadcrumb navigation"

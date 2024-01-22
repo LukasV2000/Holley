@@ -122,15 +122,18 @@
                 <span class="{{ cn }}-summary-total">{{ cart.total_price | money }}</span>
             </div>
         </div>
-        {% form 'cart', cart %}
-            {% render 'button',
-                text: checkout_button_label,
-                block: true,
-                display_style: 'gradient',
-                name: 'checkout',
-                type: 'submit'
-            %}
-        {% endform %}
+        {% render 'cart-minimum-order-value' %}
+        <div class="Cart_notification_form_outer">
+            {% form 'cart', cart %}
+                {% render 'button',
+                    text: checkout_button_label,
+                    block: true,
+                    display_style: 'gradient',
+                    name: 'checkout',
+                    type: 'submit'
+                %}
+            {% endform %}
+        </div>
         <a class="{{ cn }}-summary-link" href="{{ routes.cart_url }}">
             {% render 'icon', name: 'cart-shopping' %}
             {{ 'general.cart.notification.go_to_cart' | t }}
