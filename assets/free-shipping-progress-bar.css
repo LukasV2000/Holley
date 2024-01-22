@@ -9,6 +9,8 @@
 }
 .\#free-shipping-progress-bar-heading {
   margin: 0;
+  font-size: 14px;
+  font-weight: 400;
 }
 .\#free-shipping-progress-bar-header {
   display: flex;

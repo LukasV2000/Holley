@@ -1,12 +1,12 @@
 
 {% if cart.total_price >= settings.minimum_value %}
-    <p><span class="Cart_limiter_note_text">Congratulations! You reached minimum order value!</span><span class="Until_min_orer_value"></span></p>
+    <p class="Cart_min_order_val_p"><span class="Cart_limiter_note_text">Congratulations! You reached minimum order value!</span><span class="Until_min_orer_value"></span></p>
 {% else %}
     {% assign untilMinValue = settings.minimum_value | minus: cart.total_price %}
     {% assign progressWidth = untilMinValue | times: 100 %}
     {% assign progressWidth = progressWidth | divided_by: settings.minimum_value %}
     {% assign progressWidthTotal = 100 | minus: progressWidth %}
-    <p><span class="Cart_limiter_note_text">Until minimum order value left</span><span class="Until_min_orer_value">{{ untilMinValue | money }}</span></p>
+    <p class="Cart_min_order_val_p"><span class="Cart_limiter_note_text">Until minimum order value left</span><span class="Until_min_orer_value">{{ untilMinValue | money }}</span></p>
 {% endif %}
 
 <div class="Cart_minimum_order_value_bar" data-minimum="{{ settings.minimum_value }}">
@@ -16,8 +16,15 @@
 <input type="hidden" value="{{ 0 | money }}" class="Cart_currency_checker__js">
 
 <style>
+    .Cart_min_order_val_p{
+        font-size: 18px;
+        font-weight: bold;
+    }
     .\#cart-notification-summary p{
         margin: 0 !important;
+    }
+    .\#cart-notification-summary .Cart_min_order_val_p{
+        font-size: 14px;
     }
     .Until_min_orer_value{
         padding-left: 5px;
@@ -27,7 +34,7 @@
         border-radius: 5px;
         width: 100%;
     }
-    {% if cart.total_price >= 2999 %}
+    {% if cart.total_price >= settings.minimum_value %}
         .Cart_minimum_order_value_bar .inner{
             height: 15px;
             width: 100%;
