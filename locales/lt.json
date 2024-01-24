@@ -355,9 +355,9 @@
         "optional_recipient_label": "Dėmesio (neprivaloma)"
       },
       "delivery_options": {
-        "free_total_label": "Laisvas",
-        "ship": "Laivas",
-        "shipping_address": "Pristatymas",
+        "free_total_label": "Nemokamas",
+        "ship": "Pristatymas",
+        "shipping_address": "Pristatymo adresas",
         "pick_up": "Paimti",
         "pick_up_locations": "Paėmimo vietos",
         "pick_up_in_one_hour": "Paprastai paruošiama per 1 valandą",
