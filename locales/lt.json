@@ -3577,7 +3577,7 @@
         "other": "apžvalgos"
       },
       "stock_alert": {
-        "in_stock_msg": "Yra sandėlyje ir paruoštas siuntimui",
+        "in_stock_msg": "Yra sandėlyje ir paruošta siuntimui",
         "low_stock_msg": "Sandėlyje liko tik {{ value }} !",
         "out_of_stock_msg": "Išparduota"
       },
