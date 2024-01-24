@@ -3583,18 +3583,18 @@
       },
       "stock_notification": {
         "form": {
-          "label": "Pranešti apie atsargas",
+          "label": "Pranešti kai bus prekyboje",
           "product": "Produktas",
           "variant": "Variantas",
           "email_placeholder": "Tavo elektroninis paštas",
-          "send": "Pranešk man",
+          "send": "Pranešti man",
           "email": "El. paštas"
         },
-        "heading": "Pranešimas apie atsargas",
+        "heading": "Pranešimas kai produktas bus prekyboje",
         "subheading": "Gaukite pranešimą, kai šis produktas vėl bus pasiekiamas",
         "post_success": {
           "heading": "Užsiprenumeravote!",
-          "subheading": "Kai tik ši prekė bus sandėlyje, atsiųsime el"
+          "subheading": "Kai tik ši prekė bus sandėlyje, atsiųsime el. laišką"
         }
       },
       "question": {
