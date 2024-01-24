@@ -3459,8 +3459,9 @@
         "share_on_pinterest": "Prisegti prie Pinterest"
       },
       "links": {
-        "instagram": "Instagramas",
-        "tiktok": "Tik tak"
+        "instagram": "Instagram",
+        "tiktok": "TikTok",
+        "facebook": "Facebook"
       }
     },
     "pagination": {
