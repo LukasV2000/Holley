@@ -520,7 +520,7 @@
         "customer_already_used_once_per_customer_discount_notice": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> nuolaidos kodas jau panaudotas",
         "subtotal_label": "Tarpinė suma",
         "shipping_label": "Siuntimas",
-        "pickup_label": "Paimti",
+        "pickup_label": "Atsiėmimas",
         "no_pickup_location": "Šio užsakymo atsiėmimas negalimas. Pasirinkite kitą pristatymo būdą.",
         "tip_label": "Patarimas",
         "calculating_shipping": "Skaičiuojama…",
