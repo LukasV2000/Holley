@@ -11,6 +11,8 @@ $(document).ready(function(){
             let minValue = parseFloat($('.Cart_minimum_order_value_bar').attr('data-minimum'));
             var untilMin;
             var width;
+            var note_text = $('.Cart_currency_checker__js').attr('data-text');
+            var note_text_reached = $('.Cart_currency_checker__js').attr('data-text-reached');
             if (totalPrice < minValue){
                 untilMin = minValue - totalPrice;
                 width = ((untilMin * 100) / minValue); 
@@ -18,7 +20,7 @@ $(document).ready(function(){
                 untilMin = (untilMin / 100).toFixed(2);
                 console.log(width, 'WIDTH')
                 $('.Cart_minimum_order_value_bar .inner').css('width', width + '%');
-                $('.Cart_limiter_note_text').text('Until minimum order value left');
+                $('.Cart_limiter_note_text').text(note_text);
                 $('.Until_min_orer_value').html(currency + untilMin);
                 $('.Checkout_button_full').hide();
                 $('.Cart_notification_form_outer').hide();
@@ -26,7 +28,7 @@ $(document).ready(function(){
             else{
                 untilMin = 0;
                 $('.Cart_minimum_order_value_bar .inner').css('width', '100%');
-                $('.Cart_limiter_note_text').text('Congratulations! You reached minimum order value!');
+                $('.Cart_limiter_note_text').text(note_text_reached);
                 $('.Until_min_orer_value').html('');
                 $('.Checkout_button_full').show();
                 $('.Cart_notification_form_outer').show();

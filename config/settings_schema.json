@@ -1029,6 +1029,18 @@
         "default": 1899
       },
       {
+        "type":"text",
+        "id":"minimum_value_text_reached",
+        "label":"Minimum Value text when reached",
+        "default": "Congratulations! You reached minimum order value!"
+      },
+      {
+        "type":"text",
+        "id":"minimum_value_text",
+        "label":"Minimum Value text",
+        "default": "Until minimum order value left"
+      },
+      {
         "type": "checkbox",
         "id": "show_breadcrumb_nav",
         "label": "Enable breadcrumb navigation"
