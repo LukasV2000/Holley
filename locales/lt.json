@@ -3483,7 +3483,7 @@
       "qty_max_note": "Visos turimos prekės krepšelyje",
       "item_added": "Prekė įdėta į krepšelį",
       "recommendations": {
-        "heading": "tau taip pat gali patikti"
+        "heading": "Tau taip pat gali patikti"
       },
       "notification": {
         "title": "Įdėta į krepšelį",
@@ -3496,9 +3496,9 @@
       "share_url": "Nuoroda",
       "success_message": "Nuoroda nukopijuota į mainų sritį",
       "facebook": "Dalintis",
-      "twitter": "Tviteryje",
+      "twitter": "Tweet",
       "pinterest": "Smeigtukas",
-      "email": "paštas"
+      "email": "El. paštas"
     },
     "slider": {
       "of": "apie",
