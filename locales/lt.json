@@ -252,10 +252,6 @@
             "saturday": "šeštadienis",
             "sunday": "sekmadienis"
           },
-          "weekdays_abbreviation": {
-            "wednesday": "Mes",
-            "friday": "Kun"
-          },
           "months": {
             "january": "sausio mėn",
             "february": "vasario mėn",
