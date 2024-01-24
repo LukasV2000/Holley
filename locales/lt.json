@@ -3634,7 +3634,7 @@
         "from_price_html": "Nuo {{ price }}",
         "regular_price": "Reguliari kaina",
         "unit_price": "Vieneto kaina",
-        "save_price": "Jūs taupote",
+        "save_price": "Jūs sutaupote",
         "sale_price": "Pardavimo kaina",
         "free_price": "Laisvas"
       },
@@ -3652,7 +3652,7 @@
       "express_add_to_cart": "Papildyti",
       "description": "apibūdinimas",
       "sold_out": "Išparduota",
-      "unavailable": "Nepasiekiamas"
+      "unavailable": "Nepasiekiama"
     },
     "modal": {
       "label": "Žiniasklaidos galerija"
@@ -3679,7 +3679,7 @@
       "to": "Į",
       "clear_filter": "Išvalytas filtras",
       "apply": "Taikyti",
-      "clear": "Aišku",
+      "clear": "Išvalyti",
       "clear_all": "Išvalyti viską",
       "filter_button": "Filtras",
       "sort_button": "Rūšiuoti"
