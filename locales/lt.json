@@ -3288,7 +3288,7 @@
       "none": "Dar nepateikėte jokių užsakymų."
     },
     "register": {
-      "first_name": "Pirmas vardas",
+      "first_name": "Vardas",
       "last_name": "Pavardė",
       "email": "El. paštas",
       "title": "Sukurti paskyrą",
