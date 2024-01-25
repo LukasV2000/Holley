@@ -3571,7 +3571,7 @@
       "quick_view": "Greita peržiūra",
       "show_options": "Rodyti parinktis",
       "express_show_options": "Galimybės",
-      "more_details": "Daugiau informacijos apie gaminį",
+      "more_details": "Daugiau informacijos ",
       "review_count": {
         "one": "apžvalga",
         "other": "apžvalgos"
@@ -3650,7 +3650,7 @@
       "include_taxes": "Mokesčiai įskaičiuoti.",
       "shipping_policy_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">Siuntimas<\/a> skaičiuojamas atsiskaitant.",
       "express_add_to_cart": "Papildyti",
-      "description": "apibūdinimas",
+      "description": "Aprašymas",
       "sold_out": "Išparduota",
       "unavailable": "Nepasiekiama"
     },
