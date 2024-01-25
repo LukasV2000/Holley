@@ -2817,8 +2817,6 @@
       },
       "saturday": "šeštadienis",
       "sunday": "sekmadienis",
-      "wednesdayAbbreviation": "Mes",
-      "fridayAbbreviation": "Kun",
       "showNextMonth": "Rodyti kitą mėnesį, {{month}} {{year}}",
       "showPreviousMonth": "Rodyti ankstesnį mėnesį, {{month}} {{year}}",
       "rangeStart": "Diapazono pradžia",
