@@ -16,8 +16,8 @@
       "type": "s_contact-form",
       "settings": {
         "heading": "",
-        "subheading": "Write us at info@hollylollies.com or fill the form below 👇",
-        "section_layout": "default"
+        "subheading": "Got a question or need a helping hand from our customer service team? Just drop a line to info@hollylollies.com and we'll be right with you! For all your order-related queries, buzz us at orders@hollylollies.com. Or simply fill out the form below 👇",
+        "section_layout": "narrow"
       }
     },
     "a073047f-9d01-4eb6-abe9-12930d5b807c": {
@@ -80,7 +80,7 @@
         "text_align": "center",
         "size": "md",
         "use_custom_color": false,
-        "text_color": "#FFFFFF",
+        "text_color": "#ffffff",
         "bg_color": "#383838"
       }
     }
