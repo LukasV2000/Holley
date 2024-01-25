@@ -2762,8 +2762,8 @@
       }
     },
     "payment_method_brands": {
-      "visa": "viza",
-      "discover": "Atrasti",
+      "visa": "Visa",
+      "discover": "Discover",
       "dinersclub": "Diners klubas",
       "dankort": "Dankortas",
       "hipercard": "Hiperkorta",
