@@ -545,7 +545,7 @@
         "discount_savings_notice": "Po %{discount_amount} nuolaidų",
         "gift_card_savings_notice": "Po %{gift_card_amount} dovanų kortelėse",
         "cost_table_title": "Išlaidų suvestinė",
-        "description_label": "apibūdinimas",
+        "description_label": "Aprašymas",
         "price_label": "Kaina",
         "price_per_item": {
           "accessibility_label": "%{price} už prekę"
