@@ -299,7 +299,7 @@
         "ship_to_company": "Siuntimas į {{companyName}}",
         "title": "Kontaktai",
         "address_title": "Adresas",
-        "shipping_used_as_billing_notice": "Tai taip pat bus naudojamas kaip šio užsakymo atsiskaitymo adresas.",
+        "shipping_used_as_billing_notice": "Tai taip pat bus naudojama kaip šio užsakymo atsiskaitymo adresas.",
         "delivery_option_title": "Pristatymo būdas",
         "contact_method_title": "Kontaktai",
         "email_label": "El. paštas",
