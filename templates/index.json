@@ -57,13 +57,14 @@
         },
         "slide_BdAEmE": {
           "type": "Slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_1080_x_1080_px_2.png",
-            "headline": "Karštas Valentino Dienos Pasiūlymas: 100 Mystery",
-            "info": "",
-            "button_title_1": "Shop now",
+            "headline": "❤️Karštas Valentino Dienos Pasiūlymas❤️: 100 Mystery pigiau už gėlių puokšę",
+            "info": "<p>Pirmosios dėžutės UŽ SAVIKAINĄ 🍭🍫<\/p>",
+            "button_title_1": "Sužinoti daugiau",
             "button_url_1": "",
-            "button_title_2": "Shop now",
+            "button_title_2": "PIRKTI DABAR",
             "button_url_2": ""
           }
         }
