@@ -4,5 +4,12 @@
     "market": "2cf94b98-f99c-4b89-bae8-c2139997ad99"
   },
   "sections": {
+    "g_footer": {
+      "settings": {
+        "show_language_selector": true
+      },
+      "blocks": {
+      }
+    }
   }
 }
