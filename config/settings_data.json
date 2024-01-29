@@ -481,7 +481,7 @@
           "title_font_size": 20,
           "text_font_size": 14,
           "show_blurred_background": false,
-          "style_colors_background": "#FFF",
+          "style_colors_background": "#d9d6fe",
           "style_colors_closeButton": "#5C5F62",
           "style_colors_cta_text": "#fff",
           "style_colors_cta_button": "#000",
@@ -492,7 +492,7 @@
         "type": "shopify:\/\/apps\/geolocation-orbe\/blocks\/app-embed-footer-selector\/7cb09287-cd2b-4646-837c-f1f9b6ea703e",
         "disabled": false,
         "settings": {
-          "footer_ui_type": "selector",
+          "footer_ui_type": "geolocation",
           "option_language": true,
           "style_corners": "square",
           "style_dropdown": "outlined",
