@@ -6,7 +6,7 @@
   "sections": {
     "g_footer": {
       "settings": {
-        "show_language_selector": true
+        "show_language_selector": false
       },
       "blocks": {
       }
