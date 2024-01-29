@@ -4,5 +4,19 @@
     "market": "2cf94b98-f99c-4b89-bae8-c2139997ad99"
   },
   "sections": {
+    "fb4ffc4b-e1b6-41af-9004-2f6cf9b784ea": {
+      "disabled": false,
+      "settings": {
+      },
+      "blocks": {
+        "slide_BdAEmE": {
+          "disabled": true,
+          "settings": {
+            "headline": "❤️Karštas Valentino Pasiūlymas❤️: 100 Mystery Box pigiau už gėlių puokštę",
+            "info": "<p>Pirmos 100 dėžučių UŽ SAVIKAINĄ<\/p>"
+          }
+        }
+      }
+    }
   }
 }
