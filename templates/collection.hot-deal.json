@@ -29,11 +29,14 @@
           "type": "Slide",
           "disabled": true,
           "settings": {
-            "headline": "Superlicious candies",
-            "info": "<p>Superlicious candies lorem ipsum<\/p>",
-            "button_title_1": "Shop now",
+            "image": "shopify:\/\/shop_images\/Untitled_1080_x_1080_px_4.png",
+            "trust_image": "shopify:\/\/shop_images\/Trustpilot_Micro.png",
+            "image_bg": "shopify:\/\/shop_images\/Screenshot_2024-01-30_at_19.29.14.png",
+            "headline": "Hot Valentine's Deal❤️ 100 Large Mystery Boxes Cheaper Than Bouquet of Flowers",
+            "info": "<p>First time boxes AT COST PRIME!<\/p>",
+            "button_title_1": "",
             "button_url_1": "",
-            "button_title_2": "Shop now",
+            "button_title_2": "EXPLORE THE DEAL👇🏼",
             "button_url_2": ""
           }
         },
@@ -172,6 +175,60 @@
         "color_swatches": true,
         "sidebar_width": 20,
         "collapse_filters": false
+      }
+    },
+    "d_rich_text_Qw4FAx": {
+      "type": "d_rich-text",
+      "blocks": {
+        "heading_EAGRgz": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "🔥 Valentine's Day Special",
+            "heading_accent_enable": true,
+            "heading_accent_use_cutom_color": false,
+            "heading_accent_color": "#e22d00"
+          }
+        },
+        "text_ebJtWq": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Get your LARGE Mystery Box AT COST PRICE! With only 100 boxes up for grabs, this is your golden ticket to an extraordinary world of sweet surprises with Holly Lollies. Seize this chance to discover the perfect treat, whether it's a gift to yourself or a sweet gesture for your better half! 🍭🌍✨ #HollyLolliesSurprise<\/p>"
+          }
+        },
+        "buttons_gTbWXK": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "mobile_hidden": false,
+            "f_button_label": "Shop now",
+            "f_button_link": "",
+            "f_button_style": "normal",
+            "f_button_custom_colors": false,
+            "f_button_bg_color": "",
+            "f_button_text_color": "#ffffff",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_style": "normal",
+            "s_button_custom_colors": false,
+            "s_button_bg_color": "",
+            "s_button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EAGRgz",
+        "text_ebJtWq",
+        "buttons_gTbWXK"
+      ],
+      "settings": {
+        "section_layout": "default",
+        "text_align": "center",
+        "size": "md",
+        "use_custom_color": false,
+        "text_color": "#FFFFFF",
+        "bg_color": "#383838"
       }
     },
     "24c2231f-0181-40f0-97da-7d8394ebeaf7": {
@@ -848,6 +905,7 @@
     "72ba95f8-67e7-495d-b7d6-5a27ba1abbb9",
     "5421c922-eef9-488d-9d14-a3de82698eaf",
     "main",
+    "d_rich_text_Qw4FAx",
     "24c2231f-0181-40f0-97da-7d8394ebeaf7",
     "5c2e03fe-1254-4e51-8280-ae47bf86aa07",
     "0ef39cd6-3323-4df0-8a07-f02d9753cdc9",
