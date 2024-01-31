@@ -627,7 +627,7 @@
         "duties_and_taxes_options": {
           "ddu_title": "Mokėti pristatymo metu",
           "ddu_caption": "Gali būti taikomi papildomi mokesčiai",
-          "ddp_title": "Sumokėk dabar",
+          "ddp_title": "Sumokėti dabar",
           "ddp_caption": "Jokių papildomų mokesčių už pristatymą"
         },
         "shipping_method_combinations": {
