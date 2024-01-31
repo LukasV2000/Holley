@@ -161,7 +161,7 @@
             "shop_cash_not_allowed": "Parduotuvė Grynieji pinigai neleidžiami be Shop Pay.",
             "shop_cash_unsupported_checkout_source": "„Shop Cash“ nepalaiko šios kasos.",
             "shop_cash_gift_card_not_allowed": "„Shop Cash“ neleidžia įsigyti dovanų kortelių.",
-            "shop_cash_not_enabled": "Parduotuvė Grynieji pinigai šioje parduotuvėje neįjungti.",
+            "shop_cash_not_enabled": "Grynieji pinigai šioje parduotuvėje nepalaikomi",
             "shop_cash_unsupported_subscriptions": "„Shop Cash“ nepalaiko prenumeratos.",
             "shop_cash_unsupported_shipping": "„Shop Cash“ nepalaiko prekių be pristatymo.",
             "invalid_address_type": "Pateiktas adreso tipas netinkamas šiam mokėjimo metodui.",
