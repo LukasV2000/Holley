@@ -13,6 +13,7 @@
       "blocks": {
         "304f866d-56d0-479f-8b73-bd9b50896aec": {
           "type": "Slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Elements-geometric-shape-square-frame_95562da9-8ec3-4363-8ff2-25a87cb139e3.png",
             "trust_image": "shopify:\/\/shop_images\/Trustpilot_Micro.png",
@@ -27,13 +28,12 @@
         },
         "77f5944c-d7c5-43c4-a629-eeb44684e3f8": {
           "type": "Slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_1080_x_1080_px_4.png",
             "trust_image": "shopify:\/\/shop_images\/Trustpilot_Micro.png",
             "image_bg": "shopify:\/\/shop_images\/Screenshot_2024-01-30_at_19.29.14.png",
-            "headline": "Hot Valentine's Deal❤️ 100 Large Mystery Boxes Cheaper Than Bouquet of Flowers",
-            "info": "<p>First time boxes AT COST PRIME!<\/p>",
+            "headline": "❤️ Hot Valentine's Deal ❤️ 100 Large Mystery Boxes Cheaper Than Bouquet of Flowers",
+            "info": "<p>First time boxes AT COST PRICE!<\/p>",
             "button_title_1": "",
             "button_url_1": "",
             "button_title_2": "EXPLORE THE DEAL👇🏼",
@@ -182,7 +182,6 @@
       "blocks": {
         "heading_EAGRgz": {
           "type": "heading",
-          "disabled": true,
           "settings": {
             "heading": "🔥 Valentine's Day Special",
             "heading_accent_enable": true,
@@ -192,7 +191,6 @@
         },
         "text_ebJtWq": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "<p>Get your LARGE Mystery Box AT COST PRICE! With only 100 boxes up for grabs, this is your golden ticket to an extraordinary world of sweet surprises with Holly Lollies. Seize this chance to discover the perfect treat, whether it's a gift to yourself or a sweet gesture for your better half! 🍭🌍✨ #HollyLolliesSurprise<\/p>"
           }
@@ -227,7 +225,7 @@
         "text_align": "center",
         "size": "md",
         "use_custom_color": false,
-        "text_color": "#FFFFFF",
+        "text_color": "#ffffff",
         "bg_color": "#383838"
       }
     },
@@ -236,6 +234,7 @@
       "blocks": {
         "template--21801079308603__24c2231f-0181-40f0-97da-7d8394ebeaf7-heading-1": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "🚀 Launch Special: 40% OFF 🎉",
             "heading_accent_enable": true,
@@ -245,6 +244,7 @@
         },
         "template--21801079308603__24c2231f-0181-40f0-97da-7d8394ebeaf7-text-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Get your Mystery Box now for an unbeatable 40% off the regular €59.99 price! This limited offer is your ticket to a world of sweet surprises. Don't miss out! 🍭🌍✨ #HollyLolliesSurprise<\/p>"
           }
