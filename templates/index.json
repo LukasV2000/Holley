@@ -5,6 +5,7 @@
       "blocks": {
         "ca1a8a25-f8cb-4583-81f7-053775d51ac2": {
           "type": "Slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_324433_0a15f530-833e-4943-b6b1-d39a7b034de2.png",
             "trust_image": "shopify:\/\/shop_images\/Trustpilot_Micro.png",
@@ -71,11 +72,10 @@
         },
         "slide_ACxDBV": {
           "type": "Slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_1080_x_1080_px_2.png",
             "image_bg": "shopify:\/\/shop_images\/Screenshot_2024-01-29_at_19.18.12.png",
-            "headline": "❤️HOTTEST Valentine's Deal❤️: 100 Mystery Boxes Cheaper Than a Bouquet of Flowers",
+            "headline": "❤️HOTTEST Valentine's Deal❤️: 100 LARGE Mystery Boxes Cheaper Than a Bouquet of Flowers",
             "info": "<p>First Boxes AT COST PRICE 🍭🍫<\/p>",
             "button_title_1": "SHOP NOW",
             "button_url_1": "https:\/\/www.hollylollies.com\/collections\/mystery-box-hot-deal",
