@@ -4,6 +4,9 @@ $(document).ready(function(){
   function preSelectLanguages(){
     var currentLan = $('html').attr('lang');
     console.log(currentLan, 'CURRENT LAN');
+    if (currentLan == 'lt'){
+      $('.shopify-payment-button__button').text('PIRKTI DABAR');
+    }
   }
 
   preSelectLanguages();
