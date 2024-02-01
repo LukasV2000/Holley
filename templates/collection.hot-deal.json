@@ -274,6 +274,7 @@
         "template--21801079308603__24c2231f-0181-40f0-97da-7d8394ebeaf7-text-1",
         "template--21801079308603__24c2231f-0181-40f0-97da-7d8394ebeaf7-buttons-1"
       ],
+      "disabled": true,
       "settings": {
         "section_layout": "default",
         "text_align": "center",
