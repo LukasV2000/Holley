@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 
   function preSelectLanguages(){
-    var currentLan = $('.sel-disclosure .sel-current').attr('data-code');
+    var currentLan = $('.sel-disclosure .sel-item.sel-current').attr('data-code');
     console.log(currentLan, 'CURRENT LAN');
   }
 
