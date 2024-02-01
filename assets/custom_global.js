@@ -2,9 +2,8 @@ $(document).ready(function(){
 
 
   function preSelectLanguages(){
-    jQuery.getJSON("/cart.js", function (cart) {
-        console.log(cart);
-    });
+    var currentLan = $('html').attr('lang');
+    console.log(currentLan, 'CURRENT LAN');
   }
 
   preSelectLanguages();
