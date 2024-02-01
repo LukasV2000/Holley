@@ -5,7 +5,9 @@ $(document).ready(function(){
     var currentLan = $('html').attr('lang');
     console.log(currentLan, 'CURRENT LAN');
     if (currentLan == 'lt'){
-      $('.shopify-payment-button__button').text('PIRKTI DABAR');
+      setTimeout(function(){
+        $('.shopify-payment-button__button').text('Pirkti dabar');
+      },1000);
     }
   }
 
