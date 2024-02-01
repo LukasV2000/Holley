@@ -59,7 +59,8 @@
         "21d302aa-f66a-4625-8f0c-445d350e351b"
       ],
       "settings": {
-        "autoplay_speed": 4000
+        "autoplay_speed": 4000,
+        "scrolled_to_box": true
       }
     },
     "5421c922-eef9-488d-9d14-a3de82698eaf": {
