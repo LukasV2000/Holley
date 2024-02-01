@@ -8,7 +8,7 @@ $(document).ready(function(){
       setTimeout(function(){
         $('.shopify-payment-button__button').text('Pirkti dabar');
         $('.Express_atc_text').text('Pridėti');
-      },1000);
+      },1500);
     }
   }
 
