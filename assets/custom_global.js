@@ -6,6 +6,8 @@ $(document).ready(function(){
     console.log(currentLan, 'CURRENT LAN');
   }
 
+  preSelectLanguages();
+
 
   $('.Index_personalization_feature').click(function(){
     $(this).parent('div').find('.Index_personalization_feature').removeClass('active');
