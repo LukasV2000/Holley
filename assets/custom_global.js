@@ -1,6 +1,12 @@
 $(document).ready(function(){
 
 
+  function preSelectLanguages(){
+    var currentLan = $('.sel-current').attr('data-code');
+    console.log(currentLan, 'CURRENT LAN');
+  }
+
+
   $('.Index_personalization_feature').click(function(){
     $(this).parent('div').find('.Index_personalization_feature').removeClass('active');
     $(this).addClass('active');
