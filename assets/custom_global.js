@@ -7,6 +7,7 @@ $(document).ready(function(){
     if (currentLan == 'lt'){
       setTimeout(function(){
         $('.shopify-payment-button__button').text('Pirkti dabar');
+        $('.Express_atc_text').text('Pridėti');
       },1000);
     }
   }
