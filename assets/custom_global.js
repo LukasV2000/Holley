@@ -51,6 +51,14 @@ $(document).ready(function(){
   //   }, 500);
   // });
 
+
+  $('.Scroll_to_box').find('.Slideshow_secondary_button').click(function(evt){
+    evt.preventDefault();
+    $('html, body').animate({
+        scrollTop: $(".Whole_featured_products_section").offset().top
+    }, 500);
+  });
+
   $('.Customer_says_reviews_outer').slick({
     infinite: true,
     slidesToShow:3,
