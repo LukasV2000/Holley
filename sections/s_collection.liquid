@@ -152,7 +152,7 @@
 {%- capture Product_grid -%}
     <div class="{{ cn }}-grid" section-id="{{ section.id }}">
         {% render 'collection-loader' %}
-        {%- paginate collection.products by product_per_page -%}
+        {%- paginate collection.products by 500 -%}
             {%- if collection.products.size == 0 -%}
                 {{ No_products }}
             {%- else -%}
