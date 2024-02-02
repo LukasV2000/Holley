@@ -82,6 +82,18 @@
             "button_title_2": "Read more 🔥",
             "button_url_2": "https:\/\/www.hollylollies.com\/collections\/mystery-box-hot-deal"
           }
+        },
+        "slide_KegJDF": {
+          "type": "Slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/50_4d9cec11-bf58-4bb7-be37-90588727e03c.png",
+            "headline": "Takis Alert! 🌶️ Dive in at 50% off - all flavors, half the price!",
+            "info": "<p><strong>🚀 ALL TAKIS, JUST €2.99! <\/strong><\/p>",
+            "button_title_1": "SHOP NOW",
+            "button_url_1": "https:\/\/www.hollylollies.com\/search?q=takis&_pos=1&_psq=takis&_ss=e&_v=1.0&type=product",
+            "button_title_2": "",
+            "button_url_2": ""
+          }
         }
       },
       "block_order": [
@@ -90,10 +102,12 @@
         "a68b052d-24bf-47b7-b59d-61cdac4617f4",
         "b44d3a2a-8573-4d5a-930d-197d202390ce",
         "slide_BdAEmE",
-        "slide_ACxDBV"
+        "slide_ACxDBV",
+        "slide_KegJDF"
       ],
       "settings": {
-        "autoplay_speed": 4000
+        "autoplay_speed": 4000,
+        "scrolled_to_box": false
       }
     },
     "0cfef29e-354b-4bd7-b913-b1710a26b5b1": {
