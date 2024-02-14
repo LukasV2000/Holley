@@ -51,12 +51,27 @@
             "button_title_2": "Shop now",
             "button_url_2": ""
           }
+        },
+        "slide_f8XYkp": {
+          "type": "Slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_1080x1080px_5.png",
+            "trust_image": "shopify:\/\/shop_images\/Trustpilot_Micro.png",
+            "headline": "Buy a Large Mystery Box, Get a Takis Tasting Box FREE! 🎉",
+            "info": "<p>P.S. Just add a Large Mystery Box, and the Takis Mystery Box is already yours in the cart!<\/p>",
+            "button_title_1": "",
+            "button_url_1": "",
+            "button_title_2": "",
+            "button_url_2": ""
+          }
         }
       },
       "block_order": [
         "304f866d-56d0-479f-8b73-bd9b50896aec",
         "77f5944c-d7c5-43c4-a629-eeb44684e3f8",
-        "21d302aa-f66a-4625-8f0c-445d350e351b"
+        "21d302aa-f66a-4625-8f0c-445d350e351b",
+        "slide_f8XYkp"
       ],
       "settings": {
         "autoplay_speed": 4000,
@@ -183,8 +198,9 @@
       "blocks": {
         "heading_EAGRgz": {
           "type": "heading",
+          "disabled": true,
           "settings": {
-            "heading": "🔥 Valentine's Day Special",
+            "heading": "🔥 Takis Tasting Special",
             "heading_accent_enable": true,
             "heading_accent_use_cutom_color": false,
             "heading_accent_color": "#e22d00"
@@ -192,8 +208,9 @@
         },
         "text_ebJtWq": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<p>Get your LARGE Mystery Box AT COST PRICE! With only 100 boxes up for grabs, this is your golden ticket to an extraordinary world of sweet surprises with Holly Lollies. Seize this chance to discover the perfect treat, whether it's a gift to yourself or a sweet gesture for your better half! 🍭🌍✨ #HollyLolliesSurprise<\/p>"
+            "text": "<p>Get ready for a super deal from Holly Lollies! Buy a LARGE Mystery Box and you'll get a Takis Tasting Box for free. It's an awesome chance to try out all kinds of surprise flavors and the zesty taste of Takis. But you gotta be quick - these boxes are flying off the shelves! Grab yours and start exploring these mystery tastes today. Don't miss out!🍭🌍✨ #HollyLolliesSurprise<\/p>"
           }
         },
         "buttons_gTbWXK": {

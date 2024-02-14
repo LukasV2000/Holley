@@ -15,6 +15,7 @@
         },
         "ccb463a8-7c50-4635-99eb-d5f8e52c2c84": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "VALENTINE'S DEAL - 100 Large Mystery Boxes AT COST PRICE",
             "link": "shopify:\/\/collections\/hot-deals",
@@ -32,7 +33,6 @@
         },
         "76e60a6e-9e60-4d40-b24c-6db17034350b": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "MINIMUM ORDER VALUE - €20",
             "link": "",
