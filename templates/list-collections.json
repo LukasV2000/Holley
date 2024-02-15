@@ -712,6 +712,14 @@
             "text": "<p>At Holly Lollies, we make checking out as easy as picking your favorite candy. Choose from a variety of payment options at checkout: <strong>Debit\/Credit Card, PayPal, Apple Pay, or Google Pay. <\/strong>🛍️💳 And don't you worry – all your payment details are wrapped up safe and secure, just like our candies. So, go ahead and shop with complete peace of mind!<\/p>"
           }
         },
+        "question_hURBND": {
+          "type": "question",
+          "settings": {
+            "heading": "Why does the date on my Asian product seem like it's expired?",
+            "icon": "",
+            "text": "<p>At Holly Lollies, we understand the excitement of trying our carefully selected Asian treats, and we want to assure you that freshness is our top priority. It's quite common in Asia to mark products with the manufacturing date rather than the expiry date, which may seem unusual but is a standard practice. This date signifies when your delightful Holly Lollies snack was made, ensuring you're enjoying authentic and fresh flavors<\/p>"
+          }
+        },
         "038a2623-3f77-49c8-b10c-7b50544fc661": {
           "type": "question",
           "settings": {
@@ -736,6 +744,7 @@
         "17db13f1-ff6e-43d7-b4b9-23c3acfea031",
         "c9a1dccd-4247-4f6d-9650-e6453eabc14e",
         "06c97d4d-978b-48f0-9e25-e4c285f75f8c",
+        "question_hURBND",
         "038a2623-3f77-49c8-b10c-7b50544fc661",
         "04e0ac0c-afb6-40d5-9851-da4160bf998e"
       ],
