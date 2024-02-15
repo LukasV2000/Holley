@@ -70,6 +70,18 @@
             "button_url_2": ""
           }
         },
+        "slide_zx6gfj": {
+          "type": "Slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_1080x1080px_5.png",
+            "headline": "Buy a Large Mystery Box, Get a Takis Tasting Box FREE! 🎉",
+            "info": "<p>P.S. Just add a Large Mystery Box, and the Takis Box is already yours in the cart!<\/p>",
+            "button_title_1": "Shop now",
+            "button_url_1": "shopify:\/\/collections\/mystery-box-hot-deal",
+            "button_title_2": "Read more 🔥",
+            "button_url_2": "shopify:\/\/collections\/mystery-box-hot-deal"
+          }
+        },
         "slide_ACxDBV": {
           "type": "Slide",
           "disabled": true,
@@ -86,7 +98,6 @@
         },
         "slide_KegJDF": {
           "type": "Slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/50_4d9cec11-bf58-4bb7-be37-90588727e03c.png",
             "headline": "Takis Alert! 🌶️ Dive in at 50% off - all flavors, half the price!",
@@ -108,18 +119,6 @@
             "button_title_2": "Shop now",
             "button_url_2": ""
           }
-        },
-        "slide_zx6gfj": {
-          "type": "Slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_1080x1080px_5.png",
-            "headline": "Buy a Large Mystery Box, Get a Takis Tasting Box FREE! 🎉",
-            "info": "<p>P.S. Just add a Large Mystery Box, and the Takis Box is already yours in the cart!<\/p>",
-            "button_title_1": "Shop now",
-            "button_url_1": "shopify:\/\/collections\/mystery-box-hot-deal",
-            "button_title_2": "Read more 🔥",
-            "button_url_2": "shopify:\/\/collections\/mystery-box-hot-deal"
-          }
         }
       },
       "block_order": [
@@ -128,10 +127,10 @@
         "a68b052d-24bf-47b7-b59d-61cdac4617f4",
         "b44d3a2a-8573-4d5a-930d-197d202390ce",
         "slide_BdAEmE",
+        "slide_zx6gfj",
         "slide_ACxDBV",
         "slide_KegJDF",
-        "slide_mAd8Dj",
-        "slide_zx6gfj"
+        "slide_mAd8Dj"
       ],
       "settings": {
         "autoplay_speed": 4000,
