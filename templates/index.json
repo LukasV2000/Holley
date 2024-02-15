@@ -86,6 +86,7 @@
         },
         "slide_KegJDF": {
           "type": "Slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/50_4d9cec11-bf58-4bb7-be37-90588727e03c.png",
             "headline": "Takis Alert! 🌶️ Dive in at 50% off - all flavors, half the price!",
@@ -98,7 +99,6 @@
         },
         "slide_zx6gfj": {
           "type": "Slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_1080x1080px_5.png",
             "headline": "Buy a Large Mystery Box, Get a Takis Tasting Box FREE! 🎉",
