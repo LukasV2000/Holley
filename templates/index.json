@@ -1193,37 +1193,48 @@
             "info": "Proud Client from Lithuania 🇱🇹"
           }
         },
+        "slide_AJLLd7": {
+          "type": "Slide",
+          "disabled": true,
+          "settings": {
+            "video": "",
+            "headline": "“Superlicious candies is what drives me the most in this life. I love eating candies and Holly Lollies helped me to achieve it.”",
+            "name": "— Renee Wells",
+            "info": "Proud Client from Asia"
+          }
+        },
         "7d67cc3e-416a-4c65-b5b9-a34136638e35": {
           "type": "Slide",
           "settings": {
-            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/632c9c2d4a724310a1ae35d93a66ebdf.mp4",
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2f62e6daf68e4ddba80b1921cf3c0d0b.mp4",
             "headline": "“I’d been introduced to them through a friend, though I’d heard about them before. I’ve been impressed with the range of snacks and drinks, and the effort put into each box. Even with the occasional repeat snack, it’s still always delicious. It’s worth the price, and worth the time to enjoy a big bite of exotic candies.”",
-            "name": "— Alexana Weinberger",
+            "name": "— Džestina",
             "info": "Happy Clients from Lithuania 🇱🇹"
           }
         },
         "aa79dcd2-cd01-4a96-8ee2-fb87b8795e04": {
           "type": "Slide",
           "settings": {
-            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3d1a54b6b1a449ea9a15426fd53497d0.mov",
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/07da1bd8f60f498a98df83404f3c81fd.mp4",
             "headline": "“I've had other snack boxes but, Holly Lollies is definitely my favorite. Great variety of tasty snacks, both sweet and savory. My box even included some ramen! I would definitely recommend this for anyone that wants to try exotic snacks.”",
-            "name": "— Ruud de Nijs",
+            "name": "— Indrė",
             "info": "Proud Client from Lithuania 🇱🇹"
           }
         },
         "00a1defd-429c-4b20-824d-9121bacdfdf5": {
           "type": "Slide",
           "settings": {
-            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/60471a2519164ff3ac8bae760037eab0.mp4",
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/722b3abc83ff4a408e14dfa3c621fb57.mp4",
             "headline": "“It's all delicious and let's you try different flavor combinations you never would have thought of or had the chance to experience.\"",
-            "name": "— Arjen Wesseling",
-            "info": "Proud Client from Netherlands 🇳🇱"
+            "name": "— Karolina",
+            "info": "Proud Client from Lithuania 🇱🇹"
           }
         }
       },
       "block_order": [
         "slide_zzNziU",
         "96f861f0-4160-44ed-aaf2-44bccc18f076",
+        "slide_AJLLd7",
         "7d67cc3e-416a-4c65-b5b9-a34136638e35",
         "aa79dcd2-cd01-4a96-8ee2-fb87b8795e04",
         "00a1defd-429c-4b20-824d-9121bacdfdf5"
