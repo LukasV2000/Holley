@@ -13,16 +13,15 @@
       "blocks": {
         "304f866d-56d0-479f-8b73-bd9b50896aec": {
           "type": "Slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Elements-geometric-shape-square-frame_95562da9-8ec3-4363-8ff2-25a87cb139e3.png",
+            "image": "shopify:\/\/shop_images\/Untitled_1080_x_1080_px_4_72c3b032-6c1b-49c7-8116-80a64984d849.png",
             "trust_image": "shopify:\/\/shop_images\/Trustpilot_Micro.png",
             "image_bg": "shopify:\/\/shop_images\/Screenshot_2023-12-12_at_14.58.35.png",
             "headline": "🔥HOTTEST DEAL OF THE MONTH",
-            "info": "<p>🎈OPENING TREAT: Enjoy a massive 40% discount on the Holly Lollies Mystery box! <\/p>",
+            "info": "<p>🎈Dive into a surprise adventure with our Mystery Box! 🎁✨<\/p>",
             "button_title_1": "",
             "button_url_1": "",
-            "button_title_2": "👇 EXPLORE THE DEAL 👇",
+            "button_title_2": "👇 EXPLORE THE MYSTERY 👇",
             "button_url_2": ""
           }
         },
@@ -55,6 +54,7 @@
         },
         "slide_f8XYkp": {
           "type": "Slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_1080x1080px_5.png",
             "trust_image": "shopify:\/\/shop_images\/Trustpilot_Micro.png",
@@ -198,6 +198,7 @@
       "blocks": {
         "heading_EAGRgz": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "🔥 Takis Tasting Special",
             "heading_accent_enable": true,
@@ -207,6 +208,7 @@
         },
         "text_ebJtWq": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Get ready for a super deal from Holly Lollies! Buy a LARGE Mystery Box and you'll get a Takis Tasting Box for free. It's an awesome chance to try out all kinds of surprise flavors and the zesty taste of Takis. But you gotta be quick - these boxes are flying off the shelves! Grab yours and start exploring these mystery tastes today. Don't miss out!🍭🌍✨ #HollyLolliesSurprise<\/p>"
           }
@@ -250,9 +252,8 @@
       "blocks": {
         "template--21801079308603__24c2231f-0181-40f0-97da-7d8394ebeaf7-heading-1": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "🚀 Launch Special: 40% OFF 🎉",
+            "heading": "Travel the world one candy at the time 🌎🎁",
             "heading_accent_enable": true,
             "heading_accent_use_cutom_color": false,
             "heading_accent_color": "#e22d00"
@@ -260,9 +261,8 @@
         },
         "template--21801079308603__24c2231f-0181-40f0-97da-7d8394ebeaf7-text-1": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p>Get your Mystery Box now for an unbeatable 40% off the regular €59.99 price! This limited offer is your ticket to a world of sweet surprises. Don't miss out! 🍭🌍✨ #HollyLolliesSurprise<\/p>"
+            "text": "<p>Get ready for a fun adventure with our Mystery Box! Inside, you'll find 20 yummy treats and a surprise gift waiting for you. Each one is a special secret, ready to make you smile. Let's see what exciting surprises are hiding inside! ✨<\/p>"
           }
         },
         "template--21801079308603__24c2231f-0181-40f0-97da-7d8394ebeaf7-buttons-1": {
@@ -290,7 +290,6 @@
         "template--21801079308603__24c2231f-0181-40f0-97da-7d8394ebeaf7-text-1",
         "template--21801079308603__24c2231f-0181-40f0-97da-7d8394ebeaf7-buttons-1"
       ],
-      "disabled": true,
       "settings": {
         "section_layout": "default",
         "text_align": "center",
