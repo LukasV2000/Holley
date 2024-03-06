@@ -119,6 +119,19 @@
             "button_title_2": "Shop now",
             "button_url_2": ""
           }
+        },
+        "slide_MnXFkU": {
+          "type": "Slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_1080_x_1080_px_8.png",
+            "image_bg": "shopify:\/\/shop_images\/Screenshot_2024-03-06_at_12.02.12.png",
+            "headline": "Sip, Savor, and Save! 🍹✨ All March, enjoy a bubbly 20% off on all drinks.",
+            "info": "<p><strong>Cheers to tasty deals! 🎉<\/strong><\/p>",
+            "button_title_1": "Shop now",
+            "button_url_1": "shopify:\/\/collections\/soft-drinks",
+            "button_title_2": "",
+            "button_url_2": ""
+          }
         }
       },
       "block_order": [
@@ -130,7 +143,8 @@
         "slide_zx6gfj",
         "slide_ACxDBV",
         "slide_KegJDF",
-        "slide_mAd8Dj"
+        "slide_mAd8Dj",
+        "slide_MnXFkU"
       ],
       "settings": {
         "autoplay_speed": 4000,
