@@ -13,6 +13,7 @@
       "blocks": {
         "304f866d-56d0-479f-8b73-bd9b50896aec": {
           "type": "Slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_1080_x_1080_px_4_72c3b032-6c1b-49c7-8116-80a64984d849.png",
             "trust_image": "shopify:\/\/shop_images\/Trustpilot_Micro.png",
@@ -54,7 +55,6 @@
         },
         "slide_f8XYkp": {
           "type": "Slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_1080x1080px_5.png",
             "trust_image": "shopify:\/\/shop_images\/Trustpilot_Micro.png",
@@ -198,7 +198,6 @@
       "blocks": {
         "heading_EAGRgz": {
           "type": "heading",
-          "disabled": true,
           "settings": {
             "heading": "🔥 Takis Tasting Special",
             "heading_accent_enable": true,
@@ -208,14 +207,12 @@
         },
         "text_ebJtWq": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "<p>Get ready for a super deal from Holly Lollies! Buy a LARGE Mystery Box and you'll get a Takis Tasting Box for free. It's an awesome chance to try out all kinds of surprise flavors and the zesty taste of Takis. But you gotta be quick - these boxes are flying off the shelves! Grab yours and start exploring these mystery tastes today. Don't miss out!🍭🌍✨ #HollyLolliesSurprise<\/p>"
           }
         },
         "buttons_gTbWXK": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
             "mobile_hidden": false,
             "f_button_label": "Shop now",
@@ -290,6 +287,7 @@
         "template--21801079308603__24c2231f-0181-40f0-97da-7d8394ebeaf7-text-1",
         "template--21801079308603__24c2231f-0181-40f0-97da-7d8394ebeaf7-buttons-1"
       ],
+      "disabled": true,
       "settings": {
         "section_layout": "default",
         "text_align": "center",
