@@ -178,6 +178,14 @@
             "image": "shopify:\/\/shop_images\/01_Image_10.png",
             "custom_title": ""
           }
+        },
+        "collection_J3Y99k": {
+          "type": "collection",
+          "settings": {
+            "collection": "asian",
+            "image": "shopify:\/\/shop_images\/Hollylollies_product_images_1.png",
+            "custom_title": "ASIAN PRODUCTS"
+          }
         }
       },
       "block_order": [
@@ -187,7 +195,8 @@
         "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-4",
         "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-5",
         "c76b45ef-09d3-4ae5-870f-23685fdbbfcf",
-        "1b08b405-7d5b-4bac-b4ad-683d260ebac3"
+        "1b08b405-7d5b-4bac-b4ad-683d260ebac3",
+        "collection_J3Y99k"
       ],
       "settings": {
         "show_card_title": true,
