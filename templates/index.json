@@ -122,6 +122,7 @@
         },
         "slide_MnXFkU": {
           "type": "Slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_1080_x_1080_px_8.png",
             "image_bg": "shopify:\/\/shop_images\/Screenshot_2024-03-06_at_12.02.12.png",
