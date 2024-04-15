@@ -5,11 +5,10 @@
       "blocks": {
         "ca1a8a25-f8cb-4583-81f7-053775d51ac2": {
           "type": "Slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_324433_0a15f530-833e-4943-b6b1-d39a7b034de2.png",
             "trust_image": "shopify:\/\/shop_images\/Trustpilot_Micro.png",
-            "headline": "GRAND LAUNCH SPECIAL: 40% Off Your Mystery Box Adventure!",
+            "headline": "TRAVEL THE WORLD WITH HOLLY LOLLIES",
             "info": "<p>Uncover the Secrets of International Sweets! 🍭🍫<\/p>",
             "button_title_1": "SHOP NOW",
             "button_url_1": "shopify:\/\/collections\/mystery-box-hot-deal",
@@ -72,6 +71,7 @@
         },
         "slide_zx6gfj": {
           "type": "Slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_1080x1080px_5.png",
             "headline": "🚨LAST CHANCE🚨Buy a Large Mystery Box, Get a Takis Tasting Box FREE! 🎉",
@@ -98,6 +98,7 @@
         },
         "slide_KegJDF": {
           "type": "Slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/50_4d9cec11-bf58-4bb7-be37-90588727e03c.png",
             "headline": "Takis Alert! 🌶️ Dive in at 50% off - all flavors, half the price!",
