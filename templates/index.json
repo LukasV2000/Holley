@@ -436,6 +436,19 @@
         "headline": "HOW IT WORKS"
       }
     },
+    "box": {
+      "type": "inside-box",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design_2_1.png",
+        "headline": "WHAT'S INSIDE THE BOX? 👀",
+        "title1": "TRENDY MYSTERY BOX",
+        "text1": "🍭 Enjoy unique flavors with treats exclusively available in our mystery box!",
+        "title2": "DISCOUNT MYSTERY BOX",
+        "text2": "💰 Discover unbeatable deals in our discount box, packed with a variety of candies at great prices.",
+        "title3": "ASIAN MYSTERY BOX",
+        "text3": "🍵 Find a delicious assortment of snacks from across Asia, perfect for satisfying all your cravings."
+      }
+    },
     "a72ea510-a5ac-4b87-8093-e14ded7e95ef": {
       "type": "d_featured-collection-grid",
       "blocks": {
@@ -591,7 +604,7 @@
         "feature_F6hLTz"
       ],
       "custom_css": [
-        ".Index_personalization_outer {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0839\/5941\/5099\/files\/Group_324367_1.jpg?v=1701857172\"); padding-top: 64px; padding-bottom: 64px; background-color: #fef0c7; background-position: 0 100%; background-size: 100%; background-repeat: no-repeat;}"
+        ".Index_personalization_outer {margin-top: 0; background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0839\/5941\/5099\/files\/Group_324367_1.jpg?v=1701857172\"); padding-top: 64px; padding-bottom: 64px; background-color: #fef0c7; background-position: 0 100%; background-size: 100%; background-repeat: no-repeat;}"
       ],
       "settings": {
         "small_text": "",
@@ -1558,9 +1571,6 @@
         "columns": 3,
         "mobile_columns": 2
       }
-    },
-    "box":{
-      "type":"inside-box"
     }
   },
   "order": [
