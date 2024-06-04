@@ -613,6 +613,16 @@
         "title": ""
       }
     },
+    "testimonials": {
+      "type": "testimonials",
+      "settings": {
+        "headline": "TESTIMONIALS",
+        "image": "shopify:\/\/shop_images\/Untitled_design_3_1.png",
+        "title": "I’m so surprised",
+        "text": "to find this variety pack, unlike any others in stores. Great price, and everyone in my house enjoys the mix. Everything inside is delicious!! My kids take some to school and love sharing with friends. Will definitely buy again!",
+        "name": "- Grace"
+      }
+    },
     "99fc637c-2af8-4a3d-a5c8-83ad7719eab3": {
       "type": "Index_multi_features",
       "blocks": {
@@ -1571,9 +1581,6 @@
         "columns": 3,
         "mobile_columns": 2
       }
-    },
-    "testimonials":{
-      "type":"testimonials"
     }
   },
   "order": [
@@ -1585,9 +1592,9 @@
     "box",
     "a72ea510-a5ac-4b87-8093-e14ded7e95ef",
     "65dd71fb-25de-49d7-bc75-be80fbb3c24d",
-    "testimonials",
     "e4a5db20-e003-4f31-b42c-ca901c57ab45",
     "252cadf0-079e-40a2-8914-70d73728cfba",
+    "testimonials",
     "99fc637c-2af8-4a3d-a5c8-83ad7719eab3",
     "165469275319e90978",
     "b03fa275-5869-46d4-9b3b-f53193c36f21",
