@@ -1519,6 +1519,9 @@
         "columns": 3,
         "mobile_columns": 2
       }
+    },
+    "inside":{
+      "type":"whats-inside"
     }
   },
   "order": [
@@ -1526,6 +1529,7 @@
     "0cfef29e-354b-4bd7-b913-b1710a26b5b1",
     "16546927101b0880bc",
     "83fb7f52-700d-4bb5-afa0-640e2a53a7cf",
+    "inside",
     "a72ea510-a5ac-4b87-8093-e14ded7e95ef",
     "65dd71fb-25de-49d7-bc75-be80fbb3c24d",
     "e4a5db20-e003-4f31-b42c-ca901c57ab45",
