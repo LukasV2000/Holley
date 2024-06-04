@@ -1,4 +1,5 @@
 <div class="Index_personalization_outer #container">
+    <div class="#container @width:default">
     {% if section.settings.small_text != blank %}
     <p class="Personalize_info_note"><strong>{{section.settings.small_text}}</strong></p>
     {% endif %}
@@ -34,6 +35,7 @@
             {% endfor %}
         </div>
     </div>
+  </div>
 </div>
 {% schema %}
 {
