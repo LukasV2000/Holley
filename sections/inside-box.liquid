@@ -3,6 +3,22 @@
         <h2 class="#hero-heading fs-d4 heading-font main_heading">
             <span class="#accent-text" style="--accent: linear-gradient(90deg, transparent 0, rgba(217, 214, 254, 0.5) 15%, rgba(217, 214, 254, 0.5) 85%, transparent 100%)">{{section.settings.headline}}</span>
         </h2>
+
+        <div class="ib_flex">
+            <div>
+                <img loading="eager" src="{{ section.settings.image | img_url: 'master' }}">
+            </div>
+            <div>
+                <h5>{{ section.settings.title1 }}</h5>
+                <p>{{ section.settings.text1 }}</p>
+
+                <h5 class="Reversed">{{ section.settings.title2 }}</h5>
+                <p>{{ section.settings.text2 }}</p>
+
+                <h5 class="Reversed">{{ section.settings.title3 }}</h5>
+                <p>{{ section.settings.text3 }}</p>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -14,10 +30,51 @@
     "tag": "section",
     "settings": [
         {
+            "type":"image_picker",
+            "id":"image",
+            "label":"Your image"
+        },
+        { 
             "type":"text",
             "id":"headline",
             "label":"Your headline",
             "default":"WHAT'S INSIDE THE BOX? 👀"
+        },
+        {
+            "type":"text",
+            "id":"title1",
+            "label":"Your Title 1",
+            "default":"TRENDY MYSTERY BOX"
+        },
+        {
+            "type":"text",
+            "id":"text1",
+            "label":"Your Text 1",
+            "default":"🍭 Enjoy unique flavors with treats exclusively available in our mystery box!"
+        },
+        {
+            "type":"text",
+            "id":"title2",
+            "label":"Your Title 2",
+            "default":"DISCOUNT MYSTERY BOX"
+        },
+        {
+            "type":"text",
+            "id":"text2",
+            "label":"Your Text 2",
+            "default":"💰 Discover unbeatable deals in our discount box, packed with a variety of candies at great prices. "
+        },
+        {
+            "type":"text",
+            "id":"title3",
+            "label":"Your Title 3",
+            "default":"ASIAN MYSTERY BOX"
+        },
+        {
+            "type":"text",
+            "id":"text3",
+            "label":"Your Text 3",
+            "default":"🍵 Find a delicious assortment of snacks from across Asia, perfect for satisfying all your cravings."
         }
     ]
 }
@@ -29,4 +86,43 @@
         padding-bottom: 64px;
         background: #D681F3;
     }
+    .ib_outer h2{
+        color: white;
+    }
+    .ib_flex{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        justify-content: center;
+        margin-top: 32px;
+    }
+    .ib_flex > div{
+        width: 100%;
+    }
+    .ib_flex img{
+        width: 100%;
+    }
+    .ib_flex p{
+        font-size: 18px;
+        color: white;
+        margin: 12px 0;
+    }
+    .ib_flex h5{
+        font-size: 22px;
+        color: white;
+        padding: 8px 12px;
+        border-radius: 8px;
+        background: #9785F5;
+        display: inline-block;
+        margin: 12px 0;
+    }
+    .ib_flex h5.Reversed{
+        background: white;
+        color: #D681F3;
+    }
+    @media only screen and (max-width: 768px) {
+        .ib_flex{
+            flex-wrap: wrap;
+        }
+    } 
 </style>
