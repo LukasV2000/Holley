@@ -7,8 +7,10 @@
         <div class="wi_grid">
             {%  for block in section.blocks %}
                 <div>
-                    <img loading="eager" src="{{ block.settings.image | img_url: 'master' }}">
-                    <h3>{{ block.settings.title }}</h3>
+                    <div class="wi_grid_image">
+                        <img loading="eager" src="{{ block.settings.image | img_url: 'master' }}">
+                    </div>
+                    <h3>{{ block.settings.headline }}</h3>
                     <p>{{ block.settings.text }}</p>
                 </div>
             {% endfor %}
@@ -65,6 +67,8 @@
         background-image: url('https://cdn.shopify.com/s/files/1/0839/5941/5099/files/Group_324366_1.jpg?v=1701857302');
         background-size: 100%;
         background-position: top;
+        background-repeat: no-repeat;
+        background-color: #9785F5;
     }
     .wi_outer .main_heading{
         color: white;
@@ -76,6 +80,7 @@
     .wi_grid > div{
         width: 100%;
         text-align: center;
+        padding: 32px;
     }
     .wi_grid img{
         width: 100%;
@@ -89,5 +94,26 @@
         font-size: 22px;
         color: white;
         margin: 12px 0;
+    }
+    .wi_grid_image{
+        width: 100%;
+        padding-top: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+    .wi_grid_image img{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    @media only screen and (max-width: 768px) {
+        .wi_grid{
+            flex-wrap: wrap;
+            gap: 0;
+        }
+        .wi_outer{
+            padding-top: 32px;
+            padding-bottom: 32px;
+        }
     }
 </style>
