@@ -1571,6 +1571,9 @@
         "columns": 3,
         "mobile_columns": 2
       }
+    },
+    "testimonials":{
+      "type":"testimonials"
     }
   },
   "order": [
@@ -1582,6 +1585,7 @@
     "box",
     "a72ea510-a5ac-4b87-8093-e14ded7e95ef",
     "65dd71fb-25de-49d7-bc75-be80fbb3c24d",
+    "testimonials",
     "e4a5db20-e003-4f31-b42c-ca901c57ab45",
     "252cadf0-079e-40a2-8914-70d73728cfba",
     "99fc637c-2af8-4a3d-a5c8-83ad7719eab3",

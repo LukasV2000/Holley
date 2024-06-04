@@ -1,0 +1,102 @@
+<div class="te_outer #container @width:default">
+    <h2 class="#hero-heading fs-d4 heading-font main_heading">
+        <span class="#accent-text" style="--accent: linear-gradient(90deg, transparent 0, rgba(217, 214, 254, 0.5) 15%, rgba(217, 214, 254, 0.5) 85%, transparent 100%)">{{section.settings.headline}}</span>
+    </h2>
+    <div class="te_flex">
+        <div>
+            <img loading="eager" src="{{ section.settings.image | img_url: 'master' }}">
+        </div>
+        <div>
+            <div class="te_inner_Cont">
+
+                <p class="te_title">{{ section.settings.title }}</p>
+                <p class="te_body">{{ section.settings.text }}</p>
+                <p class="te_title">{{ section.settings.name }}</p>
+
+                <svg width="155" height="31" viewBox="0 0 155 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.5 0L18.98 10.7102H30.2414L21.1307 17.3295L24.6107 28.0398L15.5 21.4205L6.38933 28.0398L9.8693 17.3295L0.758624 10.7102H12.02L15.5 0Z" fill="#9785F5"/>
+                    <path d="M46.5 0L49.98 10.7102H61.2414L52.1307 17.3295L55.6107 28.0398L46.5 21.4205L37.3893 28.0398L40.8693 17.3295L31.7586 10.7102H43.02L46.5 0Z" fill="#9785F5"/>
+                    <path d="M77.5 0L80.98 10.7102H92.2414L83.1307 17.3295L86.6107 28.0398L77.5 21.4205L68.3893 28.0398L71.8693 17.3295L62.7586 10.7102H74.02L77.5 0Z" fill="#9785F5"/>
+                    <path d="M108.5 0L111.98 10.7102H123.241L114.131 17.3295L117.611 28.0398L108.5 21.4205L99.3893 28.0398L102.869 17.3295L93.7586 10.7102H105.02L108.5 0Z" fill="#9785F5"/>
+                    <path d="M139.5 0L142.98 10.7102H154.241L145.131 17.3295L148.611 28.0398L139.5 21.4205L130.389 28.0398L133.869 17.3295L124.759 10.7102H136.02L139.5 0Z" fill="#9785F5"/>
+                </svg> 
+            </div>               
+        </div>
+    </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Testimonials",
+  "settings": [
+    { 
+        "type":"text",
+        "id":"headline",
+        "label":"Your headline",
+        "default":"TESTIMONIALS"
+    },
+    {
+        "type":"image_picker",
+        "id":"image",
+        "label":"Your image"
+    },
+    {
+        "type":"text",
+        "id":"title",
+        "label":"Your title",
+        "default":"I’m so surprised"
+    },
+    {
+        "type":"text",
+        "id":"text",
+        "label":"Your body",
+        "default":"to find this variety pack, unlike any others in stores. Great price, and everyone in my house enjoys the mix. Everything inside is delicious!! My kids take some to school and love sharing with friends. Will definitely buy again!"
+    },
+    {
+        "type":"text",
+        "id":"name",
+        "label":"Your name",
+        "default":"- Grace"
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+    .te_flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 32px;
+    }
+    .te_flex > div{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .te_outer {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+    .te_inner_Cont{
+        max-width: 350px;
+    }
+    .te_title{
+        font-size: 20px;
+        font-weight: bold;
+        margin: 12px 0;
+    }
+    .te_body{
+        font-size: 18px;
+        margin: 12px 0;
+    }
+    @media only screen and (max-width: 768px) {
+        .te_flex{
+            flex-wrap: wrap;
+        }
+    }
+</style>
