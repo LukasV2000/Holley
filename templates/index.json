@@ -399,6 +399,43 @@
         "section_button_label": "Explore all"
       }
     },
+    "inside": {
+      "type": "whats-inside",
+      "blocks": {
+        "block_QMpWDT": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_cda5222e-1d8f-4eac-a570-085ca082b502.png",
+            "headline": "Choose Your Box 📦",
+            "text": "Explore our selection —every choice is a win"
+          }
+        },
+        "block_MJHV9K": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2.png",
+            "headline": "Choose Your Box 📦",
+            "text": "Explore our selection —every choice is a win"
+          }
+        },
+        "block_8bbEW6": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_cda5222e-1d8f-4eac-a570-085ca082b502.png",
+            "headline": "Choose Your Box 📦",
+            "text": "Explore our selection —every choice is a win"
+          }
+        }
+      },
+      "block_order": [
+        "block_QMpWDT",
+        "block_MJHV9K",
+        "block_8bbEW6"
+      ],
+      "settings": {
+        "headline": "HOW IT WORKS"
+      }
+    },
     "a72ea510-a5ac-4b87-8093-e14ded7e95ef": {
       "type": "d_featured-collection-grid",
       "blocks": {
@@ -1519,9 +1556,6 @@
         "columns": 3,
         "mobile_columns": 2
       }
-    },
-    "inside":{
-      "type":"whats-inside"
     }
   },
   "order": [
