@@ -351,6 +351,7 @@
         },
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-4": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "soft-drinks",
             "image": "shopify:\/\/shop_images\/01_Image_10.png",
@@ -359,6 +360,7 @@
         },
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-5": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "candies-popcorn",
             "image": "shopify:\/\/shop_images\/01_Image_11.png",
@@ -367,6 +369,7 @@
         },
         "cc48d79d-b305-47b0-b5e3-ecc98d523344": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "tiktok-hits",
             "image": "shopify:\/\/shop_images\/01_Image_7.png",
@@ -389,7 +392,7 @@
         "show_card_title": true,
         "heading": "EXPLORE COLLECTIONS",
         "subheading": "",
-        "columns": 6,
+        "columns": 3,
         "image_size": "square",
         "text_position": "center",
         "show_frame": false,
