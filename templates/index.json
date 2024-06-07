@@ -6,13 +6,13 @@
         "ca1a8a25-f8cb-4583-81f7-053775d51ac2": {
           "type": "Slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_324433_0a15f530-833e-4943-b6b1-d39a7b034de2.png",
+            "image": "shopify:\/\/shop_images\/Untitled_design_4.png",
             "trust_image": "shopify:\/\/shop_images\/Trustpilot_Micro.png",
             "headline": "TRAVEL THE WORLD WITH HOLLY LOLLIES",
-            "info": "<p>Uncover the Secrets of International Sweets! 🍭🍫<\/p>",
+            "info": "<p>Unwrap Sweet Adventures with Holly Lollies! Discover the Joy of International Treats. 🍭🍫<\/p>",
             "button_title_1": "SHOP NOW",
-            "button_url_1": "shopify:\/\/collections\/mystery-box-hot-deal",
-            "button_title_2": "HOT DEALS 🔥",
+            "button_url_1": "shopify:\/\/collections",
+            "button_title_2": "",
             "button_url_2": "shopify:\/\/collections\/mystery-box-hot-deal"
           }
         },
@@ -194,28 +194,24 @@
         },
         "6e57aef7-3089-4102-9aae-c275cf2167c1": {
           "type": "Logo",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_design_20.png"
           }
         },
         "923a67eb-f63d-4742-a0b9-bcc91c408424": {
           "type": "Logo",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_design__21_-removebg-preview.png"
           }
         },
         "637403ec-0e8a-4ab9-aa22-1c54a1311a98": {
           "type": "Logo",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/2_feaa4d0c-84c3-425c-bcba-42cb73d1715b.png"
           }
         },
         "db06d186-c05c-4100-8dfa-9a3c9f763a4b": {
           "type": "Logo",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_design__22_-removebg-preview.png"
           }
@@ -329,24 +325,24 @@
           "type": "collection",
           "settings": {
             "collection": "mystery-box-hot-deal",
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-05-08_at_20.11_1.png",
-            "custom_title": "TRENDING 💯Mystery Box"
+            "image": "shopify:\/\/shop_images\/1_6c5f417d-1268-401b-b655-845b3bec5972.png",
+            "custom_title": "TRENDING Mystery Box 💯"
           }
         },
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-2": {
           "type": "collection",
           "settings": {
             "collection": "best-sellers",
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-05-08_at_20.09_1.png",
-            "custom_title": "ASIAN 🏯 Mystery Box"
+            "image": "shopify:\/\/shop_images\/2_a08bc46f-72f5-4944-99d0-1e8038ca8dfc.png",
+            "custom_title": "ASIAN Mystery Box 🏯"
           }
         },
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-3": {
           "type": "collection",
           "settings": {
             "collection": "snacks",
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-05-08_at_20.13_1.png",
-            "custom_title": "DISCOUNT 🤑 Mystery Box"
+            "image": "shopify:\/\/shop_images\/3_a74592a9-e087-4e3f-8cde-da3c83814303.png",
+            "custom_title": "DISCOUNT Mystery Box 🤑"
           }
         },
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-4": {
@@ -390,7 +386,7 @@
       ],
       "settings": {
         "show_card_title": true,
-        "heading": "EXPLORE COLLECTIONS",
+        "heading": "EXPLORE MYSTERY BOXES",
         "subheading": "",
         "columns": 3,
         "image_size": "square",
@@ -405,7 +401,7 @@
         "block_QMpWDT": {
           "type": "Block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_cda5222e-1d8f-4eac-a570-085ca082b502.png",
+            "image": "shopify:\/\/shop_images\/Untitled_design_4.png",
             "headline": "Choose Your Box 📦",
             "text": "Explore our selection —every choice is a win"
           }
@@ -414,16 +410,16 @@
           "type": "Block",
           "settings": {
             "image": "shopify:\/\/shop_images\/2.png",
-            "headline": "Choose Your Box 📦",
-            "text": "Explore our selection —every choice is a win"
+            "headline": "Sit back and relax 🌟",
+            "text": "Relax as we curate your box with care"
           }
         },
         "block_8bbEW6": {
           "type": "Block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_cda5222e-1d8f-4eac-a570-085ca082b502.png",
-            "headline": "Choose Your Box 📦",
-            "text": "Explore our selection —every choice is a win"
+            "image": "shopify:\/\/shop_images\/Untitled_design_5.png",
+            "headline": "Magic Happens 🪄",
+            "text": "Experience the joy of unboxing - snacks and surprises await!"
           }
         }
       },
@@ -433,7 +429,7 @@
         "block_8bbEW6"
       ],
       "settings": {
-        "headline": "HOW IT WORKS"
+        "headline": "HOW IT WORKS?"
       }
     },
     "box": {
@@ -442,11 +438,11 @@
         "image": "shopify:\/\/shop_images\/Untitled_design_2_1.png",
         "headline": "WHAT'S INSIDE THE BOX? 👀",
         "title1": "TRENDY MYSTERY BOX",
-        "text1": "🍭 Enjoy unique flavors with treats exclusively available in our mystery box!",
+        "text1": "🍭 From 10 to 15 most trendy and unique candies in one box! Enjoy unique flavors exclusively available for you!",
         "title2": "DISCOUNT MYSTERY BOX",
-        "text2": "💰 Discover unbeatable deals in our discount box, packed with a variety of candies at great prices.",
+        "text2": "💰 From 8 to 12 treats with unbeatable prices in our discount box, candies close to expiration date that are ready to be eaten!",
         "title3": "ASIAN MYSTERY BOX",
-        "text3": "🍵 Find a delicious assortment of snacks from across Asia, perfect for satisfying all your cravings."
+        "text3": "🍵 From 10 to 15 candies includes a variety of unique and exotic snacks from different Asian countries, such as Japan, Korea, China, and more."
       }
     },
     "a72ea510-a5ac-4b87-8093-e14ded7e95ef": {
@@ -564,27 +560,27 @@
         "f24fcd2a-f4c3-4b70-a85b-f7e16dd41f39": {
           "type": "feature",
           "settings": {
-            "heading": "🇪🇪 🇱🇻 🇱🇹 FAST SHIPPING IN BALTIC STATES",
-            "text": "Fast 1-3 business days shipping with OMNIVA TERMINALS.",
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-04-26_at_10.42_1.png",
+            "heading": "PARTY TIME 🎉",
+            "text": "Spice up your gatherings and parties with a variety of unique snacks from our mystery boxes, creating unforgettable memories with friends",
+            "image": "shopify:\/\/shop_images\/download.gif",
             "icon": "<svg width=\"41\" height=\"41\" viewbox=\"0 0 41 41\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" fill=\"white\"><\/rect>\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" stroke=\"black\" stroke-width=\"2\"><\/rect>\n                                <path d=\"M13.5 20.7633L16.9168 11.834H25.4927L23.1354 16.7453H29L16.4491 30.334L20.915 20.7633H13.5Z\" fill=\"#7A5AF8\" stroke=\"black\" stroke-width=\"2\"><\/path>\n                            <\/svg>"
           }
         },
         "6fa46c1a-72ce-45fb-b040-fcfdd0d2663b": {
           "type": "feature",
           "settings": {
-            "heading": "COMPETITIVE PRICING",
-            "text": "As one of the top candy wholesaler in the EU, we buy big and save big. This means amazing deals for you, letting you enjoy your candy favorites at unbeatable prices.",
-            "image": "shopify:\/\/shop_images\/vilcabamba_95957_pile_of_gift_boxes_outside_with_the_pink_cloud_61e1eb31-ae03-48f3-af56-6623522ed63f.webp",
+            "heading": "Family Feasting 👪",
+            "text": "Share the joy of discovering and tasting new snacks with your loved ones, including the little ones, during cozy family nights at home.",
+            "image": "shopify:\/\/shop_images\/Ekrano_kopija_2024-06-07_153421.png",
             "icon": "<svg width=\"41\" height=\"41\" viewbox=\"0 0 41 41\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" fill=\"white\"><\/rect>\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" stroke=\"black\" stroke-width=\"2\"><\/rect>\n                                <path d=\"M13.5 20.7633L16.9168 11.834H25.4927L23.1354 16.7453H29L16.4491 30.334L20.915 20.7633H13.5Z\" fill=\"#7A5AF8\" stroke=\"black\" stroke-width=\"2\"><\/path>\n                            <\/svg>"
           }
         },
         "c745320a-0684-4250-a2df-daead1a1203b": {
           "type": "feature",
           "settings": {
-            "heading": "MORE THAN A CANDY SHOP",
-            "text": "Dive into the playful world of Holly Lollies! We spice up your candy experience with intriguing tales, amusing facts, and clever riddles. Get ready for contests that are all about fun!",
-            "image": "shopify:\/\/shop_images\/vilcabamba_95957_i_need_a_rollecoaster_colors_pastel_purple_pin_aea8425d-e174-4113-a019-5cb50262333f.webp",
+            "heading": "Flavorful Gifting 🎁",
+            "text": "Perfect for any occasion, especially for those who have it all—because food always brings joy!",
+            "image": "shopify:\/\/shop_images\/Ekrano_kopija_2024-06-07_153634.png",
             "icon": "<svg width=\"41\" height=\"41\" viewbox=\"0 0 41 41\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" fill=\"white\"><\/rect>\n                        a        <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" stroke=\"black\" stroke-width=\"2\"><\/rect>\n                                <path d=\"M13.5 20.7633L16.9168 11.834H25.4927L23.1354 16.7453H29L16.4491 30.334L20.915 20.7633H13.5Z\" fill=\"#7A5AF8\" stroke=\"black\" stroke-width=\"2\"><\/path>\n                            <\/svg>"
           }
         },

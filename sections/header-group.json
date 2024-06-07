@@ -8,7 +8,7 @@
         "5d86f9c7-6db2-439f-ba5a-8f69a9aa3fa2": {
           "type": "announcement",
           "settings": {
-            "text": "🇪🇪 🇱🇻 🇱🇹 FREE SHIPPING OVER €34.99",
+            "text": "FREE SHIPPING OVER €34.99",
             "link": "shopify:\/\/collections",
             "icon": ""
           }
@@ -60,6 +60,7 @@
       "blocks": {
         "c41c9456-2f6d-4255-87e7-8172ceb0b2f7": {
           "type": "mega",
+          "disabled": true,
           "settings": {
             "position": "secondary",
             "title": "All Collections",
@@ -87,6 +88,7 @@
         },
         "ae7c8fcc-da7a-4c82-a014-c7c5928e2839": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "position": "secondary",
             "title": "On Sale",
@@ -102,8 +104,8 @@
           "type": "link",
           "settings": {
             "position": "secondary",
-            "link_name": "Mystery box",
-            "url": "shopify:\/\/collections\/mystery-box-hot-deal",
+            "link_name": "Mystery boxes",
+            "url": "shopify:\/\/collections\/frontpage",
             "icon": "gift"
           }
         },
@@ -111,8 +113,8 @@
           "type": "browsing_history",
           "settings": {
             "position": "secondary",
-            "title": "Browsing History",
-            "icon": "clock-rotate-left",
+            "title": "How It Works",
+            "icon": "question",
             "show_product_title": true,
             "show_product_price": true
           }
@@ -128,10 +130,11 @@
         },
         "482c35db-3aac-4c80-b180-3312ae1c5012": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "position": "secondary",
-            "link_name": "HOT DEAL",
-            "url": "shopify:\/\/collections\/mystery-box-hot-deal",
+            "link_name": "FAQ",
+            "url": "shopify:\/\/blogs\/news",
             "icon": "fire"
           }
         },
