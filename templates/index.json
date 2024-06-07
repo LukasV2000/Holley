@@ -562,7 +562,7 @@
           "settings": {
             "heading": "PARTY TIME 🎉",
             "text": "Spice up your gatherings and parties with a variety of unique snacks from our mystery boxes, creating unforgettable memories with friends",
-            "image": "shopify:\/\/shop_images\/download.gif",
+            "image": "shopify:\/\/shop_images\/download_1.gif",
             "icon": "<svg width=\"41\" height=\"41\" viewbox=\"0 0 41 41\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" fill=\"white\"><\/rect>\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" stroke=\"black\" stroke-width=\"2\"><\/rect>\n                                <path d=\"M13.5 20.7633L16.9168 11.834H25.4927L23.1354 16.7453H29L16.4491 30.334L20.915 20.7633H13.5Z\" fill=\"#7A5AF8\" stroke=\"black\" stroke-width=\"2\"><\/path>\n                            <\/svg>"
           }
         },
@@ -587,8 +587,9 @@
         "feature_F6hLTz": {
           "type": "feature",
           "settings": {
-            "heading": "Nullam id dolor id",
-            "text": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+            "heading": "Solo Adventure 🍫",
+            "text": "Get on a solo taste adventure and treat yourself to a diverse selection of snacks from our mystery boxes, indulging in moments of self-discovery and enjoyment",
+            "image": "shopify:\/\/shop_images\/image00006.jpg",
             "icon": "<svg width=\"41\" height=\"41\" viewbox=\"0 0 41 41\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" fill=\"white\"><\/rect>\n                        a        <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" stroke=\"black\" stroke-width=\"2\"><\/rect>\n                                <path d=\"M13.5 20.7633L16.9168 11.834H25.4927L23.1354 16.7453H29L16.4491 30.334L20.915 20.7633H13.5Z\" fill=\"#7A5AF8\" stroke=\"black\" stroke-width=\"2\"><\/path>\n                            <\/svg>"
           }
         }
@@ -614,9 +615,9 @@
       "settings": {
         "headline": "TESTIMONIALS",
         "image": "shopify:\/\/shop_images\/Untitled_design_3_1.png",
-        "title": "I’m so surprised",
-        "text": "to find this variety pack, unlike any others in stores. Great price, and everyone in my house enjoys the mix. Everything inside is delicious!! My kids take some to school and love sharing with friends. Will definitely buy again!",
-        "name": "- Grace"
+        "title": "Trendy mystery box",
+        "text": "\"I'm so thrilled with the Trendy Mystery Box! Every snack was a hit, especially the latest Takis flavor that I couldn't find anywhere else. My friends were amazed at how up-to-date my snack game is!\"",
+        "name": "- Grace from Netherlands"
       }
     },
     "99fc637c-2af8-4a3d-a5c8-83ad7719eab3": {
@@ -1281,9 +1282,9 @@
           "type": "Slide",
           "settings": {
             "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/34389683f8c34c9ba6f6c1094b667491.mp4",
-            "headline": "“Tasting the Japanese KitKat Matcha was like a quick trip back to Japan. The variety in this box is incredible – each candy is a new discovery. For anyone thinking about trying Holly Lollies, I say go for it. It's a world tour for your taste buds and every bite is top quality. Holly Lollies, you've got yourself a fan – this is easily a 10\/10 from me!\"”",
-            "name": "— Kamėja",
-            "info": "Proud Client from Lithuania 🇱🇹"
+            "headline": "\"I was hesitant about the value, but Holly Lollies exceeded my expectations! The variety and quality of snacks were amazing. Plus, their money-back guarantee gave me peace of mind. I'm definitely subscribing!\" ⭐⭐⭐⭐⭐",
+            "name": "— Emily From LT",
+            "info": ""
           }
         },
         "slide_AJLLd7": {
@@ -1300,9 +1301,9 @@
           "type": "Slide",
           "settings": {
             "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2f62e6daf68e4ddba80b1921cf3c0d0b.mp4",
-            "headline": "“I’d been introduced to them through a friend, though I’d heard about them before. I’ve been impressed with the range of snacks and drinks, and the effort put into each box. Even with the occasional repeat snack, it’s still always delicious. It’s worth the price, and worth the time to enjoy a big bite of exotic candies.”",
-            "name": "— Džestina",
-            "info": "Happy Clients from Lithuania 🇱🇹"
+            "headline": "\"I worried about not liking the snacks, but the satisfaction guarantee convinced me to try it. The unboxing experience was premium and exciting, and I loved almost everything inside. Highly recommend!\" ⭐⭐⭐⭐⭐",
+            "name": "Susie and Paula from Germany",
+            "info": ""
           }
         },
         "aa79dcd2-cd01-4a96-8ee2-fb87b8795e04": {
@@ -1310,17 +1311,17 @@
           "settings": {
             "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/07da1bd8f60f498a98df83404f3c81fd.mp4",
             "headline": "“I've had other snack boxes but, Holly Lollies is definitely my favorite. Great variety of tasty snacks, both sweet and savory. My box even included some ramen! I would definitely recommend this for anyone that wants to try exotic snacks.”",
-            "name": "— Indrė",
-            "info": "Proud Client from Lithuania 🇱🇹"
+            "name": "— Pam from Austria",
+            "info": ""
           }
         },
         "00a1defd-429c-4b20-824d-9121bacdfdf5": {
           "type": "Slide",
           "settings": {
             "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/722b3abc83ff4a408e14dfa3c621fb57.mp4",
-            "headline": "“It's all delicious and let's you try different flavor combinations you never would have thought of or had the chance to experience.\"",
-            "name": "— Karolina",
-            "info": "Proud Client from Lithuania 🇱🇹"
+            "headline": "\"I feared the box wouldn't match the hype, but Holly Lollies delivered beyond my expectations. The premium unboxing experience, diverse snacks, and the joy of discovering new treats were fantastic. Will buy again!\" ⭐⭐⭐⭐⭐",
+            "name": "— Mark from Finland",
+            "info": ""
           }
         }
       },
@@ -1340,6 +1341,14 @@
     "fca67246-1b86-436b-a889-fbec115fd5ee": {
       "type": "d_faq",
       "blocks": {
+        "question_dD7QgF": {
+          "type": "question",
+          "settings": {
+            "heading": "What can I expect in every of the boxes that you offer?",
+            "icon": "",
+            "text": "<p>In each of our mystery boxes, you can expect a delightful assortment of snacks and treats that cater to your specific tastes and preferences:<br\/><br\/>Trendy Mystery Box: This box is packed with the latest and most popular snacks that are currently trending. You’ll find an exciting mix of sweet and savory treats that everyone is talking about, perfect for those who love to stay ahead of the snack game.<br\/><br\/>Asian Mystery Box: Experience a culinary journey through Asia with this box. It includes a variety of unique and exotic snacks from different Asian countries, such as Japan, Korea, China, and more. You can expect items like Pocky, Matcha KitKats, Ramune soda, and other delightful surprises.<br\/><br\/>Discount Mystery Box: This box offers fantastic value by including a selection of delicious snacks that are close to their expiration date. Despite being near their best-by date, these treats are still tasty and enjoyable. It's a great way to enjoy a variety of snacks at a lower price.<br\/><br\/>Each box is carefully curated to ensure a pleasant and satisfying snacking experience, with a focus on variety and quality. No matter which box you choose, you’re in for a treat!<br\/><\/p>"
+          }
+        },
         "template--21462135734587__fca67246-1b86-436b-a889-fbec115fd5ee-question-1": {
           "type": "question",
           "settings": {
@@ -1414,6 +1423,7 @@
         }
       },
       "block_order": [
+        "question_dD7QgF",
         "template--21462135734587__fca67246-1b86-436b-a889-fbec115fd5ee-question-1",
         "template--21462135734587__fca67246-1b86-436b-a889-fbec115fd5ee-question-2",
         "template--21462135734587__fca67246-1b86-436b-a889-fbec115fd5ee-question-3",
@@ -1476,24 +1486,24 @@
         "1654693292a215d319-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Pocky.webp",
-            "product": "chinese-fanta-jasmine-peach-flavor-500ml",
+            "image": "shopify:\/\/shop_images\/Ekrano_kopija_2024-06-07_161320.png",
+            "product": "",
             "product_subtitle": ""
           }
         },
         "1654693292a215d319-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/20-Best-Favorite-Japanese-Snacks-You-Must-Try_1024x1024_1c629895-cf46-4fa7-b3f0-b7b351a6b3f5.webp",
-            "product": "hata-kosen-bottle-ramune-blueberry",
+            "image": "shopify:\/\/shop_images\/Ekrano_kopija_2024-06-07_161338.png",
+            "product": "",
             "product_subtitle": ""
           }
         },
         "1654693292a215d319-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SnackPot_AuthenticFoodQuest_jpg.webp",
-            "product": "chinese-fanta-grape-flavor-500ml",
+            "image": "shopify:\/\/shop_images\/Ekrano_kopija_2024-06-07_161424.png",
+            "product": "",
             "product_subtitle": ""
           }
         },
@@ -1509,16 +1519,16 @@
         "1654693292a215d319-5": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/chips-2.webp",
-            "product": "takis-fuego-90gr",
+            "image": "shopify:\/\/shop_images\/Ekrano_kopija_2024-06-07_161436.png",
+            "product": "",
             "product_subtitle": ""
           }
         },
         "1654693292a215d319-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/d1ea4c47ba48571d6311ce650124e73f54f74a3b573b4793f695c1282de0554c.jpg",
-            "product": "general-mills-reese-puffs-326gr",
+            "image": "shopify:\/\/shop_images\/Ekrano_kopija_2024-06-07_161353.png",
+            "product": "",
             "product_subtitle": ""
           }
         },
@@ -1543,8 +1553,8 @@
         "f06c7a6a-1d58-4c92-9294-44b80f4fb2a2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/snacks-in-america.webp",
-            "product": "japan-fritolay-cheetos-flamin-hot-crunchy-75g",
+            "image": "shopify:\/\/shop_images\/Ekrano_kopija_2024-06-07_161410.png",
+            "product": "",
             "product_subtitle": ""
           }
         },
