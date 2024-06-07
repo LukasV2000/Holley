@@ -105,7 +105,7 @@
           "settings": {
             "position": "secondary",
             "link_name": "Mystery boxes",
-            "url": "shopify:\/\/collections\/frontpage",
+            "url": "shopify:\/\/collections\/mystery-boxes",
             "icon": "gift"
           }
         },
