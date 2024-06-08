@@ -392,7 +392,7 @@
         "image_size": "square",
         "text_position": "center",
         "show_frame": false,
-        "section_button_label": "Explore all"
+        "section_button_label": ""
       }
     },
     "inside": {
