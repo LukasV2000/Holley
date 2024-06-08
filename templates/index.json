@@ -1072,7 +1072,7 @@
           "settings": {
             "mobile_hidden": false,
             "f_button_label": "EXPLORE NOW",
-            "f_button_link": "shopify:\/\/collections\/mystery-box-hot-deal",
+            "f_button_link": "shopify:\/\/collections",
             "f_button_style": "normal",
             "f_button_custom_colors": false,
             "f_button_bg_color": "",
