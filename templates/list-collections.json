@@ -108,6 +108,7 @@
         "template--21462135800123__ded88cbd-4989-4f35-8b66-0e700296ebfc-text-1",
         "template--21462135800123__ded88cbd-4989-4f35-8b66-0e700296ebfc-buttons-1"
       ],
+      "disabled": true,
       "custom_css": [
         ".Richtext_outer {padding-bottom: 0;}"
       ],
@@ -123,86 +124,38 @@
     "e3072ddc-be59-4c07-ba88-884d5f1497a9": {
       "type": "d_collection-list",
       "blocks": {
-        "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-2": {
+        "collection_7ibFwf": {
           "type": "collection",
           "settings": {
-            "collection": "mystery-box-hot-deal",
-            "image": "shopify:\/\/shop_images\/01_Image_6.png",
+            "collection": "trendy-mystery-box",
             "custom_title": ""
           }
         },
-        "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-1": {
+        "collection_JTVKhh": {
           "type": "collection",
           "settings": {
-            "collection": "best-sellers",
-            "image": "shopify:\/\/shop_images\/01_Image_8.png",
+            "collection": "asian-mystery-box",
             "custom_title": ""
           }
         },
-        "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-3": {
+        "collection_4p9UNF": {
           "type": "collection",
           "settings": {
-            "collection": "candies-popcorn",
-            "image": "shopify:\/\/shop_images\/01_Image_11.png",
+            "collection": "discounted-mystery-box",
             "custom_title": ""
-          }
-        },
-        "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-4": {
-          "type": "collection",
-          "settings": {
-            "collection": "cereals-instant-soups",
-            "image": "shopify:\/\/shop_images\/01_Image_7.png",
-            "custom_title": ""
-          }
-        },
-        "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-5": {
-          "type": "collection",
-          "settings": {
-            "collection": "snacks",
-            "image": "shopify:\/\/shop_images\/01_Image_3.png",
-            "custom_title": ""
-          }
-        },
-        "c76b45ef-09d3-4ae5-870f-23685fdbbfcf": {
-          "type": "collection",
-          "settings": {
-            "collection": "frontpage",
-            "image": "shopify:\/\/shop_images\/Untitled_design_43.png",
-            "custom_title": ""
-          }
-        },
-        "1b08b405-7d5b-4bac-b4ad-683d260ebac3": {
-          "type": "collection",
-          "settings": {
-            "collection": "soft-drinks",
-            "image": "shopify:\/\/shop_images\/01_Image_10.png",
-            "custom_title": ""
-          }
-        },
-        "collection_J3Y99k": {
-          "type": "collection",
-          "settings": {
-            "collection": "asian",
-            "image": "shopify:\/\/shop_images\/Hollylollies_product_images_1.png",
-            "custom_title": "ASIAN PRODUCTS"
           }
         }
       },
       "block_order": [
-        "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-2",
-        "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-1",
-        "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-3",
-        "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-4",
-        "template--21716628570427__e3072ddc-be59-4c07-ba88-884d5f1497a9-collection-5",
-        "c76b45ef-09d3-4ae5-870f-23685fdbbfcf",
-        "1b08b405-7d5b-4bac-b4ad-683d260ebac3",
-        "collection_J3Y99k"
+        "collection_7ibFwf",
+        "collection_JTVKhh",
+        "collection_4p9UNF"
       ],
       "settings": {
         "show_card_title": true,
-        "heading": "Collection list",
+        "heading": "CHOOSE YOUR MYSTERY BOX",
         "subheading": "",
-        "columns": 4,
+        "columns": 3,
         "image_size": "square",
         "text_position": "center",
         "show_frame": false,
@@ -280,6 +233,7 @@
         "template--21716628570427__4f015acc-ac49-4ea9-8889-641fc9752d7e-buy_buttons-1",
         "template--21716628570427__4f015acc-ac49-4ea9-8889-641fc9752d7e-payment_methods-1"
       ],
+      "disabled": true,
       "settings": {
         "headline_main": "WANT THE WHOLE EXPERIENCE? 🤔👇",
         "description": "Each Mystery Box is a journey of sweet discoveries, offering a mix of exotic and beloved flavors. Perfect for adventurous taste buds or as a special gift, it's your chance to experience the finest selections from Holly Lollies and beyond. Unwrap surprise, taste delight!",
@@ -661,6 +615,7 @@
     },
     "64dbe55b-1680-43aa-997f-2048d1510a92": {
       "type": "d_browsing-history",
+      "disabled": true,
       "settings": {
         "heading": "Browsing history",
         "subheading": "",
