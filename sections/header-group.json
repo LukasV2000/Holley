@@ -10,7 +10,7 @@
           "settings": {
             "text": "Experience the Premium Mystery Box!",
             "link": "shopify:\/\/collections",
-            "icon": "box"
+            "icon": "gift"
           }
         },
         "ccb463a8-7c50-4635-99eb-d5f8e52c2c84": {
@@ -18,7 +18,7 @@
           "settings": {
             "text": "Discover the Most Trendy Candies from Around the World!",
             "link": "shopify:\/\/collections\/hot-deals",
-            "icon": "meteor"
+            "icon": "magnifying-glass"
           }
         },
         "c4b59b37-19bd-476f-bb55-1efe555f93d0": {
@@ -26,7 +26,7 @@
           "settings": {
             "text": "Opening Offer: Get 20% Off Your First Box!",
             "link": "",
-            "icon": "gift"
+            "icon": "fire"
           }
         },
         "76e60a6e-9e60-4d40-b24c-6db17034350b": {
@@ -34,7 +34,7 @@
           "settings": {
             "text": "Indulge in Exclusive, High-End Treats!",
             "link": "",
-            "icon": "comments-dollar"
+            "icon": "medal"
           }
         }
       },
