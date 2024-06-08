@@ -110,6 +110,7 @@
         },
         "a0e5e96a-cb06-403c-b463-af2abc48fa2e": {
           "type": "browsing_history",
+          "disabled": true,
           "settings": {
             "position": "secondary",
             "title": "MYSTERY BOXES",
@@ -190,9 +191,9 @@
           "type": "collection_list",
           "settings": {
             "position": "secondary",
-            "title": "Collections",
+            "title": "MYSTERY BOXES",
             "url": "shopify:\/\/collections",
-            "icon": "",
+            "icon": "gift",
             "main_navigation_collection_list": [
 
             ],
