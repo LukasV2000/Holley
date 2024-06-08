@@ -86,6 +86,7 @@
         "77f5944c-d7c5-43c4-a629-eeb44684e3f8",
         "21d302aa-f66a-4625-8f0c-445d350e351b"
       ],
+      "disabled": true,
       "settings": {
         "autoplay_speed": 4000,
         "scrolled_to_box": true
@@ -248,6 +249,7 @@
         "text_ebJtWq",
         "buttons_gTbWXK"
       ],
+      "disabled": true,
       "settings": {
         "section_layout": "default",
         "text_align": "center",
