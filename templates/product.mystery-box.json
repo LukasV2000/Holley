@@ -402,6 +402,7 @@
     },
     "16554757745dec0af9": {
       "type": "d_product-recommendations",
+      "disabled": true,
       "settings": {
         "heading": "Recommended for You",
         "subheading": "Based on what customers bought",
@@ -434,6 +435,7 @@
     },
     "a2254d99-9030-4262-b1a1-76541f8923f4": {
       "type": "d_browsing-history",
+      "disabled": true,
       "settings": {
         "heading": "Browsing history",
         "subheading": "",
@@ -489,6 +491,7 @@
         "818d02f9-85ba-4332-a43a-47e56fff2718",
         "0b69fa11-51bd-4e48-968a-ec117b9d9f92"
       ],
+      "disabled": true,
       "settings": {
         "title": "This is what our community says",
         "reviews_img": "shopify:\/\/shop_images\/Screenshot_2023-12-13_at_14.17.29.png"
