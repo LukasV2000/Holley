@@ -100,9 +100,10 @@
         },
         "56d8cc47-7575-4811-aed8-71467431ca6e": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "position": "secondary",
-            "link_name": "Mystery boxes",
+            "link_name": "",
             "url": "shopify:\/\/collections\/mystery-boxes",
             "icon": "gift"
           }
@@ -111,8 +112,8 @@
           "type": "browsing_history",
           "settings": {
             "position": "secondary",
-            "title": "How It Works",
-            "icon": "question",
+            "title": "MYSTERY BOXES",
+            "icon": "gift",
             "show_product_title": true,
             "show_product_price": true
           }
@@ -121,7 +122,7 @@
           "type": "link",
           "settings": {
             "position": "secondary",
-            "link_name": "Reviews",
+            "link_name": "REVIEWS",
             "url": "shopify:\/\/pages\/reviews",
             "icon": "star"
           }
@@ -150,7 +151,7 @@
           "type": "link",
           "settings": {
             "position": "secondary",
-            "link_name": "Candy Tales",
+            "link_name": "CANDY TALES",
             "url": "shopify:\/\/blogs\/news",
             "icon": "mug-hot"
           }
@@ -159,7 +160,7 @@
           "type": "link",
           "settings": {
             "position": "secondary",
-            "link_name": "Customer support",
+            "link_name": "CUSTOMER SUPPORT",
             "url": "shopify:\/\/pages\/contact",
             "icon": "comments"
           }
