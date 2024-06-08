@@ -8,7 +8,7 @@
         "5d86f9c7-6db2-439f-ba5a-8f69a9aa3fa2": {
           "type": "announcement",
           "settings": {
-            "text": "EXPERIENCE PREMIUM MYSTERY BOX",
+            "text": "Experience the Premium Mystery Box!",
             "link": "shopify:\/\/collections",
             "icon": "box"
           }
@@ -16,24 +16,23 @@
         "ccb463a8-7c50-4635-99eb-d5f8e52c2c84": {
           "type": "announcement",
           "settings": {
-            "text": "OPENING OFFER - 20% OFF",
+            "text": "Discover the Most Trendy Candies from Around the World!",
             "link": "shopify:\/\/collections\/hot-deals",
             "icon": "meteor"
           }
         },
         "c4b59b37-19bd-476f-bb55-1efe555f93d0": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "CHRISTMAS SEASON SALE - SITEWIDE 25% OFF",
-            "link": "shopify:\/\/collections",
+            "text": "Opening Offer: Get 20% Off Your First Box!",
+            "link": "",
             "icon": "gift"
           }
         },
         "76e60a6e-9e60-4d40-b24c-6db17034350b": {
           "type": "announcement",
           "settings": {
-            "text": "THE MOST TRENDING CANDIES FROM ALL OVER THE WORLD",
+            "text": "Indulge in Exclusive, High-End Treats!",
             "link": "",
             "icon": "comments-dollar"
           }
