@@ -537,6 +537,7 @@
         "template--21716628439355__b19fef61-0500-442f-a328-83589190b1fa-text-1",
         "template--21716628439355__b19fef61-0500-442f-a328-83589190b1fa-buttons-1"
       ],
+      "disabled": true,
       "settings": {
         "section_layout": "default",
         "text_align": "center",
