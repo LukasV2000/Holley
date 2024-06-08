@@ -229,7 +229,7 @@
           "settings": {
             "mobile_hidden": false,
             "f_button_label": "Shop now",
-            "f_button_link": "",
+            "f_button_link": "shopify:\/\/products\/asian-mystery-box",
             "f_button_style": "normal",
             "f_button_custom_colors": false,
             "f_button_bg_color": "",
