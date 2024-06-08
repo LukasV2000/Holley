@@ -332,7 +332,7 @@
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-2": {
           "type": "collection",
           "settings": {
-            "collection": "best-sellers",
+            "collection": "asian-mystery-box",
             "image": "shopify:\/\/shop_images\/2_a08bc46f-72f5-4944-99d0-1e8038ca8dfc.png",
             "custom_title": "ASIAN Mystery Box 🏯"
           }
@@ -340,7 +340,7 @@
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-3": {
           "type": "collection",
           "settings": {
-            "collection": "snacks",
+            "collection": "discounted-mystery-box",
             "image": "shopify:\/\/shop_images\/3_a74592a9-e087-4e3f-8cde-da3c83814303.png",
             "custom_title": "DISCOUNT Mystery Box 🤑"
           }
