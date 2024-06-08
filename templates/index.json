@@ -402,16 +402,16 @@
           "type": "Block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_design_4.png",
-            "headline": "Choose Your Box 📦",
-            "text": "Explore our selection —every choice is a win"
+            "headline": "Choose  Mystery Box 🔮",
+            "text": "Start your adventure by selecting the perfect mystery box that sparks your curiosity, excites your taste buds, and promises a delightful unboxing experience."
           }
         },
         "block_MJHV9K": {
           "type": "Block",
           "settings": {
             "image": "shopify:\/\/shop_images\/2.png",
-            "headline": "Sit back and relax 🌟",
-            "text": "Relax as we curate your box with care"
+            "headline": "We Curate 🌟",
+            "text": "Our candy experts handpick premium, expensive, and trending candies from around the world to create a luxurious unboxing experience."
           }
         },
         "block_8bbEW6": {
@@ -419,7 +419,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_design_5.png",
             "headline": "Magic Happens 🪄",
-            "text": "Experience the joy of unboxing - snacks and surprises await!"
+            "text": "Unbox your Holly Lollies and immerse yourself in a premium candy experience, from the luxurious packaging to the exquisite flavors inside."
           }
         }
       },
