@@ -165,7 +165,6 @@
         },
         "ddad1229-69cf-452f-85c1-8764ca5221a2": {
           "type": "collapsible_tab_text",
-          "disabled": true,
           "settings": {
             "heading": "Collapsible tab",
             "icon": "",
@@ -175,7 +174,6 @@
         },
         "bfcb7fcd-1b6c-41fe-a682-a28f97cb89a5": {
           "type": "collapsible_tab_text",
-          "disabled": true,
           "settings": {
             "heading": "Collapsible tab",
             "icon": "",
