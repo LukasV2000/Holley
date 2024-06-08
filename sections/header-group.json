@@ -56,6 +56,21 @@
     "g_header": {
       "type": "g_header",
       "blocks": {
+        "collection_list_phQnL9": {
+          "type": "collection_list",
+          "settings": {
+            "position": "secondary",
+            "title": "MYSTERY BOXES",
+            "url": "shopify:\/\/collections",
+            "icon": "gift",
+            "main_navigation_collection_list": [
+              "asian-mystery-box",
+              "trendy-mystery-box",
+              "discounted-mystery-box"
+            ],
+            "image_size": "square"
+          }
+        },
         "c41c9456-2f6d-4255-87e7-8172ceb0b2f7": {
           "type": "mega",
           "disabled": true,
@@ -186,24 +201,10 @@
             ],
             "image_size": "square"
           }
-        },
-        "collection_list_phQnL9": {
-          "type": "collection_list",
-          "settings": {
-            "position": "secondary",
-            "title": "MYSTERY BOXES",
-            "url": "shopify:\/\/collections",
-            "icon": "gift",
-            "main_navigation_collection_list": [
-              "asian-mystery-box",
-              "trendy-mystery-box",
-              "discounted-mystery-box"
-            ],
-            "image_size": "square"
-          }
         }
       },
       "block_order": [
+        "collection_list_phQnL9",
         "c41c9456-2f6d-4255-87e7-8172ceb0b2f7",
         "ae7c8fcc-da7a-4c82-a014-c7c5928e2839",
         "56d8cc47-7575-4811-aed8-71467431ca6e",
@@ -214,8 +215,7 @@
         "8e0339af-3352-4a9e-a753-67e28bcb51fb",
         "3dc93ca1-2c9f-4069-b258-e858e3898047",
         "b5ef1c15-9f9e-4491-bdaa-c00e8f506a2b",
-        "19641f5c-99b5-40e2-8e18-b78f90f7b843",
-        "collection_list_phQnL9"
+        "19641f5c-99b5-40e2-8e18-b78f90f7b843"
       ],
       "settings": {
         "header_font_size": 160,
