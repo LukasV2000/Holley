@@ -11,6 +11,19 @@
     "72ba95f8-67e7-495d-b7d6-5a27ba1abbb9": {
       "type": "new_slideshow-hero",
       "blocks": {
+        "slide_f8XYkp": {
+          "type": "Slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_a74592a9-e087-4e3f-8cde-da3c83814303.png",
+            "trust_image": "shopify:\/\/shop_images\/Trustpilot_Micro.png",
+            "headline": "Discounted mystery box",
+            "info": "<p>P.S. Just add a Large Mystery Box, and the Takis Mystery Box is already yours in the cart!<\/p>",
+            "button_title_1": "",
+            "button_url_1": "",
+            "button_title_2": "",
+            "button_url_2": ""
+          }
+        },
         "304f866d-56d0-479f-8b73-bd9b50896aec": {
           "type": "Slide",
           "disabled": true,
@@ -52,26 +65,13 @@
             "button_title_2": "Shop now",
             "button_url_2": ""
           }
-        },
-        "slide_f8XYkp": {
-          "type": "Slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_1080x1080px_5.png",
-            "trust_image": "shopify:\/\/shop_images\/Trustpilot_Micro.png",
-            "headline": "🚨LAST CHANCE🚨Buy a Large Mystery Box, Get a Takis Tasting Box FREE! 🎉",
-            "info": "<p>P.S. Just add a Large Mystery Box, and the Takis Mystery Box is already yours in the cart!<\/p>",
-            "button_title_1": "",
-            "button_url_1": "",
-            "button_title_2": "",
-            "button_url_2": ""
-          }
         }
       },
       "block_order": [
+        "slide_f8XYkp",
         "304f866d-56d0-479f-8b73-bd9b50896aec",
         "77f5944c-d7c5-43c4-a629-eeb44684e3f8",
-        "21d302aa-f66a-4625-8f0c-445d350e351b",
-        "slide_f8XYkp"
+        "21d302aa-f66a-4625-8f0c-445d350e351b"
       ],
       "settings": {
         "autoplay_speed": 4000,
@@ -216,7 +216,7 @@
           "settings": {
             "mobile_hidden": false,
             "f_button_label": "Shop now",
-            "f_button_link": "",
+            "f_button_link": "shopify:\/\/products\/discounted-mystery-box",
             "f_button_style": "normal",
             "f_button_custom_colors": false,
             "f_button_bg_color": "",
@@ -748,7 +748,7 @@
         "description": "Discover a new world of flavors each week with the Holly Lollies Mystery Box. Packed with trending candies from Japan to the USA, every box is a unique adventure in taste. Enjoy a diverse mix of sweet and savory treats handpicked by our candy experts. It's the perfect way to explore global candy trends or give a delightful surprise gift. Get ready for a sweet surprise in every box! 🍭🌍🎁",
         "heading": "",
         "subheading": "",
-        "product": "mystery-box",
+        "product": "discounted-mystery-box",
         "gallery_width": 55,
         "slideshow_zoom": false,
         "thumbnails_layout": "slideshow",
@@ -885,7 +885,7 @@
           "settings": {
             "mobile_hidden": false,
             "f_button_label": "EXPERIENCE THE MYSTERY BOX",
-            "f_button_link": "shopify:\/\/products\/mystery-box",
+            "f_button_link": "shopify:\/\/products\/discounted-mystery-box",
             "f_button_style": "normal",
             "f_button_custom_colors": false,
             "f_button_bg_color": "",
