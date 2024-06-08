@@ -8,16 +8,15 @@
         "5d86f9c7-6db2-439f-ba5a-8f69a9aa3fa2": {
           "type": "announcement",
           "settings": {
-            "text": "PREMIUM MYSTERY BOX",
+            "text": "EXPERIENCE PREMIUM MYSTERY BOX",
             "link": "shopify:\/\/collections",
             "icon": "box"
           }
         },
         "ccb463a8-7c50-4635-99eb-d5f8e52c2c84": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "VALENTINE'S DEAL - 100 Large Mystery Boxes AT COST PRICE",
+            "text": "OPENING OFFER - 20% OFF",
             "link": "shopify:\/\/collections\/hot-deals",
             "icon": "meteor"
           }
