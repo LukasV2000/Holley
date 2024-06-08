@@ -195,7 +195,9 @@
             "url": "shopify:\/\/collections",
             "icon": "gift",
             "main_navigation_collection_list": [
-
+              "asian-mystery-box",
+              "trendy-mystery-box",
+              "discounted-mystery-box"
             ],
             "image_size": "square"
           }
