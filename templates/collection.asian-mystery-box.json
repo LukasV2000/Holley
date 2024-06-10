@@ -325,13 +325,13 @@
         "template--21801079308603__5c2e03fe-1254-4e51-8280-ae47bf86aa07-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "🌸 Taste the Magic of Japan! 🍬🇯🇵"
+            "heading": "Taste the Magic of Asia! 🍬🌸"
           }
         },
         "template--21801079308603__5c2e03fe-1254-4e51-8280-ae47bf86aa07-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Dive into delightful Japanese treats! From sweet Pocky sticks to tangy Matcha delights, experience a burst of Japan in every bite. #TasteOfJapan 🍓🍵✨<\/p>"
+            "text": "<p>Enjoy savory Koikeya snacks, sweet Hi-Chew candies, and refreshing Ramune drinks. Every bite is a taste adventure! #AsianFlavors 🌏🍬✨<\/p>"
           }
         },
         "template--21801079308603__5c2e03fe-1254-4e51-8280-ae47bf86aa07-buttons-1": {
@@ -356,7 +356,7 @@
       "settings": {
         "section_layout": "container",
         "image_size": "lg",
-        "image": "shopify:\/\/shop_images\/Untitled_design_34.png",
+        "image": "shopify:\/\/shop_images\/2_a08bc46f-72f5-4944-99d0-1e8038ca8dfc.png",
         "image_width": 50,
         "image_position": "left",
         "text_size": "md",
@@ -377,13 +377,13 @@
         "template--21801079308603__0ef39cd6-3323-4df0-8a07-f02d9753cdc9-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "🇺🇸 American Candy Classics 🍭🍬"
+            "heading": "Asian candy culture 🍭🍬"
           }
         },
         "template--21801079308603__0ef39cd6-3323-4df0-8a07-f02d9753cdc9-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Savor the bold flavors of the USA! Indulge in iconic treats like Reese's Peanut Butter Cups, colorful Nerds, and tangy Jolly Ranchers. A taste adventure from the States to you! #USACandyLove 🌟🍫🍓<\/p>"
+            "text": "<p>Embark on a flavor journey through Asia! Enjoy savory Koikeya chips, juicy Morinaga gummies, and delightful Meiji chocolates and many more. An unforgettable taste adventure awaits! #DiscoverAsia 🌏🍬✨<\/p>"
           }
         },
         "template--21801079308603__0ef39cd6-3323-4df0-8a07-f02d9753cdc9-buttons-1": {
@@ -408,7 +408,7 @@
       "settings": {
         "section_layout": "container",
         "image_size": "lg",
-        "image": "shopify:\/\/shop_images\/Untitled_design_51.png",
+        "image": "shopify:\/\/shop_images\/Background_should_consist_of_trendy_candy_ideas_around_the_world_from_USA_from_Asia_from_Europe_it_should_look_like_a_mix_of_cultures_and_biggest_trends_in_the_candy_world._Focus_more_bff98d05-9c19-4e59-a925-724091e5a96e.png",
         "image_width": 50,
         "image_position": "right",
         "text_size": "md",
@@ -491,8 +491,8 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/takis-blue-heat.jpg",
-            "custom_title": "TAKIS"
+            "image": "shopify:\/\/shop_images\/Hollylollies_product_images.png",
+            "custom_title": "FANTA"
           }
         },
         "795bcca3-e1b7-4b4a-ae85-dd1ff4c9cb65": {
@@ -531,8 +531,8 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/37.png",
-            "custom_title": "NERDS"
+            "image": "shopify:\/\/shop_images\/Hollylollies_product_images_2.png",
+            "custom_title": "GLICO"
           }
         },
         "template--21801079308603__bca5d02a-9d59-405f-adee-d7fd79070582-collection-4": {
@@ -547,24 +547,24 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/Untitleddesign_50.png",
-            "custom_title": "KINDER"
+            "image": "shopify:\/\/shop_images\/Hollylollies_product_images_1_9d26ceb5-a492-4777-a4cb-dbe60e7b8271.png",
+            "custom_title": "RAMEN"
           }
         },
         "bf5eef3b-3b1e-47cb-a0e9-2438521933fc": {
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/122.png",
-            "custom_title": "REESE"
+            "image": "shopify:\/\/shop_images\/Ekrano_kopija_2024-06-10_224318.png",
+            "custom_title": "MORINAGA"
           }
         },
         "eb189f5b-7e70-4bc5-bd8e-5c387d58664a": {
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/44.png",
-            "custom_title": "MIKE AND IKE"
+            "image": "shopify:\/\/shop_images\/Ekrano_kopija_2024-06-10_224403.png",
+            "custom_title": "NATA DE COCO"
           }
         }
       },
@@ -760,7 +760,7 @@
       ],
       "settings": {
         "headline_main": "READY ?? 🤔👇",
-        "description": "Discover a new world of flavors each week with the Holly Lollies Mystery Box. Packed with trending candies from Japan to the USA, every box is a unique adventure in taste. Enjoy a diverse mix of sweet and savory treats handpicked by our candy experts. It's the perfect way to explore global candy trends or give a delightful surprise gift. Get ready for a sweet surprise in every box! 🍭🌍🎁",
+        "description": "Packed with trending candies and snacks from Japan, Korea, China, and beyond, every box is a unique adventure in taste. Enjoy a diverse mix of sweet and savory treats handpicked by our candy experts. It's the perfect way to explore Asian flavors or give a delightful surprise gift. Get ready for an exotic treat in every box! 🌏🍬🎁",
         "heading": "",
         "subheading": "",
         "product": "asian-mystery-box",
