@@ -1,0 +1,564 @@
+{
+  "sections": {
+    "1649081791eb3a0c3d": {
+      "type": "d_promo-banner",
+      "blocks": {
+        "10fdd41f-2315-41d6-9635-dd0c3a78ad9c": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get an Extra $10 off"
+          }
+        },
+        "1801d392-ba0e-494e-8b63-0ccbceb07137": {
+          "type": "text",
+          "settings": {
+            "text": "<p>When you spend $100 or more on clearance items<\/p>"
+          }
+        },
+        "29095ef3-e037-48ac-a925-11a52cbedbd1": {
+          "type": "button",
+          "settings": {
+            "mobile_hidden": false,
+            "label": "Use Code: GET10",
+            "style": "normal",
+            "custom_colors": false,
+            "bg_color": "#000000",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "10fdd41f-2315-41d6-9635-dd0c3a78ad9c",
+        "1801d392-ba0e-494e-8b63-0ccbceb07137",
+        "29095ef3-e037-48ac-a925-11a52cbedbd1"
+      ],
+      "disabled": true,
+      "settings": {
+        "bg_type": "image",
+        "link": "",
+        "text_color": "#ffffff",
+        "bg_color": "#163340",
+        "section_layout": "full",
+        "desktop_text_align": "space-between"
+      }
+    },
+    "main": {
+      "type": "s_product",
+      "blocks": {
+        "f6006960-1229-4ebe-889b-bd4e6c6e7ad4": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "ca0d67d3-c242-4373-a132-d89143e98399": {
+          "type": "rating",
+          "settings": {
+            "show_count": true,
+            "prev_attach": false
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "size": "h1",
+            "max_lines": 3,
+            "prev_attach": false
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_savings": true,
+            "show_taxes": true,
+            "prev_attach": false
+          }
+        },
+        "7e37f69f-d0e7-4b32-801c-81c63db85c51": {
+          "type": "variant_selector",
+          "settings": {
+            "picker_type": "dropdown",
+            "color_swatches": false,
+            "align_option_values": true,
+            "show_stock_alert": false,
+            "prev_attach": false
+          }
+        },
+        "eb00f0aa-d784-4893-a3cc-915add58ad81": {
+          "type": "quantity_selector",
+          "settings": {
+            "input_type": "dropdown",
+            "prev_attach": false
+          }
+        },
+        "stock_alert": {
+          "type": "stock_alert",
+          "settings": {
+            "show_stock_alert": true,
+            "prev_attach": false
+          }
+        },
+        "dabcb986-093f-4262-ab8a-50e5c7833b64": {
+          "type": "buy_with",
+          "settings": {
+            "meta_heading": "Goes well with",
+            "use_counter": true,
+            "show_total": true,
+            "prev_attach": false
+          }
+        },
+        "buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "enable_stock_notifier": true,
+            "show_gift_card_recipient": false,
+            "prev_attach": false
+          }
+        },
+        "f1fc54bb-bcf3-4359-98c1-c6983bf4615d": {
+          "type": "payment_methods",
+          "disabled": true,
+          "settings": {
+            "meta_heading": "We Accept",
+            "center": true,
+            "prev_attach": false
+          }
+        },
+        "b9bf1013-77e0-4c0a-8b8b-312cdeea7707": {
+          "type": "feature",
+          "settings": {
+            "icon": "custom",
+            "icon_custom": "<svg width=\"41\" height=\"41\" viewbox=\"0 0 41 41\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" fill=\"white\"><\/rect>\n<rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" stroke=\"black\" stroke-width=\"2\"><\/rect>\n<path d=\"M13.5 20.7633L16.9168 11.834H25.4927L23.1354 16.7453H29L16.4491 30.334L20.915 20.7633H13.5Z\" fill=\"#7A5AF8\" stroke=\"black\" stroke-width=\"2\"><\/path>\n<\/svg>",
+            "heading": "🇪🇪 🇱🇻 🇱🇹 free shipping from €34.99",
+            "subheading": "",
+            "prev_attach": false
+          }
+        },
+        "b0416caf-dd40-451c-8cf1-ff7919ccc749": {
+          "type": "feature",
+          "settings": {
+            "icon": "custom",
+            "icon_custom": "<svg width=\"40\" height=\"41\" viewbox=\"0 0 40 41\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect x=\"1\" y=\"1.89136\" width=\"38\" height=\"38\" rx=\"7\" fill=\"white\"><\/rect>\n<rect x=\"1\" y=\"1.89136\" width=\"38\" height=\"38\" rx=\"7\" stroke=\"black\" stroke-width=\"2\"><\/rect>\n<path d=\"M10.8427 22.3609L10 18.9263L18.8746 16.5566C15.9252 17.3442 12.2194 14.262 14.3715 12.27C16.2412 10.5394 18.3742 13.7344 18.8746 16.5566C18.3648 13.6811 19.7331 10.0346 21.8767 11.0719C24.3525 12.27 21.6792 15.8078 18.8746 16.5566L27.4332 14.2935L28.3022 18.5003L26.3756 18.9263L28.5185 28.4951L21.5795 29.6932L14.6405 30.8914L13.2128 21.8368L10.8427 22.3609Z\" fill=\"#E478FA\"><\/path>\n<path d=\"M13.2128 21.8368L10.8427 22.3609L10 18.9263L18.8746 16.5566M13.2128 21.8368L14.6405 30.8914L21.5795 29.6932M13.2128 21.8368L19.7942 20.3815M26.3756 18.9263L28.3022 18.5003L27.4332 14.2935L18.8746 16.5566M26.3756 18.9263L28.5185 28.4951L21.5795 29.6932M26.3756 18.9263L19.7942 20.3815M18.8746 16.5566L19.7942 20.3815M18.8746 16.5566C18.3742 13.7344 16.2412 10.5394 14.3715 12.27C12.2194 14.262 15.9252 17.3442 18.8746 16.5566ZM18.8746 16.5566C18.3648 13.6811 19.7331 10.0346 21.8767 11.0719C24.3525 12.27 21.6792 15.8078 18.8746 16.5566ZM19.7942 20.3815L21.5795 29.6932\" stroke=\"black\" stroke-width=\"2\"><\/path>\n<\/svg>",
+            "heading": "Unique gift idea",
+            "subheading": "",
+            "prev_attach": false
+          }
+        },
+        "1da3b2f9-9da3-4014-b3d3-3b21a9f2fa53": {
+          "type": "feature",
+          "settings": {
+            "icon": "custom",
+            "icon_custom": "<svg width=\"40\" height=\"41\" viewbox=\"0 0 40 41\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect x=\"1\" y=\"1.89136\" width=\"38\" height=\"38\" rx=\"7\" fill=\"white\"><\/rect>\n<rect x=\"1\" y=\"1.89136\" width=\"38\" height=\"38\" rx=\"7\" stroke=\"black\" stroke-width=\"2\"><\/rect>\n<path d=\"M17.7697 18.1812C16.7086 14.6242 9.83357 13.9626 9.83357 17.6747C9.83357 21.1352 17.7697 20.671 17.7697 25.1623C17.7697 29.6535 7.58502 28.0555 8.01313 22.303M15.0808 13.3914L11.7642 30.2717\" stroke=\"#7A5AF8\" stroke-width=\"2\"><\/path>\n<path d=\"M32.0041 16.4916C29.755 13.2993 25.7603 15.3234 24.907 20.3486C24.1534 24.7867 26.4678 29.7326 31.1949 27.4029M23.6562 20.1859H29.9382M23.6562 22.8712H28.7858\" stroke=\"#7A5AF8\" stroke-width=\"2\"><\/path>\n<\/svg>",
+            "heading": "Competitive pricing",
+            "subheading": "",
+            "prev_attach": false
+          }
+        },
+        "941a9d4b-6202-4833-90d2-a2cf50cd40d3": {
+          "type": "collapsible_tab_desc",
+          "settings": {
+            "heading": "Description",
+            "icon": "",
+            "prev_attach": false
+          }
+        },
+        "ddad1229-69cf-452f-85c1-8764ca5221a2": {
+          "type": "collapsible_tab_text",
+          "settings": {
+            "heading": "What's Inside?",
+            "icon": "",
+            "content": "<p>Our Trendy Mystery Box is bursting with the hottest snacks and candies that are making waves across the globe. From exclusive limited-edition releases to the most buzz-worthy treats, each box is filled with a diverse mix of sweet, savory, and everything in between. Expect to find:<\/p><ul><li><strong>Full-Size Snacks:<\/strong> Indulge in a generous assortment of the latest snack trends.<\/li><li><strong>Exclusive Drinks:<\/strong> Refresh with unique beverages you won’t find anywhere else.<\/li><li><strong>Rare Cookies:<\/strong> Savor the taste of hard-to-find cookies that are all the rage.<\/li><li><strong>Crunchy and Salty Snacks:<\/strong> Delight in the satisfying crunch of trending chips and crackers.<\/li><li><strong>Delicious Chocolate Goodies:<\/strong> Enjoy the richness of newly launched chocolate treats.<\/li><li><strong>Crazy Candies:<\/strong> Discover whimsical and fun candies from around the world.<\/li><\/ul>",
+            "prev_attach": false
+          }
+        },
+        "bfcb7fcd-1b6c-41fe-a682-a28f97cb89a5": {
+          "type": "collapsible_tab_text",
+          "settings": {
+            "heading": "Premium experience",
+            "icon": "",
+            "content": "<h4>A Curated Experience<\/h4><p>Our confectionery experts are always on the lookout for the next big thing in snacks. Their passion and expertise ensure that your Trendy Mystery Box is a collection of the most current and exciting treats, offering a fresh and dynamic snacking experience.<\/p><h4>Perfect for Trendsetters<\/h4><p>Ideal for those who love to be the first to try new things, the Trendy Mystery Box is your ticket to the latest snack crazes. It’s also a fantastic gift for friends and family who appreciate being in the know about the newest and coolest treats.<\/p><h4>A New Box Every Month<\/h4><p>Stay ahead of the snacking trends with our regularly refreshed Trendy Mystery Box. Each month, enjoy a new selection of the latest must-have snacks, keeping your taste buds on the cutting edge of the confectionery world.<\/p><p>Get your Holly Lollies Trendy Mystery Box today and join the snacking revolution with the most talked-about treats around! 🎉🍬🥤<\/p>",
+            "prev_attach": false
+          }
+        }
+      },
+      "block_order": [
+        "f6006960-1229-4ebe-889b-bd4e6c6e7ad4",
+        "ca0d67d3-c242-4373-a132-d89143e98399",
+        "title",
+        "price",
+        "7e37f69f-d0e7-4b32-801c-81c63db85c51",
+        "eb00f0aa-d784-4893-a3cc-915add58ad81",
+        "stock_alert",
+        "dabcb986-093f-4262-ab8a-50e5c7833b64",
+        "buttons",
+        "f1fc54bb-bcf3-4359-98c1-c6983bf4615d",
+        "b9bf1013-77e0-4c0a-8b8b-312cdeea7707",
+        "b0416caf-dd40-451c-8cf1-ff7919ccc749",
+        "1da3b2f9-9da3-4014-b3d3-3b21a9f2fa53",
+        "941a9d4b-6202-4833-90d2-a2cf50cd40d3",
+        "ddad1229-69cf-452f-85c1-8764ca5221a2",
+        "bfcb7fcd-1b6c-41fe-a682-a28f97cb89a5"
+      ],
+      "settings": {
+        "gallery_width": 50,
+        "slideshow_zoom": true,
+        "thumbnails_layout": "slideshow"
+      }
+    },
+    "995d3492-134d-4afd-af8d-95b391f70218": {
+      "type": "Product_whats_inside",
+      "blocks": {
+        "7b819c59-8711-48bc-a41b-d04a91238399": {
+          "type": "Box",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Content_1.jpg",
+            "headline": "Tasting cards",
+            "name": "Pair text with an image to focus on your chosen product, collection, or blog post."
+          }
+        },
+        "b0286e91-053c-4f54-b218-ac5870914f3a": {
+          "type": "Box",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Content_2.jpg",
+            "headline": "Trivia and fun facts",
+            "name": "Pair text with an image to focus on your chosen product, collection, or blog post."
+          }
+        },
+        "9a7ce1cd-b2a0-4457-9bfd-a9c5b102809e": {
+          "type": "Box",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Content_3.jpg",
+            "headline": "Little surprise",
+            "name": "Pair text with an image to focus on your chosen product, collection, or blog post."
+          }
+        },
+        "1b80f1e1-2087-433c-8977-1aa387e486d1": {
+          "type": "Box",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Content_4.jpg",
+            "headline": "Stories about the candies",
+            "name": "Pair text with an image to focus on your chosen product, collection, or blog post."
+          }
+        }
+      },
+      "block_order": [
+        "7b819c59-8711-48bc-a41b-d04a91238399",
+        "b0286e91-053c-4f54-b218-ac5870914f3a",
+        "9a7ce1cd-b2a0-4457-9bfd-a9c5b102809e",
+        "1b80f1e1-2087-433c-8977-1aa387e486d1"
+      ],
+      "disabled": true,
+      "settings": {
+        "title1": "What's inside the box?",
+        "text": "Our goal is to create exceptional experience for you and your loved ones"
+      }
+    },
+    "5f8de7e3-b9e9-48eb-a2e8-1b5276e250aa": {
+      "type": "Text_image",
+      "settings": {
+        "title": "Holly Lollies Mystery Box: Your Weekly Candy Surprise!",
+        "text": "Discover a new world of flavors each week with the Holly Lollies Mystery Box. Packed with trending candies from Japan to the USA, every box is a unique adventure in taste. Enjoy a diverse mix of sweet and savory treats handpicked by our candy experts. It's the perfect way to explore global candy trends or give a delightful surprise gift. Get ready for a sweet surprise in every box! 🍭🌍🎁",
+        "btn_title": "",
+        "btn_url": "",
+        "image": "shopify:\/\/shop_images\/Frame_324433.png"
+      }
+    },
+    "939fe1cf-87b0-4404-b1ef-5be59fbcf5d4": {
+      "type": "Customer_says_reviews",
+      "blocks": {
+        "1d026fc1-9182-4a4d-a23e-f00c81313ee5": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/2_b99b379b-0535-4eec-b291-47fca148424c.png",
+            "name": "Livita Runce",
+            "info": "Proud customer from 🇱🇻",
+            "content": "<p>For the price it's an exceptional value and I like that it has a balanced selection of sweet and savory snacks and that they are full sized. I also noticed that all the snacks in this box were fresh. No stale crackers or chips like I've experienced in other similar boxes. Very pleased with this purchase and would highly recommend to friends, family, and as a gift.<\/p>"
+          }
+        },
+        "6ec83660-8eae-4718-a2d9-460ca0f35c91": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/6_1fa22cf3-bf3a-4875-b674-11c24450180e.png",
+            "name": "Anne Kivi",
+            "info": "Proud customer from 🇪🇪",
+            "content": "<p>I was very pleasantly surprised with how much was in the box, and how tasty everything has been! So far I have tried a half dozen or so items. These are all things I would buy again if I saw them!<\/p>"
+          }
+        },
+        "85f99483-9520-4b2d-ba93-f2f09355f6d7": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/4_eabeeca5-ab45-41ea-8c38-9366a6ab9322.png",
+            "name": "Gytis Stonkus",
+            "info": "Happy Customer from 🇱🇹",
+            "content": "<p>Loved every single piece from the box, cant wait to get the next one. All snacks were in perfect conditions and delicious.<\/p>"
+          }
+        },
+        "f50736a8-0ae1-41fc-9ed9-b29e478584a5": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/3_2db29d62-7616-43e1-bd1d-a4d7beb3a9a5.png",
+            "name": "Jolanda Gaile",
+            "info": "Proud customer from 🇱🇻",
+            "content": "<p>Nostalgia. Plain and simple. I had been stationed in Japan for four years and had a great time trying new food and snacks when I was there. Wanting to share that with my kids now, we got this and now I’m sharing memories with them and explaining where I had certain ones before. Love it!<\/p>"
+          }
+        },
+        "3e43814c-aff7-46e4-8bcd-8eefc907db47": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/2_07967477-4bff-47c9-a6be-71d016e041be.png",
+            "name": "Jonas R.",
+            "info": "Happy customer from 🇱🇹",
+            "content": "<p>I’ve had two boxes so far and both have been amazing! The selection is wide from sweet to salty. I have already recommended hollylollies to others, and plan to re-up mine again soon!<\/p>"
+          }
+        },
+        "284d89ef-da6e-436b-81aa-5dc026b5cf3d": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/5_9e31cf33-3b62-4dc5-8f18-a31525cabf4e.png",
+            "name": "Veronika Vaitytė",
+            "info": "Happy Customer from 🇱🇹",
+            "content": "<p>Got my first Box as a Birthdaypresent and I was absolutly delighted. The treats taste great and there are everything from sweet to salty. I love testing Snacks from different countrys and this is something I had really fun with.<br\/>My boyfriend who bought this for me said the shipping was without problems.<\/p>"
+          }
+        },
+        "253488bc-81ef-488a-ab1a-0d3bdc35f9c7": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/4_fd994df5-84e5-40bd-bace-b82be928e32e.png",
+            "name": "Julian Wieczorek",
+            "info": "Proud customer from 🇵🇱",
+            "content": "<p>All of the snacks were really good I definitely recommend Holly Lollies and I will most certainly get another box.<\/p>"
+          }
+        },
+        "d3f034f8-f8bb-41e1-8310-a94812245c4a": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/3_2d6e6a51-f9d2-428b-8dd9-a6a9c1058b29.png",
+            "name": "Ugnius L.",
+            "info": "Happy customer from 🇱🇹",
+            "content": "<p>Amazing service much better than a large competitor who can’t actually deliver. Holly Lollies box arrived with in 3 business days . The treats were tasty and well explained. Highly recommend.<\/p>"
+          }
+        },
+        "dfab66f7-6717-4e7f-b625-b15e905cf1bb": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/1_302b8794-6d78-48d6-86e3-72d7d945d30a.png",
+            "name": "Leonas Vaičiulis",
+            "info": "Happy customer from 🇱🇹",
+            "content": "<p>Great experience!! Wide variety of snacks ranging from sweet to savory. Well thought out and everything was super tasty!<\/p>"
+          }
+        },
+        "60d8d18e-74e9-4c51-b13f-345b620b4aa8": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/Ellipse_7.png",
+            "name": "Leonīds Viļums",
+            "info": "Proud customer from 🇱🇻",
+            "content": "<p>Amazing lots of food to try definitely worth the price compared to other boxes.<\/p>"
+          }
+        },
+        "6a35730d-2035-45bd-bccd-c488666cbc06": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/5_7219f865-d6db-4f99-96b8-5bb5d377994b.png",
+            "name": "Mateusz Wróbel",
+            "info": "Happy customer from 🇵🇱",
+            "content": "<p>My partner was so happy! I got this as an impromptu gift because I know she likes Japanese themed things and longs to visit Japan and it did not disappoint. Everything arrived perfectly and it was received faster than I thought it would. Highly recommend!<\/p>"
+          }
+        },
+        "c822337a-0105-48de-8cdb-1e217ac5aca7": {
+          "type": "Review",
+          "disabled": true,
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/1.png",
+            "name": "Jeannette Ellis",
+            "info": "Proud customer from 🇬🇧",
+            "content": "<p>So short story I love the box.<br\/><br\/>Yes, it is a bit expensive, but only because my stupid country thinks that you need to pay extra tax. But not only that my stupid country think it need to hold my box for 10 days before releasing it.<br\/><br\/>But I have already tried a lot of the snacks, and they were great... most of them. My only problem is how do i buy the stuff i really loved again!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1d026fc1-9182-4a4d-a23e-f00c81313ee5",
+        "6ec83660-8eae-4718-a2d9-460ca0f35c91",
+        "85f99483-9520-4b2d-ba93-f2f09355f6d7",
+        "f50736a8-0ae1-41fc-9ed9-b29e478584a5",
+        "3e43814c-aff7-46e4-8bcd-8eefc907db47",
+        "284d89ef-da6e-436b-81aa-5dc026b5cf3d",
+        "253488bc-81ef-488a-ab1a-0d3bdc35f9c7",
+        "d3f034f8-f8bb-41e1-8310-a94812245c4a",
+        "dfab66f7-6717-4e7f-b625-b15e905cf1bb",
+        "60d8d18e-74e9-4c51-b13f-345b620b4aa8",
+        "6a35730d-2035-45bd-bccd-c488666cbc06",
+        "c822337a-0105-48de-8cdb-1e217ac5aca7"
+      ],
+      "settings": {
+        "title": "This is what our community says",
+        "reviews_img": "shopify:\/\/shop_images\/Screenshot_2023-12-13_at_14.17.29.png",
+        "btn_title": "Read more",
+        "btn_link": "shopify:\/\/pages\/reviews"
+      }
+    },
+    "16554757745dec0af9": {
+      "type": "d_product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "Recommended for You",
+        "subheading": "Based on what customers bought",
+        "section_layout": "container",
+        "products_limit": 7,
+        "items_per_view": 4,
+        "enable_loop": true,
+        "enable_pagination": false
+      }
+    },
+    "1697692424f53300c2": {
+      "type": "apps",
+      "blocks": {
+        "c2ce07dc-4b42-4544-b8de-e7a27bad0be7": {
+          "type": "shopify:\/\/apps\/testimonials-slider\/blocks\/grid-widget-block\/cd756d38-7c3d-4332-af00-4ff87263e921",
+          "settings": {
+            "themeId": "light",
+            "configNumber": "1"
+          }
+        }
+      },
+      "block_order": [
+        "c2ce07dc-4b42-4544-b8de-e7a27bad0be7"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "subheading": ""
+      }
+    },
+    "a2254d99-9030-4262-b1a1-76541f8923f4": {
+      "type": "d_browsing-history",
+      "disabled": true,
+      "settings": {
+        "heading": "Browsing history",
+        "subheading": "",
+        "section_layout": "container",
+        "items_per_view": 4,
+        "enable_loop": true,
+        "enable_pagination": false
+      }
+    },
+    "c03a4576-b76e-4a7e-b6ed-89e6421aa132": {
+      "type": "Index_reviews_carousel",
+      "blocks": {
+        "6e8599fa-7c68-4bac-ad28-57cf7eaa9011": {
+          "type": "Slide",
+          "settings": {
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/07da1bd8f60f498a98df83404f3c81fd.mp4",
+            "headline": "“I've had other snack boxes but, Holly Lollies is definitely my favorite. Great variety of tasty snacks, both sweet and savory. My box even included some ramen! I would definitely recommend this for anyone that wants to try exotic snacks.”",
+            "name": "— Indrė",
+            "info": "Proud Client from Lithuania 🇱🇹"
+          }
+        },
+        "2c215d2b-bde2-4695-8a45-86edb60d5c32": {
+          "type": "Slide",
+          "settings": {
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/722b3abc83ff4a408e14dfa3c621fb57.mp4",
+            "headline": "“It's all delicious and let's you try different flavor combinations you never would have thought of or had the chance to experience.\"",
+            "name": "— Karolina",
+            "info": "Proud Client from Lithuania 🇱🇹"
+          }
+        },
+        "818d02f9-85ba-4332-a43a-47e56fff2718": {
+          "type": "Slide",
+          "settings": {
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2f62e6daf68e4ddba80b1921cf3c0d0b.mp4",
+            "headline": "“I’d been introduced to them through a friend, though I’d heard about them before. I’ve been impressed with the range of snacks and drinks, and the effort put into each box. Even with the occasional repeat snack, it’s still always delicious. It’s worth the price, and worth the time to enjoy a big bite of exotic candies.”",
+            "name": "— Džestina",
+            "info": "Happy Client from Lithuania 🇱🇹"
+          }
+        },
+        "0b69fa11-51bd-4e48-968a-ec117b9d9f92": {
+          "type": "Slide",
+          "settings": {
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/34389683f8c34c9ba6f6c1094b667491.mp4",
+            "headline": "“Tasting the Japanese KitKat Matcha was like a quick trip back to Japan. The variety in this box is incredible – each candy is a new discovery. For anyone thinking about trying Holly Lollies, I say go for it. It's a world tour for your taste buds and every bite is top quality. Holly Lollies, you've got yourself a fan – this is easily a 10\/10 from me!\"”",
+            "name": "— Kamėja",
+            "info": "Proud Client from Lithuania 🇱🇹"
+          }
+        }
+      },
+      "block_order": [
+        "6e8599fa-7c68-4bac-ad28-57cf7eaa9011",
+        "2c215d2b-bde2-4695-8a45-86edb60d5c32",
+        "818d02f9-85ba-4332-a43a-47e56fff2718",
+        "0b69fa11-51bd-4e48-968a-ec117b9d9f92"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "This is what our community says",
+        "reviews_img": "shopify:\/\/shop_images\/Screenshot_2023-12-13_at_14.17.29.png"
+      }
+    },
+    "b19fef61-0500-442f-a328-83589190b1fa": {
+      "type": "d_rich-text",
+      "blocks": {
+        "template--21716628439355__b19fef61-0500-442f-a328-83589190b1fa-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "🇺🇸🌎🇯🇵",
+            "heading_accent_enable": true,
+            "heading_accent_use_cutom_color": true,
+            "heading_accent_color": "#000000"
+          }
+        },
+        "template--21716628439355__b19fef61-0500-442f-a328-83589190b1fa-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers.<br>Describe a product, share announcements or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--21716628439355__b19fef61-0500-442f-a328-83589190b1fa-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "mobile_hidden": false,
+            "f_button_label": "EXPLORE COLLECTIONS",
+            "f_button_link": "shopify:\/\/collections",
+            "f_button_style": "normal",
+            "f_button_custom_colors": false,
+            "f_button_bg_color": "",
+            "f_button_text_color": "#ffffff",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_style": "normal",
+            "s_button_custom_colors": false,
+            "s_button_bg_color": "",
+            "s_button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--21716628439355__b19fef61-0500-442f-a328-83589190b1fa-heading-1",
+        "template--21716628439355__b19fef61-0500-442f-a328-83589190b1fa-text-1",
+        "template--21716628439355__b19fef61-0500-442f-a328-83589190b1fa-buttons-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_layout": "default",
+        "text_align": "center",
+        "size": "md",
+        "use_custom_color": false,
+        "text_color": "#ffffff",
+        "bg_color": "#383838"
+      }
+    }
+  },
+  "order": [
+    "1649081791eb3a0c3d",
+    "main",
+    "995d3492-134d-4afd-af8d-95b391f70218",
+    "5f8de7e3-b9e9-48eb-a2e8-1b5276e250aa",
+    "939fe1cf-87b0-4404-b1ef-5be59fbcf5d4",
+    "16554757745dec0af9",
+    "1697692424f53300c2",
+    "a2254d99-9030-4262-b1a1-76541f8923f4",
+    "c03a4576-b76e-4a7e-b6ed-89e6421aa132",
+    "b19fef61-0500-442f-a328-83589190b1fa"
+  ]
+}
