@@ -139,6 +139,7 @@
     },
     "f20f5105-a391-4eda-8d42-038ab0c60e01": {
       "type": "d_browsing-history",
+      "disabled": true,
       "settings": {
         "heading": "Browsing history",
         "subheading": "",
@@ -234,7 +235,7 @@
           "settings": {
             "mobile_hidden": false,
             "f_button_label": "EXPLORE COLLECTIONS",
-            "f_button_link": "",
+            "f_button_link": "shopify:\/\/collections",
             "f_button_style": "normal",
             "f_button_custom_colors": false,
             "f_button_bg_color": "",
