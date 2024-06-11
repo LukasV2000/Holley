@@ -771,59 +771,6 @@
         "learn_more_url": "shopify:\/\/products\/asian-mystery-box"
       }
     },
-    "5ccbf5a5-e1ed-4fbe-8d40-a887b4e72b7d": {
-      "type": "Customer_says_reviews",
-      "blocks": {
-        "19184438-5995-4631-92a2-2ba67a0a8150": {
-          "type": "Review",
-          "settings": {
-            "avatar": "shopify:\/\/shop_images\/5_9e31cf33-3b62-4dc5-8f18-a31525cabf4e.png",
-            "name": "Veronika Vaitytė",
-            "info": "Happy Customer from 🇱🇹",
-            "content": "<p>Got my first Box as a Birthday present and I was absolutely delighted. The treats taste great and there are everything from sweet to salty. I love testing Snacks from different countries and this is something I had really fun with.<br\/>My boyfriend who bought this for me said the shipping was without problems.<\/p>"
-          }
-        },
-        "81c1e3e0-03d7-41f8-a6c7-faf724e229bf": {
-          "type": "Review",
-          "settings": {
-            "avatar": "shopify:\/\/shop_images\/6_1fa22cf3-bf3a-4875-b674-11c24450180e.png",
-            "name": "Anne Kivi",
-            "info": "Proud customer from 🇱🇻",
-            "content": "<p>I was very pleasantly surprised with how much was in the box, and how tasty everything has been! So far I have tried a half dozen or so items. These are all things I would buy again if I saw them!<\/p>"
-          }
-        },
-        "a2092306-2f3e-48ce-ac8a-1c4aac01ad42": {
-          "type": "Review",
-          "settings": {
-            "avatar": "shopify:\/\/shop_images\/4_eabeeca5-ab45-41ea-8c38-9366a6ab9322.png",
-            "name": "Gytis Stonkus",
-            "info": "Happy Customer from 🇱🇹",
-            "content": "<p>Loved every single piece from the box, cant wait to get the next one. All snacks were in perfect conditions and delicious.<\/p>"
-          }
-        },
-        "97e94b61-861a-4725-9ff7-65626389e751": {
-          "type": "Review",
-          "settings": {
-            "avatar": "shopify:\/\/shop_images\/3_2db29d62-7616-43e1-bd1d-a4d7beb3a9a5.png",
-            "name": "Jolanda Gaile",
-            "info": "Proud customer from 🇱🇻",
-            "content": "<p>Nostalgia. Plain and simple. I had been stationed in Japan for four years and had a great time trying new food and snacks when I was there. Wanting to share that with my kids now, we got this and now I’m sharing memories with them and explaining where I had certain ones before. Love it!<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "19184438-5995-4631-92a2-2ba67a0a8150",
-        "81c1e3e0-03d7-41f8-a6c7-faf724e229bf",
-        "a2092306-2f3e-48ce-ac8a-1c4aac01ad42",
-        "97e94b61-861a-4725-9ff7-65626389e751"
-      ],
-      "settings": {
-        "title": "This is what our community says",
-        "reviews_img": "shopify:\/\/shop_images\/Screenshot_2023-12-13_at_14.17.29.png",
-        "btn_title": "Read more",
-        "btn_link": "shopify:\/\/pages\/reviews"
-      }
-    },
     "556f5c1d-5c6f-4265-998d-4c99b08cb073": {
       "type": "Index_reviews_carousel",
       "blocks": {
@@ -871,8 +818,81 @@
         "b7331f9a-2ca0-4c26-82e5-928ae6af82c0"
       ],
       "settings": {
-        "title": "More Sweet Words from Our Customers",
+        "title": "Sweet Words from Our Customers",
         "reviews_img": "shopify:\/\/shop_images\/Screenshot_2023-12-13_at_14.17.29.png"
+      }
+    },
+    "5ccbf5a5-e1ed-4fbe-8d40-a887b4e72b7d": {
+      "type": "Customer_says_reviews",
+      "blocks": {
+        "97e94b61-861a-4725-9ff7-65626389e751": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/3_2db29d62-7616-43e1-bd1d-a4d7beb3a9a5.png",
+            "name": "Jolanda Gaile",
+            "info": "Proud customer from 🇱🇻",
+            "content": "<p>Nostalgia. Plain and simple. I had been stationed in Japan for four years and had a great time trying new food and snacks when I was there. Wanting to share that with my kids now, we got this and now I’m sharing memories with them and explaining where I had certain ones before. Love it!<\/p>"
+          }
+        },
+        "19184438-5995-4631-92a2-2ba67a0a8150": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/5_9e31cf33-3b62-4dc5-8f18-a31525cabf4e.png",
+            "name": "Veronika Vaitytė",
+            "info": "Happy Customer from 🇱🇹",
+            "content": "<p>I recently ordered Holly Lollies' Mystery Box, not quite sure what to expect. To my delight, it turned out to be an amazing experience for the whole family! 🤩<br\/><br\/>The best part was sharing the excitement with my family. We all gathered around to taste international sweets from places we've never been. The variety was incredible, and it made for a fun and memorable tasting adventure. 🤩<br\/><br\/>If you're up for a taste adventure, I highly recommend giving Holly Lollies a try.<\/p>"
+          }
+        },
+        "81c1e3e0-03d7-41f8-a6c7-faf724e229bf": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/6_1fa22cf3-bf3a-4875-b674-11c24450180e.png",
+            "name": "Anne Kivi",
+            "info": "Proud customer from 🇱🇻",
+            "content": "<p>I was very pleasantly surprised with how much was in the box, and how tasty everything has been! So far I have tried a half dozen or so items. These are all things I would buy again if I saw them!<\/p>"
+          }
+        },
+        "review_7j9PYp": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/8_3141e36a-ca6a-43d4-aae3-2e38f3a95743.png",
+            "name": "Kamilė",
+            "info": "Happy customer from LT",
+            "content": "<p>Mystery box was filled to the brim with all kinds of candy! It was amazing and delicious, opening the box felt like christmas in the middle of spring, absolutely loved it!<\/p>"
+          }
+        },
+        "a2092306-2f3e-48ce-ac8a-1c4aac01ad42": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/4_eabeeca5-ab45-41ea-8c38-9366a6ab9322.png",
+            "name": "Gytis Stonkus",
+            "info": "Happy Customer from 🇱🇹",
+            "content": "<p>Loved every single piece from the box, cant wait to get the next one. All snacks were in perfect conditions and delicious.<\/p>"
+          }
+        },
+        "review_pMnhzq": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/7_144532c5-0726-4f10-b337-277d18461395.png",
+            "name": "Mantas Strignatavicius",
+            "info": "Happy customer from LT",
+            "content": "<p>Amazing packing and good service!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "97e94b61-861a-4725-9ff7-65626389e751",
+        "19184438-5995-4631-92a2-2ba67a0a8150",
+        "81c1e3e0-03d7-41f8-a6c7-faf724e229bf",
+        "review_7j9PYp",
+        "a2092306-2f3e-48ce-ac8a-1c4aac01ad42",
+        "review_pMnhzq"
+      ],
+      "settings": {
+        "title": "This is what our community says",
+        "reviews_img": "shopify:\/\/shop_images\/Screenshot_2023-12-13_at_14.17.29.png",
+        "btn_title": "Read more",
+        "btn_link": "shopify:\/\/pages\/reviews"
       }
     },
     "794cd20b-6c15-4098-a12e-95ebbddc6371": {
@@ -943,8 +963,8 @@
     "d8c17a1a-74c4-4cef-b392-8de4254611f5",
     "17d5f566-a4e8-43ac-9cb5-500183341ea0",
     "d8c8378b-888e-4908-8f87-fcc578b5dd78",
-    "5ccbf5a5-e1ed-4fbe-8d40-a887b4e72b7d",
     "556f5c1d-5c6f-4265-998d-4c99b08cb073",
+    "5ccbf5a5-e1ed-4fbe-8d40-a887b4e72b7d",
     "794cd20b-6c15-4098-a12e-95ebbddc6371"
   ]
 }
