@@ -770,6 +770,24 @@
             "content": "<p>Got my first Box as a Birthday present and I was absolutely delighted. The treats taste great and there are everything from sweet to salty. I love testing Snacks from different countries and this is something I had really fun with.<br\/>My boyfriend who bought this for me said the shipping was without problems.<\/p>"
           }
         },
+        "review_Untn3j": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/8_3141e36a-ca6a-43d4-aae3-2e38f3a95743.png",
+            "name": "Kamilė",
+            "info": "Happy Customer from LT",
+            "content": "<p>Mystery box was filled to the brim with all kinds of candy! It was amazing and delicious, opening the box felt like christmas in the middle of spring, absolutely loved it!<\/p>"
+          }
+        },
+        "review_VVpTCJ": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/7_144532c5-0726-4f10-b337-277d18461395.png",
+            "name": "Mantas Strignatavicius",
+            "info": "Happy customer from LT",
+            "content": "<p>Amazing packing and good service !<\/p>"
+          }
+        },
         "81c1e3e0-03d7-41f8-a6c7-faf724e229bf": {
           "type": "Review",
           "settings": {
@@ -796,13 +814,25 @@
             "info": "Proud customer from 🇱🇻",
             "content": "<p>Nostalgia. Plain and simple. I had been stationed in Japan for four years and had a great time trying new food and snacks when I was there. Wanting to share that with my kids now, we got this and now I’m sharing memories with them and explaining where I had certain ones before. Love it!<\/p>"
           }
+        },
+        "review_MdWCRb": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/Background_should_consist_of_trendy_candy_ideas_around_the_world_from_USA_from_Asia_from_Europe_it_should_look_like_a_mix_of_cultures_and_biggest_trends_in_the_candy_world._Focus_more_da1cead5-7c45-4480-acff-679d0f6912db.png",
+            "name": "Roberta Šarauskaitė",
+            "info": "Happy customer from LT",
+            "content": "<p>Everything was very nice, the packaging and the snacks they were really good and definitely worth it for the price, most likely will be ordering again, great company, thank you!<\/p>"
+          }
         }
       },
       "block_order": [
         "19184438-5995-4631-92a2-2ba67a0a8150",
+        "review_Untn3j",
+        "review_VVpTCJ",
         "81c1e3e0-03d7-41f8-a6c7-faf724e229bf",
         "a2092306-2f3e-48ce-ac8a-1c4aac01ad42",
-        "97e94b61-861a-4725-9ff7-65626389e751"
+        "97e94b61-861a-4725-9ff7-65626389e751",
+        "review_MdWCRb"
       ],
       "settings": {
         "title": "This is what our community says",
