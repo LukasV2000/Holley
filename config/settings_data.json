@@ -1,7 +1,7 @@
 {
   "current": {
     "enable_free_shipping_progress_bar": true,
-    "free_shipping_min_amount": 35,
+    "free_shipping_min_amount": 50,
     "color_swatches_options": "color,colour",
     "color_background": "#FFFFFF",
     "color_accent": "#786cca",
