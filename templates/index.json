@@ -1268,6 +1268,15 @@
     "7098ba4b-7068-4e42-af6b-541a4ebf4371": {
       "type": "Index_reviews_carousel",
       "blocks": {
+        "7d67cc3e-416a-4c65-b5b9-a34136638e35": {
+          "type": "Slide",
+          "settings": {
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ef8b66c50d744f679d4a96fd15e74ba1.mp4",
+            "headline": "“Tasting the Japanese KitKat Matcha was like a quick trip back to Japan. The variety in this box is incredible – each candy is a new discovery. For anyone thinking about trying Holly Lollies, I say go for it. Holly Lollies, you've got yourself a fan – this is easily a 10\/10 from me!\" ⭐⭐⭐⭐⭐",
+            "name": "Susie and Paula from Germany",
+            "info": ""
+          }
+        },
         "slide_zzNziU": {
           "type": "Slide",
           "disabled": true,
@@ -1282,7 +1291,7 @@
           "type": "Slide",
           "settings": {
             "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/34389683f8c34c9ba6f6c1094b667491.mp4",
-            "headline": "\"I was hesitant about the value, but Holly Lollies exceeded my expectations! The variety and quality of snacks were amazing. Plus, their money-back guarantee gave me peace of mind. I'm definitely subscribing!\" ⭐⭐⭐⭐⭐",
+            "headline": "\"Absolutely thrilled with the Trendy Mystery Box! It had all the hot snacks that everyone’s raving about. The variety was fantastic, from savory chips to unique candies. If you love staying ahead in the snack game, this box is for you!\" ⭐⭐⭐⭐⭐",
             "name": "— Kamėja From LT",
             "info": ""
           }
@@ -1297,39 +1306,30 @@
             "info": "Proud Client from Asia"
           }
         },
-        "7d67cc3e-416a-4c65-b5b9-a34136638e35": {
-          "type": "Slide",
-          "settings": {
-            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2f62e6daf68e4ddba80b1921cf3c0d0b.mp4",
-            "headline": "\"I worried about not liking the snacks, but the satisfaction guarantee convinced me to try it. The unboxing experience was premium and exciting, and I loved almost everything inside. Highly recommend!\" ⭐⭐⭐⭐⭐",
-            "name": "Susie and Paula from Germany",
-            "info": ""
-          }
-        },
         "aa79dcd2-cd01-4a96-8ee2-fb87b8795e04": {
           "type": "Slide",
           "settings": {
             "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/07da1bd8f60f498a98df83404f3c81fd.mp4",
-            "headline": "“I've had other snack boxes but, Holly Lollies is definitely my favorite. Great variety of tasty snacks, both sweet and savory. My box even included some ramen! I would definitely recommend this for anyone that wants to try exotic snacks.”",
-            "name": "— Pam from Austria",
+            "headline": "\"The Trendy Mystery Box never disappoints! Each box is packed with the latest and greatest snacks. The exclusive drinks and rare cookies were my favorites. It’s the perfect way to stay up-to-date with snack trends. 10\/10!\"",
+            "name": "— Indrė from LT",
             "info": ""
           }
         },
         "00a1defd-429c-4b20-824d-9121bacdfdf5": {
           "type": "Slide",
           "settings": {
-            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/722b3abc83ff4a408e14dfa3c621fb57.mp4",
-            "headline": "\"I feared the box wouldn't match the hype, but Holly Lollies delivered beyond my expectations. The premium unboxing experience, diverse snacks, and the joy of discovering new treats were fantastic. Will buy again!\" ⭐⭐⭐⭐⭐",
-            "name": "— Mark from Finland",
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c0e35a5d648f43d98677ef62c47de276.mp4",
+            "headline": "\"A wonderful selection of Asian goodies! The variety in the Asian Mystery Box is impressive. From chewy Hi-Chew to refreshing Ramune, every snack was delightful. This box is perfect for adventurous eaters looking to explore new flavors. Two thumbs up!\" ⭐⭐⭐⭐⭐",
+            "name": "— Karolina from LT",
             "info": ""
           }
         }
       },
       "block_order": [
+        "7d67cc3e-416a-4c65-b5b9-a34136638e35",
         "slide_zzNziU",
         "96f861f0-4160-44ed-aaf2-44bccc18f076",
         "slide_AJLLd7",
-        "7d67cc3e-416a-4c65-b5b9-a34136638e35",
         "aa79dcd2-cd01-4a96-8ee2-fb87b8795e04",
         "00a1defd-429c-4b20-824d-9121bacdfdf5"
       ],
