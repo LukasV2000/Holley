@@ -778,7 +778,7 @@
           "type": "Slide",
           "settings": {
             "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ef8b66c50d744f679d4a96fd15e74ba1.mp4",
-            "headline": "“Tasting the Japanese KitKat Matcha was like a quick trip back to Japan. The variety in this box is incredible – each candy is a new discovery. For anyone thinking about trying Holly Lollies, I say go for it. Holly Lollies, you've got yourself a fan – this is easily a 10\/10 from me!\"”",
+            "headline": "“Tasting the Japanese KitKat Matcha was like a quick trip back to Japan. The variety in this box is incredible – each candy is a new discovery. For anyone thinking about trying Holly Lollies, I say go for it. Holly Lollies, you've got yourself a fan – this is easily a 10\/10 from me!\"",
             "name": "— Aurelija",
             "info": "Proud Client from Lithuania 🇱🇹"
           }
@@ -825,15 +825,6 @@
     "5ccbf5a5-e1ed-4fbe-8d40-a887b4e72b7d": {
       "type": "Customer_says_reviews",
       "blocks": {
-        "97e94b61-861a-4725-9ff7-65626389e751": {
-          "type": "Review",
-          "settings": {
-            "avatar": "shopify:\/\/shop_images\/3_2db29d62-7616-43e1-bd1d-a4d7beb3a9a5.png",
-            "name": "Jolanda Gaile",
-            "info": "Proud customer from 🇱🇻",
-            "content": "<p>Nostalgia. Plain and simple. I had been stationed in Japan for four years and had a great time trying new food and snacks when I was there. Wanting to share that with my kids now, we got this and now I’m sharing memories with them and explaining where I had certain ones before. Love it!<\/p>"
-          }
-        },
         "19184438-5995-4631-92a2-2ba67a0a8150": {
           "type": "Review",
           "settings": {
@@ -841,6 +832,15 @@
             "name": "Evelina Kvašytė",
             "info": "Happy Customer from 🇱🇹",
             "content": "<p>I recently ordered Holly Lollies' Mystery Box, not quite sure what to expect. To my delight, it turned out to be an amazing experience for the whole family! 🤩<br\/><br\/>The best part was sharing the excitement with my family. We all gathered around to taste international sweets from places we've never been. The variety was incredible, and it made for a fun and memorable tasting adventure. 🤩<br\/><br\/>If you're up for a taste adventure, I highly recommend giving Holly Lollies a try.<\/p>"
+          }
+        },
+        "97e94b61-861a-4725-9ff7-65626389e751": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/3_2db29d62-7616-43e1-bd1d-a4d7beb3a9a5.png",
+            "name": "Jolanda Gaile",
+            "info": "Proud customer from 🇱🇻",
+            "content": "<p>Nostalgia. Plain and simple. I had been stationed in Japan for four years and had a great time trying new food and snacks when I was there. Wanting to share that with my kids now, we got this and now I’m sharing memories with them and explaining where I had certain ones before. Love it!<\/p>"
           }
         },
         "81c1e3e0-03d7-41f8-a6c7-faf724e229bf": {
@@ -881,8 +881,8 @@
         }
       },
       "block_order": [
-        "97e94b61-861a-4725-9ff7-65626389e751",
         "19184438-5995-4631-92a2-2ba67a0a8150",
+        "97e94b61-861a-4725-9ff7-65626389e751",
         "81c1e3e0-03d7-41f8-a6c7-faf724e229bf",
         "review_7j9PYp",
         "a2092306-2f3e-48ce-ac8a-1c4aac01ad42",

@@ -1149,23 +1149,13 @@
             "s_button_bg_color": "#000000",
             "s_button_text_color": "#ffffff"
           }
-        },
-        "d259827d-fb00-49c3-93d9-6ff1ae04aa0d": {
-          "type": "timer",
-          "disabled": true,
-          "settings": {
-            "date": "04-03-2024",
-            "hide_on_complete": false,
-            "display_titles": true
-          }
         }
       },
       "block_order": [
         "template--21462135734587__4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3-subheading-1",
         "template--21462135734587__4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3-heading-1",
         "template--21462135734587__4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3-text-1",
-        "template--21462135734587__4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3-buttons-1",
-        "d259827d-fb00-49c3-93d9-6ff1ae04aa0d"
+        "template--21462135734587__4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3-buttons-1"
       ],
       "custom_css": [
 
