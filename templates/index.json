@@ -1259,6 +1259,24 @@
     "7098ba4b-7068-4e42-af6b-541a4ebf4371": {
       "type": "Index_reviews_carousel",
       "blocks": {
+        "slide_JiCgez": {
+          "type": "Slide",
+          "settings": {
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ae14caa8bfa04f7ab6d07a752ee3460f.mp4",
+            "headline": "\"Our tasting party with the Holly Lollies Mystery Box was an absolute blast! 🎉🍭 We were blown away by the variety and quality of the snacks. From the sweet delights to the savory surprises, every treat was a hit. The unboxing was so much fun, and we loved discovering new flavors together. It felt like a global adventure right in our vila!",
+            "name": "— Jonas and friends",
+            "info": "Proud Client from Asia"
+          }
+        },
+        "00a1defd-429c-4b20-824d-9121bacdfdf5": {
+          "type": "Slide",
+          "settings": {
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c0e35a5d648f43d98677ef62c47de276.mp4",
+            "headline": "\"A wonderful selection of Asian goodies! The variety in the Asian Mystery Box is impressive. From chewy Hi-Chew to refreshing Ramune, every snack was delightful. This box is perfect for adventurous eaters looking to explore new flavors. Two thumbs up!\" ⭐⭐⭐⭐⭐",
+            "name": "— Karolina from LT",
+            "info": ""
+          }
+        },
         "7d67cc3e-416a-4c65-b5b9-a34136638e35": {
           "type": "Slide",
           "settings": {
@@ -1305,24 +1323,16 @@
             "name": "— Indrė from LT",
             "info": ""
           }
-        },
-        "00a1defd-429c-4b20-824d-9121bacdfdf5": {
-          "type": "Slide",
-          "settings": {
-            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c0e35a5d648f43d98677ef62c47de276.mp4",
-            "headline": "\"A wonderful selection of Asian goodies! The variety in the Asian Mystery Box is impressive. From chewy Hi-Chew to refreshing Ramune, every snack was delightful. This box is perfect for adventurous eaters looking to explore new flavors. Two thumbs up!\" ⭐⭐⭐⭐⭐",
-            "name": "— Karolina from LT",
-            "info": ""
-          }
         }
       },
       "block_order": [
+        "slide_JiCgez",
+        "00a1defd-429c-4b20-824d-9121bacdfdf5",
         "7d67cc3e-416a-4c65-b5b9-a34136638e35",
         "slide_zzNziU",
         "96f861f0-4160-44ed-aaf2-44bccc18f076",
         "slide_AJLLd7",
-        "aa79dcd2-cd01-4a96-8ee2-fb87b8795e04",
-        "00a1defd-429c-4b20-824d-9121bacdfdf5"
+        "aa79dcd2-cd01-4a96-8ee2-fb87b8795e04"
       ],
       "settings": {
         "title": "This is what our community says",
