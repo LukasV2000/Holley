@@ -761,6 +761,34 @@
     "5ccbf5a5-e1ed-4fbe-8d40-a887b4e72b7d": {
       "type": "Customer_says_reviews",
       "blocks": {
+        "review_MdWCRb": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/Background_should_consist_of_trendy_candy_ideas_around_the_world_from_USA_from_Asia_from_Europe_it_should_look_like_a_mix_of_cultures_and_biggest_trends_in_the_candy_world._Focus_more_da1cead5-7c45-4480-acff-679d0f6912db.png",
+            "name": "Roberta Šarauskaitė",
+            "info": "Happy customer from LT",
+            "content": "<p>Everything was very nice, the packaging and the snacks they were really good and definitely worth it for the price, most likely will be ordering again, great company, thank you!<\/p>"
+          }
+        },
+        "review_rxmpWr": {
+          "type": "Review",
+          "disabled": true,
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/Screenshot_2023-12-07_at_13.31.03.png",
+            "name": "Julian Wieczorek",
+            "info": "Proud customer from 🇵🇱",
+            "content": "<p>All of the snacks were really good I definitely recommend Holly Lollies and I will most certainly get another box.<\/p>"
+          }
+        },
+        "review_C8fxC4": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/Background_should_consist_of_trendy_candy_ideas_around_the_world_from_USA_from_Asia_from_Europe_it_should_look_like_a_mix_of_cultures_and_biggest_trends_in_the_candy_world._Focus_more_37f33763-42b5-4fdc-bbbb-533ca6829c54.png",
+            "name": "Rūta",
+            "info": "Happy customer from LT",
+            "content": "<p>LOVE their sweaters! Exactly what I was looking for. Ordered couple of them and all are perfect. For the price, the material is better than expected! The inside is incredibly soft. No downsides, perfect sweaters!<\/p>"
+          }
+        },
         "a2092306-2f3e-48ce-ac8a-1c4aac01ad42": {
           "type": "Review",
           "settings": {
@@ -814,25 +842,18 @@
             "info": "Happy Customer from 🇱🇹",
             "content": "<p>Got my first Box as a Birthday present and I was absolutely delighted. The treats taste great and there are everything from sweet to salty. I love testing Snacks from different countries and this is something I had really fun with.<br\/>My boyfriend who bought this for me said the shipping was without problems.<\/p>"
           }
-        },
-        "review_MdWCRb": {
-          "type": "Review",
-          "settings": {
-            "avatar": "shopify:\/\/shop_images\/Background_should_consist_of_trendy_candy_ideas_around_the_world_from_USA_from_Asia_from_Europe_it_should_look_like_a_mix_of_cultures_and_biggest_trends_in_the_candy_world._Focus_more_da1cead5-7c45-4480-acff-679d0f6912db.png",
-            "name": "Roberta Šarauskaitė",
-            "info": "Happy customer from LT",
-            "content": "<p>Everything was very nice, the packaging and the snacks they were really good and definitely worth it for the price, most likely will be ordering again, great company, thank you!<\/p>"
-          }
         }
       },
       "block_order": [
+        "review_MdWCRb",
+        "review_rxmpWr",
+        "review_C8fxC4",
         "a2092306-2f3e-48ce-ac8a-1c4aac01ad42",
         "review_Untn3j",
         "review_VVpTCJ",
         "81c1e3e0-03d7-41f8-a6c7-faf724e229bf",
         "97e94b61-861a-4725-9ff7-65626389e751",
-        "19184438-5995-4631-92a2-2ba67a0a8150",
-        "review_MdWCRb"
+        "19184438-5995-4631-92a2-2ba67a0a8150"
       ],
       "settings": {
         "title": "This is what our community says",
