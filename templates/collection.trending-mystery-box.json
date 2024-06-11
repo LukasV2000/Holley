@@ -766,7 +766,7 @@
           "settings": {
             "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ae14caa8bfa04f7ab6d07a752ee3460f.mp4",
             "headline": "\"Our tasting party with the Holly Lollies Mystery Box was an absolute blast! 🎉🍭 We were blown away by the variety and quality of the snacks. From the sweet delights to the savory surprises, every treat was a hit. The unboxing was so much fun, and we loved discovering new flavors together. It felt like a global adventure right in our vila!\"",
-            "name": "— Renee Wells",
+            "name": "— Jonas",
             "info": "Proud Client from Asia"
           }
         },
@@ -822,15 +822,6 @@
     "5ccbf5a5-e1ed-4fbe-8d40-a887b4e72b7d": {
       "type": "Customer_says_reviews",
       "blocks": {
-        "review_x69XDK": {
-          "type": "Review",
-          "settings": {
-            "avatar": "shopify:\/\/shop_images\/1_302b8794-6d78-48d6-86e3-72d7d945d30a.png",
-            "name": "Jonas",
-            "info": "Happy customer from LT",
-            "content": "<p>Great experience!! Wide variety of snacks ranging from sweet to savory. Well thought out and everything was super tasty!<\/p>"
-          }
-        },
         "review_J9jhCX": {
           "type": "Review",
           "settings": {
@@ -893,17 +884,26 @@
             "info": "Proud customer from 🇱🇻",
             "content": "<p>I was very pleasantly surprised with how much was in the box, and how tasty everything has been! So far I have tried a half dozen or so items. These are all things I would buy again if I saw them!<\/p>"
           }
+        },
+        "review_x69XDK": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/1_302b8794-6d78-48d6-86e3-72d7d945d30a.png",
+            "name": "Jonas",
+            "info": "Happy customer from Asia",
+            "content": "<p>Great experience!! Wide variety of snacks ranging from sweet to savory. Well thought out and everything was super tasty!<\/p>"
+          }
         }
       },
       "block_order": [
-        "review_x69XDK",
         "review_J9jhCX",
         "review_PrNUmw",
         "a2092306-2f3e-48ce-ac8a-1c4aac01ad42",
         "review_j77XpA",
         "19184438-5995-4631-92a2-2ba67a0a8150",
         "97e94b61-861a-4725-9ff7-65626389e751",
-        "81c1e3e0-03d7-41f8-a6c7-faf724e229bf"
+        "81c1e3e0-03d7-41f8-a6c7-faf724e229bf",
+        "review_x69XDK"
       ],
       "settings": {
         "title": "This is what our community says",
