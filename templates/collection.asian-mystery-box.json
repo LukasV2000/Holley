@@ -825,15 +825,6 @@
     "5ccbf5a5-e1ed-4fbe-8d40-a887b4e72b7d": {
       "type": "Customer_says_reviews",
       "blocks": {
-        "19184438-5995-4631-92a2-2ba67a0a8150": {
-          "type": "Review",
-          "settings": {
-            "avatar": "shopify:\/\/shop_images\/5_9e31cf33-3b62-4dc5-8f18-a31525cabf4e.png",
-            "name": "Evelina Kvašytė",
-            "info": "Happy Customer from 🇱🇹",
-            "content": "<p>I recently ordered Holly Lollies' Mystery Box, not quite sure what to expect. To my delight, it turned out to be an amazing experience for the whole family! 🤩<br\/><br\/>The best part was sharing the excitement with my family. We all gathered around to taste international sweets from places we've never been. The variety was incredible, and it made for a fun and memorable tasting adventure. 🤩<br\/><br\/>If you're up for a taste adventure, I highly recommend giving Holly Lollies a try.<\/p>"
-          }
-        },
         "97e94b61-861a-4725-9ff7-65626389e751": {
           "type": "Review",
           "settings": {
@@ -861,11 +852,20 @@
             "content": "<p>Mystery box was filled to the brim with all kinds of candy! It was amazing and delicious, opening the box felt like christmas in the middle of spring, absolutely loved it!<\/p>"
           }
         },
+        "19184438-5995-4631-92a2-2ba67a0a8150": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/5_9e31cf33-3b62-4dc5-8f18-a31525cabf4e.png",
+            "name": "Evelina Kvašytė",
+            "info": "Happy Customer from 🇱🇹",
+            "content": "<p>I recently ordered Holly Lollies' Mystery Box, not quite sure what to expect. To my delight, it turned out to be an amazing experience for the whole family! 🤩<br\/><br\/>The best part was sharing the excitement with my family. We all gathered around to taste international sweets from places we've never been. The variety was incredible, and it made for a fun and memorable tasting adventure. 🤩<br\/><br\/>If you're up for a taste adventure, I highly recommend giving Holly Lollies a try.<\/p>"
+          }
+        },
         "a2092306-2f3e-48ce-ac8a-1c4aac01ad42": {
           "type": "Review",
           "settings": {
             "avatar": "shopify:\/\/shop_images\/4_eabeeca5-ab45-41ea-8c38-9366a6ab9322.png",
-            "name": "Gytis Stonkus",
+            "name": "Gytis Abelkis",
             "info": "Happy Customer from 🇱🇹",
             "content": "<p>Loved every single piece from the box, cant wait to get the next one. All snacks were in perfect conditions and delicious.<\/p>"
           }
@@ -881,10 +881,10 @@
         }
       },
       "block_order": [
-        "19184438-5995-4631-92a2-2ba67a0a8150",
         "97e94b61-861a-4725-9ff7-65626389e751",
         "81c1e3e0-03d7-41f8-a6c7-faf724e229bf",
         "review_7j9PYp",
+        "19184438-5995-4631-92a2-2ba67a0a8150",
         "a2092306-2f3e-48ce-ac8a-1c4aac01ad42",
         "review_pMnhzq"
       ],

@@ -761,13 +761,13 @@
     "5ccbf5a5-e1ed-4fbe-8d40-a887b4e72b7d": {
       "type": "Customer_says_reviews",
       "blocks": {
-        "19184438-5995-4631-92a2-2ba67a0a8150": {
+        "a2092306-2f3e-48ce-ac8a-1c4aac01ad42": {
           "type": "Review",
           "settings": {
-            "avatar": "shopify:\/\/shop_images\/5_9e31cf33-3b62-4dc5-8f18-a31525cabf4e.png",
-            "name": "Evelina Kvašytė",
+            "avatar": "shopify:\/\/shop_images\/4_eabeeca5-ab45-41ea-8c38-9366a6ab9322.png",
+            "name": "Gytis Abelkis",
             "info": "Happy Customer from 🇱🇹",
-            "content": "<p>Got my first Box as a Birthday present and I was absolutely delighted. The treats taste great and there are everything from sweet to salty. I love testing Snacks from different countries and this is something I had really fun with.<br\/>My boyfriend who bought this for me said the shipping was without problems.<\/p>"
+            "content": "<p>Loved every single piece from the box, cant wait to get the next one. All snacks were in perfect conditions and delicious.<\/p>"
           }
         },
         "review_Untn3j": {
@@ -797,15 +797,6 @@
             "content": "<p>I was very pleasantly surprised with how much was in the box, and how tasty everything has been! So far I have tried a half dozen or so items. These are all things I would buy again if I saw them!<\/p>"
           }
         },
-        "a2092306-2f3e-48ce-ac8a-1c4aac01ad42": {
-          "type": "Review",
-          "settings": {
-            "avatar": "shopify:\/\/shop_images\/4_eabeeca5-ab45-41ea-8c38-9366a6ab9322.png",
-            "name": "Gytis Stonkus",
-            "info": "Happy Customer from 🇱🇹",
-            "content": "<p>Loved every single piece from the box, cant wait to get the next one. All snacks were in perfect conditions and delicious.<\/p>"
-          }
-        },
         "97e94b61-861a-4725-9ff7-65626389e751": {
           "type": "Review",
           "settings": {
@@ -813,6 +804,15 @@
             "name": "Jolanda Gaile",
             "info": "Proud customer from 🇱🇻",
             "content": "<p>Nostalgia. Plain and simple. I had been stationed in Japan for four years and had a great time trying new food and snacks when I was there. Wanting to share that with my kids now, we got this and now I’m sharing memories with them and explaining where I had certain ones before. Love it!<\/p>"
+          }
+        },
+        "19184438-5995-4631-92a2-2ba67a0a8150": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/5_9e31cf33-3b62-4dc5-8f18-a31525cabf4e.png",
+            "name": "Evelina Kvašytė",
+            "info": "Happy Customer from 🇱🇹",
+            "content": "<p>Got my first Box as a Birthday present and I was absolutely delighted. The treats taste great and there are everything from sweet to salty. I love testing Snacks from different countries and this is something I had really fun with.<br\/>My boyfriend who bought this for me said the shipping was without problems.<\/p>"
           }
         },
         "review_MdWCRb": {
@@ -826,12 +826,12 @@
         }
       },
       "block_order": [
-        "19184438-5995-4631-92a2-2ba67a0a8150",
+        "a2092306-2f3e-48ce-ac8a-1c4aac01ad42",
         "review_Untn3j",
         "review_VVpTCJ",
         "81c1e3e0-03d7-41f8-a6c7-faf724e229bf",
-        "a2092306-2f3e-48ce-ac8a-1c4aac01ad42",
         "97e94b61-861a-4725-9ff7-65626389e751",
+        "19184438-5995-4631-92a2-2ba67a0a8150",
         "review_MdWCRb"
       ],
       "settings": {
