@@ -758,6 +758,57 @@
         "learn_more_url": "shopify:\/\/products\/mystery-box"
       }
     },
+    "556f5c1d-5c6f-4265-998d-4c99b08cb073": {
+      "type": "Index_reviews_carousel",
+      "blocks": {
+        "fdc4be60-c3a3-4864-9b7c-0a1ca028521f": {
+          "type": "Slide",
+          "settings": {
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/34389683f8c34c9ba6f6c1094b667491.mp4",
+            "headline": "\"Absolutely thrilled with the Trendy Mystery Box! It had all the hot snacks that everyone’s raving about. The variety was fantastic, from savory chips to unique candies. If you love staying ahead in the snack game, this box is for you!\"",
+            "name": "— Kamėja",
+            "info": "Proud Client from Lithuania 🇱🇹"
+          }
+        },
+        "33c897ed-fef0-4d69-b672-e8c667f4864b": {
+          "type": "Slide",
+          "settings": {
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/07da1bd8f60f498a98df83404f3c81fd.mp4",
+            "headline": "\"The Trendy Mystery Box never disappoints! Each box is packed with the latest and greatest snacks. The exclusive drinks and rare cookies were my favorites. It’s the perfect way to stay up-to-date with snack trends. 10\/10!\"",
+            "name": "— Indrė",
+            "info": "Proud Client from Lithuania 🇱🇹"
+          }
+        },
+        "ff07d8b2-5faf-4334-a78e-e4bf43dee446": {
+          "type": "Slide",
+          "settings": {
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2f62e6daf68e4ddba80b1921cf3c0d0b.mp4",
+            "headline": "\"A fantastic collection of the most popular snacks! The Trendy Mystery Box had everything I wanted and more. From crunchy chips to delicious chocolates, every item was a hit. Perfect for anyone who loves being in the know about the latest snacks. Holly Lollies nailed it!\"",
+            "name": "— Džestina",
+            "info": "Happy Client from Lithuania 🇱🇹"
+          }
+        },
+        "b7331f9a-2ca0-4c26-82e5-928ae6af82c0": {
+          "type": "Slide",
+          "settings": {
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/722b3abc83ff4a408e14dfa3c621fb57.mp4",
+            "headline": "\"The Trendy Mystery Box is a must-have for snack enthusiasts! Each box is filled with the latest and most talked-about snacks. I loved discovering new treats like the latest Takis flavor and exclusive chocolates. Holly Lollies, you’ve got a fan for life!\"",
+            "name": "— Karolina",
+            "info": "Proud Client from Lithuania 🇱🇹"
+          }
+        }
+      },
+      "block_order": [
+        "fdc4be60-c3a3-4864-9b7c-0a1ca028521f",
+        "33c897ed-fef0-4d69-b672-e8c667f4864b",
+        "ff07d8b2-5faf-4334-a78e-e4bf43dee446",
+        "b7331f9a-2ca0-4c26-82e5-928ae6af82c0"
+      ],
+      "settings": {
+        "title": "Sweet Words from Our Customers",
+        "reviews_img": "shopify:\/\/shop_images\/Screenshot_2023-12-13_at_14.17.29.png"
+      }
+    },
     "5ccbf5a5-e1ed-4fbe-8d40-a887b4e72b7d": {
       "type": "Customer_says_reviews",
       "blocks": {
@@ -765,9 +816,9 @@
           "type": "Review",
           "settings": {
             "avatar": "shopify:\/\/shop_images\/5_9e31cf33-3b62-4dc5-8f18-a31525cabf4e.png",
-            "name": "Veronika Vaitytė",
+            "name": "Evelina Kvašytė",
             "info": "Happy Customer from 🇱🇹",
-            "content": "<p>Got my first Box as a Birthday present and I was absolutely delighted. The treats taste great and there are everything from sweet to salty. I love testing Snacks from different countries and this is something I had really fun with.<br\/>My boyfriend who bought this for me said the shipping was without problems.<\/p>"
+            "content": "<p>I recently ordered Holly Lollies' Mystery Box, not quite sure what to expect. To my delight, it turned out to be an amazing experience for the whole family! 🤩<br\/><br\/>The best part was sharing the excitement with my family. We all gathered around to taste international sweets from places we've never been. The variety was incredible, and it made for a fun and memorable tasting adventure. 🤩<br\/><br\/>If you're up for a taste adventure, I highly recommend giving Holly Lollies a try. You won't be disappointed!<\/p>"
           }
         },
         "81c1e3e0-03d7-41f8-a6c7-faf724e229bf": {
@@ -779,6 +830,15 @@
             "content": "<p>I was very pleasantly surprised with how much was in the box, and how tasty everything has been! So far I have tried a half dozen or so items. These are all things I would buy again if I saw them!<\/p>"
           }
         },
+        "review_PrNUmw": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/8_3141e36a-ca6a-43d4-aae3-2e38f3a95743.png",
+            "name": "Kamilė",
+            "info": "Happy customer from LT",
+            "content": "<p>Mystery box was filled to the brim with all kinds of candy! It was amazing and delicious, opening the box felt like christmas in the middle of spring, absolutely loved it!<\/p>"
+          }
+        },
         "a2092306-2f3e-48ce-ac8a-1c4aac01ad42": {
           "type": "Review",
           "settings": {
@@ -786,6 +846,15 @@
             "name": "Gytis Stonkus",
             "info": "Happy Customer from 🇱🇹",
             "content": "<p>Loved every single piece from the box, cant wait to get the next one. All snacks were in perfect conditions and delicious.<\/p>"
+          }
+        },
+        "review_j77XpA": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/7_144532c5-0726-4f10-b337-277d18461395.png",
+            "name": "Mantas Strignatavicius",
+            "info": "Happy customer from LT",
+            "content": "<p>Amazing packing and good service !<\/p>"
           }
         },
         "97e94b61-861a-4725-9ff7-65626389e751": {
@@ -801,7 +870,9 @@
       "block_order": [
         "19184438-5995-4631-92a2-2ba67a0a8150",
         "81c1e3e0-03d7-41f8-a6c7-faf724e229bf",
+        "review_PrNUmw",
         "a2092306-2f3e-48ce-ac8a-1c4aac01ad42",
+        "review_j77XpA",
         "97e94b61-861a-4725-9ff7-65626389e751"
       ],
       "settings": {
@@ -809,57 +880,6 @@
         "reviews_img": "shopify:\/\/shop_images\/Screenshot_2023-12-13_at_14.17.29.png",
         "btn_title": "Read more",
         "btn_link": "shopify:\/\/pages\/reviews"
-      }
-    },
-    "556f5c1d-5c6f-4265-998d-4c99b08cb073": {
-      "type": "Index_reviews_carousel",
-      "blocks": {
-        "fdc4be60-c3a3-4864-9b7c-0a1ca028521f": {
-          "type": "Slide",
-          "settings": {
-            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/34389683f8c34c9ba6f6c1094b667491.mp4",
-            "headline": "“Tasting the Japanese KitKat Matcha was like a quick trip back to Japan. The variety in this box is incredible – each candy is a new discovery. For anyone thinking about trying Holly Lollies, I say go for it. It's a world tour for your taste buds and every bite is top quality. Holly Lollies, you've got yourself a fan – this is easily a 10\/10 from me!\"”",
-            "name": "— Kamėja",
-            "info": "Proud Client from Lithuania 🇱🇹"
-          }
-        },
-        "33c897ed-fef0-4d69-b672-e8c667f4864b": {
-          "type": "Slide",
-          "settings": {
-            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/07da1bd8f60f498a98df83404f3c81fd.mp4",
-            "headline": "“I've had other snack boxes but, Holly Lollies is definitely my favorite. Great variety of tasty snacks, both sweet and savory. My box even included some ramen! I would definitely recommend this for anyone that wants to try exotic snacks.”",
-            "name": "— Indrė",
-            "info": "Proud Client from Lithuania 🇱🇹"
-          }
-        },
-        "ff07d8b2-5faf-4334-a78e-e4bf43dee446": {
-          "type": "Slide",
-          "settings": {
-            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2f62e6daf68e4ddba80b1921cf3c0d0b.mp4",
-            "headline": "“I’d been introduced to them through a friend, though I’d heard about them before. I’ve been impressed with the range of snacks and drinks, and the effort put into each box. Even with the occasional repeat snack, it’s still always delicious. It’s worth the price, and worth the time to enjoy a big bite of exotic candies.”",
-            "name": "— Džestina",
-            "info": "Happy Client from Lithuania 🇱🇹"
-          }
-        },
-        "b7331f9a-2ca0-4c26-82e5-928ae6af82c0": {
-          "type": "Slide",
-          "settings": {
-            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/722b3abc83ff4a408e14dfa3c621fb57.mp4",
-            "headline": "“It's all delicious and let's you try different flavor combinations you never would have thought of or had the chance to experience.\"",
-            "name": "— Karolina",
-            "info": "Proud Client from Lithuania 🇱🇹"
-          }
-        }
-      },
-      "block_order": [
-        "fdc4be60-c3a3-4864-9b7c-0a1ca028521f",
-        "33c897ed-fef0-4d69-b672-e8c667f4864b",
-        "ff07d8b2-5faf-4334-a78e-e4bf43dee446",
-        "b7331f9a-2ca0-4c26-82e5-928ae6af82c0"
-      ],
-      "settings": {
-        "title": "More Sweet Words from Our Customers",
-        "reviews_img": "shopify:\/\/shop_images\/Screenshot_2023-12-13_at_14.17.29.png"
       }
     },
     "794cd20b-6c15-4098-a12e-95ebbddc6371": {
@@ -930,8 +950,8 @@
     "d8c17a1a-74c4-4cef-b392-8de4254611f5",
     "17d5f566-a4e8-43ac-9cb5-500183341ea0",
     "d8c8378b-888e-4908-8f87-fcc578b5dd78",
-    "5ccbf5a5-e1ed-4fbe-8d40-a887b4e72b7d",
     "556f5c1d-5c6f-4265-998d-4c99b08cb073",
+    "5ccbf5a5-e1ed-4fbe-8d40-a887b4e72b7d",
     "794cd20b-6c15-4098-a12e-95ebbddc6371"
   ]
 }
