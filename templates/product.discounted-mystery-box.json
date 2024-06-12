@@ -130,7 +130,7 @@
           "settings": {
             "icon": "custom",
             "icon_custom": "<svg width=\"41\" height=\"41\" viewbox=\"0 0 41 41\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" fill=\"white\"><\/rect>\n<rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" stroke=\"black\" stroke-width=\"2\"><\/rect>\n<path d=\"M13.5 20.7633L16.9168 11.834H25.4927L23.1354 16.7453H29L16.4491 30.334L20.915 20.7633H13.5Z\" fill=\"#7A5AF8\" stroke=\"black\" stroke-width=\"2\"><\/path>\n<\/svg>",
-            "heading": "Free shipping from €34.99",
+            "heading": "Free shipping from €49.99",
             "subheading": "",
             "prev_attach": false
           }
@@ -150,7 +150,7 @@
           "settings": {
             "icon": "custom",
             "icon_custom": "<svg width=\"40\" height=\"41\" viewbox=\"0 0 40 41\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect x=\"1\" y=\"1.89136\" width=\"38\" height=\"38\" rx=\"7\" fill=\"white\"><\/rect>\n<rect x=\"1\" y=\"1.89136\" width=\"38\" height=\"38\" rx=\"7\" stroke=\"black\" stroke-width=\"2\"><\/rect>\n<path d=\"M17.7697 18.1812C16.7086 14.6242 9.83357 13.9626 9.83357 17.6747C9.83357 21.1352 17.7697 20.671 17.7697 25.1623C17.7697 29.6535 7.58502 28.0555 8.01313 22.303M15.0808 13.3914L11.7642 30.2717\" stroke=\"#7A5AF8\" stroke-width=\"2\"><\/path>\n<path d=\"M32.0041 16.4916C29.755 13.2993 25.7603 15.3234 24.907 20.3486C24.1534 24.7867 26.4678 29.7326 31.1949 27.4029M23.6562 20.1859H29.9382M23.6562 22.8712H28.7858\" stroke=\"#7A5AF8\" stroke-width=\"2\"><\/path>\n<\/svg>",
-            "heading": "10-15 snacks inside",
+            "heading": "15-20 snacks inside",
             "subheading": "",
             "prev_attach": false
           }
