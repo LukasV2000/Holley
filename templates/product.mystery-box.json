@@ -267,13 +267,13 @@
     "939fe1cf-87b0-4404-b1ef-5be59fbcf5d4": {
       "type": "Customer_says_reviews",
       "blocks": {
-        "1d026fc1-9182-4a4d-a23e-f00c81313ee5": {
+        "dfab66f7-6717-4e7f-b625-b15e905cf1bb": {
           "type": "Review",
           "settings": {
-            "avatar": "shopify:\/\/shop_images\/2_b99b379b-0535-4eec-b291-47fca148424c.png",
-            "name": "Livita Runce",
-            "info": "Proud customer from 🇱🇻",
-            "content": "<p>For the price it's an exceptional value and I like that it has a balanced selection of sweet and savory snacks and that they are full sized. I also noticed that all the snacks in this box were fresh. No stale crackers or chips like I've experienced in other similar boxes. Very pleased with this purchase and would highly recommend to friends, family, and as a gift.<\/p>"
+            "avatar": "shopify:\/\/shop_images\/1_302b8794-6d78-48d6-86e3-72d7d945d30a.png",
+            "name": "Jonas",
+            "info": "Happy customer from 🇱🇹",
+            "content": "<p>Great experience!! Wide variety of snacks ranging from sweet to savory. Well thought out and everything was super tasty!<\/p>"
           }
         },
         "d3f034f8-f8bb-41e1-8310-a94812245c4a": {
@@ -283,6 +283,15 @@
             "name": "Ugnius L.",
             "info": "Happy customer from 🇱🇹",
             "content": "<p>I’m blown away by the Trendy Mystery Box! The selection of snacks is top-notch and always includes the newest treats. It’s like getting a surprise of the trendiest snacks every month. Highly recommend for anyone who loves trying new things!<\/p>"
+          }
+        },
+        "1d026fc1-9182-4a4d-a23e-f00c81313ee5": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/2_b99b379b-0535-4eec-b291-47fca148424c.png",
+            "name": "Livita Runce",
+            "info": "Proud customer from 🇱🇻",
+            "content": "<p>For the price it's an exceptional value and I like that it has a balanced selection of sweet and savory snacks and that they are full sized. I also noticed that all the snacks in this box were fresh. No stale crackers or chips like I've experienced in other similar boxes. Very pleased with this purchase and would highly recommend to friends, family, and as a gift.<\/p>"
           }
         },
         "253488bc-81ef-488a-ab1a-0d3bdc35f9c7": {
@@ -358,15 +367,6 @@
             "content": "<p>Got my first Box as a Birthdaypresent and I was absolutly delighted. The treats taste great and there are everything from sweet to salty. I love testing Snacks from different countrys and this is something I had really fun with.<br\/>My boyfriend who bought this for me said the shipping was without problems.<\/p>"
           }
         },
-        "dfab66f7-6717-4e7f-b625-b15e905cf1bb": {
-          "type": "Review",
-          "settings": {
-            "avatar": "shopify:\/\/shop_images\/1_302b8794-6d78-48d6-86e3-72d7d945d30a.png",
-            "name": "Jonas",
-            "info": "Happy customer from 🇱🇹",
-            "content": "<p>Great experience!! Wide variety of snacks ranging from sweet to savory. Well thought out and everything was super tasty!<\/p>"
-          }
-        },
         "c822337a-0105-48de-8cdb-1e217ac5aca7": {
           "type": "Review",
           "disabled": true,
@@ -379,8 +379,9 @@
         }
       },
       "block_order": [
-        "1d026fc1-9182-4a4d-a23e-f00c81313ee5",
+        "dfab66f7-6717-4e7f-b625-b15e905cf1bb",
         "d3f034f8-f8bb-41e1-8310-a94812245c4a",
+        "1d026fc1-9182-4a4d-a23e-f00c81313ee5",
         "253488bc-81ef-488a-ab1a-0d3bdc35f9c7",
         "6a35730d-2035-45bd-bccd-c488666cbc06",
         "6ec83660-8eae-4718-a2d9-460ca0f35c91",
@@ -389,7 +390,6 @@
         "60d8d18e-74e9-4c51-b13f-345b620b4aa8",
         "3e43814c-aff7-46e4-8bcd-8eefc907db47",
         "284d89ef-da6e-436b-81aa-5dc026b5cf3d",
-        "dfab66f7-6717-4e7f-b625-b15e905cf1bb",
         "c822337a-0105-48de-8cdb-1e217ac5aca7"
       ],
       "settings": {
