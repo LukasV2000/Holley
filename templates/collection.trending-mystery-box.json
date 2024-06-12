@@ -819,6 +819,62 @@
         "reviews_img": "shopify:\/\/shop_images\/Screenshot_2023-12-13_at_14.17.29.png"
       }
     },
+    "index_multi_features_RhN8K8": {
+      "type": "Index_multi_features",
+      "blocks": {
+        "feature_BjKJqy": {
+          "type": "feature",
+          "settings": {
+            "heading": "PARTY TIME 🎉",
+            "text": "Turn any gathering into an unforgettable event with our mystery boxes, filled with unique, trendy snacks. Perfect for Instagram-worthy moments, these treats elevate your celebration. Our boxes guarantee great emotions and lively debates as you discover which candies you love and which ones your friends can’t stand.",
+            "image": "shopify:\/\/shop_images\/video2-ezgif.com-crop.gif",
+            "icon": ""
+          }
+        },
+        "feature_MDAgPx": {
+          "type": "feature",
+          "settings": {
+            "heading": "Family Feasting 👪",
+            "text": "Looking to bond with your kids? Or maybe you want to be the cool uncle or aunt? This box has got you covered! Our mystery boxes are perfect for creating fun moments together. Share the excitement and become the hero of family gatherings. Perfect for any family get-together, our mystery boxes ensure everyone finds their favorites, bringing joy, laughter, and unforgettable memories to every family moment.",
+            "image": "shopify:\/\/shop_images\/Ekrano_kopija_2024-06-07_161320.png",
+            "icon": ""
+          }
+        },
+        "feature_GNxfqQ": {
+          "type": "feature",
+          "settings": {
+            "heading": "Flavorful Gifting 🎁",
+            "text": "Looking for a standout gift? Our mystery boxes are packed with unique and luxurious treats, perfect for any occasion. Delight your loved ones with high-end, trendy candies that impress. Ideal for birthdays, anniversaries, or just because—these boxes bring joy and excitement to any celebration. Share the fun and sweeten the moment with a thoughtful and unforgettable gift!",
+            "image": "shopify:\/\/shop_images\/Ekrano_kopija_2024-06-07_161424.png",
+            "icon": ""
+          }
+        },
+        "feature_3t3KJr": {
+          "type": "feature",
+          "settings": {
+            "heading": "Solo Adventure 🍫",
+            "text": "Treat yourself to unique and exciting snacks that let you explore new flavors. Enjoy some well-deserved me-time with a diverse selection of treats designed to make your solo moments special and satisfying. Dive into personal indulgence and savor each surprise just for you. Unwind and relax with snacks that bring stress-free enjoyment. Give yourself the gift of exclusivity with treats chosen to delight you on your solo adventures.",
+            "image": "shopify:\/\/shop_images\/IMG20240120113742.jpg",
+            "icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "feature_BjKJqy",
+        "feature_MDAgPx",
+        "feature_GNxfqQ",
+        "feature_3t3KJr"
+      ],
+      "custom_css": [
+        ".Index_personalization_outer {margin-top: 0; background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0839\/5941\/5099\/files\/Group_324367_1.jpg?v=1701857172\"); padding-top: 64px; padding-bottom: 64px; background-color: #fef0c7; background-position: 0 100%; background-size: 100%; background-repeat: no-repeat; max-width: 100% !important;}"
+      ],
+      "settings": {
+        "small_text": "",
+        "heading": "WHAT IS THIS BOX FOR?",
+        "text": "",
+        "title": ""
+      }
+    },
     "5ccbf5a5-e1ed-4fbe-8d40-a887b4e72b7d": {
       "type": "Customer_says_reviews",
       "blocks": {
@@ -981,6 +1037,7 @@
     "17d5f566-a4e8-43ac-9cb5-500183341ea0",
     "d8c8378b-888e-4908-8f87-fcc578b5dd78",
     "556f5c1d-5c6f-4265-998d-4c99b08cb073",
+    "index_multi_features_RhN8K8",
     "5ccbf5a5-e1ed-4fbe-8d40-a887b4e72b7d",
     "794cd20b-6c15-4098-a12e-95ebbddc6371"
   ]
