@@ -329,6 +329,13 @@
             "custom_title": "TRENDING Mystery Box 💯"
           }
         },
+        "collection_mfakkH": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "custom_title": ""
+          }
+        },
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-2": {
           "type": "collection",
           "settings": {
@@ -375,6 +382,7 @@
       },
       "block_order": [
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-1",
+        "collection_mfakkH",
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-2",
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-3",
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-4",
@@ -438,11 +446,11 @@
         "image": "shopify:\/\/shop_images\/Untitled_design_2_1.png",
         "headline": "WHAT'S INSIDE THE BOX? 👀",
         "title1": "ASIAN MYSTERY BOX",
-        "text1": "🍵 Explore the rich and diverse flavors of Asia with 15 to 20 unique snacks and candies! This box features a curated selection from countries like Japan, Korea, and China, offering a taste adventure you won't forget.",
+        "text1": "🍵 Explore the rich and diverse flavors of Asia with 13 to 17 unique snacks and candies! This box features a curated selection from countries like Japan, Korea, and China, offering a taste adventure you won't forget.",
         "title2": "TRENDY MYSTERY BOX",
-        "text2": "🍭 Indulge in the latest candy trends with 15 to 20 unique and exciting treats from around the world! Each box is packed with exclusive flavors that will take your taste buds on a sensational journey.",
+        "text2": "🍭 Indulge in the latest candy trends with 13 to 17 unique and exciting treats from around the world! Each box is packed with exclusive flavors that will take your taste buds on a sensational journey.",
         "title3": "DISCOUNT MYSTERY BOX",
-        "text3": "💰 Treat yourself to 10 to 15 fantastic candies at unbeatable prices! These treats are close to their best-by date, ideal for enjoying right away while saving money."
+        "text3": "💰 Treat yourself to 13 to 17 fantastic candies at unbeatable prices! These treats are close to their best-by date, ideal for enjoying right away while saving money."
       }
     },
     "a72ea510-a5ac-4b87-8093-e14ded7e95ef": {
