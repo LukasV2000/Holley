@@ -329,13 +329,6 @@
             "custom_title": "TRENDING Mystery Box 💯"
           }
         },
-        "collection_mfakkH": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "custom_title": ""
-          }
-        },
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-2": {
           "type": "collection",
           "settings": {
@@ -382,7 +375,6 @@
       },
       "block_order": [
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-1",
-        "collection_mfakkH",
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-2",
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-3",
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-4",
