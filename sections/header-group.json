@@ -8,35 +8,33 @@
         "5d86f9c7-6db2-439f-ba5a-8f69a9aa3fa2": {
           "type": "announcement",
           "settings": {
-            "text": "🇪🇪 🇱🇻 🇱🇹 FREE SHIPPING OVER €34.99",
+            "text": "Experience the Premium Mystery Box!",
             "link": "shopify:\/\/collections",
-            "icon": ""
+            "icon": "gift"
           }
         },
         "ccb463a8-7c50-4635-99eb-d5f8e52c2c84": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "VALENTINE'S DEAL - 100 Large Mystery Boxes AT COST PRICE",
+            "text": "Discover the Most Trendy Candies from Around the World!",
             "link": "shopify:\/\/collections\/hot-deals",
-            "icon": "meteor"
+            "icon": "magnifying-glass"
           }
         },
         "c4b59b37-19bd-476f-bb55-1efe555f93d0": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "CHRISTMAS SEASON SALE - SITEWIDE 25% OFF",
-            "link": "shopify:\/\/collections",
-            "icon": "gift"
+            "text": "Opening Offer: Get 20% Off Your First Box!",
+            "link": "",
+            "icon": "fire"
           }
         },
         "76e60a6e-9e60-4d40-b24c-6db17034350b": {
           "type": "announcement",
           "settings": {
-            "text": "MINIMUM ORDER VALUE - €20",
+            "text": "Indulge in Exclusive, High-End Treats!",
             "link": "",
-            "icon": "comments-dollar"
+            "icon": "medal"
           }
         }
       },
@@ -58,8 +56,25 @@
     "g_header": {
       "type": "g_header",
       "blocks": {
+        "collection_list_phQnL9": {
+          "type": "collection_list",
+          "disabled": true,
+          "settings": {
+            "position": "secondary",
+            "title": "MYSTERY BOXES",
+            "url": "shopify:\/\/collections",
+            "icon": "gift",
+            "main_navigation_collection_list": [
+              "asian-mystery-box",
+              "trendy-mystery-box",
+              "discounted-mystery-box"
+            ],
+            "image_size": "square"
+          }
+        },
         "c41c9456-2f6d-4255-87e7-8172ceb0b2f7": {
           "type": "mega",
+          "disabled": true,
           "settings": {
             "position": "secondary",
             "title": "All Collections",
@@ -87,6 +102,7 @@
         },
         "ae7c8fcc-da7a-4c82-a014-c7c5928e2839": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "position": "secondary",
             "title": "On Sale",
@@ -100,38 +116,42 @@
         },
         "56d8cc47-7575-4811-aed8-71467431ca6e": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "position": "secondary",
-            "link_name": "Mystery box",
-            "url": "shopify:\/\/collections\/mystery-box-hot-deal",
+            "link_name": "",
+            "url": "shopify:\/\/collections\/mystery-boxes",
             "icon": "gift"
           }
         },
         "a0e5e96a-cb06-403c-b463-af2abc48fa2e": {
           "type": "browsing_history",
+          "disabled": true,
           "settings": {
             "position": "secondary",
-            "title": "Browsing History",
-            "icon": "clock-rotate-left",
+            "title": "MYSTERY BOXES",
+            "icon": "gift",
             "show_product_title": true,
             "show_product_price": true
           }
         },
         "3da5dd28-9d71-4b64-8ed9-1ae8812371fe": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "position": "secondary",
-            "link_name": "Reviews",
+            "link_name": "REVIEWS",
             "url": "shopify:\/\/pages\/reviews",
             "icon": "star"
           }
         },
         "482c35db-3aac-4c80-b180-3312ae1c5012": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "position": "secondary",
-            "link_name": "HOT DEAL",
-            "url": "shopify:\/\/collections\/mystery-box-hot-deal",
+            "link_name": "FAQ",
+            "url": "shopify:\/\/blogs\/news",
             "icon": "fire"
           }
         },
@@ -147,18 +167,20 @@
         },
         "8e0339af-3352-4a9e-a753-67e28bcb51fb": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "position": "secondary",
-            "link_name": "Candy Tales",
+            "link_name": "CANDY TALES",
             "url": "shopify:\/\/blogs\/news",
             "icon": "mug-hot"
           }
         },
         "3dc93ca1-2c9f-4069-b258-e858e3898047": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "position": "secondary",
-            "link_name": "Customer support",
+            "link_name": "CUSTOMER SUPPORT",
             "url": "shopify:\/\/pages\/contact",
             "icon": "comments"
           }
@@ -186,6 +208,7 @@
         }
       },
       "block_order": [
+        "collection_list_phQnL9",
         "c41c9456-2f6d-4255-87e7-8172ceb0b2f7",
         "ae7c8fcc-da7a-4c82-a014-c7c5928e2839",
         "56d8cc47-7575-4811-aed8-71467431ca6e",

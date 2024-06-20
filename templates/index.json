@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "fb4ffc4b-e1b6-41af-9004-2f6cf9b784ea": {
@@ -6,13 +15,13 @@
         "ca1a8a25-f8cb-4583-81f7-053775d51ac2": {
           "type": "Slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_324433_0a15f530-833e-4943-b6b1-d39a7b034de2.png",
+            "image": "shopify:\/\/shop_images\/Untitled_1080_x_1080_px_3_23805d23-5db3-4411-95e6-e52ba1abf040-removebg-preview.png",
             "trust_image": "shopify:\/\/shop_images\/Trustpilot_Micro.png",
             "headline": "TRAVEL THE WORLD WITH HOLLY LOLLIES",
-            "info": "<p>Uncover the Secrets of International Sweets! 🍭🍫<\/p>",
+            "info": "<p>Unwrap Sweet Adventures with Premium Holly Lollies mystery box! Discover the Joy of International Treats. 🍭🍫<\/p>",
             "button_title_1": "SHOP NOW",
-            "button_url_1": "shopify:\/\/collections\/mystery-box-hot-deal",
-            "button_title_2": "HOT DEALS 🔥",
+            "button_url_1": "shopify:\/\/collections",
+            "button_title_2": "",
             "button_url_2": "shopify:\/\/collections\/mystery-box-hot-deal"
           }
         },
@@ -194,28 +203,24 @@
         },
         "6e57aef7-3089-4102-9aae-c275cf2167c1": {
           "type": "Logo",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_design_20.png"
           }
         },
         "923a67eb-f63d-4742-a0b9-bcc91c408424": {
           "type": "Logo",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_design__21_-removebg-preview.png"
           }
         },
         "637403ec-0e8a-4ab9-aa22-1c54a1311a98": {
           "type": "Logo",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/2_feaa4d0c-84c3-425c-bcba-42cb73d1715b.png"
           }
         },
         "db06d186-c05c-4100-8dfa-9a3c9f763a4b": {
           "type": "Logo",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_design__22_-removebg-preview.png"
           }
@@ -328,25 +333,25 @@
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "mystery-box-hot-deal",
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-05-08_at_20.11_1.png",
-            "custom_title": "TRENDING 💯Mystery Box"
+            "collection": "trendy-mystery-box",
+            "image": "shopify:\/\/shop_images\/1_6c5f417d-1268-401b-b655-845b3bec5972.png",
+            "custom_title": "TRENDING Mystery Box 💯"
           }
         },
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-2": {
           "type": "collection",
           "settings": {
-            "collection": "best-sellers",
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-05-08_at_20.09_1.png",
-            "custom_title": "ASIAN 🏯 Mystery Box"
+            "collection": "asian-mystery-box",
+            "image": "shopify:\/\/shop_images\/2_a08bc46f-72f5-4944-99d0-1e8038ca8dfc.png",
+            "custom_title": "ASIAN Mystery Box 🏯"
           }
         },
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-3": {
           "type": "collection",
           "settings": {
-            "collection": "snacks",
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-05-08_at_20.13_1.png",
-            "custom_title": "DISCOUNT 🤑 Mystery Box"
+            "collection": "discounted-mystery-box",
+            "image": "shopify:\/\/shop_images\/Background_should_consist_of_trendy_candy_ideas_around_the_world_from_USA_from_Asia_from_Europe_it_should_look_like_a_mix_of_cultures_and_biggest_trends_in_the_candy_world._Focus_more.png",
+            "custom_title": "DISCOUNT Mystery Box 🤑"
           }
         },
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-4": {
@@ -390,13 +395,13 @@
       ],
       "settings": {
         "show_card_title": true,
-        "heading": "EXPLORE COLLECTIONS",
+        "heading": "EXPLORE MYSTERY BOXES",
         "subheading": "",
         "columns": 3,
         "image_size": "square",
         "text_position": "center",
         "show_frame": false,
-        "section_button_label": "Explore all"
+        "section_button_label": ""
       }
     },
     "inside": {
@@ -405,25 +410,25 @@
         "block_QMpWDT": {
           "type": "Block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_cda5222e-1d8f-4eac-a570-085ca082b502.png",
-            "headline": "Choose Your Box 📦",
-            "text": "Explore our selection —every choice is a win"
+            "image": "shopify:\/\/shop_images\/Untitled_design_4.png",
+            "headline": "Choose A Mystery Box 🔮",
+            "text": "Start your adventure by selecting the perfect mystery box that sparks your curiosity, excites your taste buds, and promises a delightful unboxing experience. Each box offers a unique journey filled with surprises."
           }
         },
         "block_MJHV9K": {
           "type": "Block",
           "settings": {
             "image": "shopify:\/\/shop_images\/2.png",
-            "headline": "Choose Your Box 📦",
-            "text": "Explore our selection —every choice is a win"
+            "headline": "We Curate 🌟",
+            "text": "Our candy experts curate a mix of high-end and trendy candies, providing a premium taste adventure like no other. Each box is thoughtfully crafted to include unique and popular treats, designed to make you the star of the party."
           }
         },
         "block_8bbEW6": {
           "type": "Block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_cda5222e-1d8f-4eac-a570-085ca082b502.png",
-            "headline": "Choose Your Box 📦",
-            "text": "Explore our selection —every choice is a win"
+            "image": "shopify:\/\/shop_images\/Untitled_design_5.png",
+            "headline": "Magic Happens 🪄",
+            "text": "Revel in the excitement as you unbox a treasure trove of high-end candies, with luxurious packaging and a premium experience designed to create unforgettable moments for you and those you share them with."
           }
         }
       },
@@ -433,7 +438,7 @@
         "block_8bbEW6"
       ],
       "settings": {
-        "headline": "HOW IT WORKS"
+        "headline": "HOW IT WORKS?"
       }
     },
     "box": {
@@ -441,12 +446,12 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Untitled_design_2_1.png",
         "headline": "WHAT'S INSIDE THE BOX? 👀",
-        "title1": "TRENDY MYSTERY BOX",
-        "text1": "🍭 Enjoy unique flavors with treats exclusively available in our mystery box!",
-        "title2": "DISCOUNT MYSTERY BOX",
-        "text2": "💰 Discover unbeatable deals in our discount box, packed with a variety of candies at great prices.",
-        "title3": "ASIAN MYSTERY BOX",
-        "text3": "🍵 Find a delicious assortment of snacks from across Asia, perfect for satisfying all your cravings."
+        "title1": "ASIAN MYSTERY BOX",
+        "text1": "🍵 Explore the rich and diverse flavors of Asia with 13 to 17 unique snacks and candies! This box features a curated selection from countries like Japan, Korea, and China, offering a taste adventure you won't forget.",
+        "title2": "TRENDY MYSTERY BOX",
+        "text2": "🍭 Indulge in the latest candy trends with 13 to 17 unique and exciting treats from around the world! Each box is packed with exclusive flavors that will take your taste buds on a sensational journey.",
+        "title3": "DISCOUNT MYSTERY BOX",
+        "text3": "💰 Treat yourself to 13 to 17 fantastic candies at unbeatable prices! These treats are close to their best-by date, ideal for enjoying right away while saving money."
       }
     },
     "a72ea510-a5ac-4b87-8093-e14ded7e95ef": {
@@ -564,35 +569,36 @@
         "f24fcd2a-f4c3-4b70-a85b-f7e16dd41f39": {
           "type": "feature",
           "settings": {
-            "heading": "🇪🇪 🇱🇻 🇱🇹 FAST SHIPPING IN BALTIC STATES",
-            "text": "Fast 1-3 business days shipping with OMNIVA TERMINALS.",
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-04-26_at_10.42_1.png",
+            "heading": "PARTY TIME 🎉",
+            "text": "Turn any gathering into an unforgettable event with our mystery boxes, filled with unique, trendy snacks. Perfect for Instagram-worthy moments, these treats elevate your celebration. Our boxes guarantee great emotions and lively debates as you discover which candies you love and which ones your friends can’t stand.",
+            "image": "shopify:\/\/shop_images\/video2-ezgif.com-crop.gif",
             "icon": "<svg width=\"41\" height=\"41\" viewbox=\"0 0 41 41\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" fill=\"white\"><\/rect>\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" stroke=\"black\" stroke-width=\"2\"><\/rect>\n                                <path d=\"M13.5 20.7633L16.9168 11.834H25.4927L23.1354 16.7453H29L16.4491 30.334L20.915 20.7633H13.5Z\" fill=\"#7A5AF8\" stroke=\"black\" stroke-width=\"2\"><\/path>\n                            <\/svg>"
           }
         },
         "6fa46c1a-72ce-45fb-b040-fcfdd0d2663b": {
           "type": "feature",
           "settings": {
-            "heading": "COMPETITIVE PRICING",
-            "text": "As one of the top candy wholesaler in the EU, we buy big and save big. This means amazing deals for you, letting you enjoy your candy favorites at unbeatable prices.",
-            "image": "shopify:\/\/shop_images\/vilcabamba_95957_pile_of_gift_boxes_outside_with_the_pink_cloud_61e1eb31-ae03-48f3-af56-6623522ed63f.webp",
+            "heading": "Family Feasting 👪",
+            "text": "Looking to bond with your kids? Or maybe you want to be the cool uncle or aunt? This box has got you covered! Our mystery boxes are perfect for creating fun moments together. Share the excitement and become the hero of family gatherings. Perfect for any family get-together, our mystery boxes ensure everyone finds their favorites, bringing joy, laughter, and unforgettable memories to every family moment.",
+            "image": "shopify:\/\/shop_images\/Ekrano_kopija_2024-06-07_161320.png",
             "icon": "<svg width=\"41\" height=\"41\" viewbox=\"0 0 41 41\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" fill=\"white\"><\/rect>\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" stroke=\"black\" stroke-width=\"2\"><\/rect>\n                                <path d=\"M13.5 20.7633L16.9168 11.834H25.4927L23.1354 16.7453H29L16.4491 30.334L20.915 20.7633H13.5Z\" fill=\"#7A5AF8\" stroke=\"black\" stroke-width=\"2\"><\/path>\n                            <\/svg>"
           }
         },
         "c745320a-0684-4250-a2df-daead1a1203b": {
           "type": "feature",
           "settings": {
-            "heading": "MORE THAN A CANDY SHOP",
-            "text": "Dive into the playful world of Holly Lollies! We spice up your candy experience with intriguing tales, amusing facts, and clever riddles. Get ready for contests that are all about fun!",
-            "image": "shopify:\/\/shop_images\/vilcabamba_95957_i_need_a_rollecoaster_colors_pastel_purple_pin_aea8425d-e174-4113-a019-5cb50262333f.webp",
+            "heading": "Flavorful Gifting 🎁",
+            "text": "Looking for a standout gift? Our mystery boxes are packed with unique and luxurious treats, perfect for any occasion. Delight your loved ones with high-end, trendy candies that impress. Ideal for birthdays, anniversaries, or just because—these boxes bring joy and excitement to any celebration. Share the fun and sweeten the moment with a thoughtful and unforgettable gift!",
+            "image": "shopify:\/\/shop_images\/Ekrano_kopija_2024-06-07_153634.png",
             "icon": "<svg width=\"41\" height=\"41\" viewbox=\"0 0 41 41\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" fill=\"white\"><\/rect>\n                        a        <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" stroke=\"black\" stroke-width=\"2\"><\/rect>\n                                <path d=\"M13.5 20.7633L16.9168 11.834H25.4927L23.1354 16.7453H29L16.4491 30.334L20.915 20.7633H13.5Z\" fill=\"#7A5AF8\" stroke=\"black\" stroke-width=\"2\"><\/path>\n                            <\/svg>"
           }
         },
         "feature_F6hLTz": {
           "type": "feature",
           "settings": {
-            "heading": "Nullam id dolor id",
-            "text": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+            "heading": "Solo Adventure 🍫",
+            "text": "Treat yourself to unique and exciting snacks that let you explore new flavors. Enjoy some well-deserved me-time with a diverse selection of treats designed to make your solo moments special and satisfying. Dive into personal indulgence and savor each surprise just for you. Unwind and relax with snacks that bring stress-free enjoyment. Give yourself the gift of exclusivity with treats chosen to delight you on your solo adventures.",
+            "image": "shopify:\/\/shop_images\/IMG20240120113742.jpg",
             "icon": "<svg width=\"41\" height=\"41\" viewbox=\"0 0 41 41\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n                                <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" fill=\"white\"><\/rect>\n                        a        <rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" stroke=\"black\" stroke-width=\"2\"><\/rect>\n                                <path d=\"M13.5 20.7633L16.9168 11.834H25.4927L23.1354 16.7453H29L16.4491 30.334L20.915 20.7633H13.5Z\" fill=\"#7A5AF8\" stroke=\"black\" stroke-width=\"2\"><\/path>\n                            <\/svg>"
           }
         }
@@ -604,7 +610,9 @@
         "feature_F6hLTz"
       ],
       "custom_css": [
-        ".Index_personalization_outer {margin-top: 0; background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0839\/5941\/5099\/files\/Group_324367_1.jpg?v=1701857172\"); padding-top: 64px; padding-bottom: 64px; background-color: #fef0c7; background-position: 0 100%; background-size: 100%; background-repeat: no-repeat; max-width: 100% !important;}"
+        ".Index_personalization_outer {margin-top: 0; background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0839\/5941\/5099\/files\/Group_324367_1.jpg?v=1701857172\"); padding-top: 64px; padding-bottom: 64px; background-color: #fef0c7; background-position: 0 100%; background-size: 100%; background-repeat: no-repeat; max-width: 100% !important;}",
+        ".Desktop_only {display: block !important;}",
+        "@media only screen and (max-width: 600px) {.Index_personalization_flex_container{flex-direction: column-reverse; }}"
       ],
       "settings": {
         "small_text": "",
@@ -618,9 +626,9 @@
       "settings": {
         "headline": "TESTIMONIALS",
         "image": "shopify:\/\/shop_images\/Untitled_design_3_1.png",
-        "title": "I’m so surprised",
-        "text": "to find this variety pack, unlike any others in stores. Great price, and everyone in my house enjoys the mix. Everything inside is delicious!! My kids take some to school and love sharing with friends. Will definitely buy again!",
-        "name": "- Grace"
+        "title": "Trendy mystery box",
+        "text": "\"I'm so thrilled with the Trendy Mystery Box! Every snack was a hit, especially the latest Takis flavor that I couldn't find anywhere else. My friends were amazed at how up-to-date my snack game is!\"",
+        "name": "- Grace from Netherlands 🇳🇱"
       }
     },
     "99fc637c-2af8-4a3d-a5c8-83ad7719eab3": {
@@ -1075,7 +1083,7 @@
           "settings": {
             "mobile_hidden": false,
             "f_button_label": "EXPLORE NOW",
-            "f_button_link": "shopify:\/\/collections\/mystery-box-hot-deal",
+            "f_button_link": "shopify:\/\/collections",
             "f_button_style": "normal",
             "f_button_custom_colors": false,
             "f_button_bg_color": "",
@@ -1152,36 +1160,27 @@
             "s_button_bg_color": "#000000",
             "s_button_text_color": "#ffffff"
           }
-        },
-        "d259827d-fb00-49c3-93d9-6ff1ae04aa0d": {
-          "type": "timer",
-          "disabled": true,
-          "settings": {
-            "date": "04-03-2024",
-            "hide_on_complete": false,
-            "display_titles": true
-          }
         }
       },
       "block_order": [
         "template--21462135734587__4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3-subheading-1",
         "template--21462135734587__4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3-heading-1",
         "template--21462135734587__4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3-text-1",
-        "template--21462135734587__4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3-buttons-1",
-        "d259827d-fb00-49c3-93d9-6ff1ae04aa0d"
+        "template--21462135734587__4d431acb-0b54-4b0b-b73a-d3b8f8f6ccb3-buttons-1"
       ],
       "custom_css": [
 
       ],
       "settings": {
         "section_layout": "container",
-        "embedded_video": "https:\/\/www.youtube.com\/watch?v=01vc70pvGA4",
-        "height": 74,
+        "embedded_video": "",
+        "hosted_video": "shopify:\/\/files\/videos\/Untitled design (5).mp4",
+        "height": 70,
         "display_desktop_only": false,
-        "mobile_image_size": "9x16",
-        "overlay": 50,
+        "mobile_image_size": "4x5",
+        "overlay": 30,
         "use_box": false,
-        "width": 40,
+        "width": 45,
         "size": "sm",
         "text_position": "center-left",
         "mobile_caption_display": "offset"
@@ -1271,6 +1270,33 @@
     "7098ba4b-7068-4e42-af6b-541a4ebf4371": {
       "type": "Index_reviews_carousel",
       "blocks": {
+        "slide_JiCgez": {
+          "type": "Slide",
+          "settings": {
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ae14caa8bfa04f7ab6d07a752ee3460f.mp4",
+            "headline": "\"Our tasting party with the Holly Lollies Mystery Box was an absolute blast! 🎉🍭 We were blown away by the variety and quality of the snacks. From the sweet delights to the savory surprises, every treat was a hit. The unboxing was so much fun, and we loved discovering new flavors together. It felt like a global adventure right in our vila!\"",
+            "name": "— Jonas and friends",
+            "info": "Proud Client from Asia"
+          }
+        },
+        "00a1defd-429c-4b20-824d-9121bacdfdf5": {
+          "type": "Slide",
+          "settings": {
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c0e35a5d648f43d98677ef62c47de276.mp4",
+            "headline": "\"A wonderful selection of Asian goodies! The variety in the Asian Mystery Box is impressive. From chewy Hi-Chew to refreshing Ramune, every snack was delightful. This box is perfect for adventurous eaters looking to explore new flavors. Two thumbs up!\" ⭐⭐⭐⭐⭐",
+            "name": "— Karolina from LT",
+            "info": ""
+          }
+        },
+        "7d67cc3e-416a-4c65-b5b9-a34136638e35": {
+          "type": "Slide",
+          "settings": {
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ef8b66c50d744f679d4a96fd15e74ba1.mp4",
+            "headline": "“Tasting the Japanese KitKat Matcha was like a quick trip back to Japan. The variety in this box is incredible – each candy is a new discovery. For anyone thinking about trying Holly Lollies, I say go for it. Holly Lollies, you've got yourself a fan – this is easily a 10\/10 from me!\" ⭐⭐⭐⭐⭐",
+            "name": "Aurelija from LT",
+            "info": ""
+          }
+        },
         "slide_zzNziU": {
           "type": "Slide",
           "disabled": true,
@@ -1285,9 +1311,9 @@
           "type": "Slide",
           "settings": {
             "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/34389683f8c34c9ba6f6c1094b667491.mp4",
-            "headline": "“Tasting the Japanese KitKat Matcha was like a quick trip back to Japan. The variety in this box is incredible – each candy is a new discovery. For anyone thinking about trying Holly Lollies, I say go for it. It's a world tour for your taste buds and every bite is top quality. Holly Lollies, you've got yourself a fan – this is easily a 10\/10 from me!\"”",
-            "name": "— Kamėja",
-            "info": "Proud Client from Lithuania 🇱🇹"
+            "headline": "\"Absolutely thrilled with the Trendy Mystery Box! It had all the hot snacks that everyone’s raving about. The variety was fantastic, from savory chips to unique candies. If you love staying ahead in the snack game, this box is for you!\" ⭐⭐⭐⭐⭐",
+            "name": "— Kamėja From LT",
+            "info": ""
           }
         },
         "slide_AJLLd7": {
@@ -1300,41 +1326,24 @@
             "info": "Proud Client from Asia"
           }
         },
-        "7d67cc3e-416a-4c65-b5b9-a34136638e35": {
-          "type": "Slide",
-          "settings": {
-            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2f62e6daf68e4ddba80b1921cf3c0d0b.mp4",
-            "headline": "“I’d been introduced to them through a friend, though I’d heard about them before. I’ve been impressed with the range of snacks and drinks, and the effort put into each box. Even with the occasional repeat snack, it’s still always delicious. It’s worth the price, and worth the time to enjoy a big bite of exotic candies.”",
-            "name": "— Džestina",
-            "info": "Happy Clients from Lithuania 🇱🇹"
-          }
-        },
         "aa79dcd2-cd01-4a96-8ee2-fb87b8795e04": {
           "type": "Slide",
           "settings": {
             "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/07da1bd8f60f498a98df83404f3c81fd.mp4",
-            "headline": "“I've had other snack boxes but, Holly Lollies is definitely my favorite. Great variety of tasty snacks, both sweet and savory. My box even included some ramen! I would definitely recommend this for anyone that wants to try exotic snacks.”",
-            "name": "— Indrė",
-            "info": "Proud Client from Lithuania 🇱🇹"
-          }
-        },
-        "00a1defd-429c-4b20-824d-9121bacdfdf5": {
-          "type": "Slide",
-          "settings": {
-            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/722b3abc83ff4a408e14dfa3c621fb57.mp4",
-            "headline": "“It's all delicious and let's you try different flavor combinations you never would have thought of or had the chance to experience.\"",
-            "name": "— Karolina",
-            "info": "Proud Client from Lithuania 🇱🇹"
+            "headline": "\"The Trendy Mystery Box never disappoints! Each box is packed with the latest and greatest snacks. The exclusive drinks and rare cookies were my favorites. It’s the perfect way to stay up-to-date with snack trends. 10\/10!\"",
+            "name": "— Indrė from LT",
+            "info": ""
           }
         }
       },
       "block_order": [
+        "slide_JiCgez",
+        "00a1defd-429c-4b20-824d-9121bacdfdf5",
+        "7d67cc3e-416a-4c65-b5b9-a34136638e35",
         "slide_zzNziU",
         "96f861f0-4160-44ed-aaf2-44bccc18f076",
         "slide_AJLLd7",
-        "7d67cc3e-416a-4c65-b5b9-a34136638e35",
-        "aa79dcd2-cd01-4a96-8ee2-fb87b8795e04",
-        "00a1defd-429c-4b20-824d-9121bacdfdf5"
+        "aa79dcd2-cd01-4a96-8ee2-fb87b8795e04"
       ],
       "settings": {
         "title": "This is what our community says",
@@ -1344,12 +1353,20 @@
     "fca67246-1b86-436b-a889-fbec115fd5ee": {
       "type": "d_faq",
       "blocks": {
+        "question_dD7QgF": {
+          "type": "question",
+          "settings": {
+            "heading": "What can I expect in every of the boxes that you offer?",
+            "icon": "",
+            "text": "<p>In each Holly Lollies mystery box, you’ll find a delightful assortment of snacks and treats tailored to your unique tastes and cravings:<\/p><h3>Trendy Mystery Box<\/h3><p>Stay ahead of the snacking curve with the Trendy Mystery Box! Packed with the latest and most popular snacks, this box is bursting with sweet and savory treats that everyone’s talking about. Perfect for trendsetters who love discovering the hottest new snacks.<\/p><h3>Asian Mystery Box<\/h3><p>Embark on a culinary adventure with the Asian Mystery Box! This box brings you a vibrant mix of unique and exotic snacks from Japan, Korea, China, and more. Enjoy favorites like Pocky, Matcha KitKats, Ramune soda, and other delightful surprises that transport your taste buds to Asia.<\/p><h3>Discount Mystery Box<\/h3><p>Unwrap incredible value with the Discount Mystery Box! Filled with delicious snacks that are close to their best-by date, these treats are still fresh and flavorful. It’s a fantastic way to enjoy a variety of snacks at a lower price, perfect for the budget-conscious snacker.<\/p><p>Each Holly Lollies box is lovingly curated to ensure a fun and satisfying snacking experience, focusing on variety and quality. No matter which box you choose, you’re in for a treat! Get ready to delight your taste buds with Holly Lollies!<br\/><\/p>"
+          }
+        },
         "template--21462135734587__fca67246-1b86-436b-a889-fbec115fd5ee-question-1": {
           "type": "question",
           "settings": {
             "heading": "Do you ship internationally?",
             "icon": "",
-            "text": "<p><strong>Absolutely! <\/strong>Our sweets know no borders. 🌍✈️ At Holly Lollies, we're thrilled to bring a dash of joy right to your doorstep, no matter where you are on the globe. So, gear up for a flavor-filled journey, because our candies are ready to travel far and wide just for you! 🍬🌏<\/p>"
+            "text": "<p>At this point, no, but at Holly Lollies, we're thrilled to deliver a dash of happiness right to you. While we currently ship to EU countries only, get ready for a flavor-filled journey because our candies are set to make your taste buds dance! 🍬🇪🇺<\/p>"
           }
         },
         "template--21462135734587__fca67246-1b86-436b-a889-fbec115fd5ee-question-2": {
@@ -1381,7 +1398,7 @@
           "settings": {
             "heading": "Can I return my order?",
             "icon": "",
-            "text": "<p>At Holly Lollies, we pour our heart into every package, but due to the nature of our yummy goods, <strong>we can't accept returns.<\/strong> If your candies aren't just right or there's a mix-up, don't fret! Just shoot us an email at <a href=\"mailto:hello@sosweetshop.co.uk\">info@hollylollies.com <\/a>We're all ears and ready to chat about any concerns or mishaps to ensure your Holly Lollies experience stays as delightful as our treats!<\/p>"
+            "text": "<p>At Holly Lollies, we pour our heart into every package. If your candies aren't just right or there's a mix-up, don't fret! We do accept returns. Simply send your box back to us, and we’ll refund your money with no questions asked. Just shoot us an email at <a>info@hollylollies.com<\/a>. We're all ears and ready to chat about any concerns or mishaps to ensure your Holly Lollies experience stays as delightful as our treats!<\/p>"
           }
         },
         "9f1d21df-769d-408e-824d-3debf3ecc0bc": {
@@ -1418,6 +1435,7 @@
         }
       },
       "block_order": [
+        "question_dD7QgF",
         "template--21462135734587__fca67246-1b86-436b-a889-fbec115fd5ee-question-1",
         "template--21462135734587__fca67246-1b86-436b-a889-fbec115fd5ee-question-2",
         "template--21462135734587__fca67246-1b86-436b-a889-fbec115fd5ee-question-3",
@@ -1480,24 +1498,24 @@
         "1654693292a215d319-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Pocky.webp",
-            "product": "chinese-fanta-jasmine-peach-flavor-500ml",
+            "image": "shopify:\/\/shop_images\/Ekrano_kopija_2024-06-07_161320.png",
+            "product": "mystery-box",
             "product_subtitle": ""
           }
         },
         "1654693292a215d319-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/20-Best-Favorite-Japanese-Snacks-You-Must-Try_1024x1024_1c629895-cf46-4fa7-b3f0-b7b351a6b3f5.webp",
-            "product": "hata-kosen-bottle-ramune-blueberry",
+            "image": "shopify:\/\/shop_images\/Ekrano_kopija_2024-06-07_161338.png",
+            "product": "mystery-box",
             "product_subtitle": ""
           }
         },
         "1654693292a215d319-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SnackPot_AuthenticFoodQuest_jpg.webp",
-            "product": "chinese-fanta-grape-flavor-500ml",
+            "image": "shopify:\/\/shop_images\/Ekrano_kopija_2024-06-07_161424.png",
+            "product": "asian-mystery-box",
             "product_subtitle": ""
           }
         },
@@ -1513,16 +1531,16 @@
         "1654693292a215d319-5": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/chips-2.webp",
-            "product": "takis-fuego-90gr",
+            "image": "shopify:\/\/shop_images\/Ekrano_kopija_2024-06-07_161436.png",
+            "product": "asian-mystery-box",
             "product_subtitle": ""
           }
         },
         "1654693292a215d319-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/d1ea4c47ba48571d6311ce650124e73f54f74a3b573b4793f695c1282de0554c.jpg",
-            "product": "general-mills-reese-puffs-326gr",
+            "image": "shopify:\/\/shop_images\/Ekrano_kopija_2024-06-07_161353.png",
+            "product": "discounted-mystery-box",
             "product_subtitle": ""
           }
         },
@@ -1547,8 +1565,8 @@
         "f06c7a6a-1d58-4c92-9294-44b80f4fb2a2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/snacks-in-america.webp",
-            "product": "japan-fritolay-cheetos-flamin-hot-crunchy-75g",
+            "image": "shopify:\/\/shop_images\/Ekrano_kopija_2024-06-07_161410.png",
+            "product": "mystery-box",
             "product_subtitle": ""
           }
         },

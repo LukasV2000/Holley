@@ -1,0 +1,1044 @@
+{
+  "sections": {
+    "header": {
+      "type": "s_collection-header",
+      "disabled": true,
+      "settings": {
+        "bg_image": "shopify:\/\/shop_images\/bg_91589380-129e-49dc-9df1-9ad934882d5e.png",
+        "show_collection_description": true
+      }
+    },
+    "72ba95f8-67e7-495d-b7d6-5a27ba1abbb9": {
+      "type": "new_slideshow-hero",
+      "blocks": {
+        "slide_f8XYkp": {
+          "type": "Slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_6c5f417d-1268-401b-b655-845b3bec5972.png",
+            "trust_image": "shopify:\/\/shop_images\/Trustpilot_Micro.png",
+            "headline": "Trending mystery box",
+            "info": "<p>P.S. Just add a Large Mystery Box, and the Takis Mystery Box is already yours in the cart!<\/p>",
+            "button_title_1": "",
+            "button_url_1": "",
+            "button_title_2": "",
+            "button_url_2": ""
+          }
+        },
+        "304f866d-56d0-479f-8b73-bd9b50896aec": {
+          "type": "Slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_1080_x_1080_px_4_72c3b032-6c1b-49c7-8116-80a64984d849.png",
+            "trust_image": "shopify:\/\/shop_images\/Trustpilot_Micro.png",
+            "image_bg": "shopify:\/\/shop_images\/Screenshot_2023-12-12_at_14.58.35.png",
+            "headline": "🔥HOTTEST DEAL OF THE MONTH",
+            "info": "<p>🎈Dive into a surprise adventure with our Mystery Box! 🎁✨<\/p>",
+            "button_title_1": "",
+            "button_url_1": "",
+            "button_title_2": "👇 EXPLORE THE MYSTERY 👇",
+            "button_url_2": ""
+          }
+        },
+        "77f5944c-d7c5-43c4-a629-eeb44684e3f8": {
+          "type": "Slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_1080_x_1080_px_4.png",
+            "trust_image": "shopify:\/\/shop_images\/Trustpilot_Micro.png",
+            "image_bg": "shopify:\/\/shop_images\/Screenshot_2024-01-30_at_19.29.14.png",
+            "headline": "❤️ Hot Valentine's Deal ❤️ 100 Large Mystery Boxes Cheaper Than Bouquet of Flowers",
+            "info": "<p>First time boxes AT COST PRICE!<\/p>",
+            "button_title_1": "",
+            "button_url_1": "",
+            "button_title_2": "👇🏼 EXPLORE THE DEAL👇🏼",
+            "button_url_2": "shopify:\/\/products\/mystery-box"
+          }
+        },
+        "21d302aa-f66a-4625-8f0c-445d350e351b": {
+          "type": "Slide",
+          "disabled": true,
+          "settings": {
+            "headline": "Superlicious candies",
+            "info": "<p>Superlicious candies lorem ipsum<\/p>",
+            "button_title_1": "Shop now",
+            "button_url_1": "",
+            "button_title_2": "Shop now",
+            "button_url_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_f8XYkp",
+        "304f866d-56d0-479f-8b73-bd9b50896aec",
+        "77f5944c-d7c5-43c4-a629-eeb44684e3f8",
+        "21d302aa-f66a-4625-8f0c-445d350e351b"
+      ],
+      "disabled": true,
+      "settings": {
+        "autoplay_speed": 4000,
+        "scrolled_to_box": true
+      }
+    },
+    "5421c922-eef9-488d-9d14-a3de82698eaf": {
+      "type": "d_slideshow",
+      "blocks": {
+        "template--21801079308603__5421c922-eef9-488d-9d14-a3de82698eaf-slide-1": {
+          "type": "slide",
+          "settings": {
+            "overlay": 0,
+            "icon": "",
+            "heading": "Slider heading",
+            "use_header_accent": true,
+            "subheading": "Subheading",
+            "text": "<p>Give customers details about the banner image(s) or content on the template.<\/p>",
+            "text_position": "center-center",
+            "use_box": true,
+            "width": 40,
+            "f_button_label": "",
+            "f_button_link": "",
+            "f_button_style": "normal",
+            "f_button_custom_colors": false,
+            "f_button_bg_color": "#000000",
+            "f_button_text_color": "#ffffff",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_style": "normal",
+            "s_button_custom_colors": false,
+            "s_button_bg_color": "#000000",
+            "s_button_text_color": "#ffffff"
+          }
+        },
+        "template--21801079308603__5421c922-eef9-488d-9d14-a3de82698eaf-slide-2": {
+          "type": "slide",
+          "settings": {
+            "overlay": 0,
+            "icon": "",
+            "heading": "Slider heading",
+            "use_header_accent": true,
+            "subheading": "Subheading",
+            "text": "<p>Give customers details about the banner image(s) or content on the template.<\/p>",
+            "text_position": "center-center",
+            "use_box": true,
+            "width": 40,
+            "f_button_label": "Shop now",
+            "f_button_link": "",
+            "f_button_style": "normal",
+            "f_button_custom_colors": false,
+            "f_button_bg_color": "#000000",
+            "f_button_text_color": "#ffffff",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_style": "normal",
+            "s_button_custom_colors": false,
+            "s_button_bg_color": "#000000",
+            "s_button_text_color": "#ffffff"
+          }
+        },
+        "template--21801079308603__5421c922-eef9-488d-9d14-a3de82698eaf-slide-3": {
+          "type": "slide",
+          "settings": {
+            "overlay": 0,
+            "icon": "",
+            "heading": "Slider heading",
+            "use_header_accent": true,
+            "subheading": "Subheading",
+            "text": "<p>Give customers details about the banner image(s) or content on the template.<\/p>",
+            "text_position": "center-center",
+            "use_box": true,
+            "width": 40,
+            "f_button_label": "Shop now",
+            "f_button_link": "",
+            "f_button_style": "normal",
+            "f_button_custom_colors": false,
+            "f_button_bg_color": "#000000",
+            "f_button_text_color": "#ffffff",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_style": "normal",
+            "s_button_custom_colors": false,
+            "s_button_bg_color": "#000000",
+            "s_button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--21801079308603__5421c922-eef9-488d-9d14-a3de82698eaf-slide-1",
+        "template--21801079308603__5421c922-eef9-488d-9d14-a3de82698eaf-slide-2",
+        "template--21801079308603__5421c922-eef9-488d-9d14-a3de82698eaf-slide-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_layout": "full",
+        "image_size": "21x9",
+        "mobile_image_size": "4x5",
+        "text_size": "md",
+        "subheading_position": "before",
+        "mobile_caption_display": "desktop",
+        "navigation": "pagination",
+        "enable_autoplay": true,
+        "autoplay": 5,
+        "mobile_hidden": false
+      }
+    },
+    "main": {
+      "type": "s_collection",
+      "disabled": true,
+      "settings": {
+        "columns": 4,
+        "rows": 3,
+        "filters_type": "sidebar",
+        "hide_out_of_stock_filter": false,
+        "show_active_filters": true,
+        "color_swatches": true,
+        "sidebar_width": 20,
+        "collapse_filters": false
+      }
+    },
+    "d_rich_text_Qw4FAx": {
+      "type": "d_rich-text",
+      "blocks": {
+        "heading_EAGRgz": {
+          "type": "heading",
+          "settings": {
+            "heading": "🔥 Takis Tasting Special",
+            "heading_accent_enable": true,
+            "heading_accent_use_cutom_color": false,
+            "heading_accent_color": "#e22d00"
+          }
+        },
+        "text_ebJtWq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get ready for a super deal from Holly Lollies! Buy a LARGE Mystery Box and you'll get a Takis Tasting Box for free. It's an awesome chance to try out all kinds of surprise flavors and the zesty taste of Takis. But you gotta be quick - these boxes are flying off the shelves! Grab yours and start exploring these mystery tastes today. Don't miss out!🍭🌍✨ #HollyLolliesSurprise<\/p>"
+          }
+        },
+        "buttons_gTbWXK": {
+          "type": "buttons",
+          "settings": {
+            "mobile_hidden": false,
+            "f_button_label": "Shop now",
+            "f_button_link": "shopify:\/\/products\/mystery-box",
+            "f_button_style": "normal",
+            "f_button_custom_colors": false,
+            "f_button_bg_color": "",
+            "f_button_text_color": "#ffffff",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_style": "normal",
+            "s_button_custom_colors": false,
+            "s_button_bg_color": "",
+            "s_button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EAGRgz",
+        "text_ebJtWq",
+        "buttons_gTbWXK"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_layout": "default",
+        "text_align": "center",
+        "size": "md",
+        "use_custom_color": false,
+        "text_color": "#ffffff",
+        "bg_color": "#383838"
+      }
+    },
+    "24c2231f-0181-40f0-97da-7d8394ebeaf7": {
+      "type": "d_rich-text",
+      "blocks": {
+        "template--21801079308603__24c2231f-0181-40f0-97da-7d8394ebeaf7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Travel the world one candy at the time 🌎🎁",
+            "heading_accent_enable": true,
+            "heading_accent_use_cutom_color": false,
+            "heading_accent_color": "#e22d00"
+          }
+        },
+        "template--21801079308603__24c2231f-0181-40f0-97da-7d8394ebeaf7-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get ready for a fun adventure with our Mystery Box! Inside, you'll find 20 yummy treats and a surprise gift waiting for you. Each one is a special secret, ready to make you smile. Let's see what exciting surprises are hiding inside! ✨<\/p>"
+          }
+        },
+        "template--21801079308603__24c2231f-0181-40f0-97da-7d8394ebeaf7-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "mobile_hidden": false,
+            "f_button_label": "Shop now",
+            "f_button_link": "",
+            "f_button_style": "normal",
+            "f_button_custom_colors": false,
+            "f_button_bg_color": "",
+            "f_button_text_color": "#ffffff",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_style": "normal",
+            "s_button_custom_colors": false,
+            "s_button_bg_color": "",
+            "s_button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--21801079308603__24c2231f-0181-40f0-97da-7d8394ebeaf7-heading-1",
+        "template--21801079308603__24c2231f-0181-40f0-97da-7d8394ebeaf7-text-1",
+        "template--21801079308603__24c2231f-0181-40f0-97da-7d8394ebeaf7-buttons-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_layout": "default",
+        "text_align": "center",
+        "size": "md",
+        "use_custom_color": false,
+        "text_color": "#ffffff",
+        "bg_color": "#383838"
+      }
+    },
+    "5c2e03fe-1254-4e51-8280-ae47bf86aa07": {
+      "type": "d_image-with-text",
+      "blocks": {
+        "template--21801079308603__5c2e03fe-1254-4e51-8280-ae47bf86aa07-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Subheading"
+          }
+        },
+        "template--21801079308603__5c2e03fe-1254-4e51-8280-ae47bf86aa07-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Dive into the Trendy Candy World! 🍬"
+          }
+        },
+        "template--21801079308603__5c2e03fe-1254-4e51-8280-ae47bf86aa07-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Craving the hottest snacks everyone’s raving about?<\/strong> The Holly Lollies Trendy Mystery Box has you covered! ✨ Get your Holly Lollies Trendy Mystery Box now and dive into the latest snacking sensations! 🎉🍫🥤<\/p>"
+          }
+        },
+        "template--21801079308603__5c2e03fe-1254-4e51-8280-ae47bf86aa07-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "f_button_label": "Shop now",
+            "f_button_link": "",
+            "f_button_style": "normal",
+            "f_button_custom_colors": false,
+            "f_button_text_color": "#ffffff",
+            "f_button_bg_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "template--21801079308603__5c2e03fe-1254-4e51-8280-ae47bf86aa07-subheading-1",
+        "template--21801079308603__5c2e03fe-1254-4e51-8280-ae47bf86aa07-heading-1",
+        "template--21801079308603__5c2e03fe-1254-4e51-8280-ae47bf86aa07-text-1",
+        "template--21801079308603__5c2e03fe-1254-4e51-8280-ae47bf86aa07-buttons-1"
+      ],
+      "settings": {
+        "section_layout": "container",
+        "image_size": "lg",
+        "image": "shopify:\/\/shop_images\/1_6c5f417d-1268-401b-b655-845b3bec5972.png",
+        "image_width": 50,
+        "image_position": "left",
+        "text_size": "md",
+        "text_color": "",
+        "bg_color": ""
+      }
+    },
+    "0ef39cd6-3323-4df0-8a07-f02d9753cdc9": {
+      "type": "d_image-with-text",
+      "blocks": {
+        "template--21801079308603__0ef39cd6-3323-4df0-8a07-f02d9753cdc9-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Subheading"
+          }
+        },
+        "template--21801079308603__0ef39cd6-3323-4df0-8a07-f02d9753cdc9-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Mix of trendy cultures 🍭"
+          }
+        },
+        "template--21801079308603__0ef39cd6-3323-4df0-8a07-f02d9753cdc9-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Be the first to try the coolest treats hitting the shelves. Satisfy your cravings with the trendiest chips, drinks, crackers, chocolates, candies and share it with your friends while enjoying all of it! 🌟🍫🍓<\/p>"
+          }
+        },
+        "template--21801079308603__0ef39cd6-3323-4df0-8a07-f02d9753cdc9-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "f_button_label": "Shop now",
+            "f_button_link": "",
+            "f_button_style": "normal",
+            "f_button_custom_colors": false,
+            "f_button_text_color": "#ffffff",
+            "f_button_bg_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "template--21801079308603__0ef39cd6-3323-4df0-8a07-f02d9753cdc9-subheading-1",
+        "template--21801079308603__0ef39cd6-3323-4df0-8a07-f02d9753cdc9-heading-1",
+        "template--21801079308603__0ef39cd6-3323-4df0-8a07-f02d9753cdc9-text-1",
+        "template--21801079308603__0ef39cd6-3323-4df0-8a07-f02d9753cdc9-buttons-1"
+      ],
+      "settings": {
+        "section_layout": "container",
+        "image_size": "lg",
+        "image": "shopify:\/\/shop_images\/Background_should_consist_of_trendy_candy_ideas_around_the_world_from_USA_from_Asia_from_Europe_it_should_look_like_a_mix_of_cultures_and_biggest_trends_in_the_candy_world._Focus_more_e490810c-43e2-462c-97fa-e7307bd65330.png",
+        "image_width": 50,
+        "image_position": "right",
+        "text_size": "md",
+        "text_color": "",
+        "bg_color": ""
+      }
+    },
+    "5161f76f-8a4a-4166-9d71-9358c297ea80": {
+      "type": "d_hero-background-video",
+      "blocks": {
+        "template--21801079308603__5161f76f-8a4a-4166-9d71-9358c297ea80-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Subheading"
+          }
+        },
+        "template--21801079308603__5161f76f-8a4a-4166-9d71-9358c297ea80-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Hero Image Heading",
+            "heading_accent_enable": true,
+            "heading_accent_use_cutom_color": false,
+            "heading_accent_color": "#e22d00"
+          }
+        },
+        "template--21801079308603__5161f76f-8a4a-4166-9d71-9358c297ea80-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>LET'S PACK CLIENT'S HUGE ORDER<\/p>"
+          }
+        },
+        "template--21801079308603__5161f76f-8a4a-4166-9d71-9358c297ea80-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "mobile_hidden": false,
+            "f_button_label": "Shop Now",
+            "f_button_link": "",
+            "f_button_style": "normal",
+            "f_button_custom_colors": false,
+            "f_button_bg_color": "#000000",
+            "f_button_text_color": "#ffffff",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_style": "normal",
+            "s_button_custom_colors": false,
+            "s_button_bg_color": "#000000",
+            "s_button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--21801079308603__5161f76f-8a4a-4166-9d71-9358c297ea80-subheading-1",
+        "template--21801079308603__5161f76f-8a4a-4166-9d71-9358c297ea80-heading-1",
+        "template--21801079308603__5161f76f-8a4a-4166-9d71-9358c297ea80-text-1",
+        "template--21801079308603__5161f76f-8a4a-4166-9d71-9358c297ea80-buttons-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_layout": "container",
+        "embedded_video": "",
+        "hosted_video": "shopify:\/\/files\/videos\/ezgif.com-mute-video (online-video-cutter.com).mp4",
+        "height": 60,
+        "display_desktop_only": false,
+        "mobile_image_size": "4x5",
+        "overlay": 53,
+        "use_box": false,
+        "width": 50,
+        "size": "md",
+        "text_position": "center-center",
+        "mobile_caption_display": "offset"
+      }
+    },
+    "bca5d02a-9d59-405f-adee-d7fd79070582": {
+      "type": "d_collection-list",
+      "blocks": {
+        "9e0b145b-3489-4d54-96b7-ad1b8a38faf3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/takis-blue-heat.jpg",
+            "custom_title": "TAKIS"
+          }
+        },
+        "795bcca3-e1b7-4b4a-ae85-dd1ff4c9cb65": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/74.png",
+            "custom_title": "HATA"
+          }
+        },
+        "9ed9a7a6-7646-49db-ad17-a6de2a072e01": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/107.png",
+            "custom_title": "CHEETOS"
+          }
+        },
+        "template--21801079308603__bca5d02a-9d59-405f-adee-d7fd79070582-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/163.png",
+            "custom_title": "SAMYANG"
+          }
+        },
+        "template--21801079308603__bca5d02a-9d59-405f-adee-d7fd79070582-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/152.png",
+            "custom_title": "POCKY"
+          }
+        },
+        "template--21801079308603__bca5d02a-9d59-405f-adee-d7fd79070582-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/37.png",
+            "custom_title": "NERDS"
+          }
+        },
+        "template--21801079308603__bca5d02a-9d59-405f-adee-d7fd79070582-collection-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/130.png",
+            "custom_title": "KIT KAT"
+          }
+        },
+        "template--21801079308603__bca5d02a-9d59-405f-adee-d7fd79070582-collection-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Untitleddesign_50.png",
+            "custom_title": "KINDER"
+          }
+        },
+        "bf5eef3b-3b1e-47cb-a0e9-2438521933fc": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/122.png",
+            "custom_title": "REESE"
+          }
+        },
+        "eb189f5b-7e70-4bc5-bd8e-5c387d58664a": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/44.png",
+            "custom_title": "MIKE AND IKE"
+          }
+        }
+      },
+      "block_order": [
+        "9e0b145b-3489-4d54-96b7-ad1b8a38faf3",
+        "795bcca3-e1b7-4b4a-ae85-dd1ff4c9cb65",
+        "9ed9a7a6-7646-49db-ad17-a6de2a072e01",
+        "template--21801079308603__bca5d02a-9d59-405f-adee-d7fd79070582-collection-1",
+        "template--21801079308603__bca5d02a-9d59-405f-adee-d7fd79070582-collection-2",
+        "template--21801079308603__bca5d02a-9d59-405f-adee-d7fd79070582-collection-3",
+        "template--21801079308603__bca5d02a-9d59-405f-adee-d7fd79070582-collection-4",
+        "template--21801079308603__bca5d02a-9d59-405f-adee-d7fd79070582-collection-5",
+        "bf5eef3b-3b1e-47cb-a0e9-2438521933fc",
+        "eb189f5b-7e70-4bc5-bd8e-5c387d58664a"
+      ],
+      "settings": {
+        "show_card_title": true,
+        "heading": "What you can expect in your box",
+        "subheading": "",
+        "columns": 5,
+        "image_size": "square",
+        "text_position": "center",
+        "show_frame": false,
+        "section_button_label": ""
+      }
+    },
+    "d8c17a1a-74c4-4cef-b392-8de4254611f5": {
+      "type": "d_rich-text",
+      "blocks": {
+        "template--21801079308603__d8c17a1a-74c4-4cef-b392-8de4254611f5-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "And.... many many more.",
+            "heading_accent_enable": true,
+            "heading_accent_use_cutom_color": false,
+            "heading_accent_color": "#e22d00"
+          }
+        },
+        "template--21801079308603__d8c17a1a-74c4-4cef-b392-8de4254611f5-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>And.... many many more.<\/p>"
+          }
+        },
+        "template--21801079308603__d8c17a1a-74c4-4cef-b392-8de4254611f5-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "mobile_hidden": false,
+            "f_button_label": "Shop now",
+            "f_button_link": "",
+            "f_button_style": "normal",
+            "f_button_custom_colors": false,
+            "f_button_bg_color": "",
+            "f_button_text_color": "#ffffff",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_style": "normal",
+            "s_button_custom_colors": false,
+            "s_button_bg_color": "",
+            "s_button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--21801079308603__d8c17a1a-74c4-4cef-b392-8de4254611f5-heading-1",
+        "template--21801079308603__d8c17a1a-74c4-4cef-b392-8de4254611f5-text-1",
+        "template--21801079308603__d8c17a1a-74c4-4cef-b392-8de4254611f5-buttons-1"
+      ],
+      "settings": {
+        "section_layout": "default",
+        "text_align": "center",
+        "size": "md",
+        "use_custom_color": false,
+        "text_color": "#ffffff",
+        "bg_color": "#383838"
+      }
+    },
+    "17d5f566-a4e8-43ac-9cb5-500183341ea0": {
+      "type": "d_rich-text",
+      "blocks": {
+        "template--21801079308603__17d5f566-a4e8-43ac-9cb5-500183341ea0-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Unique Gift Idea 🎁🌍✨",
+            "heading_accent_enable": true,
+            "heading_accent_use_cutom_color": false,
+            "heading_accent_color": "#e22d00"
+          }
+        },
+        "template--21801079308603__17d5f566-a4e8-43ac-9cb5-500183341ea0-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Now's the perfect time to dive into the world's most trending and unique candies! Our selection offers an extraordinary journey of flavors from across the globe, making it an unexpected yet delightful gift that's sure to be adored.  #UniqueGift #WorldOfSweets 🎁🎉<\/p>"
+          }
+        },
+        "template--21801079308603__17d5f566-a4e8-43ac-9cb5-500183341ea0-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "mobile_hidden": false,
+            "f_button_label": "Shop now",
+            "f_button_link": "",
+            "f_button_style": "normal",
+            "f_button_custom_colors": false,
+            "f_button_bg_color": "",
+            "f_button_text_color": "#ffffff",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_style": "normal",
+            "s_button_custom_colors": false,
+            "s_button_bg_color": "",
+            "s_button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--21801079308603__17d5f566-a4e8-43ac-9cb5-500183341ea0-heading-1",
+        "template--21801079308603__17d5f566-a4e8-43ac-9cb5-500183341ea0-text-1",
+        "template--21801079308603__17d5f566-a4e8-43ac-9cb5-500183341ea0-buttons-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_layout": "default",
+        "text_align": "center",
+        "size": "md",
+        "use_custom_color": false,
+        "text_color": "#ffffff",
+        "bg_color": "#383838"
+      }
+    },
+    "d8c8378b-888e-4908-8f87-fcc578b5dd78": {
+      "type": "d_featured-product",
+      "blocks": {
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-title-1": {
+          "type": "title",
+          "settings": {
+            "size": "h1",
+            "max_lines": 3,
+            "prev_attach": false
+          }
+        },
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-price-1": {
+          "type": "price",
+          "settings": {
+            "show_savings": true,
+            "show_taxes": true,
+            "prev_attach": false
+          }
+        },
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-variant_selector-1": {
+          "type": "variant_selector",
+          "settings": {
+            "picker_type": "dropdown",
+            "color_swatches": false,
+            "align_option_values": true,
+            "prev_attach": false
+          }
+        },
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-buy_with-1": {
+          "type": "buy_with",
+          "settings": {
+            "meta_heading": "Frequently Bought Together",
+            "use_counter": true,
+            "prev_attach": false
+          }
+        },
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "enable_stock_notifier": true,
+            "prev_attach": false
+          }
+        },
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-payment_methods-1": {
+          "type": "payment_methods",
+          "settings": {
+            "meta_heading": "We Accept",
+            "center": false,
+            "prev_attach": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-title-1",
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-price-1",
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-variant_selector-1",
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-buy_with-1",
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-buy_buttons-1",
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-payment_methods-1"
+      ],
+      "settings": {
+        "headline_main": "READY ?? 🤔👇",
+        "description": "Dive into a delightful journey with the Holly Lollies Mystery Box. Experience trending candies from Japan to the USA, turning every box into a unique taste adventure. Our candy experts handpick a diverse mix of sweet and savory treats just for you. It's the perfect way to explore global candy trends or surprise a loved one with a delightful gift. Get ready for a sweet surprise in every box! 🍭🌍🎁",
+        "heading": "",
+        "subheading": "",
+        "product": "mystery-box",
+        "gallery_width": 55,
+        "slideshow_zoom": false,
+        "thumbnails_layout": "slideshow",
+        "learn_more_title": "LEARN MORE",
+        "learn_more_url": "shopify:\/\/products\/mystery-box"
+      }
+    },
+    "556f5c1d-5c6f-4265-998d-4c99b08cb073": {
+      "type": "Index_reviews_carousel",
+      "blocks": {
+        "slide_XyDwm6": {
+          "type": "Slide",
+          "settings": {
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ae14caa8bfa04f7ab6d07a752ee3460f.mp4",
+            "headline": "\"Our tasting party with the Holly Lollies Mystery Box was an absolute blast! 🎉🍭 We were blown away by the variety and quality of the snacks. From the sweet delights to the savory surprises, every treat was a hit. The unboxing was so much fun, and we loved discovering new flavors together. It felt like a global adventure right in our vila!\"",
+            "name": "— Jonas",
+            "info": "Proud Client from Asia"
+          }
+        },
+        "fdc4be60-c3a3-4864-9b7c-0a1ca028521f": {
+          "type": "Slide",
+          "settings": {
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/34389683f8c34c9ba6f6c1094b667491.mp4",
+            "headline": "\"Absolutely thrilled with the Trendy Mystery Box! It had all the hot snacks that everyone’s raving about. The variety was fantastic, from savory chips to unique candies. If you love staying ahead in the snack game, this box is for you!\"",
+            "name": "— Kamėja",
+            "info": "Proud Client from Lithuania 🇱🇹"
+          }
+        },
+        "33c897ed-fef0-4d69-b672-e8c667f4864b": {
+          "type": "Slide",
+          "settings": {
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/07da1bd8f60f498a98df83404f3c81fd.mp4",
+            "headline": "\"The Trendy Mystery Box never disappoints! Each box is packed with the latest and greatest snacks. The exclusive drinks and rare cookies were my favorites. It’s the perfect way to stay up-to-date with snack trends. 10\/10!\"",
+            "name": "— Indrė",
+            "info": "Proud Client from Lithuania 🇱🇹"
+          }
+        },
+        "ff07d8b2-5faf-4334-a78e-e4bf43dee446": {
+          "type": "Slide",
+          "settings": {
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2f62e6daf68e4ddba80b1921cf3c0d0b.mp4",
+            "headline": "\"A fantastic collection of the most popular snacks! The Trendy Mystery Box had everything I wanted and more. From crunchy chips to delicious chocolates, every item was a hit. Perfect for anyone who loves being in the know about the latest snacks. Holly Lollies nailed it!\"",
+            "name": "— Džestina",
+            "info": "Happy Client from Lithuania 🇱🇹"
+          }
+        },
+        "b7331f9a-2ca0-4c26-82e5-928ae6af82c0": {
+          "type": "Slide",
+          "settings": {
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/722b3abc83ff4a408e14dfa3c621fb57.mp4",
+            "headline": "\"The Trendy Mystery Box is a must-have for snack enthusiasts! Each box is filled with the latest and most talked-about snacks. I loved discovering new treats like the latest Takis flavor and exclusive chocolates. Holly Lollies, you’ve got a fan for life!\"",
+            "name": "— Karolina",
+            "info": "Proud Client from Lithuania 🇱🇹"
+          }
+        }
+      },
+      "block_order": [
+        "slide_XyDwm6",
+        "fdc4be60-c3a3-4864-9b7c-0a1ca028521f",
+        "33c897ed-fef0-4d69-b672-e8c667f4864b",
+        "ff07d8b2-5faf-4334-a78e-e4bf43dee446",
+        "b7331f9a-2ca0-4c26-82e5-928ae6af82c0"
+      ],
+      "settings": {
+        "title": "Sweet Words from Our Customers",
+        "reviews_img": "shopify:\/\/shop_images\/Screenshot_2023-12-13_at_14.17.29.png"
+      }
+    },
+    "index_multi_features_RhN8K8": {
+      "type": "Index_multi_features",
+      "blocks": {
+        "feature_BjKJqy": {
+          "type": "feature",
+          "settings": {
+            "heading": "PARTY TIME 🎉",
+            "text": "Turn any gathering into an unforgettable event with our mystery boxes, filled with unique, trendy snacks. Perfect for Instagram-worthy moments, these treats elevate your celebration. Our boxes guarantee great emotions and lively debates as you discover which candies you love and which ones your friends can’t stand.",
+            "image": "shopify:\/\/shop_images\/video2-ezgif.com-crop.gif",
+            "icon": ""
+          }
+        },
+        "feature_MDAgPx": {
+          "type": "feature",
+          "settings": {
+            "heading": "Family Feasting 👪",
+            "text": "Looking to bond with your kids? Or maybe you want to be the cool uncle or aunt? This box has got you covered! Our mystery boxes are perfect for creating fun moments together. Share the excitement and become the hero of family gatherings. Perfect for any family get-together, our mystery boxes ensure everyone finds their favorites, bringing joy, laughter, and unforgettable memories to every family moment.",
+            "image": "shopify:\/\/shop_images\/Ekrano_kopija_2024-06-07_161320.png",
+            "icon": ""
+          }
+        },
+        "feature_GNxfqQ": {
+          "type": "feature",
+          "settings": {
+            "heading": "Flavorful Gifting 🎁",
+            "text": "Looking for a standout gift? Our mystery boxes are packed with unique and luxurious treats, perfect for any occasion. Delight your loved ones with high-end, trendy candies that impress. Ideal for birthdays, anniversaries, or just because—these boxes bring joy and excitement to any celebration. Share the fun and sweeten the moment with a thoughtful and unforgettable gift!",
+            "image": "shopify:\/\/shop_images\/Ekrano_kopija_2024-06-07_161424.png",
+            "icon": ""
+          }
+        },
+        "feature_3t3KJr": {
+          "type": "feature",
+          "settings": {
+            "heading": "Solo Adventure 🍫",
+            "text": "Treat yourself to unique and exciting snacks that let you explore new flavors. Enjoy some well-deserved me-time with a diverse selection of treats designed to make your solo moments special and satisfying. Dive into personal indulgence and savor each surprise just for you. Unwind and relax with snacks that bring stress-free enjoyment. Give yourself the gift of exclusivity with treats chosen to delight you on your solo adventures.",
+            "image": "shopify:\/\/shop_images\/IMG20240120113742.jpg",
+            "icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "feature_BjKJqy",
+        "feature_MDAgPx",
+        "feature_GNxfqQ",
+        "feature_3t3KJr"
+      ],
+      "custom_css": [
+        ".Index_personalization_outer {margin-top: 0; background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0839\/5941\/5099\/files\/Group_324367_1.jpg?v=1701857172\"); padding-top: 64px; padding-bottom: 64px; background-color: #fef0c7; background-position: 0 100%; background-size: 100%; background-repeat: no-repeat; max-width: 100% !important;}"
+      ],
+      "settings": {
+        "small_text": "",
+        "heading": "WHAT IS THIS BOX FOR?",
+        "text": "",
+        "title": ""
+      }
+    },
+    "5ccbf5a5-e1ed-4fbe-8d40-a887b4e72b7d": {
+      "type": "Customer_says_reviews",
+      "blocks": {
+        "review_J9jhCX": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/3_2d6e6a51-f9d2-428b-8dd9-a6a9c1058b29.png",
+            "name": "Ugnius Liubinas",
+            "info": "Happy customer from LT",
+            "content": "<p>I’m blown away by the Trendy Mystery Box! The selection of snacks is top-notch and always includes the newest treats. It’s like getting a surprise of the trendiest snacks every month. Highly recommend for anyone who loves trying new things!<\/p>"
+          }
+        },
+        "review_PrNUmw": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/8_3141e36a-ca6a-43d4-aae3-2e38f3a95743.png",
+            "name": "Kamilė",
+            "info": "Happy customer from LT",
+            "content": "<p>Trendy Mystery box was filled to the brim with all kinds of popular candy! It was amazing and delicious, opening the box felt like christmas in the middle of spring, absolutely loved it!<\/p>"
+          }
+        },
+        "a2092306-2f3e-48ce-ac8a-1c4aac01ad42": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/4_eabeeca5-ab45-41ea-8c38-9366a6ab9322.png",
+            "name": "Gytis Abelkis",
+            "info": "Happy Customer from 🇱🇹",
+            "content": "<p>Loved every single piece from the Trendy Mystery box, cant wait to get the next one. All snacks were in perfect conditions and delicious.<\/p>"
+          }
+        },
+        "review_j77XpA": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/7_144532c5-0726-4f10-b337-277d18461395.png",
+            "name": "Mantas Strignatavicius",
+            "info": "Happy customer from LT",
+            "content": "<p>Amazing packing and good service !<\/p>"
+          }
+        },
+        "19184438-5995-4631-92a2-2ba67a0a8150": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/5_9e31cf33-3b62-4dc5-8f18-a31525cabf4e.png",
+            "name": "Evelina Kvašytė",
+            "info": "Happy Customer from 🇱🇹",
+            "content": "<p>I recently ordered Holly Lollies' Mystery Box, not quite sure what to expect. To my delight, it turned out to be an amazing experience for the whole family! 🤩<br\/><br\/>The best part was sharing the excitement with my family. We all gathered around to taste international sweets from places we've never been. The variety was incredible, and it made for a fun and memorable tasting adventure. 🤩<br\/><br\/>If you're up for a taste adventure, I highly recommend giving Holly Lollies a try. You won't be disappointed!<\/p>"
+          }
+        },
+        "97e94b61-861a-4725-9ff7-65626389e751": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/3_2db29d62-7616-43e1-bd1d-a4d7beb3a9a5.png",
+            "name": "Jolanda Gaile",
+            "info": "Proud customer from 🇱🇻",
+            "content": "<p>Nostalgia. Plain and simple. I had been stationed in Japan for four years and had a great time trying new food and snacks when I was there. Wanting to share that with my kids now, we got this and now I’m sharing memories with them and explaining where I had certain ones before. Love it!<\/p>"
+          }
+        },
+        "81c1e3e0-03d7-41f8-a6c7-faf724e229bf": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/6_1fa22cf3-bf3a-4875-b674-11c24450180e.png",
+            "name": "Anne Kivi",
+            "info": "Proud customer from 🇱🇻",
+            "content": "<p>I was very pleasantly surprised with how much was in the box, and how tasty everything has been! So far I have tried a half dozen or so items. These are all things I would buy again if I saw them!<\/p>"
+          }
+        },
+        "review_x69XDK": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/1_302b8794-6d78-48d6-86e3-72d7d945d30a.png",
+            "name": "Jonas Jacevičius",
+            "info": "Happy customer from Asia",
+            "content": "<p>Great experience!! Wide variety of snacks ranging from sweet to savory. Well thought out and everything was super tasty!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "review_J9jhCX",
+        "review_PrNUmw",
+        "a2092306-2f3e-48ce-ac8a-1c4aac01ad42",
+        "review_j77XpA",
+        "19184438-5995-4631-92a2-2ba67a0a8150",
+        "97e94b61-861a-4725-9ff7-65626389e751",
+        "81c1e3e0-03d7-41f8-a6c7-faf724e229bf",
+        "review_x69XDK"
+      ],
+      "settings": {
+        "title": "This is what our community says",
+        "reviews_img": "shopify:\/\/shop_images\/Screenshot_2023-12-13_at_14.17.29.png",
+        "btn_title": "Read more",
+        "btn_link": "shopify:\/\/pages\/reviews"
+      }
+    },
+    "794cd20b-6c15-4098-a12e-95ebbddc6371": {
+      "type": "d_rich-text",
+      "blocks": {
+        "template--21801079308603__794cd20b-6c15-4098-a12e-95ebbddc6371-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Rich text",
+            "heading_accent_enable": true,
+            "heading_accent_use_cutom_color": false,
+            "heading_accent_color": "#e22d00"
+          }
+        },
+        "template--21801079308603__794cd20b-6c15-4098-a12e-95ebbddc6371-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers.<br>Describe a product, share announcements or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--21801079308603__794cd20b-6c15-4098-a12e-95ebbddc6371-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "mobile_hidden": false,
+            "f_button_label": "EXPERIENCE THE MYSTERY BOX",
+            "f_button_link": "shopify:\/\/products\/mystery-box",
+            "f_button_style": "normal",
+            "f_button_custom_colors": false,
+            "f_button_bg_color": "",
+            "f_button_text_color": "#ffffff",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_style": "normal",
+            "s_button_custom_colors": false,
+            "s_button_bg_color": "",
+            "s_button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--21801079308603__794cd20b-6c15-4098-a12e-95ebbddc6371-heading-1",
+        "template--21801079308603__794cd20b-6c15-4098-a12e-95ebbddc6371-text-1",
+        "template--21801079308603__794cd20b-6c15-4098-a12e-95ebbddc6371-buttons-1"
+      ],
+      "settings": {
+        "section_layout": "default",
+        "text_align": "center",
+        "size": "md",
+        "use_custom_color": false,
+        "text_color": "#ffffff",
+        "bg_color": "#383838"
+      }
+    }
+  },
+  "order": [
+    "header",
+    "72ba95f8-67e7-495d-b7d6-5a27ba1abbb9",
+    "5421c922-eef9-488d-9d14-a3de82698eaf",
+    "main",
+    "d_rich_text_Qw4FAx",
+    "24c2231f-0181-40f0-97da-7d8394ebeaf7",
+    "5c2e03fe-1254-4e51-8280-ae47bf86aa07",
+    "0ef39cd6-3323-4df0-8a07-f02d9753cdc9",
+    "5161f76f-8a4a-4166-9d71-9358c297ea80",
+    "bca5d02a-9d59-405f-adee-d7fd79070582",
+    "d8c17a1a-74c4-4cef-b392-8de4254611f5",
+    "17d5f566-a4e8-43ac-9cb5-500183341ea0",
+    "d8c8378b-888e-4908-8f87-fcc578b5dd78",
+    "556f5c1d-5c6f-4265-998d-4c99b08cb073",
+    "index_multi_features_RhN8K8",
+    "5ccbf5a5-e1ed-4fbe-8d40-a887b4e72b7d",
+    "794cd20b-6c15-4098-a12e-95ebbddc6371"
+  ]
+}

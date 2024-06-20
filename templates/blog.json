@@ -115,29 +115,29 @@
     "d14fafd6-ea3e-4c9c-93c6-818d797a5ec7": {
       "type": "Index_reviews_carousel",
       "blocks": {
-        "461b4783-4a38-44ee-93ca-dcc3a9775432": {
-          "type": "Slide",
-          "settings": {
-            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/722b3abc83ff4a408e14dfa3c621fb57.mp4",
-            "headline": "“It's all delicious and let's you try different flavor combinations you never would have thought of or had the chance to experience.\"",
-            "name": "— Karolina",
-            "info": "Proud Client from Lithuania 🇱🇹"
-          }
-        },
         "38b63eb6-a4be-43d2-82b6-d5972a434fd4": {
           "type": "Slide",
           "settings": {
-            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/34389683f8c34c9ba6f6c1094b667491.mp4",
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ef8b66c50d744f679d4a96fd15e74ba1.mp4",
             "headline": "“Tasting the Japanese KitKat Matcha was like a quick trip back to Japan. The variety in this box is incredible – each candy is a new discovery. For anyone thinking about trying Holly Lollies, I say go for it. It's a world tour for your taste buds and every bite is top quality. Holly Lollies, you've got yourself a fan – this is easily a 10\/10 from me!\"”",
-            "name": "— Kamėja",
+            "name": "— Aurelija",
+            "info": "Proud Client from Lithuania 🇱🇹"
+          }
+        },
+        "461b4783-4a38-44ee-93ca-dcc3a9775432": {
+          "type": "Slide",
+          "settings": {
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c0e35a5d648f43d98677ef62c47de276.mp4",
+            "headline": "\"A wonderful selection of Asian goodies! The variety in the Asian Mystery Box is impressive. From chewy Hi-Chew to refreshing Ramune, every snack was delightful. This box is perfect for adventurous eaters looking to explore new flavors. Two thumbs up!\"",
+            "name": "— Karolina",
             "info": "Proud Client from Lithuania 🇱🇹"
           }
         },
         "d8cf7aaa-707c-476e-8708-fe07b39108b0": {
           "type": "Slide",
           "settings": {
-            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2f62e6daf68e4ddba80b1921cf3c0d0b.mp4",
-            "headline": "“I’d been introduced to them through a friend, though I’d heard about them before. I’ve been impressed with the range of snacks and drinks, and the effort put into each box. Even with the occasional repeat snack, it’s still always delicious. It’s worth the price, and worth the time to enjoy a big bite of exotic candies.”",
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/722b3abc83ff4a408e14dfa3c621fb57.mp4",
+            "headline": "\"The Trendy Mystery Box is a must-have for snack enthusiasts! Each box is filled with the latest and most talked-about snacks. I loved discovering new treats like the latest Takis flavor and exclusive chocolates. Holly Lollies, you’ve got a fan for life!\"",
             "name": "— Džestina",
             "info": "Happy Client from Lithuania 🇱🇹"
           }
@@ -153,8 +153,8 @@
         }
       },
       "block_order": [
-        "461b4783-4a38-44ee-93ca-dcc3a9775432",
         "38b63eb6-a4be-43d2-82b6-d5972a434fd4",
+        "461b4783-4a38-44ee-93ca-dcc3a9775432",
         "d8cf7aaa-707c-476e-8708-fe07b39108b0",
         "9584ee68-3fdc-4b6b-aa78-b7a776422807"
       ],
