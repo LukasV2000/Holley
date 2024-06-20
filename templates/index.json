@@ -559,7 +559,7 @@
       }
     },
     "252cadf0-079e-40a2-8914-70d73728cfba": {
-      "type": "Index_multi_features",
+      "type": "Index_multi_features_mod",
       "blocks": {
         "f24fcd2a-f4c3-4b70-a85b-f7e16dd41f39": {
           "type": "feature",
@@ -1581,6 +1581,9 @@
         "columns": 3,
         "mobile_columns": 2
       }
+    },
+    "comparison":{
+      "type":"comparison"
     }
   },
   "order": [
@@ -1604,6 +1607,7 @@
     "39b5950a-383c-43e2-bfb6-1ae39fc33ad6",
     "7098ba4b-7068-4e42-af6b-541a4ebf4371",
     "fca67246-1b86-436b-a889-fbec115fd5ee",
+    "comparison",
     "169752564009ee8951",
     "f224bd8e-ad52-401e-9c30-47d2bc870b71",
     "165469329347188646"

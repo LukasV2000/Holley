@@ -1,0 +1,21 @@
+<div class="te_outer #container @width:default">
+    <h2 class="#hero-heading fs-d4 heading-font main_heading">
+        <span class="#accent-text" style="--accent: linear-gradient(90deg, transparent 0, rgba(217, 214, 254, 0.5) 15%, rgba(217, 214, 254, 0.5) 85%, transparent 100%)">{{section.settings.headline}}</span>
+    </h2>
+    test
+</div>
+
+
+{% schema %}
+{
+  "name": "Testimonials",
+  "settings": [
+    { 
+        "type":"text",
+        "id":"headline",
+        "label":"Your headline",
+        "default":" HOLLY LOLLIES VS OTHERS"
+    }
+  ]
+}
+{% endschema %}

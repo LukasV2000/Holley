@@ -342,10 +342,21 @@ img{
   gap: .5rem;
   align-items: center;
 }
+.Index_multi_Features_inside_image{
+  display: none;
+}
 @media only screen and (min-width: 767px) {
     .Index_personalization_feature:hover{
         background: rgba(0, 0, 0, 0.03);
     }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .Index_personalization_feature.active .Index_multi_Features_inside_image{
+    display: block;
+    margin-bottom: 16px;
+  }
 }
 
 /* Featured products */

@@ -1,0 +1,106 @@
+<div class="Index_personalization_outer #container">
+    <div class="#container @width:default">
+    {% if section.settings.small_text != blank %}
+    <p class="Personalize_info_note"><strong>{{section.settings.small_text}}</strong></p>
+    {% endif %}
+    {% if section.settings.heading != blank %}
+        <h2 class="#hero-heading fs-d4 heading-font">        
+            <span class="#accent-text" style="--accent: linear-gradient(90deg, transparent 0, rgba(251, 207, 0, 0.5) 15%, rgba(251, 207, 0, 0.5) 85%, transparent 100%)">{{section.settings.heading}}</span>     
+        </h2>
+    {% endif %}
+    {% if section.settings.text != blank%}
+        <p class="Personalize_main_body_text">{{section.settings.text}}</p>
+    {% endif %}
+    <div class="Index_personalization_flex_container">
+        <div>
+            {% if section.settings.title != blank %}
+                <h2>{{section.settings.title}}</h3>
+            {% endif %}
+            {% for block in section.blocks %}
+                <div data="{{block.id}}" class="Index_personalization_feature {% if forloop.index == 1 %}active{%endif%}">
+                    <img class=" Index_multi_Features_inside_image" loading="eager" src="{{block.settings.image | img_url: 'master'}}" >
+                    <h3 class="Index_multifeature_cell_title">
+                        <span>
+                            {{block.settings.icon}}
+                        </span>
+                        {{block.settings.heading}}</h3>
+                    <p>{{block.settings.text}}</p>
+                </div>
+            {% endfor %}
+        </div>
+        <div class="Desktop_only">
+            {% for block in section.blocks %}
+                <div data="{{block.id}}" class="Index_personalization_image__js" {% if forloop.index > 1 %}style="display:none"{% endif %}>
+                    <img  loading="eager" src="{{block.settings.image | img_url: 'master'}}" >
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Multifeatures",
+  "settings": [
+    {
+        "type":"text",
+        "id":"small_text",
+        "label":"Small Text",
+        "default":"Customize"
+    },
+    {
+        "type":"text",
+        "id":"heading",
+        "label":"Heading",
+        "default":"Personalize your planner"
+    },
+    {
+        "type":"text",
+        "id":"text",
+        "label":"Your Text",
+        "default":"Whether you're a busy professional seeking a structured daily planner, a student looking for an academic organiser, or someone simply wanting to capture their thoughts in a beautifully designed diary, we have the perfect solution for you."
+    },
+    {
+        "type":"text",
+        "id":"title",
+        "label":"Your Title",
+        "default":"How it works"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "feature",
+      "name": "Feature",
+      "settings": [
+        {
+            "type":"text",
+            "id":"heading",
+            "label":"Your Title",
+            "default":"Nullam id dolor id"
+        },
+        {
+            "type":"text",
+            "id":"text",
+            "label":"Your Text",
+            "default":"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+        },
+        {
+            "type":"image_picker",
+            "id":"image",
+            "label":"Your Image"
+        },
+        {
+            "type":"textarea",
+            "id":"icon",
+            "label":"Your Icon"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Multifeatures"
+    }
+  ]
+}
+{% endschema %}
