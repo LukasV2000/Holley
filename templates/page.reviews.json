@@ -12,6 +12,17 @@
     "1701949045686c5c63": {
       "type": "apps",
       "blocks": {
+        "judge_me_reviews_all_reviews_text_kg7XDw": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/all_reviews_text\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "judge_me_reviews_featured_carousel_dhdzm7": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        },
         "296bcee6-350d-4db7-88c0-b5dc56f8fb96": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget_homepage\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
@@ -31,12 +42,43 @@
           "settings": {
             "product": "discounted-mystery-box"
           }
+        },
+        "judge_me_reviews_medals_EygBMd": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/medals\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "judge_me_reviews_preview_badge_homepage_Q8CBtT": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge_homepage\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {
+            "product": ""
+          }
+        },
+        "judge_me_reviews_ugc_media_grid_z8wRJb": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/ugc_media_grid\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "judge_me_reviews_verified_badge_YXMpJz": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/verified_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {
+          }
         }
       },
       "block_order": [
+        "judge_me_reviews_all_reviews_text_kg7XDw",
+        "judge_me_reviews_featured_carousel_dhdzm7",
         "296bcee6-350d-4db7-88c0-b5dc56f8fb96",
         "judge_me_reviews_review_widget_homepage_rMYtmQ",
-        "judge_me_reviews_review_widget_homepage_FthfeH"
+        "judge_me_reviews_review_widget_homepage_FthfeH",
+        "judge_me_reviews_medals_EygBMd",
+        "judge_me_reviews_preview_badge_homepage_Q8CBtT",
+        "judge_me_reviews_ugc_media_grid_z8wRJb",
+        "judge_me_reviews_verified_badge_YXMpJz"
       ],
       "settings": {
         "heading": "",
