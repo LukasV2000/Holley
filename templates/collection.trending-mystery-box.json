@@ -483,6 +483,14 @@
     "bca5d02a-9d59-405f-adee-d7fd79070582": {
       "type": "d_collection-list",
       "blocks": {
+        "eb189f5b-7e70-4bc5-bd8e-5c387d58664a": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Hollylollies_product_images_d4093de3-a8a9-4691-899d-b2ff80da5a03.png",
+            "custom_title": "KARL GUMMIES"
+          }
+        },
         "9e0b145b-3489-4d54-96b7-ad1b8a38faf3": {
           "type": "collection",
           "settings": {
@@ -554,17 +562,10 @@
             "image": "shopify:\/\/shop_images\/122.png",
             "custom_title": "REESE"
           }
-        },
-        "eb189f5b-7e70-4bc5-bd8e-5c387d58664a": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/Hollylollies_product_images_d4093de3-a8a9-4691-899d-b2ff80da5a03.png",
-            "custom_title": "KARL GUMMIES"
-          }
         }
       },
       "block_order": [
+        "eb189f5b-7e70-4bc5-bd8e-5c387d58664a",
         "9e0b145b-3489-4d54-96b7-ad1b8a38faf3",
         "795bcca3-e1b7-4b4a-ae85-dd1ff4c9cb65",
         "9ed9a7a6-7646-49db-ad17-a6de2a072e01",
@@ -573,8 +574,7 @@
         "template--21801079308603__bca5d02a-9d59-405f-adee-d7fd79070582-collection-3",
         "template--21801079308603__bca5d02a-9d59-405f-adee-d7fd79070582-collection-4",
         "template--21801079308603__bca5d02a-9d59-405f-adee-d7fd79070582-collection-5",
-        "bf5eef3b-3b1e-47cb-a0e9-2438521933fc",
-        "eb189f5b-7e70-4bc5-bd8e-5c387d58664a"
+        "bf5eef3b-3b1e-47cb-a0e9-2438521933fc"
       ],
       "settings": {
         "show_card_title": true,
