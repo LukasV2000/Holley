@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "header": {
@@ -773,7 +782,7 @@
         "review_rxmpWr": {
           "type": "Review",
           "settings": {
-            "avatar": "shopify:\/\/shop_images\/Screenshot_2023-12-07_at_13.31.03.png",
+            "avatar": "shopify:\/\/shop_images\/4_fd994df5-84e5-40bd-bace-b82be928e32e.png",
             "name": "Julian Wieczorek",
             "info": "Happy customer from Poland",
             "content": "<p>All of the snacks were really good  and did not break the budget at all! Great for someone, who is looking for rare candies at the best price.<\/p>"
