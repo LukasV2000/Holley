@@ -611,8 +611,7 @@
       ],
       "custom_css": [
         ".Index_personalization_outer {margin-top: 0; background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0839\/5941\/5099\/files\/Group_324367_1.jpg?v=1701857172\"); padding-top: 64px; padding-bottom: 64px; background-color: #fef0c7; background-position: 0 100%; background-size: 100%; background-repeat: no-repeat; max-width: 100% !important;}",
-        "",
-        "@media only screen and (max-width: 600px) {.Index_personalization_flex_container{flex-direction: column-reverse; }}"
+        "@media only screen and (max-width: 600px) {.Index_personalization_flex_container {flex-direction: column-reverse; }}"
       ],
       "settings": {
         "small_text": "",
@@ -1452,6 +1451,13 @@
         "section_layout": "narrow"
       }
     },
+    "comparison": {
+      "type": "comparison",
+      "disabled": true,
+      "settings": {
+        "headline": "HOLLY LOLLIES VS OTHERS"
+      }
+    },
     "169752564009ee8951": {
       "type": "apps",
       "blocks": {
@@ -1599,9 +1605,6 @@
         "columns": 3,
         "mobile_columns": 2
       }
-    },
-    "comparison":{
-      "type":"comparison"
     }
   },
   "order": [
