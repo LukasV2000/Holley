@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "1649081791eb3a0c3d": {
@@ -256,146 +265,13 @@
     },
     "5f8de7e3-b9e9-48eb-a2e8-1b5276e250aa": {
       "type": "Text_image",
+      "disabled": true,
       "settings": {
         "title": "Holly Lollies Asian Mystery Box: Travel through Asia!",
         "text": "Ready to spice up your snack game? The Holly Lollies Asian Mystery Box is your passport to a world of exotic and delicious treats! Packed with the most tantalizing candies and snacks from Japan, Korea, China, and beyond, each box is a unique adventure in taste .Perfect for curious foodies and adventurous snackers, this box is a flavor explosion waiting to happen. It's also a fabulous gift for friends and family who love exploring new tastes. Get ready for a sweet and sassy surprise in every box! 🌏🍬✨",
         "btn_title": "",
         "btn_url": "",
         "image": "shopify:\/\/shop_images\/Untitled_design_4.png"
-      }
-    },
-    "939fe1cf-87b0-4404-b1ef-5be59fbcf5d4": {
-      "type": "Customer_says_reviews",
-      "blocks": {
-        "3e43814c-aff7-46e4-8bcd-8eefc907db47": {
-          "type": "Review",
-          "settings": {
-            "avatar": "shopify:\/\/shop_images\/2_07967477-4bff-47c9-a6be-71d016e041be.png",
-            "name": "Jonas R.",
-            "info": "Happy customer from 🇱🇹",
-            "content": "<p>I’ve had tried Trendy and Asian mystery boxes so far and both have been amazing! The selection of candies truly amazed me. I have already recommended hollylollies to others, and plan to re-up mine again soon!<\/p>"
-          }
-        },
-        "f50736a8-0ae1-41fc-9ed9-b29e478584a5": {
-          "type": "Review",
-          "settings": {
-            "avatar": "shopify:\/\/shop_images\/3_2db29d62-7616-43e1-bd1d-a4d7beb3a9a5.png",
-            "name": "Jolanda Gaile",
-            "info": "Proud customer from 🇱🇻",
-            "content": "<p>Nostalgia. Plain and simple. I had been stationed in Japan for four years and had a great time trying new food and snacks when I was there. Wanting to share that with my kids now, we got this and now I’m sharing memories with them and explaining where I had certain ones before. Love it!<\/p>"
-          }
-        },
-        "6a35730d-2035-45bd-bccd-c488666cbc06": {
-          "type": "Review",
-          "settings": {
-            "avatar": "shopify:\/\/shop_images\/5_7219f865-d6db-4f99-96b8-5bb5d377994b.png",
-            "name": "Mateusz Wróbel",
-            "info": "Happy customer from 🇵🇱",
-            "content": "<p>My partner was so happy! I got this as an important gift because I know she likes Japanese themed things and longs to visit Japan and it did not disappoint. Everything arrived perfectly and it was received faster than I thought it would. Highly recommend!<\/p>"
-          }
-        },
-        "1d026fc1-9182-4a4d-a23e-f00c81313ee5": {
-          "type": "Review",
-          "settings": {
-            "avatar": "shopify:\/\/shop_images\/2_b99b379b-0535-4eec-b291-47fca148424c.png",
-            "name": "Livita Runce",
-            "info": "Proud customer from 🇱🇻",
-            "content": "<p>For the price it's an exceptional value and I like that it has a balanced selection of sweet and savory snacks and that they are full sized. I also noticed that all the snacks in this box were fresh. No stale crackers or chips like I've experienced in other similar boxes. Very pleased with this purchase and would highly recommend to friends, family, and as a gift.<\/p>"
-          }
-        },
-        "6ec83660-8eae-4718-a2d9-460ca0f35c91": {
-          "type": "Review",
-          "settings": {
-            "avatar": "shopify:\/\/shop_images\/6_1fa22cf3-bf3a-4875-b674-11c24450180e.png",
-            "name": "Anne Kivi",
-            "info": "Proud customer from 🇪🇪",
-            "content": "<p>I was very pleasantly surprised with how much was in the box, and how tasty everything has been! So far I have tried a half dozen or so items. These are all things I would buy again if I saw them!<\/p>"
-          }
-        },
-        "85f99483-9520-4b2d-ba93-f2f09355f6d7": {
-          "type": "Review",
-          "settings": {
-            "avatar": "shopify:\/\/shop_images\/4_eabeeca5-ab45-41ea-8c38-9366a6ab9322.png",
-            "name": "Gytis Abelkis",
-            "info": "Happy Customer from 🇱🇹",
-            "content": "<p>Loved every single piece from the box, cant wait to get the next one. All snacks were in perfect conditions and delicious.<\/p>"
-          }
-        },
-        "60d8d18e-74e9-4c51-b13f-345b620b4aa8": {
-          "type": "Review",
-          "settings": {
-            "avatar": "shopify:\/\/shop_images\/Ellipse_7.png",
-            "name": "Leonīds Viļums",
-            "info": "Proud customer from 🇱🇻",
-            "content": "<p>Amazing lots of food to try definitely worth the price compared to other boxes.<\/p>"
-          }
-        },
-        "284d89ef-da6e-436b-81aa-5dc026b5cf3d": {
-          "type": "Review",
-          "settings": {
-            "avatar": "shopify:\/\/shop_images\/5_9e31cf33-3b62-4dc5-8f18-a31525cabf4e.png",
-            "name": "Veronika Vaitytė",
-            "info": "Happy Customer from 🇱🇹",
-            "content": "<p>I recently ordered Holly Lollies' Mystery Box, not quite sure what to expect. To my delight, it turned out to be an amazing experience for the whole family! 🤩<br\/><br\/>The best part was sharing the excitement with my family. We all gathered around to taste international sweets from places we've never been. The variety was incredible, and it made for a fun and memorable tasting adventure. 🤩<br\/><br\/>If you're up for a taste adventure, I highly recommend giving Holly Lollies a try. You won't be disappointed!<\/p>"
-          }
-        },
-        "253488bc-81ef-488a-ab1a-0d3bdc35f9c7": {
-          "type": "Review",
-          "settings": {
-            "avatar": "shopify:\/\/shop_images\/4_fd994df5-84e5-40bd-bace-b82be928e32e.png",
-            "name": "Julian Wieczorek",
-            "info": "Proud customer from 🇵🇱",
-            "content": "<p>All of the snacks were really good I definitely recommend Holly Lollies and I will most certainly get another box.<\/p>"
-          }
-        },
-        "d3f034f8-f8bb-41e1-8310-a94812245c4a": {
-          "type": "Review",
-          "settings": {
-            "avatar": "shopify:\/\/shop_images\/3_2d6e6a51-f9d2-428b-8dd9-a6a9c1058b29.png",
-            "name": "Ugnius L.",
-            "info": "Happy customer from 🇱🇹",
-            "content": "<p>Amazing service much better than a large competitor who can’t actually deliver. Holly Lollies box arrived with in 3 business days . The treats were tasty and well explained. Highly recommend.<\/p>"
-          }
-        },
-        "dfab66f7-6717-4e7f-b625-b15e905cf1bb": {
-          "type": "Review",
-          "settings": {
-            "avatar": "shopify:\/\/shop_images\/1_302b8794-6d78-48d6-86e3-72d7d945d30a.png",
-            "name": "Jonas",
-            "info": "Happy customer from Asia",
-            "content": "<p>Great experience!! Wide variety of snacks ranging from sweet to savory. Well thought out and everything was super tasty!<\/p>"
-          }
-        },
-        "c822337a-0105-48de-8cdb-1e217ac5aca7": {
-          "type": "Review",
-          "disabled": true,
-          "settings": {
-            "avatar": "shopify:\/\/shop_images\/1.png",
-            "name": "Jeannette Ellis",
-            "info": "Proud customer from 🇬🇧",
-            "content": "<p>So short story I love the box.<br\/><br\/>Yes, it is a bit expensive, but only because my stupid country thinks that you need to pay extra tax. But not only that my stupid country think it need to hold my box for 10 days before releasing it.<br\/><br\/>But I have already tried a lot of the snacks, and they were great... most of them. My only problem is how do i buy the stuff i really loved again!<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "3e43814c-aff7-46e4-8bcd-8eefc907db47",
-        "f50736a8-0ae1-41fc-9ed9-b29e478584a5",
-        "6a35730d-2035-45bd-bccd-c488666cbc06",
-        "1d026fc1-9182-4a4d-a23e-f00c81313ee5",
-        "6ec83660-8eae-4718-a2d9-460ca0f35c91",
-        "85f99483-9520-4b2d-ba93-f2f09355f6d7",
-        "60d8d18e-74e9-4c51-b13f-345b620b4aa8",
-        "284d89ef-da6e-436b-81aa-5dc026b5cf3d",
-        "253488bc-81ef-488a-ab1a-0d3bdc35f9c7",
-        "d3f034f8-f8bb-41e1-8310-a94812245c4a",
-        "dfab66f7-6717-4e7f-b625-b15e905cf1bb",
-        "c822337a-0105-48de-8cdb-1e217ac5aca7"
-      ],
-      "settings": {
-        "title": "This is what our community says",
-        "reviews_img": "shopify:\/\/shop_images\/Screenshot_2023-12-13_at_14.17.29.png",
-        "btn_title": "Read more",
-        "btn_link": "shopify:\/\/pages\/reviews"
       }
     },
     "16554757745dec0af9": {
@@ -547,6 +423,564 @@
         "text_color": "#ffffff",
         "bg_color": "#383838"
       }
+    },
+    "d_image_with_text_LkFB6U": {
+      "type": "d_image-with-text",
+      "blocks": {
+        "subheading_GeN8pb": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Subheading"
+          }
+        },
+        "heading_7etPBp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Taste the Magic of Asia! 🍬🌸"
+          }
+        },
+        "text_MT8nB9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Enjoy savory Koikeya snacks, sweet Hi-Chew candies, and refreshing Ramune drinks. Every bite is a taste adventure! #AsianFlavors 🌏🍬✨<\/p>"
+          }
+        },
+        "buttons_7ETJUG": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "f_button_label": "Shop now",
+            "f_button_link": "",
+            "f_button_style": "normal",
+            "f_button_custom_colors": false,
+            "f_button_text_color": "#ffffff",
+            "f_button_bg_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_GeN8pb",
+        "heading_7etPBp",
+        "text_MT8nB9",
+        "buttons_7ETJUG"
+      ],
+      "settings": {
+        "section_layout": "container",
+        "image_size": "lg",
+        "image": "shopify:\/\/shop_images\/video2-ezgif.com-video-to-gif-converter_2.gif",
+        "image_width": 50,
+        "image_position": "left",
+        "text_size": "lg",
+        "text_color": "",
+        "bg_color": ""
+      }
+    },
+    "d_image_with_text_pFEjyK": {
+      "type": "d_image-with-text",
+      "blocks": {
+        "subheading_tcAdUL": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Subheading"
+          }
+        },
+        "heading_M8TMLh": {
+          "type": "heading",
+          "settings": {
+            "heading": "Asian candy culture 🍭🍬"
+          }
+        },
+        "text_LECDhw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Embark on a flavor journey through Asia! Enjoy savory Koikeya chips, juicy Morinaga gummies, and delightful Meiji chocolates and many more. An unforgettable taste adventure awaits! #DiscoverAsia 🌏🍬✨<\/p>"
+          }
+        },
+        "buttons_QYiHyn": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "f_button_label": "Shop now",
+            "f_button_link": "",
+            "f_button_style": "normal",
+            "f_button_custom_colors": false,
+            "f_button_text_color": "#ffffff",
+            "f_button_bg_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_tcAdUL",
+        "heading_M8TMLh",
+        "text_LECDhw",
+        "buttons_QYiHyn"
+      ],
+      "settings": {
+        "section_layout": "container",
+        "image_size": "lg",
+        "image": "shopify:\/\/shop_images\/Background_should_consist_of_trendy_candy_ideas_around_the_world_from_USA_from_Asia_from_Europe_it_should_look_like_a_mix_of_cultures_and_biggest_trends_in_the_candy_world._Focus_more_bff98d05-9c19-4e59-a925-724091e5a96e.png",
+        "image_width": 50,
+        "image_position": "right",
+        "text_size": "lg",
+        "text_color": "",
+        "bg_color": ""
+      }
+    },
+    "index_multi_features_mod_V8JJW8": {
+      "type": "Index_multi_features_mod",
+      "blocks": {
+        "feature_BjKRNF": {
+          "type": "feature",
+          "settings": {
+            "heading": "PARTY TIME 🎉",
+            "text": "Turn any gathering into an unforgettable event with our mystery boxes, filled with unique, trendy snacks. Perfect for Instagram-worthy moments, these treats elevate your celebration. Our boxes guarantee great emotions and lively debates as you discover which candies you love and which ones your friends can’t stand.",
+            "image": "shopify:\/\/shop_images\/download_1.gif",
+            "icon": ""
+          }
+        },
+        "feature_jK4J4M": {
+          "type": "feature",
+          "settings": {
+            "heading": "Family Feasting 👪",
+            "text": "Looking to bond with your kids? Or maybe you want to be the cool uncle or aunt? This box has got you covered! Our mystery boxes are perfect for creating fun moments together. Share the excitement and become the hero of family gatherings. Perfect for any family get-together, our mystery boxes ensure everyone finds their favorites, bringing joy, laughter, and unforgettable memories to every family moment.",
+            "image": "shopify:\/\/shop_images\/Ekrano_kopija_2024-06-07_161320.png",
+            "icon": ""
+          }
+        },
+        "feature_4BcmXY": {
+          "type": "feature",
+          "settings": {
+            "heading": "Flavorful Gifting 🎁",
+            "text": "Looking for a standout gift? Our mystery boxes are packed with unique and luxurious treats, perfect for any occasion. Delight your loved ones with high-end, trendy candies that impress. Ideal for birthdays, anniversaries, or just because—these boxes bring joy and excitement to any celebration. Share the fun and sweeten the moment with a thoughtful and unforgettable gift!",
+            "image": "shopify:\/\/shop_images\/Ekrano_kopija_2024-06-07_161338.png",
+            "icon": ""
+          }
+        },
+        "feature_DGK7pr": {
+          "type": "feature",
+          "settings": {
+            "heading": "Solo Adventure 🍫",
+            "text": "Treat yourself to unique and exciting snacks that let you explore new flavors. Enjoy some well-deserved me-time with a diverse selection of treats designed to make your solo moments special and satisfying. Dive into personal indulgence and savor each surprise just for you. Unwind and relax with snacks that bring stress-free enjoyment. Give yourself the gift of exclusivity with treats chosen to delight you on your solo adventures.",
+            "image": "shopify:\/\/shop_images\/5_c129b7ee-fb58-4530-b1a7-020880b69fa9.jpg",
+            "icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "feature_BjKRNF",
+        "feature_jK4J4M",
+        "feature_4BcmXY",
+        "feature_DGK7pr"
+      ],
+      "custom_css": [
+        ".Index_personalization_outer {margin-top: 0; background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0839\/5941\/5099\/files\/Group_324367_1.jpg?v=1701857172\"); padding-top: 64px; padding-bottom: 64px; background-color: #fef0c7; background-position: 0 100%; background-size: 100%; background-repeat: no-repeat; max-width: 100% !important;}"
+      ],
+      "settings": {
+        "small_text": "",
+        "heading": "WHAT IS THIS BOX FOR?",
+        "text": "",
+        "title": ""
+      }
+    },
+    "d_collection_list_h8T9X3": {
+      "type": "d_collection-list",
+      "blocks": {
+        "collection_kHTtii": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "custom_title": ""
+          }
+        },
+        "collection_HbetVz": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "custom_title": ""
+          }
+        },
+        "collection_HjPfjG": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "custom_title": ""
+          }
+        },
+        "collection_TnRBVU": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "custom_title": ""
+          }
+        },
+        "collection_9mGa9b": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "custom_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_kHTtii",
+        "collection_HbetVz",
+        "collection_HjPfjG",
+        "collection_TnRBVU",
+        "collection_9mGa9b"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_card_title": true,
+        "heading": "What you can expect in your box",
+        "subheading": "",
+        "columns": 5,
+        "image_size": "square",
+        "text_position": "inner-bottom-center",
+        "show_frame": false,
+        "section_button_label": ""
+      }
+    },
+    "d_rich_text_87VAdb": {
+      "type": "d_rich-text",
+      "blocks": {
+        "heading_99kMNN": {
+          "type": "heading",
+          "settings": {
+            "heading": "And.... many more.",
+            "heading_accent_enable": true,
+            "heading_accent_use_cutom_color": false,
+            "heading_accent_color": "#e22d00"
+          }
+        },
+        "text_3Anzky": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers.<br>Describe a product, share announcements or welcome customers to your store.<\/p>"
+          }
+        },
+        "buttons_zgW7db": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "mobile_hidden": false,
+            "f_button_label": "Shop now",
+            "f_button_link": "",
+            "f_button_style": "normal",
+            "f_button_custom_colors": false,
+            "f_button_bg_color": "",
+            "f_button_text_color": "#ffffff",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_style": "normal",
+            "s_button_custom_colors": false,
+            "s_button_bg_color": "",
+            "s_button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "heading_99kMNN",
+        "text_3Anzky",
+        "buttons_zgW7db"
+      ],
+      "settings": {
+        "section_layout": "default",
+        "text_align": "center",
+        "size": "md",
+        "use_custom_color": false,
+        "text_color": "#FFFFFF",
+        "bg_color": "#383838"
+      }
+    },
+    "index_reviews_carousel_4k9EyG": {
+      "type": "Index_reviews_carousel",
+      "blocks": {
+        "slide_JHCNHN": {
+          "type": "Slide",
+          "settings": {
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ef8b66c50d744f679d4a96fd15e74ba1.mp4",
+            "headline": "“Tasting the Japanese KitKat Matcha was like a quick trip back to Japan. The variety in this box is incredible – each candy is a new discovery. For anyone thinking about trying Holly Lollies, I say go for it. Holly Lollies, you've got yourself a fan – this is easily a 10\/10 from me!\"",
+            "name": "— Aurelija",
+            "info": "Proud Client from Lithuania 🇱🇹"
+          }
+        },
+        "slide_yJbAQg": {
+          "type": "Slide",
+          "settings": {
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d76a50ac6ede448eb71dcbc197f38c1f.mp4",
+            "headline": "\"An incredible journey through Asia in every bite! The Asian Mystery Box introduced me to so many unique flavors. The Pocky and Hi-Chew were my favorites. It's like a culinary adventure delivered to my door. 10\/10 would recommend!\"",
+            "name": "— Gintė",
+            "info": "Happy Client from Lithuania 🇱🇹"
+          }
+        },
+        "slide_8nFJ9U": {
+          "type": "Slide",
+          "settings": {
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/135e1ed2325b4df98856388a939aa205.mp4",
+            "headline": "\"The Asian Mystery Box is a fantastic treat! I enjoyed the mix of sweet and savory snacks, especially the Koikeya chips and Meiji chocolates. It's a great way to discover the flavors of Asia without leaving home. Holly Lollies, you’ve outdone yourselves!\"",
+            "name": "— Monika",
+            "info": "Happy Client from Lithuania 🇱🇹"
+          }
+        },
+        "slide_RgpeTE": {
+          "type": "Slide",
+          "settings": {
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c0e35a5d648f43d98677ef62c47de276.mp4",
+            "headline": "\"A wonderful selection of Asian goodies! The variety in the Asian Mystery Box is impressive. From chewy Hi-Chew to refreshing Ramune, every snack was delightful. This box is perfect for adventurous eaters looking to explore new flavors. Two thumbs up!\"",
+            "name": "— Karolina",
+            "info": "Proud Client from Lithuania 🇱🇹"
+          }
+        }
+      },
+      "block_order": [
+        "slide_JHCNHN",
+        "slide_yJbAQg",
+        "slide_8nFJ9U",
+        "slide_RgpeTE"
+      ],
+      "settings": {
+        "title": "Sweet Words from Our Customers",
+        "reviews_img": "shopify:\/\/shop_images\/Screenshot_2023-12-13_at_14.17.29.png"
+      }
+    },
+    "d_faq_rcftkD": {
+      "type": "d_faq",
+      "blocks": {
+        "question_qtQAkX": {
+          "type": "question",
+          "settings": {
+            "heading": "What can I expect in every of the boxes that you offer?",
+            "icon": "",
+            "text": "<p>n each Holly Lollies mystery box, you’ll find a delightful assortment of snacks and treats tailored to your unique tastes and cravings:<\/p><p><strong>Trendy Mystery Box<\/strong> 🎉<br\/>Stay ahead of the snacking curve with the Trendy Mystery Box! Packed with the latest and most popular snacks, this box is bursting with sweet and savory treats that everyone’s talking about. Perfect for trendsetters who love discovering the hottest new snacks. 🍫🥨<\/p><p><strong>Asian Mystery Box<\/strong> 🍜<br\/>Embark on a culinary adventure with the Asian Mystery Box! This box brings you a vibrant mix of unique and exotic snacks from Japan, Korea, China, and more. Enjoy favorites like Pocky, Matcha KitKats, Ramune soda, and other delightful surprises that transport your taste buds to Asia. 🍣🍵<\/p><p><strong>Discount Mystery Box<\/strong> 💸<br\/>Unwrap incredible value with the Discount Mystery Box! Filled with delicious snacks that are close to their best-by date, these treats are still fresh and flavorful. It’s a fantastic way to enjoy a variety of snacks at a lower price, perfect for the budget-conscious snacker. 🛍️🍪<\/p><p>Each Holly Lollies box is lovingly curated to ensure a fun and satisfying snacking experience, focusing on variety and quality. No matter which box you choose, you’re in for a treat! Get ready to delight your taste buds with Holly Lollies! 🎁✨<\/p>"
+          }
+        },
+        "question_C7XGBb": {
+          "type": "question",
+          "settings": {
+            "heading": "Do you ship internationally?",
+            "icon": "",
+            "text": "<p>We currently ship to EU countries only, get ready for a flavor-filled journey because our candies are set to make your taste buds dance! 🍬🇪🇺<\/p>"
+          }
+        },
+        "question_kTCGUE": {
+          "type": "question",
+          "settings": {
+            "heading": "Frequently asked question",
+            "icon": "",
+            "text": "<p>As soon as your Holly Lollies order sets off from our candy haven,<strong>we'll pop an email your way.<\/strong>This isn't just any email – it's your golden ticket to track your treasure trove of treats! 💌 You'll find a tracking number inside, your key to unlock live updates on your candy's journey, all the way to your doorstep. And hey, if you need a hand or have a question, we're just a message away. Let's make this a smooth, sweet ride together! 🍬💫<\/p>"
+          }
+        },
+        "question_7KednD": {
+          "type": "question",
+          "settings": {
+            "heading": "There's a problem with my order, what do I do?",
+            "icon": "",
+            "text": "<p>Oh no, a bump in the candy road! 🙁 We're so sorry to hear that there's an issue with your order. But don't worry, our Holly Lollies team is here to turn that frown upside down! 🌟<\/p><p><strong>Please drop us a line at <\/strong><a href=\"mailto:info@hollylollies.com\" title=\"mailto:info@hollylollies.com\"><strong>info@hollylollies.com<\/strong><\/a><strong> <\/strong>with all the sweet details – like your order number, what's up with the order, and any photos if you've got 'em. We're on the case to make things right and ensure your candy journey is nothing but delightful! 🍭💌<\/p>"
+          }
+        },
+        "question_GpNVB7": {
+          "type": "question",
+          "settings": {
+            "heading": "How long will it take to receive my order?",
+            "icon": "",
+            "text": "<p>With our standard shipping, your delightful Holly Lollies treats will typically arrive in<strong>2-5 working days.<\/strong>🕒🍬 And guess what? We're stirring up something even sweeter – working hard to bring you next-day delivery soon! So, keep an eye out and get ready for a lightning-fast candy drop right at your doorstep!<\/p>"
+          }
+        },
+        "question_D9Nmq3": {
+          "type": "question",
+          "settings": {
+            "heading": "Can I return my order?",
+            "icon": "",
+            "text": "<p>At Holly Lollies, we pour our heart into every package. If your candies aren't just right or there's a mix-up, don't fret! We do accept returns. Simply send your box back to us, and we’ll refund your money with no questions asked. Just shoot us an email at<a>info@hollylollies.com<\/a>. We're all ears and ready to chat about any concerns or mishaps to ensure your Holly Lollies experience stays as delightful as our treats!<\/p>"
+          }
+        },
+        "question_TgpjbQ": {
+          "type": "question",
+          "settings": {
+            "heading": "What payment options do you offer?",
+            "icon": "",
+            "text": "<p>At Holly Lollies, we make checking out as easy as picking your favorite candy. Choose from a variety of payment options at checkout:<strong>Debit\/Credit Card, PayPal, Apple Pay, or Google Pay.<\/strong>🛍️💳 And don't you worry – all your payment details are wrapped up safe and secure, just like our candies. So, go ahead and shop with complete peace of mind!<\/p>"
+          }
+        },
+        "question_6khiBN": {
+          "type": "question",
+          "settings": {
+            "heading": "Why does the date on my Asian product seem like it's expired?",
+            "icon": "",
+            "text": "<p>At Holly Lollies, we understand the excitement of trying our carefully selected Asian treats, and we want to assure you that freshness is our top priority. It's quite common in Asia to mark products with the manufacturing date rather than the expiry date, which may seem unusual but is a standard practice. This date signifies when your delightful Holly Lollies snack was made, ensuring you're enjoying authentic and fresh flavors.<\/p>"
+          }
+        },
+        "question_TY8dVt": {
+          "type": "question",
+          "settings": {
+            "heading": "Got a Question or Just Want to Chat?",
+            "icon": "",
+            "text": "<p>We're all ears at Holly Lollies! If you've got any questions, concerns, or just some sweet feedback, we're here for you.<strong>Feel free to drop us an email at<\/strong><a href=\"mailto:info@hollylollies.com\"><strong>info@hollylollies.com<\/strong><\/a><strong>.<\/strong>Our team is on standby from 9am to 5pm (GMT+2), Monday through Friday, and we aim to get back to you within 24 hours. Let's talk candy!<\/p>"
+          }
+        },
+        "question_ypU7iD": {
+          "type": "question",
+          "settings": {
+            "heading": "🌟 Social Media Star?",
+            "icon": "",
+            "text": "<p>Join the Holly Lollies Family - Influencers & Creators Welcome! 🎉📸 Whether you're a budding micro-influencer or a seasoned content creator, we're excited to team up with you! At Holly Lollies, we believe in the power of collaboration, no matter the size of your audience. Reach out to us at<a href=\"mailto:info@hollylollies.com\">info@hollylollies.com<\/a>and let's chat about spreading the sweet joy of our candy boxes. Don't hesitate – we're eager to work with creators of all kinds and spread the Holly Lollies happiness as far as we can. Your voice matters, and together, we can make the world a little sweeter, one box at a time!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_qtQAkX",
+        "question_C7XGBb",
+        "question_kTCGUE",
+        "question_7KednD",
+        "question_GpNVB7",
+        "question_D9Nmq3",
+        "question_TgpjbQ",
+        "question_6khiBN",
+        "question_TY8dVt",
+        "question_ypU7iD"
+      ],
+      "settings": {
+        "heading": "FAQ",
+        "subheading": "",
+        "section_layout": "narrow"
+      }
+    },
+    "939fe1cf-87b0-4404-b1ef-5be59fbcf5d4": {
+      "type": "Customer_says_reviews",
+      "blocks": {
+        "3e43814c-aff7-46e4-8bcd-8eefc907db47": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/2_07967477-4bff-47c9-a6be-71d016e041be.png",
+            "name": "Jonas R.",
+            "info": "Happy customer from 🇱🇹",
+            "content": "<p>I’ve had tried Trendy and Asian mystery boxes so far and both have been amazing! The selection of candies truly amazed me. I have already recommended hollylollies to others, and plan to re-up mine again soon!<\/p>"
+          }
+        },
+        "f50736a8-0ae1-41fc-9ed9-b29e478584a5": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/3_2db29d62-7616-43e1-bd1d-a4d7beb3a9a5.png",
+            "name": "Jolanda Gaile",
+            "info": "Proud customer from 🇱🇻",
+            "content": "<p>Nostalgia. Plain and simple. I had been stationed in Japan for four years and had a great time trying new food and snacks when I was there. Wanting to share that with my kids now, we got this and now I’m sharing memories with them and explaining where I had certain ones before. Love it!<\/p>"
+          }
+        },
+        "6a35730d-2035-45bd-bccd-c488666cbc06": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/5_7219f865-d6db-4f99-96b8-5bb5d377994b.png",
+            "name": "Mateusz Wróbel",
+            "info": "Happy customer from 🇵🇱",
+            "content": "<p>My partner was so happy! I got this as an important gift because I know she likes Japanese themed things and longs to visit Japan and it did not disappoint. Everything arrived perfectly and it was received faster than I thought it would. Highly recommend!<\/p>"
+          }
+        },
+        "1d026fc1-9182-4a4d-a23e-f00c81313ee5": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/2_b99b379b-0535-4eec-b291-47fca148424c.png",
+            "name": "Livita Runce",
+            "info": "Proud customer from 🇱🇻",
+            "content": "<p>For the price it's an exceptional value and I like that it has a balanced selection of sweet and savory snacks and that they are full sized. I also noticed that all the snacks in this box were fresh. No stale crackers or chips like I've experienced in other similar boxes. Very pleased with this purchase and would highly recommend to friends, family, and as a gift.<\/p>"
+          }
+        },
+        "6ec83660-8eae-4718-a2d9-460ca0f35c91": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/6_1fa22cf3-bf3a-4875-b674-11c24450180e.png",
+            "name": "Anne Kivi",
+            "info": "Proud customer from 🇪🇪",
+            "content": "<p>I was very pleasantly surprised with how much was in the box, and how tasty everything has been! So far I have tried a half dozen or so items. These are all things I would buy again if I saw them!<\/p>"
+          }
+        },
+        "85f99483-9520-4b2d-ba93-f2f09355f6d7": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/4_eabeeca5-ab45-41ea-8c38-9366a6ab9322.png",
+            "name": "Gytis Abelkis",
+            "info": "Happy Customer from 🇱🇹",
+            "content": "<p>Loved every single piece from the box, cant wait to get the next one. All snacks were in perfect conditions and delicious.<\/p>"
+          }
+        },
+        "60d8d18e-74e9-4c51-b13f-345b620b4aa8": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/Ellipse_7.png",
+            "name": "Leonīds Viļums",
+            "info": "Proud customer from 🇱🇻",
+            "content": "<p>Amazing lots of food to try definitely worth the price compared to other boxes.<\/p>"
+          }
+        },
+        "284d89ef-da6e-436b-81aa-5dc026b5cf3d": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/5_9e31cf33-3b62-4dc5-8f18-a31525cabf4e.png",
+            "name": "Veronika Vaitytė",
+            "info": "Happy Customer from 🇱🇹",
+            "content": "<p>I recently ordered Holly Lollies' Mystery Box, not quite sure what to expect. To my delight, it turned out to be an amazing experience for the whole family! 🤩<br\/><br\/>The best part was sharing the excitement with my family. We all gathered around to taste international sweets from places we've never been. The variety was incredible, and it made for a fun and memorable tasting adventure. 🤩<br\/><br\/>If you're up for a taste adventure, I highly recommend giving Holly Lollies a try. You won't be disappointed!<\/p>"
+          }
+        },
+        "253488bc-81ef-488a-ab1a-0d3bdc35f9c7": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/4_fd994df5-84e5-40bd-bace-b82be928e32e.png",
+            "name": "Julian Wieczorek",
+            "info": "Proud customer from 🇵🇱",
+            "content": "<p>All of the snacks were really good I definitely recommend Holly Lollies and I will most certainly get another box.<\/p>"
+          }
+        },
+        "d3f034f8-f8bb-41e1-8310-a94812245c4a": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/3_2d6e6a51-f9d2-428b-8dd9-a6a9c1058b29.png",
+            "name": "Ugnius L.",
+            "info": "Happy customer from 🇱🇹",
+            "content": "<p>Amazing service much better than a large competitor who can’t actually deliver. Holly Lollies box arrived with in 3 business days . The treats were tasty and well explained. Highly recommend.<\/p>"
+          }
+        },
+        "dfab66f7-6717-4e7f-b625-b15e905cf1bb": {
+          "type": "Review",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/1_302b8794-6d78-48d6-86e3-72d7d945d30a.png",
+            "name": "Jonas",
+            "info": "Happy customer from Asia",
+            "content": "<p>Great experience!! Wide variety of snacks ranging from sweet to savory. Well thought out and everything was super tasty!<\/p>"
+          }
+        },
+        "c822337a-0105-48de-8cdb-1e217ac5aca7": {
+          "type": "Review",
+          "disabled": true,
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/1.png",
+            "name": "Jeannette Ellis",
+            "info": "Proud customer from 🇬🇧",
+            "content": "<p>So short story I love the box.<br\/><br\/>Yes, it is a bit expensive, but only because my stupid country thinks that you need to pay extra tax. But not only that my stupid country think it need to hold my box for 10 days before releasing it.<br\/><br\/>But I have already tried a lot of the snacks, and they were great... most of them. My only problem is how do i buy the stuff i really loved again!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "3e43814c-aff7-46e4-8bcd-8eefc907db47",
+        "f50736a8-0ae1-41fc-9ed9-b29e478584a5",
+        "6a35730d-2035-45bd-bccd-c488666cbc06",
+        "1d026fc1-9182-4a4d-a23e-f00c81313ee5",
+        "6ec83660-8eae-4718-a2d9-460ca0f35c91",
+        "85f99483-9520-4b2d-ba93-f2f09355f6d7",
+        "60d8d18e-74e9-4c51-b13f-345b620b4aa8",
+        "284d89ef-da6e-436b-81aa-5dc026b5cf3d",
+        "253488bc-81ef-488a-ab1a-0d3bdc35f9c7",
+        "d3f034f8-f8bb-41e1-8310-a94812245c4a",
+        "dfab66f7-6717-4e7f-b625-b15e905cf1bb",
+        "c822337a-0105-48de-8cdb-1e217ac5aca7"
+      ],
+      "settings": {
+        "title": "This is what our community says",
+        "reviews_img": "shopify:\/\/shop_images\/Screenshot_2023-12-13_at_14.17.29.png",
+        "btn_title": "Read more",
+        "btn_link": "shopify:\/\/pages\/reviews"
+      }
     }
   },
   "order": [
@@ -554,11 +988,18 @@
     "main",
     "995d3492-134d-4afd-af8d-95b391f70218",
     "5f8de7e3-b9e9-48eb-a2e8-1b5276e250aa",
-    "939fe1cf-87b0-4404-b1ef-5be59fbcf5d4",
     "16554757745dec0af9",
     "1697692424f53300c2",
     "a2254d99-9030-4262-b1a1-76541f8923f4",
     "c03a4576-b76e-4a7e-b6ed-89e6421aa132",
-    "b19fef61-0500-442f-a328-83589190b1fa"
+    "b19fef61-0500-442f-a328-83589190b1fa",
+    "d_image_with_text_LkFB6U",
+    "d_image_with_text_pFEjyK",
+    "index_multi_features_mod_V8JJW8",
+    "d_collection_list_h8T9X3",
+    "d_rich_text_87VAdb",
+    "index_reviews_carousel_4k9EyG",
+    "d_faq_rcftkD",
+    "939fe1cf-87b0-4404-b1ef-5be59fbcf5d4"
   ]
 }
