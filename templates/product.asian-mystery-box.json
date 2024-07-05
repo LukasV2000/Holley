@@ -591,11 +591,18 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/Hollylollies_product_images_d4093de3-a8a9-4691-899d-b2ff80da5a03.png",
-            "custom_title": ""
+            "image": "shopify:\/\/shop_images\/Hollylollies_product_images.png",
+            "custom_title": "FANTA"
           }
         },
         "collection_HbetVz": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "custom_title": "HATA"
+          }
+        },
+        "collection_WhNLkH": {
           "type": "collection",
           "settings": {
             "collection": "",
@@ -627,6 +634,7 @@
       "block_order": [
         "collection_kHTtii",
         "collection_HbetVz",
+        "collection_WhNLkH",
         "collection_HjPfjG",
         "collection_TnRBVU",
         "collection_9mGa9b"
@@ -638,7 +646,7 @@
         "subheading": "",
         "columns": 5,
         "image_size": "square",
-        "text_position": "inner-bottom-center",
+        "text_position": "center",
         "show_frame": false,
         "section_button_label": ""
       }
