@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "enable_free_shipping_progress_bar": true,
@@ -18,11 +27,11 @@
     "type_header_font": "neuzeit_office_soft_rounded_n7",
     "use_buttons_heading_font": true,
     "type_body_font": "helvetica_n4",
-    "container_width": 1240,
+    "container_width": 1800,
     "section_text_align": "center",
-    "section_text_size": "md",
+    "section_text_size": "lg",
     "section_subheading_position": "after",
-    "section_heading_accent": true,
+    "section_heading_accent": false,
     "section_button_style": "normal",
     "section_button_position": "after",
     "page_header_text_size": "md",
