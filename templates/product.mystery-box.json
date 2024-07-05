@@ -524,35 +524,80 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "custom_title": ""
+            "image": "shopify:\/\/shop_images\/Hollylollies_product_images_d4093de3-a8a9-4691-899d-b2ff80da5a03.png",
+            "custom_title": "KARL GUMMIES"
           }
         },
         "collection_g4778Q": {
           "type": "collection",
           "settings": {
             "collection": "",
-            "custom_title": ""
+            "image": "shopify:\/\/shop_images\/takis-blue-heat.jpg",
+            "custom_title": "TAKIS"
           }
         },
         "collection_DPjWHk": {
           "type": "collection",
           "settings": {
             "collection": "",
-            "custom_title": ""
+            "image": "shopify:\/\/shop_images\/74.png",
+            "custom_title": "HATA"
           }
         },
         "collection_4bGcaV": {
           "type": "collection",
           "settings": {
             "collection": "",
-            "custom_title": ""
+            "image": "shopify:\/\/shop_images\/107.png",
+            "custom_title": "CHEETOS"
           }
         },
         "collection_EJnBcN": {
           "type": "collection",
           "settings": {
             "collection": "",
-            "custom_title": ""
+            "image": "shopify:\/\/shop_images\/163.png",
+            "custom_title": "SAMYANG"
+          }
+        },
+        "collection_fzg4XJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/152.png",
+            "custom_title": "POCKY"
+          }
+        },
+        "collection_9b97RM": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/37.png",
+            "custom_title": "NERDS"
+          }
+        },
+        "collection_Y7VnhU": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/130.png",
+            "custom_title": "KIT KAT"
+          }
+        },
+        "collection_QUyeRC": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Untitleddesign_50.png",
+            "custom_title": "KINDER"
+          }
+        },
+        "collection_kbbqMC": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/122.png",
+            "custom_title": "REESE"
           }
         }
       },
@@ -561,16 +606,20 @@
         "collection_g4778Q",
         "collection_DPjWHk",
         "collection_4bGcaV",
-        "collection_EJnBcN"
+        "collection_EJnBcN",
+        "collection_fzg4XJ",
+        "collection_9b97RM",
+        "collection_Y7VnhU",
+        "collection_QUyeRC",
+        "collection_kbbqMC"
       ],
-      "disabled": true,
       "settings": {
         "show_card_title": true,
         "heading": "What you can expect in box",
         "subheading": "",
         "columns": 5,
         "image_size": "square",
-        "text_position": "inner-bottom-center",
+        "text_position": "center",
         "show_frame": false,
         "section_button_label": ""
       }
@@ -619,13 +668,12 @@
         "text_d7VHeL",
         "buttons_T6MPjB"
       ],
-      "disabled": true,
       "settings": {
         "section_layout": "default",
         "text_align": "center",
         "size": "md",
         "use_custom_color": false,
-        "text_color": "#FFFFFF",
+        "text_color": "#ffffff",
         "bg_color": "#383838"
       }
     },
