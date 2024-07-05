@@ -599,6 +599,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify:\/\/shop_images\/74.png",
             "custom_title": "HATA"
           }
         },
@@ -606,28 +607,64 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "custom_title": ""
+            "image": "shopify:\/\/shop_images\/107.png",
+            "custom_title": "CHEETOS"
           }
         },
         "collection_HjPfjG": {
           "type": "collection",
           "settings": {
             "collection": "",
-            "custom_title": ""
+            "image": "shopify:\/\/shop_images\/163.png",
+            "custom_title": "SAMYANG"
+          }
+        },
+        "collection_RcTYJ9": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/152.png",
+            "custom_title": "POCKY"
           }
         },
         "collection_TnRBVU": {
           "type": "collection",
           "settings": {
             "collection": "",
-            "custom_title": ""
+            "image": "shopify:\/\/shop_images\/Hollylollies_product_images_2.png",
+            "custom_title": "GLICO"
           }
         },
         "collection_9mGa9b": {
           "type": "collection",
           "settings": {
             "collection": "",
-            "custom_title": ""
+            "image": "shopify:\/\/shop_images\/130.png",
+            "custom_title": "KIT KAT"
+          }
+        },
+        "collection_KDqLJK": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Hollylollies_product_images_1_9d26ceb5-a492-4777-a4cb-dbe60e7b8271.png",
+            "custom_title": "RAMEN"
+          }
+        },
+        "collection_R4tMC6": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Ekrano_kopija_2024-06-10_224318.png",
+            "custom_title": "MORINAGA"
+          }
+        },
+        "collection_X8x8R4": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Ekrano_kopija_2024-06-10_224403.png",
+            "custom_title": "NATA DE COCO"
           }
         }
       },
@@ -636,12 +673,15 @@
         "collection_HbetVz",
         "collection_WhNLkH",
         "collection_HjPfjG",
+        "collection_RcTYJ9",
         "collection_TnRBVU",
-        "collection_9mGa9b"
+        "collection_9mGa9b",
+        "collection_KDqLJK",
+        "collection_R4tMC6",
+        "collection_X8x8R4"
       ],
-      "disabled": true,
       "settings": {
-        "show_card_title": false,
+        "show_card_title": true,
         "heading": "What you can expect in your box",
         "subheading": "",
         "columns": 5,
