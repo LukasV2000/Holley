@@ -682,7 +682,7 @@
       ],
       "settings": {
         "show_card_title": true,
-        "heading": "What you can expect in your box",
+        "heading": "What you can expect in the box",
         "subheading": "",
         "columns": 5,
         "image_size": "square",
@@ -740,7 +740,7 @@
         "text_align": "center",
         "size": "md",
         "use_custom_color": false,
-        "text_color": "#FFFFFF",
+        "text_color": "#ffffff",
         "bg_color": "#383838"
       }
     },
