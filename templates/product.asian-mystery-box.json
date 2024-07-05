@@ -591,6 +591,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify:\/\/shop_images\/Hollylollies_product_images_d4093de3-a8a9-4691-899d-b2ff80da5a03.png",
             "custom_title": ""
           }
         },
@@ -632,7 +633,7 @@
       ],
       "disabled": true,
       "settings": {
-        "show_card_title": true,
+        "show_card_title": false,
         "heading": "What you can expect in your box",
         "subheading": "",
         "columns": 5,
