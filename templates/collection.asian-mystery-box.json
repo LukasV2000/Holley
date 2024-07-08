@@ -9,6 +9,80 @@
 */
 {
   "sections": {
+    "d8c8378b-888e-4908-8f87-fcc578b5dd78": {
+      "type": "d_featured-product",
+      "blocks": {
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-title-1": {
+          "type": "title",
+          "settings": {
+            "size": "h1",
+            "max_lines": 3,
+            "prev_attach": false
+          }
+        },
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-price-1": {
+          "type": "price",
+          "settings": {
+            "show_savings": true,
+            "show_taxes": true,
+            "prev_attach": false
+          }
+        },
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-variant_selector-1": {
+          "type": "variant_selector",
+          "settings": {
+            "picker_type": "dropdown",
+            "color_swatches": false,
+            "align_option_values": true,
+            "prev_attach": false
+          }
+        },
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-buy_with-1": {
+          "type": "buy_with",
+          "settings": {
+            "meta_heading": "Frequently Bought Together",
+            "use_counter": true,
+            "prev_attach": false
+          }
+        },
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "enable_stock_notifier": true,
+            "prev_attach": false
+          }
+        },
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-payment_methods-1": {
+          "type": "payment_methods",
+          "settings": {
+            "meta_heading": "We Accept",
+            "center": false,
+            "prev_attach": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-title-1",
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-price-1",
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-variant_selector-1",
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-buy_with-1",
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-buy_buttons-1",
+        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-payment_methods-1"
+      ],
+      "settings": {
+        "headline_main": "ASIAN MYSTERY BOX",
+        "description": "Packed with trending candies and snacks from Japan, Korea, China, and beyond, every box is a unique adventure in taste. Enjoy a diverse mix of sweet and savory treats handpicked by our candy experts. It's the perfect way to explore Asian flavors or give a delightful surprise gift. Get ready for an exotic treat in every box! 🌏🍬🎁",
+        "heading": "",
+        "subheading": "",
+        "product": "asian-mystery-box",
+        "gallery_width": 55,
+        "slideshow_zoom": false,
+        "thumbnails_layout": "slideshow",
+        "learn_more_title": "LEARN MORE",
+        "learn_more_url": "shopify:\/\/products\/asian-mystery-box"
+      }
+    },
     "header": {
       "type": "s_collection-header",
       "disabled": true,
@@ -706,80 +780,6 @@
         "bg_color": "#383838"
       }
     },
-    "d8c8378b-888e-4908-8f87-fcc578b5dd78": {
-      "type": "d_featured-product",
-      "blocks": {
-        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-title-1": {
-          "type": "title",
-          "settings": {
-            "size": "h1",
-            "max_lines": 3,
-            "prev_attach": false
-          }
-        },
-        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-price-1": {
-          "type": "price",
-          "settings": {
-            "show_savings": true,
-            "show_taxes": true,
-            "prev_attach": false
-          }
-        },
-        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-variant_selector-1": {
-          "type": "variant_selector",
-          "settings": {
-            "picker_type": "dropdown",
-            "color_swatches": false,
-            "align_option_values": true,
-            "prev_attach": false
-          }
-        },
-        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-buy_with-1": {
-          "type": "buy_with",
-          "settings": {
-            "meta_heading": "Frequently Bought Together",
-            "use_counter": true,
-            "prev_attach": false
-          }
-        },
-        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-buy_buttons-1": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "enable_stock_notifier": true,
-            "prev_attach": false
-          }
-        },
-        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-payment_methods-1": {
-          "type": "payment_methods",
-          "settings": {
-            "meta_heading": "We Accept",
-            "center": false,
-            "prev_attach": false
-          }
-        }
-      },
-      "block_order": [
-        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-title-1",
-        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-price-1",
-        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-variant_selector-1",
-        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-buy_with-1",
-        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-buy_buttons-1",
-        "template--21801079308603__d8c8378b-888e-4908-8f87-fcc578b5dd78-payment_methods-1"
-      ],
-      "settings": {
-        "headline_main": "READY ?? 🤔👇",
-        "description": "Packed with trending candies and snacks from Japan, Korea, China, and beyond, every box is a unique adventure in taste. Enjoy a diverse mix of sweet and savory treats handpicked by our candy experts. It's the perfect way to explore Asian flavors or give a delightful surprise gift. Get ready for an exotic treat in every box! 🌏🍬🎁",
-        "heading": "",
-        "subheading": "",
-        "product": "asian-mystery-box",
-        "gallery_width": 55,
-        "slideshow_zoom": false,
-        "thumbnails_layout": "slideshow",
-        "learn_more_title": "LEARN MORE",
-        "learn_more_url": "shopify:\/\/products\/asian-mystery-box"
-      }
-    },
     "556f5c1d-5c6f-4265-998d-4c99b08cb073": {
       "type": "Index_reviews_carousel",
       "blocks": {
@@ -1015,6 +1015,7 @@
     }
   },
   "order": [
+    "d8c8378b-888e-4908-8f87-fcc578b5dd78",
     "header",
     "72ba95f8-67e7-495d-b7d6-5a27ba1abbb9",
     "5421c922-eef9-488d-9d14-a3de82698eaf",
@@ -1027,7 +1028,6 @@
     "bca5d02a-9d59-405f-adee-d7fd79070582",
     "d8c17a1a-74c4-4cef-b392-8de4254611f5",
     "17d5f566-a4e8-43ac-9cb5-500183341ea0",
-    "d8c8378b-888e-4908-8f87-fcc578b5dd78",
     "556f5c1d-5c6f-4265-998d-4c99b08cb073",
     "index_multi_features_FGBNbJ",
     "5ccbf5a5-e1ed-4fbe-8d40-a887b4e72b7d",
