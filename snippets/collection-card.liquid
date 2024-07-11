@@ -47,7 +47,11 @@
 
 <div class="{{ cn }} {{ cn_shadow }} {% if show_frame %}@frame{% endif %} {% if inner_caption %}@inner-caption{% endif %} {% if size == 'circle' %}@rounded{% endif %}">
     {% if collection.url != blank %}
+      {% if block.settings.collection_url != blank %}
+        <a class="stretched-link" href="{{ block.settings.collection_url }}">{{ collection.title }}</a>
+      {% else %}
         <a class="stretched-link" href="{{ collection.url }}">{{ collection.title }}</a>
+      {% endif %}
     {% endif %}
     <div class="{{ cn }}-image {{ cn_media_shadow }}">
         {% render 'media',
