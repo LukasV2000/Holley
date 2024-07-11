@@ -361,6 +361,7 @@
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-1": {
           "type": "collection",
           "settings": {
+            "collection_url": "\/products\/mystery-box",
             "collection": "trendy-mystery-box",
             "image": "shopify:\/\/shop_images\/1_6c5f417d-1268-401b-b655-845b3bec5972.png",
             "custom_title": "TRENDING Mystery Box 💯"
@@ -369,6 +370,7 @@
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-2": {
           "type": "collection",
           "settings": {
+            "collection_url": "\/products\/asian-mystery-box",
             "collection": "asian-mystery-box",
             "image": "shopify:\/\/shop_images\/2_a08bc46f-72f5-4944-99d0-1e8038ca8dfc.png",
             "custom_title": "ASIAN Mystery Box 🏯"
@@ -377,6 +379,7 @@
         "template--21462135734587__83fb7f52-700d-4bb5-afa0-640e2a53a7cf-collection-3": {
           "type": "collection",
           "settings": {
+            "collection_url": "\/products\/discounted-mystery-box",
             "collection": "discounted-mystery-box",
             "image": "shopify:\/\/shop_images\/Background_should_consist_of_trendy_candy_ideas_around_the_world_from_USA_from_Asia_from_Europe_it_should_look_like_a_mix_of_cultures_and_biggest_trends_in_the_candy_world._Focus_more.png",
             "custom_title": "DISCOUNT Mystery Box 🤑"
@@ -386,6 +389,7 @@
           "type": "collection",
           "disabled": true,
           "settings": {
+            "collection_url": "",
             "collection": "soft-drinks",
             "image": "shopify:\/\/shop_images\/01_Image_10.png",
             "custom_title": "SOFT DRINKS"
@@ -395,6 +399,7 @@
           "type": "collection",
           "disabled": true,
           "settings": {
+            "collection_url": "",
             "collection": "candies-popcorn",
             "image": "shopify:\/\/shop_images\/01_Image_11.png",
             "custom_title": "CANDIES & POPCORN"
@@ -404,6 +409,7 @@
           "type": "collection",
           "disabled": true,
           "settings": {
+            "collection_url": "",
             "collection": "tiktok-hits",
             "image": "shopify:\/\/shop_images\/01_Image_7.png",
             "custom_title": "TIKTOK HITS"
@@ -964,6 +970,7 @@
         "template--21462135734587__0fbe5f9f-e27e-41f9-80e1-a70f2419a01d-collection-1": {
           "type": "collection",
           "settings": {
+            "collection_url": "",
             "collection": "",
             "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_18.42.29.png",
             "custom_title": ""
@@ -972,6 +979,7 @@
         "template--21462135734587__0fbe5f9f-e27e-41f9-80e1-a70f2419a01d-collection-2": {
           "type": "collection",
           "settings": {
+            "collection_url": "",
             "collection": "",
             "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_18.42.17.png",
             "custom_title": ""
@@ -980,6 +988,7 @@
         "template--21462135734587__0fbe5f9f-e27e-41f9-80e1-a70f2419a01d-collection-3": {
           "type": "collection",
           "settings": {
+            "collection_url": "",
             "collection": "",
             "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_18.42.06.png",
             "custom_title": ""
@@ -988,6 +997,7 @@
         "template--21462135734587__0fbe5f9f-e27e-41f9-80e1-a70f2419a01d-collection-4": {
           "type": "collection",
           "settings": {
+            "collection_url": "",
             "collection": "",
             "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_18.42.02.png",
             "custom_title": ""
@@ -996,6 +1006,7 @@
         "template--21462135734587__0fbe5f9f-e27e-41f9-80e1-a70f2419a01d-collection-5": {
           "type": "collection",
           "settings": {
+            "collection_url": "",
             "collection": "",
             "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_18.42.24.png",
             "custom_title": ""
@@ -1004,6 +1015,7 @@
         "bce1b18f-39db-455d-8c81-0a00e14b9252": {
           "type": "collection",
           "settings": {
+            "collection_url": "",
             "collection": "",
             "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_18.42.14.png",
             "custom_title": ""
@@ -1012,6 +1024,7 @@
         "4b5f8766-4188-41c8-a0d1-31d679121b81": {
           "type": "collection",
           "settings": {
+            "collection_url": "",
             "collection": "",
             "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_18.42.10.png",
             "custom_title": ""
@@ -1020,6 +1033,7 @@
         "061937bc-7415-4c01-bbab-316fb270c19c": {
           "type": "collection",
           "settings": {
+            "collection_url": "",
             "collection": "",
             "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_18.41.54.png",
             "custom_title": ""
@@ -1028,6 +1042,7 @@
         "4dfbfb35-4770-4784-9d8f-0874c4d39d62": {
           "type": "collection",
           "settings": {
+            "collection_url": "",
             "collection": "",
             "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_18.42.21.png",
             "custom_title": ""
@@ -1036,6 +1051,7 @@
         "71a65882-1f1a-4dfa-840d-c3d964080958": {
           "type": "collection",
           "settings": {
+            "collection_url": "",
             "collection": "",
             "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_18.48.58.png",
             "custom_title": ""
@@ -1044,6 +1060,7 @@
         "741d927d-941a-4644-84e1-1c961b773306": {
           "type": "collection",
           "settings": {
+            "collection_url": "",
             "collection": "",
             "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_18.49.02.png",
             "custom_title": ""
@@ -1052,6 +1069,7 @@
         "ea100259-4431-4eb0-b3ca-3c2475720c43": {
           "type": "collection",
           "settings": {
+            "collection_url": "",
             "collection": "",
             "image": "shopify:\/\/shop_images\/Screenshot_2023-10-16_at_18.49.06.png",
             "custom_title": ""
