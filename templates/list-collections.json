@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "8c27920e-2776-445d-b3ae-019a70c740eb": {
@@ -127,6 +136,7 @@
         "collection_7ibFwf": {
           "type": "collection",
           "settings": {
+            "collection_url": "\/products\/mystery-box",
             "collection": "trendy-mystery-box",
             "custom_title": ""
           }
@@ -134,6 +144,7 @@
         "collection_JTVKhh": {
           "type": "collection",
           "settings": {
+            "collection_url": "\/products\/asian-mystery-box",
             "collection": "asian-mystery-box",
             "custom_title": ""
           }
@@ -141,6 +152,7 @@
         "collection_4p9UNF": {
           "type": "collection",
           "settings": {
+            "collection_url": "\/products\/discounted-mystery-box",
             "collection": "discounted-mystery-box",
             "custom_title": ""
           }
