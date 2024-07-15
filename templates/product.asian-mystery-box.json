@@ -139,7 +139,7 @@
           "settings": {
             "icon": "custom",
             "icon_custom": "<svg width=\"41\" height=\"41\" viewbox=\"0 0 41 41\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" fill=\"white\"><\/rect>\n<rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" stroke=\"black\" stroke-width=\"2\"><\/rect>\n<path d=\"M13.5 20.7633L16.9168 11.834H25.4927L23.1354 16.7453H29L16.4491 30.334L20.915 20.7633H13.5Z\" fill=\"#7A5AF8\" stroke=\"black\" stroke-width=\"2\"><\/path>\n<\/svg>",
-            "heading": "Free shipping from €49.99",
+            "heading": "Free shipping from $49.99",
             "subheading": "",
             "prev_attach": false
           }
@@ -590,6 +590,7 @@
         "collection_kHTtii": {
           "type": "collection",
           "settings": {
+            "collection_url": "",
             "collection": "",
             "image": "shopify:\/\/shop_images\/Hollylollies_product_images.png",
             "custom_title": "FANTA"
@@ -598,6 +599,7 @@
         "collection_HbetVz": {
           "type": "collection",
           "settings": {
+            "collection_url": "",
             "collection": "",
             "image": "shopify:\/\/shop_images\/74.png",
             "custom_title": "HATA"
@@ -606,6 +608,7 @@
         "collection_WhNLkH": {
           "type": "collection",
           "settings": {
+            "collection_url": "",
             "collection": "",
             "image": "shopify:\/\/shop_images\/107.png",
             "custom_title": "CHEETOS"
@@ -614,6 +617,7 @@
         "collection_HjPfjG": {
           "type": "collection",
           "settings": {
+            "collection_url": "",
             "collection": "",
             "image": "shopify:\/\/shop_images\/163.png",
             "custom_title": "SAMYANG"
@@ -622,6 +626,7 @@
         "collection_RcTYJ9": {
           "type": "collection",
           "settings": {
+            "collection_url": "",
             "collection": "",
             "image": "shopify:\/\/shop_images\/152.png",
             "custom_title": "POCKY"
@@ -630,6 +635,7 @@
         "collection_TnRBVU": {
           "type": "collection",
           "settings": {
+            "collection_url": "",
             "collection": "",
             "image": "shopify:\/\/shop_images\/Hollylollies_product_images_2.png",
             "custom_title": "GLICO"
@@ -638,6 +644,7 @@
         "collection_9mGa9b": {
           "type": "collection",
           "settings": {
+            "collection_url": "",
             "collection": "",
             "image": "shopify:\/\/shop_images\/130.png",
             "custom_title": "KIT KAT"
@@ -646,6 +653,7 @@
         "collection_KDqLJK": {
           "type": "collection",
           "settings": {
+            "collection_url": "",
             "collection": "",
             "image": "shopify:\/\/shop_images\/Hollylollies_product_images_1_9d26ceb5-a492-4777-a4cb-dbe60e7b8271.png",
             "custom_title": "RAMEN"
@@ -654,6 +662,7 @@
         "collection_R4tMC6": {
           "type": "collection",
           "settings": {
+            "collection_url": "",
             "collection": "",
             "image": "shopify:\/\/shop_images\/Ekrano_kopija_2024-06-10_224318.png",
             "custom_title": "MORINAGA"
@@ -662,6 +671,7 @@
         "collection_X8x8R4": {
           "type": "collection",
           "settings": {
+            "collection_url": "",
             "collection": "",
             "image": "shopify:\/\/shop_images\/Ekrano_kopija_2024-06-10_224403.png",
             "custom_title": "NATA DE COCO"
@@ -811,7 +821,7 @@
           "settings": {
             "heading": "Do you ship internationally?",
             "icon": "",
-            "text": "<p>We currently ship to EU countries only, get ready for a flavor-filled journey because our candies are set to make your taste buds dance! 🍬🇪🇺<\/p>"
+            "text": "<p>We currently ship to US 🇺🇸 only, get ready for a flavor-filled journey because our candies are set to make your taste buds dance! 🍬<\/p>"
           }
         },
         "question_kTCGUE": {
