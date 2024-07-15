@@ -139,7 +139,7 @@
           "settings": {
             "icon": "custom",
             "icon_custom": "<svg width=\"41\" height=\"41\" viewbox=\"0 0 41 41\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" fill=\"white\"><\/rect>\n<rect x=\"1.5\" y=\"1.83398\" width=\"38\" height=\"38\" rx=\"7\" stroke=\"black\" stroke-width=\"2\"><\/rect>\n<path d=\"M13.5 20.7633L16.9168 11.834H25.4927L23.1354 16.7453H29L16.4491 30.334L20.915 20.7633H13.5Z\" fill=\"#7A5AF8\" stroke=\"black\" stroke-width=\"2\"><\/path>\n<\/svg>",
-            "heading": "Free shipping from €49.99",
+            "heading": "Free shipping from $49.99",
             "subheading": "",
             "prev_attach": false
           }
@@ -523,6 +523,7 @@
         "collection_FyWdgA": {
           "type": "collection",
           "settings": {
+            "collection_url": "",
             "collection": "",
             "image": "shopify:\/\/shop_images\/Hollylollies_product_images_d4093de3-a8a9-4691-899d-b2ff80da5a03.png",
             "custom_title": "KARL GUMMIES"
@@ -531,6 +532,7 @@
         "collection_g4778Q": {
           "type": "collection",
           "settings": {
+            "collection_url": "",
             "collection": "",
             "image": "shopify:\/\/shop_images\/takis-blue-heat.jpg",
             "custom_title": "TAKIS"
@@ -539,6 +541,7 @@
         "collection_DPjWHk": {
           "type": "collection",
           "settings": {
+            "collection_url": "",
             "collection": "",
             "image": "shopify:\/\/shop_images\/74.png",
             "custom_title": "HATA"
@@ -547,6 +550,7 @@
         "collection_4bGcaV": {
           "type": "collection",
           "settings": {
+            "collection_url": "",
             "collection": "",
             "image": "shopify:\/\/shop_images\/107.png",
             "custom_title": "CHEETOS"
@@ -555,6 +559,7 @@
         "collection_EJnBcN": {
           "type": "collection",
           "settings": {
+            "collection_url": "",
             "collection": "",
             "image": "shopify:\/\/shop_images\/163.png",
             "custom_title": "SAMYANG"
@@ -563,6 +568,7 @@
         "collection_fzg4XJ": {
           "type": "collection",
           "settings": {
+            "collection_url": "",
             "collection": "",
             "image": "shopify:\/\/shop_images\/152.png",
             "custom_title": "POCKY"
@@ -571,6 +577,7 @@
         "collection_9b97RM": {
           "type": "collection",
           "settings": {
+            "collection_url": "",
             "collection": "",
             "image": "shopify:\/\/shop_images\/37.png",
             "custom_title": "NERDS"
@@ -579,6 +586,7 @@
         "collection_Y7VnhU": {
           "type": "collection",
           "settings": {
+            "collection_url": "",
             "collection": "",
             "image": "shopify:\/\/shop_images\/130.png",
             "custom_title": "KIT KAT"
@@ -587,6 +595,7 @@
         "collection_QUyeRC": {
           "type": "collection",
           "settings": {
+            "collection_url": "",
             "collection": "",
             "image": "shopify:\/\/shop_images\/Untitleddesign_50.png",
             "custom_title": "KINDER"
@@ -595,6 +604,7 @@
         "collection_kbbqMC": {
           "type": "collection",
           "settings": {
+            "collection_url": "",
             "collection": "",
             "image": "shopify:\/\/shop_images\/122.png",
             "custom_title": "REESE"
@@ -821,7 +831,7 @@
           "settings": {
             "heading": "Do you ship internationally?",
             "icon": "",
-            "text": "<p>We currently ship to EU countries only, get ready for a flavor-filled journey because our candies are set to make your taste buds dance! 🍬🇪🇺<\/p>"
+            "text": "<p>We currently ship to US 🇺🇸 only, get ready for a flavor-filled journey because our candies are set to make your taste buds dance! 🍬<\/p>"
           }
         },
         "question_WdkcRt": {
